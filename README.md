@@ -1,3 +1,5 @@
+[![Discord](https://img.shields.io/badge/Discord-Online-blue.svg)](https://discord.gg/mFH2D34)
+
 # WUObjects
 Scripts to extract useful details from Harry Potter Wizards Unite such as spells, foundables, professions, potions, etc.
 
