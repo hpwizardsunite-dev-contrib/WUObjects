@@ -20,7 +20,7 @@ class Foundables:
         self.gdc = gdc
         self.gdw = gdw
         self.s = s
-        self.foundables = []
+        self.objects = []
 
     def extract(self):
         for message in self.gdw['messages']:
@@ -30,12 +30,12 @@ class Foundables:
                 foundable.family_id = message['collectionItem']['familyId']
                 foundable.page_id = message['collectionItem']['pageId']
                 foundable.rarity = message['collectionItem']['rarity']
-                self.foundables.append(foundable)
+                self.objects.append(foundable)
 
-        for foundable in self.foundables:
+        for foundable in self.objects:
             for message in self.gdc['messages']:
                 if 'collectionItem' in message and message['collectionItem']['id'] == foundable.id:
-                    foundable.name = self.s[message['collectionItem']['name']]
-                    foundable.desc = self.s[message['collectionItem']['description']]
+                    foundable.name = self.s.find(message['collectionItem']['name'])
+                    foundable.desc = self.s.find(message['collectionItem']['description'])
                     foundable.icon = message['collectionItem']['iconReturned'] # need better way to point to asset
-            print(foundable) # write to file or something later?
+            print(foundable.name + ' - ' + str(foundable.rarity))
