@@ -24,6 +24,9 @@ spells = Spells(gdc, gdw, s)
 spells.extract()
 
 foundables = Foundables(gdc, gdw, s)
-foundables.extract()
+
 
 potions = Potions(gdc, gdw, s)
+
+# TODO: proto_vaultcategory_food
+# TODO: proto_vaultcategory_selfieavatar
