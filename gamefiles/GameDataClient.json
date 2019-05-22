@@ -10527,6 +10527,7 @@
         },
         "description": "collection_family_brilliant_0001_fantasticflorafauna_description",
         "familyRunestoneIcon": "ui_icon_family_brilliant",
+        "hideLandmarkInfoDetails": true,
         "icon": "ui_icon_family_brilliant",
         "id": "proto_collectionfamily_events_0001",
         "landmarkDescription": "collection_family_careofmagicalcreatures_landmark",
@@ -10534,12 +10535,42 @@
         "landmarkPrefab": "map_landmarks_careofmagicalcreatures",
         "landmarkTexture": "map_landmarks_marker_careofmagicalcreatures_mat",
         "name": "collection_family_brilliant_0001_fantasticflorafauna_name",
+        "prestigeOverride": [
+          {
+            "albedoMap": "ui_registry_prestige_frame_brilliantevent_diffuse",
+            "borderImage": "ui_registry_Brilliant_Frame01",
+            "color": {
+              "a": 1.0,
+              "b": 0.47058820724487305,
+              "g": 0.47058820724487305,
+              "r": 0.47058820724487305
+            },
+            "frameMesh": "ui_registry_prestige_frame_brilliantevent",
+            "isMetallic": true,
+            "name": "collections_page_prestige_rank_standard",
+            "normalMap": "ui_registry_prestige_frame_brilliantevent_normal",
+            "roughness": 0.30000001192092896
+          }
+        ],
         "showInUi": true,
         "sound": {
           "soundBank": "BNK_SFX_REGISTRYFAMILY",
           "soundEvent": "event:/UI/RegistryFamily/MagicalCreaturesFamily"
         },
-        "tracePrefab": "map_traces_brilliantevents_prefab"
+        "tracePrefab": "map_traces_brilliantevents_prefab",
+        "traceRarityVfxOverride": "vfx_brilliant_event_marker",
+        "unarchiveRequirements": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0001",
+                "reqSubsets": [
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -10867,7 +10898,8 @@
           "soundBank": "BNK_SFX_REGISTRYFAMILY",
           "soundEvent": "event:/UI/RegistryFamily/OdditiesFamily"
         },
-        "tracePrefab": "map_traces_oddities_prefab"
+        "tracePrefab": "map_traces_oddities_prefab",
+        "unarchiveRequirements": {}
       }
     },
     {
@@ -15168,7 +15200,8 @@
         "id": "proto_collectionpage_events_fantasticflorafauna",
         "name": "collection_pages_events_0001_fff",
         "pagePrefab": "UI_Registry_Brilliant01_PageFFF",
-        "showInUi": true
+        "showInUi": true,
+        "visibilityRequirements": {}
       }
     },
     {
@@ -15399,7 +15432,8 @@
         "iconBg": "ui_registry_family10_pg03_bg",
         "id": "proto_collectionpage_oddities_0003",
         "name": "collection_pages_oddities_0002",
-        "pagePrefab": "UI_Registry_Family10_Page03"
+        "pagePrefab": "UI_Registry_Family10_Page03",
+        "visibilityRequirements": {}
       }
     },
     {
@@ -15433,7 +15467,8 @@
         "id": "proto_collectionpage_wondersofthewizardingworld_0001",
         "name": "collection_pages_room_requirement_hidden_things_4",
         "pagePrefab": "UI_Registry_Family06_Page01",
-        "showInUi": true
+        "showInUi": true,
+        "visibilityRequirements": {}
       }
     },
     {
@@ -71838,11 +71873,75 @@
         "showInLookIn": true
       }
     },
-    {},
-    {},
-    {},
-    {},
-    {},
+    {
+      "event": {
+        "descriptionText": "quests_events_brilliant0001_desc",
+        "encounterHudTooltipText": "quests_events_brilliant0001_tooltip",
+        "encounterIcon": "ui_icon_brilliant",
+        "encounterStartText": "quests_events_brilliant0001_starttext",
+        "id": "proto_event_brilliant_0001",
+        "image": "ui_event_brilliant",
+        "isUserFacing": true,
+        "questUiBackgroundColor": {
+          "a": 1.0,
+          "b": 0.282353013753891,
+          "g": 0.18431369960308075,
+          "r": 0.21568630635738373
+        },
+        "questUiFrameColor": {
+          "a": 1.0,
+          "b": 0.7803922295570374,
+          "g": 0.24705879390239716,
+          "r": 0.42352938652038574
+        },
+        "titleText": "quests_events_brilliant0001_name"
+      }
+    },
+    {
+      "event": {
+        "descriptionText": "event_coming_soon_description",
+        "encounterHudTooltipText": "event_coming_soon_tooltip",
+        "encounterIcon": "ui_icon_brilliant",
+        "encounterStartText": "event_coming_soon_start",
+        "id": "proto_event_coming_soon",
+        "image": "ui_event_comingsoon",
+        "isUserFacing": true,
+        "questUiBackgroundColor": {
+          "a": 1.0,
+          "b": 1.0,
+          "g": 1.0,
+          "r": 1.0
+        },
+        "questUiFrameColor": {
+          "a": 1.0,
+          "b": 0.8602941036224365,
+          "g": 0.43756338953971863,
+          "r": 0.2593533992767334
+        },
+        "titleText": "event_coming_soon_name"
+      }
+    },
+    {
+      "event": {
+        "id": "proto_event_selfieavatar_off",
+        "questUiBackgroundColor": {},
+        "questUiFrameColor": {}
+      }
+    },
+    {
+      "event": {
+        "id": "proto_event_selfieavatar_on",
+        "questUiBackgroundColor": {},
+        "questUiFrameColor": {}
+      }
+    },
+    {
+      "event": {
+        "id": "proto_event_selfieavatar_transition",
+        "questUiBackgroundColor": {},
+        "questUiFrameColor": {}
+      }
+    },
     {
       "gameConfig": {
         "alignedGlyphColor": {
@@ -72160,6 +72259,7 @@
             }
           }
         },
+        "gameSizeInKb": 2140160,
         "genericTraceSpellFailSfx": "event:/SFX/Spells/spellGlyphTrace_Fail",
         "goodSpellCastSfx": "event:/UI/EncounterUI/SpellBarStage_1",
         "greatSpellCastSfx": "event:/UI/EncounterUI/SpellBarStage_2",
@@ -72170,6 +72270,86 @@
         "internetReachabilityCheckUrl": "https://clients3.google.com/generate_204",
         "levelUpTriggerPriority": 1000,
         "localMapUpdateIntervalSeconds": 120.0,
+        "localizationMappings": [
+          {
+            "isEnabled": true,
+            "languageCode": "en_US",
+            "locString": "localization_english"
+          },
+          {
+            "languageCode": "fr_FR",
+            "locString": "localization_french"
+          },
+          {
+            "languageCode": "de_DE",
+            "locString": "localization_german"
+          },
+          {
+            "languageCode": "it_IT",
+            "locString": "localization_italian"
+          },
+          {
+            "languageCode": "es_MX",
+            "locString": "localization_la_spanish"
+          },
+          {
+            "languageCode": "es_ES",
+            "locString": "localization_spanish"
+          },
+          {
+            "languageCode": "zh_CN",
+            "locString": "localization_cn_chinese"
+          },
+          {
+            "languageCode": "zh_TW",
+            "locString": "localization_tw_chinese"
+          },
+          {
+            "isEnabled": true,
+            "languageCode": "ja_JP",
+            "locString": "localization_japanese"
+          },
+          {
+            "languageCode": "ko_KR",
+            "locString": "localization_korean"
+          },
+          {
+            "languageCode": "ru_RU",
+            "locString": "localization_russian"
+          },
+          {
+            "languageCode": "da_DK",
+            "locString": "localization_danish"
+          },
+          {
+            "languageCode": "nl_NL",
+            "locString": "localization_dutch"
+          },
+          {
+            "languageCode": "no_NO",
+            "locString": "localization_norwegian"
+          },
+          {
+            "languageCode": "pl_PL",
+            "locString": "localization_polish"
+          },
+          {
+            "languageCode": "pt_BR",
+            "locString": "localization_portuguese"
+          },
+          {
+            "languageCode": "sv_SE",
+            "locString": "localization_swedish"
+          },
+          {
+            "languageCode": "tr_TR",
+            "locString": "localization_turkish"
+          },
+          {
+            "languageCode": "fr_CA",
+            "locString": "localization_ca_french"
+          }
+        ],
         "lockOnCompletionSfx": {
           "parameters": [
             {
@@ -72623,7 +72803,10 @@
             "languageCode": "fr_CA"
           }
         ],
-        "walkboxTriggerPriority": 900
+        "walkboxTriggerPriority": 900,
+        "wcEnemyLookInBuffBorderImage": "ui_profession_skilltree_mapability_border",
+        "wcMapEnemyMarkerBuffOccupiedImage": "ui_challenges_pip",
+        "wcMapEnemyMarkerBuffVacantImage": "ui_challenges_pip_empty"
       }
     },
     {
@@ -73176,24 +73359,28 @@
     },
     {
       "mapIngredient": {
+        "hideAtCapacity": true,
         "id": "proto_mapingredient_walkbox_10km",
         "prefab": "map_chest_portkey_prefab"
       }
     },
     {
       "mapIngredient": {
+        "hideAtCapacity": true,
         "id": "proto_mapingredient_walkbox_2km",
         "prefab": "map_chest_portkey_prefab"
       }
     },
     {
       "mapIngredient": {
+        "hideAtCapacity": true,
         "id": "proto_mapingredient_walkbox_5km",
         "prefab": "map_chest_portkey_prefab"
       }
     },
     {
       "mapIngredient": {
+        "hideAtCapacity": true,
         "id": "proto_mapingredient_walkbox_events_7km",
         "prefab": "map_chest_portkey_prefab"
       }
@@ -73757,7 +73944,10 @@
     },
     {
       "profession": {
+        "affinityDesc": "profession_auror_affinity_desc",
         "desc": "profession_auror_desc",
+        "enemyAffinityIcon": "ui_challenges_icon_enemyaffn_dark",
+        "enemyAffinityName": "auror_enemy_affinity_name",
         "icon": "ui_profession_auror",
         "iconStamp": "ui_profession_auror_stamp",
         "id": "proto_profession_auror",
@@ -73766,6 +73956,12 @@
         "mentorName": "profession_auror_mentor_name",
         "name": "profession_auror_name",
         "professionActivatedSfx": "event:/UI/Professions/TapSwitchToAuror",
+        "professionColor": {
+          "a": 1.0,
+          "b": 0.19723179936408997,
+          "g": 0.19723179936408997,
+          "r": 0.5588235259056091
+        },
         "professionRanksMap": {
           "auror_rank_0": {
             "imageLocked": "ui_icon_professions_book_01",
@@ -74475,7 +74671,11 @@
     },
     {
       "profession": {
+        "affinityDesc": "profession_magizoologist_affinity_desc",
         "desc": "profession_magizoologist_desc",
+        "displayOrder": 1,
+        "enemyAffinityIcon": "ui_challenges_icon_enemyaffn_beast",
+        "enemyAffinityName": "magizoologist_enemy_affinity_name",
         "icon": "ui_profession_magizoologist",
         "iconStamp": "ui_profession_magizoologist_stamp",
         "id": "proto_profession_magizoologist",
@@ -74484,6 +74684,12 @@
         "mentorName": "profession_magizoologist_mentor_name",
         "name": "profession_magizoologist_name",
         "professionActivatedSfx": "event:/UI/Professions/TapSwitchToMagizoologist",
+        "professionColor": {
+          "a": 1.0,
+          "b": 0.5735294222831726,
+          "g": 0.45661309361457825,
+          "r": 0.008434263989329338
+        },
         "professionRanksMap": {
           "magizoologist_rank_0": {
             "imageLocked": "ui_icon_professions_book_01",
@@ -75198,7 +75404,11 @@
     },
     {
       "profession": {
+        "affinityDesc": "profession_professor_affinity_desc",
         "desc": "profession_professor_desc",
+        "displayOrder": 2,
+        "enemyAffinityIcon": "ui_challenges_icon_enemyaffn_curiosity",
+        "enemyAffinityName": "professor_enemy_affinity_name",
         "icon": "ui_profession_professor",
         "iconStamp": "ui_profession_professor_stamp",
         "id": "proto_profession_professor",
@@ -75207,6 +75417,12 @@
         "mentorName": "profession_professor_mentor_name",
         "name": "profession_professor_name",
         "professionActivatedSfx": "event:/UI/Professions/TapSwitchToProfessor",
+        "professionColor": {
+          "a": 1.0,
+          "b": 0.4030486047267914,
+          "g": 0.12413489818572998,
+          "r": 0.4117647111415863
+        },
         "professionRanksMap": {
           "professor_rank_0": {
             "imageLocked": "ui_icon_professions_book_01",
@@ -81447,6 +81663,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_10runes_80_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_large_bagofrunes_glow",
             "iconPath": "ui_store_large_bagofrunes",
             "packSize": "SIZE_LARGE",
@@ -81646,6 +81863,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_energy_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_store_med_50xspellenergy",
             "marketingText": "storepack_energy_marketing_text",
             "packSize": "SIZE_MEDIUM",
@@ -81695,6 +81913,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_capacity_energy_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_store_med_expandenergycapacity",
             "marketingText": "storepack_capacity_energy_marketing_text",
             "packSize": "SIZE_MEDIUM",
@@ -81706,6 +81925,7 @@
           },
           {
             "descriptionText": "storepack_capacity_energy_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_icon_energy_expansion",
             "marketingText": "storepack_capacity_energy_marketing_text",
             "prefabPath": "UI_Store_Item_Small",
@@ -81806,6 +82026,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_capacity_ingredients_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_large_ingredientvaultextension_glow",
             "iconPath": "ui_store_large_ingredientvaultextension",
             "marketingText": "storepack_capacity_ingredients_marketing_text",
@@ -81818,6 +82039,7 @@
           },
           {
             "descriptionText": "storepack_capacity_ingredients_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_icon_ingredients_expansion",
             "marketingText": "storepack_capacity_ingredients_marketing_text",
             "prefabPath": "UI_Store_Item_Small",
@@ -81884,6 +82106,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_capacity_potions_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_large_potionvaultextension_glow",
             "iconPath": "ui_store_large_potionvaultextension",
             "marketingText": "storepack_capacity_potions_marketing_text",
@@ -81896,6 +82119,7 @@
           },
           {
             "descriptionText": "storepack_capacity_potions_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_icon_potions_expansion",
             "marketingText": "storepack_capacity_potions_marketing_text",
             "prefabPath": "UI_Store_Item_Small",
@@ -82093,6 +82317,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_dark_detector_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_store_med_darkdetector",
             "marketingText": "storepack_dark_detector_marketing_text",
             "packSize": "SIZE_MEDIUM",
@@ -82271,6 +82496,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_2019_01_weakregularstrongexstimulo_800_description",
+            "hidePackOnMapHudClick": true,
             "hudIconPath": "ui_store_hud_newuserpack_1",
             "icon2Path": "ui_store_large_newuserpack_01_glow",
             "iconPath": "ui_store_large_newuserpack_01",
@@ -82691,6 +82917,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_unlocker_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_store_med_silverkey",
             "marketingText": "storepack_unlocker_marketing_text",
             "packSize": "SIZE_MEDIUM",
@@ -82783,6 +83010,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_nub_gryffindorhouse_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_griffindorselfie_glow",
             "iconPath": "ui_store_med_griffindorselfie",
             "marketingText": "storepack_nub_gryffindorhouse_marketing_text",
@@ -82805,6 +83033,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_nub_gryffindorhouse_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_griffindorselfie_glow",
             "iconPath": "ui_store_med_griffindorselfie",
             "marketingText": "storepack_nub_gryffindorhouse_marketing_text",
@@ -82827,6 +83056,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_nub_hufflepuffhouse_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_hufflepuffselfie_glow",
             "iconPath": "ui_store_med_hufflepuffselfie",
             "marketingText": "storepack_nub_hufflepuffhouse_marketing_text",
@@ -82849,6 +83079,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_nub_hufflepuffhouse_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_hufflepuffselfie_glow",
             "iconPath": "ui_store_med_hufflepuffselfie",
             "marketingText": "storepack_nub_hufflepuffhouse_marketing_text",
@@ -82872,6 +83103,7 @@
           {
             "bonusValue": 3,
             "descriptionText": "storepack_nub_progression_description",
+            "hidePackOnMapHudClick": true,
             "hidePackOnSoldOut": true,
             "icon2Path": "ui_store_large_AdvancedAnticalamityKit_glow",
             "iconPath": "ui_store_large_AdvancedAnticalamityKit",
@@ -82897,6 +83129,7 @@
           {
             "bonusValue": 3,
             "descriptionText": "storepack_nub_progression_description",
+            "hidePackOnMapHudClick": true,
             "hidePackOnSoldOut": true,
             "icon2Path": "ui_store_large_AdvancedAnticalamityKit_glow",
             "iconPath": "ui_store_large_AdvancedAnticalamityKit",
@@ -82922,6 +83155,7 @@
           {
             "bonusValue": 3,
             "descriptionText": "storepack_nub_progression_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_present_glow",
             "iconPath": "ui_store_med_present",
             "marketingText": "storepack_nub_progression_marketing_text",
@@ -82945,6 +83179,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_nub_ravenclawhouse_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_ravenclawselfie_glow",
             "iconPath": "ui_store_med_ravenclaw_glow",
             "marketingText": "storepack_nub_ravenclawhouse_marketing_text",
@@ -82967,6 +83202,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_nub_ravenclawhouse_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_ravenclawselfie_glow",
             "iconPath": "ui_store_med_ravenclaw_glow",
             "marketingText": "storepack_nub_ravenclawhouse_marketing_text",
@@ -82989,6 +83225,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_nub_slytherinhouse_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_slytherin_glow_1",
             "iconPath": "ui_store_med_slytherin_glow_2",
             "marketingText": "storepack_nub_slytherinhouse_marketing_text",
@@ -83011,6 +83248,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_nub_slytherinhouse_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_slytherin_glow_1",
             "iconPath": "ui_store_med_slytherin_glow_2",
             "marketingText": "storepack_nub_slytherinhouse_marketing_text",
@@ -83034,6 +83272,7 @@
           {
             "bonusValue": 4,
             "descriptionText": "storepack_nub_walking_description",
+            "hidePackOnMapHudClick": true,
             "hidePackOnSoldOut": true,
             "hudIconPath": "ui_store_hud_newuserpack_1",
             "hudPriority": 1,
@@ -83061,6 +83300,7 @@
           {
             "bonusValue": 4,
             "descriptionText": "storepack_nub_walking_description",
+            "hidePackOnMapHudClick": true,
             "hidePackOnSoldOut": true,
             "hudIconPath": "ui_store_hud_newuserpack_1",
             "hudPriority": 3,
@@ -83088,6 +83328,7 @@
           {
             "bonusValue": 3,
             "descriptionText": "storepack_nub_walking_description",
+            "hidePackOnMapHudClick": true,
             "hudIconPath": "ui_store_hud_newuserpack_1",
             "hudPriority": 1,
             "iconPath": "ui_store_med_crate",
