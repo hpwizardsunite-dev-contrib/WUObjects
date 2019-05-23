@@ -15501,16 +15501,6 @@
       "dailyRewardMonthlySchedule": {
         "id": "proto_dailyrewardmonthlyschedule_default_28_days",
         "dailyRewards": {
-          "20": {},
-          "7": {
-            "makeSparkly": true
-          },
-          "16": {},
-          "3": {},
-          "28": {},
-          "15": {},
-          "24": {},
-          "11": {},
           "23": {},
           "6": {
             "hideAsCrate": true
@@ -15545,14 +15535,7 @@
           "25": {
             "makeSparkly": true
           },
-          "8": {}
-        }
-      }
-    },
-    {
-      "dailyRewardMonthlySchedule": {
-        "id": "proto_dailyrewardmonthlyschedule_default_29_days",
-        "dailyRewards": {
+          "8": {},
           "20": {},
           "7": {
             "makeSparkly": true
@@ -15562,7 +15545,14 @@
           "28": {},
           "15": {},
           "24": {},
-          "11": {},
+          "11": {}
+        }
+      }
+    },
+    {
+      "dailyRewardMonthlySchedule": {
+        "id": "proto_dailyrewardmonthlyschedule_default_29_days",
+        "dailyRewards": {
           "23": {},
           "6": {
             "hideAsCrate": true
@@ -15597,7 +15587,17 @@
           "29": {},
           "12": {},
           "25": {},
-          "8": {}
+          "8": {},
+          "20": {},
+          "7": {
+            "makeSparkly": true
+          },
+          "16": {},
+          "3": {},
+          "28": {},
+          "15": {},
+          "24": {},
+          "11": {}
         }
       }
     },
@@ -15605,18 +15605,6 @@
       "dailyRewardMonthlySchedule": {
         "id": "proto_dailyrewardmonthlyschedule_default_30_days",
         "dailyRewards": {
-          "20": {},
-          "7": {
-            "makeSparkly": true
-          },
-          "16": {},
-          "3": {},
-          "28": {
-            "makeSparkly": true
-          },
-          "15": {},
-          "24": {},
-          "11": {},
           "23": {},
           "6": {
             "hideAsCrate": true
@@ -15652,7 +15640,19 @@
           "29": {},
           "12": {},
           "25": {},
-          "8": {}
+          "8": {},
+          "20": {},
+          "7": {
+            "makeSparkly": true
+          },
+          "16": {},
+          "3": {},
+          "28": {
+            "makeSparkly": true
+          },
+          "15": {},
+          "24": {},
+          "11": {}
         }
       }
     },
@@ -15660,18 +15660,6 @@
       "dailyRewardMonthlySchedule": {
         "id": "proto_dailyrewardmonthlyschedule_default_30_days_v2",
         "dailyRewards": {
-          "20": {},
-          "7": {
-            "makeSparkly": true
-          },
-          "16": {},
-          "3": {},
-          "28": {
-            "makeSparkly": true
-          },
-          "15": {},
-          "24": {},
-          "11": {},
           "23": {},
           "6": {
             "hideAsCrate": true
@@ -15707,14 +15695,7 @@
           "29": {},
           "12": {},
           "25": {},
-          "8": {}
-        }
-      }
-    },
-    {
-      "dailyRewardMonthlySchedule": {
-        "id": "proto_dailyrewardmonthlyschedule_default_31_days",
-        "dailyRewards": {
+          "8": {},
           "20": {},
           "7": {
             "makeSparkly": true
@@ -15726,7 +15707,14 @@
           },
           "15": {},
           "24": {},
-          "11": {},
+          "11": {}
+        }
+      }
+    },
+    {
+      "dailyRewardMonthlySchedule": {
+        "id": "proto_dailyrewardmonthlyschedule_default_31_days",
+        "dailyRewards": {
           "23": {},
           "6": {
             "hideAsCrate": true
@@ -15762,7 +15750,19 @@
           },
           "12": {},
           "25": {},
-          "8": {}
+          "8": {},
+          "20": {},
+          "7": {
+            "makeSparkly": true
+          },
+          "16": {},
+          "3": {},
+          "28": {
+            "makeSparkly": true
+          },
+          "15": {},
+          "24": {},
+          "11": {}
         }
       }
     },
@@ -73959,6 +73959,117 @@
         "professionRanksMap": {
           "auror_rank_0": {
             "professionNodesMap": {
+              "proto_professionnode_auror_rank_0_1": {
+                "name": "profession_auror_rank_0_1_name",
+                "icon": "ui_profession_skilltree_auror_stat_stamina2_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_1_desc",
+                "completedDesc": "profession_auror_rank_0_1_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_stamina2"
+              },
+              "proto_professionnode_auror_rank_0_2": {
+                "name": "profession_auror_rank_0_2_name",
+                "icon": "ui_profession_skilltree_auror_stat_protegopower_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_2_desc",
+                "completedDesc": "profession_auror_rank_0_2_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_protegopower"
+              },
+              "proto_professionnode_auror_rank_0_3": {
+                "name": "profession_auror_rank_0_3_name",
+                "icon": "ui_profession_skilltree_mapability_spellpower_hex_inprogress",
+                "levels": [
+                  {},
+                  {
+                    "isGrantNewMapAbility": true
+                  }
+                ],
+                "unlockDesc": "profession_auror_rank_0_3_desc",
+                "completedDesc": "profession_auror_rank_0_3_desc",
+                "completedIcon": "ui_profession_skilltree_mapability_spellpower_hex"
+              },
+              "proto_professionnode_auror_rank_0_4": {
+                "name": "profession_auror_rank_0_4_name",
+                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_4_desc",
+                "completedDesc": "profession_auror_rank_0_4_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_power"
+              },
+              "proto_professionnode_auror_rank_0_5": {
+                "name": "profession_auror_rank_0_5_name",
+                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_5_desc",
+                "completedDesc": "profession_auror_rank_0_5_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_power"
+              },
+              "proto_professionnode_auror_rank_0_6": {
+                "name": "profession_auror_rank_0_6_name",
+                "icon": "ui_profession_skilltree_auror_stat_precision_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_6_desc",
+                "completedDesc": "profession_auror_rank_0_6_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_precision"
+              },
+              "proto_professionnode_auror_rank_0_7": {
+                "name": "profession_auror_rank_0_7_name",
+                "icon": "ui_profession_skilltree_auror_conditional_inprogress",
+                "levels": [
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_7_desc",
+                "completedDesc": "profession_auror_rank_0_7_desc",
+                "completedIcon": "ui_profession_skilltree_auror_conditional"
+              },
+              "proto_professionnode_auror_rank_0_8": {
+                "name": "profession_auror_rank_0_8_name",
+                "icon": "ui_profession_skilltree_auror_stat_stamina2_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_8_desc",
+                "completedDesc": "profession_auror_rank_0_8_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_stamina2"
+              },
+              "proto_professionnode_auror_rank_0_9": {
+                "name": "profession_auror_rank_0_9_name",
+                "icon": "ui_profession_skilltree_auror_conditional_inprogress",
+                "levels": [
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_9_desc",
+                "completedDesc": "profession_auror_rank_0_9_desc",
+                "completedIcon": "ui_profession_skilltree_auror_conditional"
+              },
               "proto_professionnode_auror_rank_0_10": {
                 "name": "profession_auror_rank_0_10_name",
                 "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
@@ -74522,117 +74633,6 @@
                 "unlockDesc": "profession_auror_rank_0_49_desc",
                 "completedDesc": "profession_auror_rank_0_49_desc",
                 "completedIcon": "ui_profession_skilltree_auror_conditional"
-              },
-              "proto_professionnode_auror_rank_0_1": {
-                "name": "profession_auror_rank_0_1_name",
-                "icon": "ui_profession_skilltree_auror_stat_stamina2_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_1_desc",
-                "completedDesc": "profession_auror_rank_0_1_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_stamina2"
-              },
-              "proto_professionnode_auror_rank_0_2": {
-                "name": "profession_auror_rank_0_2_name",
-                "icon": "ui_profession_skilltree_auror_stat_protegopower_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_2_desc",
-                "completedDesc": "profession_auror_rank_0_2_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_protegopower"
-              },
-              "proto_professionnode_auror_rank_0_3": {
-                "name": "profession_auror_rank_0_3_name",
-                "icon": "ui_profession_skilltree_mapability_spellpower_hex_inprogress",
-                "levels": [
-                  {},
-                  {
-                    "isGrantNewMapAbility": true
-                  }
-                ],
-                "unlockDesc": "profession_auror_rank_0_3_desc",
-                "completedDesc": "profession_auror_rank_0_3_desc",
-                "completedIcon": "ui_profession_skilltree_mapability_spellpower_hex"
-              },
-              "proto_professionnode_auror_rank_0_4": {
-                "name": "profession_auror_rank_0_4_name",
-                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_4_desc",
-                "completedDesc": "profession_auror_rank_0_4_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_power"
-              },
-              "proto_professionnode_auror_rank_0_5": {
-                "name": "profession_auror_rank_0_5_name",
-                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_5_desc",
-                "completedDesc": "profession_auror_rank_0_5_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_power"
-              },
-              "proto_professionnode_auror_rank_0_6": {
-                "name": "profession_auror_rank_0_6_name",
-                "icon": "ui_profession_skilltree_auror_stat_precision_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_6_desc",
-                "completedDesc": "profession_auror_rank_0_6_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_precision"
-              },
-              "proto_professionnode_auror_rank_0_7": {
-                "name": "profession_auror_rank_0_7_name",
-                "icon": "ui_profession_skilltree_auror_conditional_inprogress",
-                "levels": [
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_7_desc",
-                "completedDesc": "profession_auror_rank_0_7_desc",
-                "completedIcon": "ui_profession_skilltree_auror_conditional"
-              },
-              "proto_professionnode_auror_rank_0_8": {
-                "name": "profession_auror_rank_0_8_name",
-                "icon": "ui_profession_skilltree_auror_stat_stamina2_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_8_desc",
-                "completedDesc": "profession_auror_rank_0_8_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_stamina2"
-              },
-              "proto_professionnode_auror_rank_0_9": {
-                "name": "profession_auror_rank_0_9_name",
-                "icon": "ui_profession_skilltree_auror_conditional_inprogress",
-                "levels": [
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_9_desc",
-                "completedDesc": "profession_auror_rank_0_9_desc",
-                "completedIcon": "ui_profession_skilltree_auror_conditional"
               }
             },
             "name": "profession_auror_rank_0_name",
@@ -74687,6 +74687,99 @@
         "professionRanksMap": {
           "magizoologist_rank_0": {
             "professionNodesMap": {
+              "proto_professionnode_magizoologist_rank_0_10": {
+                "name": "profession_magizoologist_rank_0_10_name",
+                "icon": "ui_profession_skilltree_magizoologist_stat_stamina2_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_magizoologist_rank_0_10_desc",
+                "completedDesc": "profession_magizoologist_rank_0_10_desc",
+                "completedIcon": "ui_profession_skilltree_magizoologist_stat_stamina2"
+              },
+              "proto_professionnode_magizoologist_rank_0_11": {
+                "name": "profession_magizoologist_rank_0_11_name",
+                "icon": "ui_profession_skilltree_magizoologist_stat_maximumfocus_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_magizoologist_rank_0_11_desc",
+                "completedDesc": "profession_magizoologist_rank_0_11_desc",
+                "completedIcon": "ui_profession_skilltree_magizoologist_stat_maximumfocus"
+              },
+              "proto_professionnode_magizoologist_rank_0_12": {
+                "name": "profession_magizoologist_rank_0_12_name",
+                "icon": "ui_profession_skilltree_magizoologist_stat_defense_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_magizoologist_rank_0_12_desc",
+                "completedDesc": "profession_magizoologist_rank_0_12_desc",
+                "completedIcon": "ui_profession_skilltree_magizoologist_stat_defense"
+              },
+              "proto_professionnode_magizoologist_rank_0_13": {
+                "name": "profession_magizoologist_rank_0_13_name",
+                "icon": "ui_profession_skilltree_magizoologist_stat_proficiency_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_magizoologist_rank_0_13_desc",
+                "completedDesc": "profession_magizoologist_rank_0_13_desc",
+                "completedIcon": "ui_profession_skilltree_magizoologist_stat_proficiency_power"
+              },
+              "proto_professionnode_magizoologist_rank_0_14": {
+                "name": "profession_magizoologist_rank_0_14_name",
+                "icon": "ui_profession_skilltree_magizoologist_stat_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_magizoologist_rank_0_14_desc",
+                "completedDesc": "profession_magizoologist_rank_0_14_desc",
+                "completedIcon": "ui_profession_skilltree_magizoologist_stat_power"
+              },
+              "proto_professionnode_magizoologist_rank_0_20": {
+                "name": "profession_magizoologist_rank_0_20_name",
+                "icon": "ui_profession_skilltree_magizoologist_stat_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_magizoologist_rank_0_20_desc",
+                "completedDesc": "profession_magizoologist_rank_0_20_desc",
+                "completedIcon": "ui_profession_skilltree_magizoologist_stat_power"
+              },
+              "proto_professionnode_magizoologist_rank_0_15": {
+                "name": "profession_magizoologist_rank_0_15_name",
+                "icon": "ui_profession_skilltree_magizoologist_stat_stamina2_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_magizoologist_rank_0_15_desc",
+                "completedDesc": "profession_magizoologist_rank_0_15_desc",
+                "completedIcon": "ui_profession_skilltree_magizoologist_stat_stamina2"
+              },
               "proto_professionnode_magizoologist_rank_0_21": {
                 "name": "profession_magizoologist_rank_0_21_name",
                 "icon": "ui_profession_skilltree_mapability_resolvecharm_inprogress",
@@ -75273,99 +75366,6 @@
                 "unlockDesc": "profession_magizoologist_rank_0_49_desc",
                 "completedDesc": "profession_magizoologist_rank_0_49_desc",
                 "completedIcon": "ui_profession_skilltree_magizoologist_conditional"
-              },
-              "proto_professionnode_magizoologist_rank_0_10": {
-                "name": "profession_magizoologist_rank_0_10_name",
-                "icon": "ui_profession_skilltree_magizoologist_stat_stamina2_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_magizoologist_rank_0_10_desc",
-                "completedDesc": "profession_magizoologist_rank_0_10_desc",
-                "completedIcon": "ui_profession_skilltree_magizoologist_stat_stamina2"
-              },
-              "proto_professionnode_magizoologist_rank_0_11": {
-                "name": "profession_magizoologist_rank_0_11_name",
-                "icon": "ui_profession_skilltree_magizoologist_stat_maximumfocus_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_magizoologist_rank_0_11_desc",
-                "completedDesc": "profession_magizoologist_rank_0_11_desc",
-                "completedIcon": "ui_profession_skilltree_magizoologist_stat_maximumfocus"
-              },
-              "proto_professionnode_magizoologist_rank_0_12": {
-                "name": "profession_magizoologist_rank_0_12_name",
-                "icon": "ui_profession_skilltree_magizoologist_stat_defense_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_magizoologist_rank_0_12_desc",
-                "completedDesc": "profession_magizoologist_rank_0_12_desc",
-                "completedIcon": "ui_profession_skilltree_magizoologist_stat_defense"
-              },
-              "proto_professionnode_magizoologist_rank_0_13": {
-                "name": "profession_magizoologist_rank_0_13_name",
-                "icon": "ui_profession_skilltree_magizoologist_stat_proficiency_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_magizoologist_rank_0_13_desc",
-                "completedDesc": "profession_magizoologist_rank_0_13_desc",
-                "completedIcon": "ui_profession_skilltree_magizoologist_stat_proficiency_power"
-              },
-              "proto_professionnode_magizoologist_rank_0_14": {
-                "name": "profession_magizoologist_rank_0_14_name",
-                "icon": "ui_profession_skilltree_magizoologist_stat_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_magizoologist_rank_0_14_desc",
-                "completedDesc": "profession_magizoologist_rank_0_14_desc",
-                "completedIcon": "ui_profession_skilltree_magizoologist_stat_power"
-              },
-              "proto_professionnode_magizoologist_rank_0_20": {
-                "name": "profession_magizoologist_rank_0_20_name",
-                "icon": "ui_profession_skilltree_magizoologist_stat_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_magizoologist_rank_0_20_desc",
-                "completedDesc": "profession_magizoologist_rank_0_20_desc",
-                "completedIcon": "ui_profession_skilltree_magizoologist_stat_power"
-              },
-              "proto_professionnode_magizoologist_rank_0_15": {
-                "name": "profession_magizoologist_rank_0_15_name",
-                "icon": "ui_profession_skilltree_magizoologist_stat_stamina2_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_magizoologist_rank_0_15_desc",
-                "completedDesc": "profession_magizoologist_rank_0_15_desc",
-                "completedIcon": "ui_profession_skilltree_magizoologist_stat_stamina2"
               }
             },
             "name": "profession_magizoologist_rank_0_name",

@@ -41933,6 +41933,90 @@
           ]
         },
         "dailyRewards": {
+          "23": {
+            "reward": {
+              "rewards": [
+                {
+                  "itemReward": {
+                    "itemId": "vault_item_xp",
+                    "amount": "450"
+                  }
+                }
+              ]
+            }
+          },
+          "6": {
+            "reward": {
+              "rewards": [
+                {
+                  "itemReward": {
+                    "itemId": "proto_vaultitem_potion_healing",
+                    "amount": "1"
+                  }
+                }
+              ]
+            }
+          },
+          "19": {
+            "reward": {
+              "rewards": [
+                {
+                  "itemReward": {
+                    "itemId": "vault_item_xp",
+                    "amount": "400"
+                  }
+                }
+              ]
+            }
+          },
+          "2": {
+            "reward": {
+              "rewards": [
+                {
+                  "itemReward": {
+                    "itemId": "vault_item_xp",
+                    "amount": "150"
+                  }
+                }
+              ]
+            }
+          },
+          "14": {
+            "reward": {
+              "rewards": [
+                {
+                  "itemReward": {
+                    "itemId": "vault_item_dark_detector_test",
+                    "amount": "2"
+                  }
+                }
+              ]
+            }
+          },
+          "27": {
+            "reward": {
+              "rewards": [
+                {
+                  "itemReward": {
+                    "itemId": "proto_vaultitem_energy_1",
+                    "amount": "11"
+                  }
+                }
+              ]
+            }
+          },
+          "10": {
+            "reward": {
+              "rewards": [
+                {
+                  "itemReward": {
+                    "itemId": "proto_vaultitem_currency_profession_02",
+                    "amount": "5"
+                  }
+                }
+              ]
+            }
+          },
           "5": {
             "reward": {
               "rewards": [
@@ -42184,7 +42268,25 @@
                 }
               ]
             }
-          },
+          }
+        }
+      }
+    },
+    {
+      "dailyRewardMonthlySchedule": {
+        "id": "proto_dailyrewardmonthlyschedule_default_29_days",
+        "numberOfDays": 29,
+        "defaultReward": {
+          "rewards": [
+            {
+              "itemReward": {
+                "itemId": "proto_vaultitem_butterbeer",
+                "amount": "1"
+              }
+            }
+          ]
+        },
+        "dailyRewards": {
           "23": {
             "reward": {
               "rewards": [
@@ -42203,7 +42305,7 @@
                 {
                   "itemReward": {
                     "itemId": "proto_vaultitem_potion_healing",
-                    "amount": "1"
+                    "amount": "5"
                   }
                 }
               ]
@@ -42249,9 +42351,9 @@
             "reward": {
               "rewards": [
                 {
-                  "itemReward": {
-                    "itemId": "proto_vaultitem_energy_1",
-                    "amount": "11"
+                  "currencyReward": {
+                    "currencyId": "vault_item_coins",
+                    "amount": "50"
                   }
                 }
               ]
@@ -42268,25 +42370,7 @@
                 }
               ]
             }
-          }
-        }
-      }
-    },
-    {
-      "dailyRewardMonthlySchedule": {
-        "id": "proto_dailyrewardmonthlyschedule_default_29_days",
-        "numberOfDays": 29,
-        "defaultReward": {
-          "rewards": [
-            {
-              "itemReward": {
-                "itemId": "proto_vaultitem_butterbeer",
-                "amount": "1"
-              }
-            }
-          ]
-        },
-        "dailyRewards": {
+          },
           "5": {
             "reward": {
               "rewards": [
@@ -42550,7 +42634,25 @@
                 }
               ]
             }
-          },
+          }
+        }
+      }
+    },
+    {
+      "dailyRewardMonthlySchedule": {
+        "id": "proto_dailyrewardmonthlyschedule_default_30_days",
+        "numberOfDays": 30,
+        "defaultReward": {
+          "rewards": [
+            {
+              "itemReward": {
+                "itemId": "proto_vaultitem_butterbeer",
+                "amount": "1"
+              }
+            }
+          ]
+        },
+        "dailyRewards": {
           "23": {
             "reward": {
               "rewards": [
@@ -42615,9 +42717,9 @@
             "reward": {
               "rewards": [
                 {
-                  "currencyReward": {
-                    "currencyId": "vault_item_coins",
-                    "amount": "50"
+                  "itemReward": {
+                    "itemId": "proto_vaultitem_premium_unlocker",
+                    "amount": "3"
                   }
                 }
               ]
@@ -42634,25 +42736,7 @@
                 }
               ]
             }
-          }
-        }
-      }
-    },
-    {
-      "dailyRewardMonthlySchedule": {
-        "id": "proto_dailyrewardmonthlyschedule_default_30_days",
-        "numberOfDays": 30,
-        "defaultReward": {
-          "rewards": [
-            {
-              "itemReward": {
-                "itemId": "proto_vaultitem_butterbeer",
-                "amount": "1"
-              }
-            }
-          ]
-        },
-        "dailyRewards": {
+          },
           "5": {
             "reward": {
               "rewards": [
@@ -42928,7 +43012,25 @@
                 }
               ]
             }
-          },
+          }
+        }
+      }
+    },
+    {
+      "dailyRewardMonthlySchedule": {
+        "id": "proto_dailyrewardmonthlyschedule_default_30_days_v2",
+        "numberOfDays": 30,
+        "defaultReward": {
+          "rewards": [
+            {
+              "itemReward": {
+                "itemId": "proto_vaultitem_energy_1",
+                "amount": "3"
+              }
+            }
+          ]
+        },
+        "dailyRewards": {
           "23": {
             "reward": {
               "rewards": [
@@ -42946,8 +43048,8 @@
               "rewards": [
                 {
                   "itemReward": {
-                    "itemId": "proto_vaultitem_potion_healing",
-                    "amount": "5"
+                    "itemId": "vault_item_dark_detector_test",
+                    "amount": "1"
                   }
                 }
               ]
@@ -42994,8 +43096,8 @@
               "rewards": [
                 {
                   "itemReward": {
-                    "itemId": "proto_vaultitem_premium_unlocker",
-                    "amount": "3"
+                    "itemId": "vault_item_dark_detector_test",
+                    "amount": "2"
                   }
                 }
               ]
@@ -43012,25 +43114,7 @@
                 }
               ]
             }
-          }
-        }
-      }
-    },
-    {
-      "dailyRewardMonthlySchedule": {
-        "id": "proto_dailyrewardmonthlyschedule_default_30_days_v2",
-        "numberOfDays": 30,
-        "defaultReward": {
-          "rewards": [
-            {
-              "itemReward": {
-                "itemId": "proto_vaultitem_energy_1",
-                "amount": "3"
-              }
-            }
-          ]
-        },
-        "dailyRewards": {
+          },
           "5": {
             "reward": {
               "rewards": [
@@ -43306,7 +43390,25 @@
                 }
               ]
             }
-          },
+          }
+        }
+      }
+    },
+    {
+      "dailyRewardMonthlySchedule": {
+        "id": "proto_dailyrewardmonthlyschedule_default_31_days",
+        "numberOfDays": 31,
+        "defaultReward": {
+          "rewards": [
+            {
+              "itemReward": {
+                "itemId": "proto_vaultitem_energy_1",
+                "amount": "5"
+              }
+            }
+          ]
+        },
+        "dailyRewards": {
           "23": {
             "reward": {
               "rewards": [
@@ -43324,7 +43426,7 @@
               "rewards": [
                 {
                   "itemReward": {
-                    "itemId": "vault_item_dark_detector_test",
+                    "itemId": "proto_vaultitem_potion_extimulo_2",
                     "amount": "1"
                   }
                 }
@@ -43355,6 +43457,18 @@
               ]
             }
           },
+          "31": {
+            "reward": {
+              "rewards": [
+                {
+                  "itemReward": {
+                    "itemId": "proto_vaultitem_energy_1",
+                    "amount": "15"
+                  }
+                }
+              ]
+            }
+          },
           "14": {
             "reward": {
               "rewards": [
@@ -43372,8 +43486,8 @@
               "rewards": [
                 {
                   "itemReward": {
-                    "itemId": "vault_item_dark_detector_test",
-                    "amount": "2"
+                    "itemId": "vault_item_xp",
+                    "amount": "1000"
                   }
                 }
               ]
@@ -43390,25 +43504,7 @@
                 }
               ]
             }
-          }
-        }
-      }
-    },
-    {
-      "dailyRewardMonthlySchedule": {
-        "id": "proto_dailyrewardmonthlyschedule_default_31_days",
-        "numberOfDays": 31,
-        "defaultReward": {
-          "rewards": [
-            {
-              "itemReward": {
-                "itemId": "proto_vaultitem_energy_1",
-                "amount": "5"
-              }
-            }
-          ]
-        },
-        "dailyRewards": {
+          },
           "5": {
             "reward": {
               "rewards": [
@@ -43680,102 +43776,6 @@
                   "itemReward": {
                     "itemId": "proto_vaultitem_energy_1",
                     "amount": "9"
-                  }
-                }
-              ]
-            }
-          },
-          "23": {
-            "reward": {
-              "rewards": [
-                {
-                  "itemReward": {
-                    "itemId": "vault_item_xp",
-                    "amount": "450"
-                  }
-                }
-              ]
-            }
-          },
-          "6": {
-            "reward": {
-              "rewards": [
-                {
-                  "itemReward": {
-                    "itemId": "proto_vaultitem_potion_extimulo_2",
-                    "amount": "1"
-                  }
-                }
-              ]
-            }
-          },
-          "19": {
-            "reward": {
-              "rewards": [
-                {
-                  "itemReward": {
-                    "itemId": "vault_item_xp",
-                    "amount": "400"
-                  }
-                }
-              ]
-            }
-          },
-          "2": {
-            "reward": {
-              "rewards": [
-                {
-                  "itemReward": {
-                    "itemId": "vault_item_xp",
-                    "amount": "150"
-                  }
-                }
-              ]
-            }
-          },
-          "31": {
-            "reward": {
-              "rewards": [
-                {
-                  "itemReward": {
-                    "itemId": "proto_vaultitem_energy_1",
-                    "amount": "15"
-                  }
-                }
-              ]
-            }
-          },
-          "14": {
-            "reward": {
-              "rewards": [
-                {
-                  "itemReward": {
-                    "itemId": "vault_item_dark_detector_test",
-                    "amount": "2"
-                  }
-                }
-              ]
-            }
-          },
-          "27": {
-            "reward": {
-              "rewards": [
-                {
-                  "itemReward": {
-                    "itemId": "vault_item_xp",
-                    "amount": "1000"
-                  }
-                }
-              ]
-            }
-          },
-          "10": {
-            "reward": {
-              "rewards": [
-                {
-                  "itemReward": {
-                    "itemId": "proto_vaultitem_currency_profession_02",
-                    "amount": "5"
                   }
                 }
               ]
@@ -64049,36 +64049,6 @@
         ],
         "greenhouseCoolDownMs": "300000",
         "playerLevelOverride": {
-          "21": 20,
-          "4": 1,
-          "55": 55,
-          "38": 35,
-          "29": 25,
-          "12": 10,
-          "46": 45,
-          "20": 20,
-          "7": 5,
-          "54": 50,
-          "33": 30,
-          "28": 25,
-          "15": 15,
-          "41": 40,
-          "23": 20,
-          "6": 5,
-          "49": 45,
-          "32": 30,
-          "31": 30,
-          "14": 10,
-          "57": 55,
-          "40": 40,
-          "22": 20,
-          "1": 1,
-          "48": 45,
-          "35": 35,
-          "30": 30,
-          "9": 5,
-          "56": 55,
-          "43": 40,
           "17": 15,
           "51": 50,
           "34": 30,
@@ -64108,7 +64078,37 @@
           "13": 10,
           "60": 60,
           "47": 45,
-          "26": 25
+          "26": 25,
+          "21": 20,
+          "4": 1,
+          "55": 55,
+          "38": 35,
+          "29": 25,
+          "12": 10,
+          "46": 45,
+          "20": 20,
+          "7": 5,
+          "54": 50,
+          "33": 30,
+          "28": 25,
+          "15": 15,
+          "41": 40,
+          "23": 20,
+          "6": 5,
+          "49": 45,
+          "32": 30,
+          "31": 30,
+          "14": 10,
+          "57": 55,
+          "40": 40,
+          "22": 20,
+          "1": 1,
+          "48": 45,
+          "35": 35,
+          "30": 30,
+          "9": 5,
+          "56": 55,
+          "43": 40
         },
         "innCoolDownMs": "300000",
         "innMenuStalenessThresholdMs": "1000",
