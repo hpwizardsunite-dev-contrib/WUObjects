@@ -15,10 +15,9 @@ _sym_db = _symbol_database.Default()
 
 from wuprotos.data.loot import loot_reward_pb2 as wuprotos_dot_data_dot_loot_dot_loot__reward__pb2
 from wuprotos.map import map_coordinate_pb2 as wuprotos_dot_map_dot_map__coordinate__pb2
-from wuprotos.data import chamber_player_state_pb2 as wuprotos_dot_data_dot_chamber__player__state__pb2
 from wuprotos.data import fortress_cooldown_data_pb2 as wuprotos_dot_data_dot_fortress__cooldown__data__pb2
 from wuprotos.data.mob import mob_reward_pb2 as wuprotos_dot_data_dot_mob_dot_mob__reward__pb2
-from wuprotos.data.buff import active_buff_pb2 as wuprotos_dot_data_dot_buff_dot_active__buff__pb2
+from wuprotos.data.buff import active_buff_list_pb2 as wuprotos_dot_data_dot_buff_dot_active__buff__list__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -26,9 +25,9 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='wuprotos.data',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n!wuprotos/data/chamber_state.proto\x12\rwuprotos.data\x1a$wuprotos/data/loot/loot_reward.proto\x1a!wuprotos/map/map_coordinate.proto\x1a(wuprotos/data/chamber_player_state.proto\x1a*wuprotos/data/fortress_cooldown_data.proto\x1a\"wuprotos/data/mob/mob_reward.proto\x1a$wuprotos/data/buff/active_buff.proto\"\xd6\x0b\n\x0c\x43hamberState\x12\x1f\n\x17\x63hamber_template_gmt_id\x18\x01 \x01(\t\x12\x31\n\x06player\x18\x02 \x03(\x0b\x32!.wuprotos.data.ChamberPlayerState\x12K\n\x10waiting_to_start\x18\x04 \x01(\x0b\x32/.wuprotos.data.ChamberState.WaitingToStartStateH\x00\x12\x42\n\x0bin_progress\x18\x05 \x01(\x0b\x32+.wuprotos.data.ChamberState.InProgressStateH\x00\x12=\n\x08\x66inished\x18\x06 \x01(\x0b\x32).wuprotos.data.ChamberState.FinishedStateH\x00\x12\x11\n\ttimestamp\x18\x07 \x01(\x03\x1a\xd5\x01\n\rFinishedState\x12H\n\rfinish_status\x18\x01 \x01(\x0e\x32\x31.wuprotos.data.ChamberState.ChallengeFinishStatus\x12>\n\x07rewards\x18\x02 \x01(\x0b\x32-.wuprotos.data.loot.LootReward.LootCollection\x12:\n\rcooldown_data\x18\x03 \x01(\x0b\x32#.wuprotos.data.FortressCooldownData\x1a\xc0\x01\n\x0fInProgressState\x12\x13\n\x0b\x65nd_time_ms\x18\x01 \x01(\x03\x12\x39\n\x04mobs\x18\x02 \x03(\x0b\x32+.wuprotos.data.ChamberState.ChamberMobState\x12\x44\n\x10used_map_ability\x18\x03 \x03(\x0b\x32*.wuprotos.data.ChamberState.UsedMapAbility\x12\x17\n\x0ftotal_mob_count\x18\x04 \x01(\x05\x1a\xc6\x01\n\x0eUsedMapAbility\x12\x1a\n\x12map_ability_gmt_id\x18\x01 \x01(\t\x12\x11\n\tcaster_id\x18\x02 \x01(\t\x12\x33\n\x0emap_coordinate\x18\x06 \x01(\x0b\x32\x1b.wuprotos.map.MapCoordinate\x12\x19\n\x11map_ability_level\x18\x07 \x01(\x05\x12\x15\n\rtarget_mob_id\x18\x08 \x01(\x0c\x12\x1e\n\x16target_player_nickname\x18\t \x01(\t\x1a,\n\x13WaitingToStartState\x12\x15\n\rstart_time_ms\x18\x01 \x01(\x03\x1a\xa2\x02\n\x0f\x43hamberMobState\x12\x0e\n\x06mob_id\x18\x01 \x01(\x0c\x12\x18\n\x10\x65ncounter_gmt_id\x18\x02 \x01(\t\x12\n\n\x02hp\x18\x05 \x01(\x03\x12\x0e\n\x06max_hp\x18\x06 \x01(\x03\x12\r\n\x05level\x18\x07 \x01(\x05\x12\x18\n\x10\x65ncounter_ticket\x18\x08 \x01(\x0c\x12\t\n\x01x\x18\t \x01(\x01\x12\t\n\x01y\x18\n \x01(\x01\x12\x44\n\x10\x61\x63tive_buff_list\x18\x0b \x01(\x0b\x32*.wuprotos.data.ChamberState.ActiveBuffList\x12-\n\x07rewards\x18\x0c \x03(\x0b\x32\x1c.wuprotos.data.mob.MobReward\x12\x15\n\rtime_to_spawn\x18\x65 \x01(\x03\x1a?\n\x0e\x41\x63tiveBuffList\x12-\n\x05\x62uffs\x18\x01 \x03(\x0b\x32\x1e.wuprotos.data.buff.ActiveBuff\"\x8d\x01\n\x15\x43hallengeFinishStatus\x12#\n\x1f\x43HALLENGE_FINISH_STATUS_UNKNOWN\x10\x00\x12&\n\"CHALLENGE_FINISH_STATUS_PLAYER_WON\x10\x01\x12\'\n#CHALLENGE_FINISH_STATUS_PLAYER_LOSE\x10\x02\x42\x07\n\x05Stateb\x06proto3')
+  serialized_pb=_b('\n!wuprotos/data/chamber_state.proto\x12\rwuprotos.data\x1a$wuprotos/data/loot/loot_reward.proto\x1a!wuprotos/map/map_coordinate.proto\x1a*wuprotos/data/fortress_cooldown_data.proto\x1a\"wuprotos/data/mob/mob_reward.proto\x1a)wuprotos/data/buff/active_buff_list.proto\"\xac\x17\n\x0c\x43hamberState\x12\x1f\n\x17\x63hamber_template_gmt_id\x18\x01 \x01(\t\x12>\n\x06player\x18\x02 \x03(\x0b\x32..wuprotos.data.ChamberState.ChamberPlayerState\x12K\n\x10waiting_to_start\x18\x04 \x01(\x0b\x32/.wuprotos.data.ChamberState.WaitingToStartStateH\x00\x12\x42\n\x0bin_progress\x18\x05 \x01(\x0b\x32+.wuprotos.data.ChamberState.InProgressStateH\x00\x12=\n\x08\x66inished\x18\x06 \x01(\x0b\x32).wuprotos.data.ChamberState.FinishedStateH\x00\x12\x11\n\ttimestamp\x18\x07 \x01(\x03\x1a\xd5\x01\n\rFinishedState\x12H\n\rfinish_status\x18\x01 \x01(\x0e\x32\x31.wuprotos.data.ChamberState.ChallengeFinishStatus\x12>\n\x07rewards\x18\x02 \x01(\x0b\x32-.wuprotos.data.loot.LootReward.LootCollection\x12:\n\rcooldown_data\x18\x03 \x01(\x0b\x32#.wuprotos.data.FortressCooldownData\x1a\xc0\x01\n\x0fInProgressState\x12\x13\n\x0b\x65nd_time_ms\x18\x01 \x01(\x03\x12\x39\n\x04mobs\x18\x02 \x03(\x0b\x32+.wuprotos.data.ChamberState.ChamberMobState\x12\x44\n\x10used_map_ability\x18\x03 \x03(\x0b\x32*.wuprotos.data.ChamberState.UsedMapAbility\x12\x17\n\x0ftotal_mob_count\x18\x04 \x01(\x05\x1a\xc6\x01\n\x0eUsedMapAbility\x12\x1a\n\x12map_ability_gmt_id\x18\x01 \x01(\t\x12\x11\n\tcaster_id\x18\x02 \x01(\t\x12\x33\n\x0emap_coordinate\x18\x06 \x01(\x0b\x32\x1b.wuprotos.map.MapCoordinate\x12\x19\n\x11map_ability_level\x18\x07 \x01(\x05\x12\x15\n\rtarget_mob_id\x18\x08 \x01(\x0c\x12\x1e\n\x16target_player_nickname\x18\t \x01(\t\x1a,\n\x13WaitingToStartState\x12\x15\n\rstart_time_ms\x18\x01 \x01(\x03\x1a\x9a\x02\n\x0f\x43hamberMobState\x12\x0e\n\x06mob_id\x18\x01 \x01(\x0c\x12\x18\n\x10\x65ncounter_gmt_id\x18\x02 \x01(\t\x12\n\n\x02hp\x18\x05 \x01(\x03\x12\x0e\n\x06max_hp\x18\x06 \x01(\x03\x12\r\n\x05level\x18\x07 \x01(\x05\x12\x18\n\x10\x65ncounter_ticket\x18\x08 \x01(\x0c\x12\t\n\x01x\x18\t \x01(\x01\x12\t\n\x01y\x18\n \x01(\x01\x12<\n\x10\x61\x63tive_buff_list\x18\x0b \x01(\x0b\x32\".wuprotos.data.buff.ActiveBuffList\x12-\n\x07rewards\x18\x0c \x03(\x0b\x32\x1c.wuprotos.data.mob.MobReward\x12\x15\n\rtime_to_spawn\x18\x65 \x01(\x03\x1a\x8f\x0c\n\x12\x43hamberPlayerState\x12\x10\n\x08nickname\x18\x01 \x01(\t\x12k\n\x17runestone_contributions\x18\x02 \x03(\x0b\x32J.wuprotos.data.ChamberState.ChamberPlayerState.RunestoneContributionsEntry\x12T\n\x07waiting\x18\x03 \x01(\x0b\x32\x41.wuprotos.data.ChamberState.ChamberPlayerState.PlayerWaitingStateH\x00\x12[\n\x0bin_progress\x18\x04 \x01(\x0b\x32\x44.wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressStateH\x00\x12V\n\x08\x66inished\x18\x05 \x01(\x0b\x32\x42.wuprotos.data.ChamberState.ChamberPlayerState.PlayerFinishedStateH\x00\x12\\\n\x0fprofession_info\x18\x06 \x01(\x0b\x32\x43.wuprotos.data.ChamberState.ChamberPlayerState.PlayerProfessionInfo\x12<\n\x10\x61\x63tive_buff_list\x18\x07 \x01(\x0b\x32\".wuprotos.data.buff.ActiveBuffList\x1a=\n\x1bRunestoneContributionsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x03:\x02\x38\x01\x1a-\n\x07Healthy\x12\n\n\x02hp\x18\x01 \x01(\x03\x12\x16\n\x0e\x65ngaged_mob_id\x18\x02 \x01(\x0c\x1a@\n\nKnockedOut\x12\x18\n\x10knockout_time_ms\x18\x01 \x01(\x03\x12\x18\n\x10recovery_time_ms\x18\x02 \x01(\x03\x1aX\n\nMapAbility\x12\x1a\n\x12map_ability_gmt_id\x18\x01 \x01(\t\x12\x13\n\x0b\x63ooldown_ms\x18\x03 \x01(\x03\x12\x19\n\x11map_ability_level\x18\x04 \x01(\x05\x1a\x32\n\x13PlayerFinishedState\x12\x1b\n\x13has_claimed_rewards\x18\x01 \x01(\x08\x1a\xc2\x04\n\x15PlayerInProgressState\x12\x10\n\x08latitude\x18\x01 \x01(\x01\x12\x11\n\tlongitude\x18\x02 \x01(\x01\x12\x0e\n\x06max_hp\x18\x05 \x01(\x03\x12P\n\rmap_abilities\x18\x06 \x03(\x0b\x32\x39.wuprotos.data.ChamberState.ChamberPlayerState.MapAbility\x12I\n\x07healthy\x18\x07 \x01(\x0b\x32\x36.wuprotos.data.ChamberState.ChamberPlayerState.HealthyH\x00\x12P\n\x0bknocked_out\x18\x08 \x01(\x0b\x32\x39.wuprotos.data.ChamberState.ChamberPlayerState.KnockedOutH\x00\x12\r\n\x05\x66ocus\x18\t \x01(\x05\x12\x11\n\tmax_focus\x18\n \x01(\x05\x1a-\n\x07Healthy\x12\n\n\x02hp\x18\x01 \x01(\x03\x12\x16\n\x0e\x65ngaged_mob_id\x18\x02 \x01(\x0c\x1a@\n\nKnockedOut\x12\x18\n\x10knockout_time_ms\x18\x01 \x01(\x03\x12\x18\n\x10recovery_time_ms\x18\x02 \x01(\x03\x1ah\n\nMapAbility\x12\x1a\n\x12map_ability_gmt_id\x18\x01 \x01(\t\x12\x0e\n\x06radius\x18\x02 \x01(\x02\x12\x13\n\x0b\x63ooldown_ms\x18\x03 \x01(\x03\x12\x19\n\x11map_ability_level\x18\x04 \x01(\x05\x42\x08\n\x06Status\x1a\x31\n\x14PlayerProfessionInfo\x12\x19\n\x11profession_gmt_id\x18\x01 \x01(\t\x1a\x14\n\x12PlayerWaitingStateB\x07\n\x05State\"\x8d\x01\n\x15\x43hallengeFinishStatus\x12#\n\x1f\x43HALLENGE_FINISH_STATUS_UNKNOWN\x10\x00\x12&\n\"CHALLENGE_FINISH_STATUS_PLAYER_WON\x10\x01\x12\'\n#CHALLENGE_FINISH_STATUS_PLAYER_LOSE\x10\x02\x42\x07\n\x05Stateb\x06proto3')
   ,
-  dependencies=[wuprotos_dot_data_dot_loot_dot_loot__reward__pb2.DESCRIPTOR,wuprotos_dot_map_dot_map__coordinate__pb2.DESCRIPTOR,wuprotos_dot_data_dot_chamber__player__state__pb2.DESCRIPTOR,wuprotos_dot_data_dot_fortress__cooldown__data__pb2.DESCRIPTOR,wuprotos_dot_data_dot_mob_dot_mob__reward__pb2.DESCRIPTOR,wuprotos_dot_data_dot_buff_dot_active__buff__pb2.DESCRIPTOR,])
+  dependencies=[wuprotos_dot_data_dot_loot_dot_loot__reward__pb2.DESCRIPTOR,wuprotos_dot_map_dot_map__coordinate__pb2.DESCRIPTOR,wuprotos_dot_data_dot_fortress__cooldown__data__pb2.DESCRIPTOR,wuprotos_dot_data_dot_mob_dot_mob__reward__pb2.DESCRIPTOR,wuprotos_dot_data_dot_buff_dot_active__buff__list__pb2.DESCRIPTOR,])
 
 
 
@@ -53,8 +52,8 @@ _CHAMBERSTATE_CHALLENGEFINISHSTATUS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=1630,
-  serialized_end=1771,
+  serialized_start=3087,
+  serialized_end=3228,
 )
 _sym_db.RegisterEnumDescriptor(_CHAMBERSTATE_CHALLENGEFINISHSTATUS)
 
@@ -99,8 +98,8 @@ _CHAMBERSTATE_FINISHEDSTATE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=614,
-  serialized_end=827,
+  serialized_start=590,
+  serialized_end=803,
 )
 
 _CHAMBERSTATE_INPROGRESSSTATE = _descriptor.Descriptor(
@@ -150,8 +149,8 @@ _CHAMBERSTATE_INPROGRESSSTATE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=830,
-  serialized_end=1022,
+  serialized_start=806,
+  serialized_end=998,
 )
 
 _CHAMBERSTATE_USEDMAPABILITY = _descriptor.Descriptor(
@@ -215,8 +214,8 @@ _CHAMBERSTATE_USEDMAPABILITY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1025,
-  serialized_end=1223,
+  serialized_start=1001,
+  serialized_end=1199,
 )
 
 _CHAMBERSTATE_WAITINGTOSTARTSTATE = _descriptor.Descriptor(
@@ -245,8 +244,8 @@ _CHAMBERSTATE_WAITINGTOSTARTSTATE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1225,
-  serialized_end=1269,
+  serialized_start=1201,
+  serialized_end=1245,
 )
 
 _CHAMBERSTATE_CHAMBERMOBSTATE = _descriptor.Descriptor(
@@ -345,21 +344,65 @@ _CHAMBERSTATE_CHAMBERMOBSTATE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1272,
-  serialized_end=1562,
+  serialized_start=1248,
+  serialized_end=1530,
 )
 
-_CHAMBERSTATE_ACTIVEBUFFLIST = _descriptor.Descriptor(
-  name='ActiveBuffList',
-  full_name='wuprotos.data.ChamberState.ActiveBuffList',
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_RUNESTONECONTRIBUTIONSENTRY = _descriptor.Descriptor(
+  name='RunestoneContributionsEntry',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.RunestoneContributionsEntry',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='buffs', full_name='wuprotos.data.ChamberState.ActiveBuffList.buffs', index=0,
-      number=1, type=11, cpp_type=10, label=3,
-      has_default_value=False, default_value=[],
+      name='key', full_name='wuprotos.data.ChamberState.ChamberPlayerState.RunestoneContributionsEntry.key', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='wuprotos.data.ChamberState.ChamberPlayerState.RunestoneContributionsEntry.value', index=1,
+      number=2, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=_b('8\001'),
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2105,
+  serialized_end=2166,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_HEALTHY = _descriptor.Descriptor(
+  name='Healthy',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.Healthy',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='hp', full_name='wuprotos.data.ChamberState.ChamberPlayerState.Healthy.hp', index=0,
+      number=1, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='engaged_mob_id', full_name='wuprotos.data.ChamberState.ChamberPlayerState.Healthy.engaged_mob_id', index=1,
+      number=2, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b(""),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -375,8 +418,454 @@ _CHAMBERSTATE_ACTIVEBUFFLIST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1564,
-  serialized_end=1627,
+  serialized_start=2168,
+  serialized_end=2213,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_KNOCKEDOUT = _descriptor.Descriptor(
+  name='KnockedOut',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.KnockedOut',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='knockout_time_ms', full_name='wuprotos.data.ChamberState.ChamberPlayerState.KnockedOut.knockout_time_ms', index=0,
+      number=1, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='recovery_time_ms', full_name='wuprotos.data.ChamberState.ChamberPlayerState.KnockedOut.recovery_time_ms', index=1,
+      number=2, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2215,
+  serialized_end=2279,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_MAPABILITY = _descriptor.Descriptor(
+  name='MapAbility',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.MapAbility',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='map_ability_gmt_id', full_name='wuprotos.data.ChamberState.ChamberPlayerState.MapAbility.map_ability_gmt_id', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='cooldown_ms', full_name='wuprotos.data.ChamberState.ChamberPlayerState.MapAbility.cooldown_ms', index=1,
+      number=3, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='map_ability_level', full_name='wuprotos.data.ChamberState.ChamberPlayerState.MapAbility.map_ability_level', index=2,
+      number=4, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2281,
+  serialized_end=2369,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERFINISHEDSTATE = _descriptor.Descriptor(
+  name='PlayerFinishedState',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerFinishedState',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='has_claimed_rewards', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerFinishedState.has_claimed_rewards', index=0,
+      number=1, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2371,
+  serialized_end=2421,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_HEALTHY = _descriptor.Descriptor(
+  name='Healthy',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.Healthy',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='hp', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.Healthy.hp', index=0,
+      number=1, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='engaged_mob_id', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.Healthy.engaged_mob_id', index=1,
+      number=2, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b(""),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2168,
+  serialized_end=2213,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_KNOCKEDOUT = _descriptor.Descriptor(
+  name='KnockedOut',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.KnockedOut',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='knockout_time_ms', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.KnockedOut.knockout_time_ms', index=0,
+      number=1, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='recovery_time_ms', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.KnockedOut.recovery_time_ms', index=1,
+      number=2, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2215,
+  serialized_end=2279,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_MAPABILITY = _descriptor.Descriptor(
+  name='MapAbility',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.MapAbility',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='map_ability_gmt_id', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.MapAbility.map_ability_gmt_id', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='radius', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.MapAbility.radius', index=1,
+      number=2, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='cooldown_ms', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.MapAbility.cooldown_ms', index=2,
+      number=3, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='map_ability_level', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.MapAbility.map_ability_level', index=3,
+      number=4, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2888,
+  serialized_end=2992,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE = _descriptor.Descriptor(
+  name='PlayerInProgressState',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='latitude', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.latitude', index=0,
+      number=1, type=1, cpp_type=5, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='longitude', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.longitude', index=1,
+      number=2, type=1, cpp_type=5, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='max_hp', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.max_hp', index=2,
+      number=5, type=3, cpp_type=2, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='map_abilities', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.map_abilities', index=3,
+      number=6, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='healthy', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.healthy', index=4,
+      number=7, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='knocked_out', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.knocked_out', index=5,
+      number=8, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='focus', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.focus', index=6,
+      number=9, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='max_focus', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.max_focus', index=7,
+      number=10, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_HEALTHY, _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_KNOCKEDOUT, _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_MAPABILITY, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+    _descriptor.OneofDescriptor(
+      name='Status', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.Status',
+      index=0, containing_type=None, fields=[]),
+  ],
+  serialized_start=2424,
+  serialized_end=3002,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERPROFESSIONINFO = _descriptor.Descriptor(
+  name='PlayerProfessionInfo',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerProfessionInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='profession_gmt_id', full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerProfessionInfo.profession_gmt_id', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3004,
+  serialized_end=3053,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERWAITINGSTATE = _descriptor.Descriptor(
+  name='PlayerWaitingState',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState.PlayerWaitingState',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3055,
+  serialized_end=3075,
+)
+
+_CHAMBERSTATE_CHAMBERPLAYERSTATE = _descriptor.Descriptor(
+  name='ChamberPlayerState',
+  full_name='wuprotos.data.ChamberState.ChamberPlayerState',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='nickname', full_name='wuprotos.data.ChamberState.ChamberPlayerState.nickname', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='runestone_contributions', full_name='wuprotos.data.ChamberState.ChamberPlayerState.runestone_contributions', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='waiting', full_name='wuprotos.data.ChamberState.ChamberPlayerState.waiting', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='in_progress', full_name='wuprotos.data.ChamberState.ChamberPlayerState.in_progress', index=3,
+      number=4, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='finished', full_name='wuprotos.data.ChamberState.ChamberPlayerState.finished', index=4,
+      number=5, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='profession_info', full_name='wuprotos.data.ChamberState.ChamberPlayerState.profession_info', index=5,
+      number=6, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='active_buff_list', full_name='wuprotos.data.ChamberState.ChamberPlayerState.active_buff_list', index=6,
+      number=7, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_CHAMBERSTATE_CHAMBERPLAYERSTATE_RUNESTONECONTRIBUTIONSENTRY, _CHAMBERSTATE_CHAMBERPLAYERSTATE_HEALTHY, _CHAMBERSTATE_CHAMBERPLAYERSTATE_KNOCKEDOUT, _CHAMBERSTATE_CHAMBERPLAYERSTATE_MAPABILITY, _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERFINISHEDSTATE, _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE, _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERPROFESSIONINFO, _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERWAITINGSTATE, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+    _descriptor.OneofDescriptor(
+      name='State', full_name='wuprotos.data.ChamberState.ChamberPlayerState.State',
+      index=0, containing_type=None, fields=[]),
+  ],
+  serialized_start=1533,
+  serialized_end=3084,
 )
 
 _CHAMBERSTATE = _descriptor.Descriptor(
@@ -431,7 +920,7 @@ _CHAMBERSTATE = _descriptor.Descriptor(
   ],
   extensions=[
   ],
-  nested_types=[_CHAMBERSTATE_FINISHEDSTATE, _CHAMBERSTATE_INPROGRESSSTATE, _CHAMBERSTATE_USEDMAPABILITY, _CHAMBERSTATE_WAITINGTOSTARTSTATE, _CHAMBERSTATE_CHAMBERMOBSTATE, _CHAMBERSTATE_ACTIVEBUFFLIST, ],
+  nested_types=[_CHAMBERSTATE_FINISHEDSTATE, _CHAMBERSTATE_INPROGRESSSTATE, _CHAMBERSTATE_USEDMAPABILITY, _CHAMBERSTATE_WAITINGTOSTARTSTATE, _CHAMBERSTATE_CHAMBERMOBSTATE, _CHAMBERSTATE_CHAMBERPLAYERSTATE, ],
   enum_types=[
     _CHAMBERSTATE_CHALLENGEFINISHSTATUS,
   ],
@@ -444,8 +933,8 @@ _CHAMBERSTATE = _descriptor.Descriptor(
       name='State', full_name='wuprotos.data.ChamberState.State',
       index=0, containing_type=None, fields=[]),
   ],
-  serialized_start=286,
-  serialized_end=1780,
+  serialized_start=249,
+  serialized_end=3237,
 )
 
 _CHAMBERSTATE_FINISHEDSTATE.fields_by_name['finish_status'].enum_type = _CHAMBERSTATE_CHALLENGEFINISHSTATUS
@@ -458,12 +947,46 @@ _CHAMBERSTATE_INPROGRESSSTATE.containing_type = _CHAMBERSTATE
 _CHAMBERSTATE_USEDMAPABILITY.fields_by_name['map_coordinate'].message_type = wuprotos_dot_map_dot_map__coordinate__pb2._MAPCOORDINATE
 _CHAMBERSTATE_USEDMAPABILITY.containing_type = _CHAMBERSTATE
 _CHAMBERSTATE_WAITINGTOSTARTSTATE.containing_type = _CHAMBERSTATE
-_CHAMBERSTATE_CHAMBERMOBSTATE.fields_by_name['active_buff_list'].message_type = _CHAMBERSTATE_ACTIVEBUFFLIST
+_CHAMBERSTATE_CHAMBERMOBSTATE.fields_by_name['active_buff_list'].message_type = wuprotos_dot_data_dot_buff_dot_active__buff__list__pb2._ACTIVEBUFFLIST
 _CHAMBERSTATE_CHAMBERMOBSTATE.fields_by_name['rewards'].message_type = wuprotos_dot_data_dot_mob_dot_mob__reward__pb2._MOBREWARD
 _CHAMBERSTATE_CHAMBERMOBSTATE.containing_type = _CHAMBERSTATE
-_CHAMBERSTATE_ACTIVEBUFFLIST.fields_by_name['buffs'].message_type = wuprotos_dot_data_dot_buff_dot_active__buff__pb2._ACTIVEBUFF
-_CHAMBERSTATE_ACTIVEBUFFLIST.containing_type = _CHAMBERSTATE
-_CHAMBERSTATE.fields_by_name['player'].message_type = wuprotos_dot_data_dot_chamber__player__state__pb2._CHAMBERPLAYERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_RUNESTONECONTRIBUTIONSENTRY.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_HEALTHY.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_KNOCKEDOUT.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_MAPABILITY.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERFINISHEDSTATE.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_HEALTHY.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_KNOCKEDOUT.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_MAPABILITY.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.fields_by_name['map_abilities'].message_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_MAPABILITY
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.fields_by_name['healthy'].message_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_HEALTHY
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.fields_by_name['knocked_out'].message_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_KNOCKEDOUT
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.oneofs_by_name['Status'].fields.append(
+  _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.fields_by_name['healthy'])
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.fields_by_name['healthy'].containing_oneof = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.oneofs_by_name['Status']
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.oneofs_by_name['Status'].fields.append(
+  _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.fields_by_name['knocked_out'])
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.fields_by_name['knocked_out'].containing_oneof = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE.oneofs_by_name['Status']
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERPROFESSIONINFO.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERWAITINGSTATE.containing_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['runestone_contributions'].message_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_RUNESTONECONTRIBUTIONSENTRY
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['waiting'].message_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERWAITINGSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['in_progress'].message_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['finished'].message_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERFINISHEDSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['profession_info'].message_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERPROFESSIONINFO
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['active_buff_list'].message_type = wuprotos_dot_data_dot_buff_dot_active__buff__list__pb2._ACTIVEBUFFLIST
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.containing_type = _CHAMBERSTATE
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.oneofs_by_name['State'].fields.append(
+  _CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['waiting'])
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['waiting'].containing_oneof = _CHAMBERSTATE_CHAMBERPLAYERSTATE.oneofs_by_name['State']
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.oneofs_by_name['State'].fields.append(
+  _CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['in_progress'])
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['in_progress'].containing_oneof = _CHAMBERSTATE_CHAMBERPLAYERSTATE.oneofs_by_name['State']
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.oneofs_by_name['State'].fields.append(
+  _CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['finished'])
+_CHAMBERSTATE_CHAMBERPLAYERSTATE.fields_by_name['finished'].containing_oneof = _CHAMBERSTATE_CHAMBERPLAYERSTATE.oneofs_by_name['State']
+_CHAMBERSTATE.fields_by_name['player'].message_type = _CHAMBERSTATE_CHAMBERPLAYERSTATE
 _CHAMBERSTATE.fields_by_name['waiting_to_start'].message_type = _CHAMBERSTATE_WAITINGTOSTARTSTATE
 _CHAMBERSTATE.fields_by_name['in_progress'].message_type = _CHAMBERSTATE_INPROGRESSSTATE
 _CHAMBERSTATE.fields_by_name['finished'].message_type = _CHAMBERSTATE_FINISHEDSTATE
@@ -517,10 +1040,87 @@ ChamberState = _reflection.GeneratedProtocolMessageType('ChamberState', (_messag
     ))
   ,
 
-  ActiveBuffList = _reflection.GeneratedProtocolMessageType('ActiveBuffList', (_message.Message,), dict(
-    DESCRIPTOR = _CHAMBERSTATE_ACTIVEBUFFLIST,
+  ChamberPlayerState = _reflection.GeneratedProtocolMessageType('ChamberPlayerState', (_message.Message,), dict(
+
+    RunestoneContributionsEntry = _reflection.GeneratedProtocolMessageType('RunestoneContributionsEntry', (_message.Message,), dict(
+      DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_RUNESTONECONTRIBUTIONSENTRY,
+      __module__ = 'wuprotos.data.chamber_state_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.RunestoneContributionsEntry)
+      ))
+    ,
+
+    Healthy = _reflection.GeneratedProtocolMessageType('Healthy', (_message.Message,), dict(
+      DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_HEALTHY,
+      __module__ = 'wuprotos.data.chamber_state_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.Healthy)
+      ))
+    ,
+
+    KnockedOut = _reflection.GeneratedProtocolMessageType('KnockedOut', (_message.Message,), dict(
+      DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_KNOCKEDOUT,
+      __module__ = 'wuprotos.data.chamber_state_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.KnockedOut)
+      ))
+    ,
+
+    MapAbility = _reflection.GeneratedProtocolMessageType('MapAbility', (_message.Message,), dict(
+      DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_MAPABILITY,
+      __module__ = 'wuprotos.data.chamber_state_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.MapAbility)
+      ))
+    ,
+
+    PlayerFinishedState = _reflection.GeneratedProtocolMessageType('PlayerFinishedState', (_message.Message,), dict(
+      DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERFINISHEDSTATE,
+      __module__ = 'wuprotos.data.chamber_state_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.PlayerFinishedState)
+      ))
+    ,
+
+    PlayerInProgressState = _reflection.GeneratedProtocolMessageType('PlayerInProgressState', (_message.Message,), dict(
+
+      Healthy = _reflection.GeneratedProtocolMessageType('Healthy', (_message.Message,), dict(
+        DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_HEALTHY,
+        __module__ = 'wuprotos.data.chamber_state_pb2'
+        # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.Healthy)
+        ))
+      ,
+
+      KnockedOut = _reflection.GeneratedProtocolMessageType('KnockedOut', (_message.Message,), dict(
+        DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_KNOCKEDOUT,
+        __module__ = 'wuprotos.data.chamber_state_pb2'
+        # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.KnockedOut)
+        ))
+      ,
+
+      MapAbility = _reflection.GeneratedProtocolMessageType('MapAbility', (_message.Message,), dict(
+        DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE_MAPABILITY,
+        __module__ = 'wuprotos.data.chamber_state_pb2'
+        # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState.MapAbility)
+        ))
+      ,
+      DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERINPROGRESSSTATE,
+      __module__ = 'wuprotos.data.chamber_state_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.PlayerInProgressState)
+      ))
+    ,
+
+    PlayerProfessionInfo = _reflection.GeneratedProtocolMessageType('PlayerProfessionInfo', (_message.Message,), dict(
+      DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERPROFESSIONINFO,
+      __module__ = 'wuprotos.data.chamber_state_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.PlayerProfessionInfo)
+      ))
+    ,
+
+    PlayerWaitingState = _reflection.GeneratedProtocolMessageType('PlayerWaitingState', (_message.Message,), dict(
+      DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE_PLAYERWAITINGSTATE,
+      __module__ = 'wuprotos.data.chamber_state_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState.PlayerWaitingState)
+      ))
+    ,
+    DESCRIPTOR = _CHAMBERSTATE_CHAMBERPLAYERSTATE,
     __module__ = 'wuprotos.data.chamber_state_pb2'
-    # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ActiveBuffList)
+    # @@protoc_insertion_point(class_scope:wuprotos.data.ChamberState.ChamberPlayerState)
     ))
   ,
   DESCRIPTOR = _CHAMBERSTATE,
@@ -533,7 +1133,19 @@ _sym_db.RegisterMessage(ChamberState.InProgressState)
 _sym_db.RegisterMessage(ChamberState.UsedMapAbility)
 _sym_db.RegisterMessage(ChamberState.WaitingToStartState)
 _sym_db.RegisterMessage(ChamberState.ChamberMobState)
-_sym_db.RegisterMessage(ChamberState.ActiveBuffList)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.RunestoneContributionsEntry)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.Healthy)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.KnockedOut)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.MapAbility)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.PlayerFinishedState)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.PlayerInProgressState)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.PlayerInProgressState.Healthy)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.PlayerInProgressState.KnockedOut)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.PlayerInProgressState.MapAbility)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.PlayerProfessionInfo)
+_sym_db.RegisterMessage(ChamberState.ChamberPlayerState.PlayerWaitingState)
 
 
+_CHAMBERSTATE_CHAMBERPLAYERSTATE_RUNESTONECONTRIBUTIONSENTRY._options = None
 # @@protoc_insertion_point(module_scope)

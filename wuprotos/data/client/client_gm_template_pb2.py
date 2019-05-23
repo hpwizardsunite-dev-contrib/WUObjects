@@ -13,13 +13,12 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from wuprotos.data.client import client_collection_family_pb2 as wuprotos_dot_data_dot_client_dot_client__collection__family__pb2
-from wuprotos.data.client import client_game_config_pb2 as wuprotos_dot_data_dot_client_dot_client__game__config__pb2
 from wuprotos.data.client import client_profile_config_pb2 as wuprotos_dot_data_dot_client_dot_client__profile__config__pb2
 from wuprotos.data import color_pb2 as wuprotos_dot_data_dot_color__pb2
 from wuprotos.data import requirements_pb2 as wuprotos_dot_data_dot_requirements__pb2
 from wuprotos.data import audio_parameter_pb2 as wuprotos_dot_data_dot_audio__parameter__pb2
 from wuprotos.data import sound_config_pb2 as wuprotos_dot_data_dot_sound__config__pb2
+from wuprotos.data.collection import collection_family_pb2 as wuprotos_dot_data_dot_collection_dot_collection__family__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
@@ -27,11 +26,41 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='wuprotos.data.client',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n-wuprotos/data/client/client_gm_template.proto\x12\x14wuprotos.data.client\x1a\x33wuprotos/data/client/client_collection_family.proto\x1a-wuprotos/data/client/client_game_config.proto\x1a\x30wuprotos/data/client/client_profile_config.proto\x1a\x19wuprotos/data/color.proto\x1a wuprotos/data/requirements.proto\x1a#wuprotos/data/audio_parameter.proto\x1a wuprotos/data/sound_config.proto\"\x86\x98\x01\n\x10\x43lientGmTemplate\x12I\n\x11\x63ollection_family\x18\x01 \x01(\x0b\x32,.wuprotos.data.client.ClientCollectionFamilyH\x00\x12V\n\x0f\x63ollection_item\x18\x02 \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientCollectionItemH\x00\x12X\n\x10walkbox_template\x18\x03 \x01(\x0b\x32<.wuprotos.data.client.ClientGmTemplate.ClientWalkboxTemplateH\x00\x12K\n\tencounter\x18\x04 \x01(\x0b\x32\x36.wuprotos.data.client.ClientGmTemplate.ClientEncounterH\x00\x12G\n\x07portkey\x18\x05 \x01(\x0b\x32\x34.wuprotos.data.client.ClientGmTemplate.ClientPortkeyH\x00\x12L\n\nvault_item\x18\x06 \x01(\x0b\x32\x36.wuprotos.data.client.ClientGmTemplate.ClientVaultItemH\x00\x12=\n\x0bgame_config\x18\x07 \x01(\x0b\x32&.wuprotos.data.client.ClientGameConfigH\x00\x12L\n\nstore_pack\x18\x08 \x01(\x0b\x32\x36.wuprotos.data.client.ClientGmTemplate.ClientStorePackH\x00\x12\x43\n\x05spell\x18\t \x01(\x0b\x32\x32.wuprotos.data.client.ClientGmTemplate.ClientSpellH\x00\x12V\n\x0fprotego_pattern\x18\n \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientProtegoPatternH\x00\x12X\n\x10\x63hamber_template\x18\x0b \x01(\x0b\x32<.wuprotos.data.client.ClientGmTemplate.ClientChamberTemplateH\x00\x12V\n\x0f\x63ollection_page\x18\x0c \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientCollectionPageH\x00\x12P\n\x0cteam_control\x18\r \x01(\x0b\x32\x38.wuprotos.data.client.ClientGmTemplate.ClientTeamControlH\x00\x12P\n\x0cstore_config\x18\x0e \x01(\x0b\x32\x38.wuprotos.data.client.ClientGmTemplate.ClientStoreConfigH\x00\x12Z\n\x11store_subcategory\x18\x0f \x01(\x0b\x32=.wuprotos.data.client.ClientGmTemplate.ClientStoreSubcategoryH\x00\x12\x45\n\x06haptic\x18\x10 \x01(\x0b\x32\x33.wuprotos.data.client.ClientGmTemplate.ClientHapticH\x00\x12M\n\nprofession\x18\x11 \x01(\x0b\x32\x37.wuprotos.data.client.ClientGmTemplate.ClientProfessionH\x00\x12T\n\x0e\x62onus_category\x18\x12 \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientBonusCategoryH\x00\x12T\n\x0evault_category\x18\x13 \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientVaultCategoryH\x00\x12\x43\n\x0eprofile_config\x18\x14 \x01(\x0b\x32).wuprotos.data.client.ClientProfileConfigH\x00\x12T\n\x0emap_ingredient\x18\x15 \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientMapIngredientH\x00\x12N\n\x0bmap_ability\x18\x16 \x01(\x0b\x32\x37.wuprotos.data.client.ClientGmTemplate.ClientMapAbilityH\x00\x12M\n\nstoryboard\x18\x17 \x01(\x0b\x32\x37.wuprotos.data.client.ClientGmTemplate.ClientStoryboardH\x00\x12G\n\x07rpgstat\x18\x18 \x01(\x0b\x32\x34.wuprotos.data.client.ClientGmTemplate.ClientRpgstatH\x00\x12T\n\x0erpgstats_block\x18\x19 \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientRpgstatsBlockH\x00\x12]\n\x13selfie_avatar_asset\x18\x1a \x01(\x0b\x32>.wuprotos.data.client.ClientGmTemplate.ClientSelfieAvatarAssetH\x00\x12\x41\n\x04\x62uff\x18\x1b \x01(\x0b\x32\x31.wuprotos.data.client.ClientGmTemplate.ClientBuffH\x00\x12X\n\x10outpost_template\x18\x1d \x01(\x0b\x32<.wuprotos.data.client.ClientGmTemplate.ClientOutpostTemplateH\x00\x12V\n\x0f\x63hallenge_bonus\x18\x1e \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientChallengeBonusH\x00\x12\x45\n\x06recipe\x18\x1f \x01(\x0b\x32\x33.wuprotos.data.client.ClientGmTemplate.ClientRecipeH\x00\x12N\n\x0bmaster_note\x18  \x01(\x0b\x32\x37.wuprotos.data.client.ClientGmTemplate.ClientMasterNoteH\x00\x12\x43\n\x05quest\x18! \x01(\x0b\x32\x32.wuprotos.data.client.ClientGmTemplate.ClientQuestH\x00\x12p\n\x1d\x64\x61ily_reward_monthly_schedule\x18\" \x01(\x0b\x32G.wuprotos.data.client.ClientGmTemplate.ClientDailyRewardMonthlyScheduleH\x00\x12T\n\x0e\x65ncounter_type\x18# \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientEncounterTypeH\x00\x12\x43\n\x05\x65vent\x18$ \x01(\x0b\x32\x32.wuprotos.data.client.ClientGmTemplate.ClientEventH\x00\x1a\xf9\x02\n\x0f\x43lientVaultItem\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x0e\n\x06prefab\x18\x04 \x01(\t\x12\x0e\n\x06rarity\x18\x05 \x01(\x03\x12\x13\n\x0b\x64\x65scription\x18\x06 \x01(\t\x12\x1f\n\x17show_in_vault_item_menu\x18\x08 \x01(\x08\x12\x11\n\tdeletable\x18\t \x01(\x08\x12\x1c\n\x14show_in_rewards_flow\x18\n \x01(\x08\x12#\n\x05\x63olor\x18\x0b \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x12\n\nbackground\x18\x0c \x01(\t\x12\x10\n\x08ordering\x18\r \x01(\x05\x12\x30\n\x0creward_sound\x18\x0e \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12\x1d\n\x15reward_sound_priority\x18\x0f \x01(\x05\x12\x1b\n\x13spine_animated_icon\x18\x10 \x01(\t\x1a\xfc\x04\n\x11\x43lientStoreConfig\x12\n\n\x02id\x18\x01 \x01(\t\x12`\n\x10store_categories\x18\x02 \x03(\x0b\x32\x46.wuprotos.data.client.ClientGmTemplate.ClientStoreConfig.StoreCategory\x12\\\n\x0estore_rarities\x18\x03 \x03(\x0b\x32\x44.wuprotos.data.client.ClientGmTemplate.ClientStoreConfig.StoreRarity\x12$\n\x1c\x64\x65\x66\x61ult_store_pack_icon_path\x18\x04 \x01(\t\x1aR\n\x0bStoreRarity\x12\n\n\x02id\x18\x01 \x01(\t\x12(\n\ntext_color\x18\x02 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\r\n\x05title\x18\x03 \x01(\t\x1a\xa0\x02\n\rStoreCategory\x12\x11\n\ticon_path\x18\x01 \x01(\t\x12\r\n\x05title\x18\x02 \x01(\t\x12\x0e\n\x06header\x18\x03 \x01(\t\x12*\n\x0cheader_color\x18\x04 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x12\n\nbackground\x18\x05 \x01(\t\x12.\n\x10\x62\x61\x63kground_color\x18\x06 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x1b\n\x13store_subcategories\x18\x07 \x03(\t\x12\x15\n\rheader_prefab\x18\x08 \x01(\t\x12(\n\nitem_color\x18\t \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x0f\n\x07\x65nabled\x18\n \x01(\x08\x1a\xf1\x04\n\x0b\x43lientSpell\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x18\n\x10\x63harge_up_effect\x18\x03 \x03(\t\x12T\n\ttimelines\x18\x04 \x03(\x0b\x32\x41.wuprotos.data.client.ClientGmTemplate.ClientSpell.TimelinesEntry\x12[\n\rcritical_hits\x18\x05 \x03(\x0b\x32\x44.wuprotos.data.client.ClientGmTemplate.ClientSpell.CriticalHitsEntry\x12\x0f\n\x07pattern\x18\x06 \x01(\t\x12\x13\n\x0bglyph_image\x18\x07 \x01(\t\x12!\n\x19protego_player_succeed_tl\x18\x08 \x01(\t\x12 \n\x18protego_player_failed_tl\x18\t \x01(\t\x12\'\n\x1fprotego_player_succeed_intro_tl\x18\n \x01(\t\x12\x18\n\x10\x65nd_burst_effect\x18\x0b \x01(\t\x12\x12\n\nrng_vfx_tl\x18\x0c \x01(\t\x12\x19\n\x11spell_rng_loop_tl\x18\r \x01(\t\x12\x1c\n\x14spell_rng_succeed_tl\x18\x0e \x01(\t\x12\x19\n\x11spell_rng_fail_tl\x18\x0f \x01(\t\x1a\x30\n\x0eTimelinesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\x33\n\x11\x43riticalHitsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\xb1\x01\n\x11\x43lientTeamControl\x12\n\n\x02id\x18\x01 \x01(\t\x12\x11\n\tteam_name\x18\x02 \x01(\t\x12\x11\n\tteam_icon\x18\x03 \x01(\t\x12(\n\nteam_color\x18\x04 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x18\n\x10team_header_icon\x18\x05 \x01(\t\x12\x13\n\x0bteam_banner\x18\x06 \x01(\t\x12\x11\n\tteam_flag\x18\x07 \x01(\t\x1a\xcf\x07\n\x17\x43lientSelfieAvatarAsset\x12\n\n\x02id\x18\x01 \x01(\t\x12\x36\n\x11unlock_conditions\x18\x02 \x03(\x0b\x32\x1b.wuprotos.data.Requirements\x12\x19\n\x11\x61sset_script_name\x18\x03 \x01(\t\x12\x0c\n\x04icon\x18\x04 \x01(\t\x12h\n\nasset_type\x18\x05 \x01(\x0e\x32T.wuprotos.data.client.ClientGmTemplate.ClientSelfieAvatarAsset.SelfieAvatarAssetType\x12\x66\n\tlens_type\x18\x06 \x01(\x0e\x32S.wuprotos.data.client.ClientGmTemplate.ClientSelfieAvatarAsset.SelfieAvatarLensType\x12\x0f\n\x07visible\x18\x07 \x01(\x08\x12{\n\x14media_supported_type\x18\x08 \x01(\x0e\x32].wuprotos.data.client.ClientGmTemplate.ClientSelfieAvatarAsset.SelfieAvatarMediaSupportedType\x12\x10\n\x08\x61nimated\x18\t \x01(\x08\x12\x15\n\rstore_pack_id\x18\n \x01(\t\x12\x10\n\x08order_id\x18\x0b \x01(\x05\x12\x19\n\x11is_full_body_lens\x18\x0c \x01(\x08\x12\x16\n\x0eis_empty_asset\x18\r \x01(\x08\x12\x12\n\nshow_badge\x18\x0e \x01(\x08\x12:\n\x15visibility_conditions\x18\x0f \x01(\x0b\x32\x1b.wuprotos.data.Requirements\x12\x18\n\x10stock_asset_name\x18\x10 \x01(\t\"i\n\x15SelfieAvatarAssetType\x12\x16\n\x12UNKNOWN_ASSET_TYPE\x10\x00\x12\t\n\x05LENSE\x10\x01\x12\n\n\x06\x46ILTER\x10\x02\x12\t\n\x05\x46RAME\x10\x03\x12\x0b\n\x07STICKER\x10\x04\x12\t\n\x05STOCK\x10\x05\"K\n\x14SelfieAvatarLensType\x12\x15\n\x11UNKNOWN_LENS_TYPE\x10\x00\x12\x08\n\x04HEAD\x10\x01\x12\x08\n\x04\x46\x41\x43\x45\x10\x02\x12\x08\n\x04NECK\x10\x03\"W\n\x1eSelfieAvatarMediaSupportedType\x12\x16\n\x12UNKNOWN_MEDIA_TYPE\x10\x00\x12\x07\n\x03\x41LL\x10\x01\x12\t\n\x05VIDEO\x10\x02\x12\t\n\x05PHOTO\x10\x03\x1a\x39\n\x13\x43lientRpgstatsBlock\x12\n\n\x02id\x18\x01 \x01(\t\x12\x16\n\x0erelevant_stats\x18\x02 \x03(\t\x1a\xf4\x06\n\x0f\x43lientStorePack\x12\n\n\x02id\x18\x01 \x01(\t\x12\x1a\n\x12show_in_inline_buy\x18\x02 \x01(\x08\x12\x0c\n\x04name\x18\x03 \x01(\t\x12\x61\n\x11store_pack_config\x18\x04 \x03(\x0b\x32\x46.wuprotos.data.client.ClientGmTemplate.ClientStorePack.StorePackConfig\x12\x0e\n\x06sku_id\x18\x05 \x01(\t\x12\x1e\n\x16override_title_loc_key\x18\x06 \x01(\t\x12\x1d\n\x15max_reward_item_count\x18\x07 \x01(\x05\x1a\xf8\x04\n\x0fStorePackConfig\x12\x10\n\x08priority\x18\x01 \x01(\x05\x12\x16\n\x0esubcategory_id\x18\x02 \x01(\t\x12\x11\n\ticon_path\x18\x03 \x01(\t\x12\x1c\n\x14show_quantity_banner\x18\x04 \x01(\x08\x12\x19\n\x11quantity_override\x18\x05 \x01(\t\x12\x13\n\x0bprefab_path\x18\x06 \x01(\t\x12\x16\n\x0emarketing_text\x18\x07 \x01(\t\x12\x18\n\x10\x64\x65scription_text\x18\x08 \x01(\t\x12\x12\n\nshow_badge\x18\t \x01(\x08\x12\x13\n\x0b\x62onus_value\x18\n \x01(\x05\x12\x11\n\trarity_id\x18\x0b \x01(\t\x12m\n\tpack_size\x18\x0c \x01(\x0e\x32Z.wuprotos.data.client.ClientGmTemplate.ClientStorePack.StorePackConfig.StorePackConfigSize\x12\x13\n\x0bshow_in_hud\x18\r \x01(\x08\x12\x14\n\x0chud_priority\x18\x0e \x01(\x05\x12\x15\n\rhud_icon_path\x18\x0f \x01(\t\x12\x12\n\nicon2_path\x18\x10 \x01(\t\x12\x1c\n\x14popup_image_override\x18\x11 \x01(\t\x12\x1d\n\x15hide_pack_on_sold_out\x18\x12 \x01(\x08\x12\"\n\x1ahide_pack_on_map_hud_click\x18\x13 \x01(\x08\"F\n\x13StorePackConfigSize\x12\x0e\n\nSIZE_SMALL\x10\x00\x12\x0f\n\x0bSIZE_MEDIUM\x10\x01\x12\x0e\n\nSIZE_LARGE\x10\x02\x1a\x86\x10\n\x10\x43lientStoryboard\x12\n\n\x02id\x18\x01 \x01(\t\x12[\n\x05steps\x18\x02 \x03(\x0b\x32L.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep\x12\x15\n\rtrigger_point\x18\x03 \x01(\t\x12\x10\n\x08priority\x18\x04 \x01(\x05\x1a\xdf\x0e\n\x14\x43lientStoryboardStep\x12\x14\n\x0c\x63ustom_state\x18\x01 \x01(\t\x12\x82\x01\n\x0egeneric_dialog\x18\x02 \x01(\x0b\x32h.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardGenericDialogStepH\x00\x12q\n\x05pause\x18\x03 \x01(\x0b\x32`.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardPauseStepH\x00\x12\x82\x01\n\x0e\x61\x64vice_overlay\x18\x04 \x01(\x0b\x32h.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardAdviceOverlayStepH\x00\x12\x8c\x01\n\x13\x61\x64vice_interjection\x18\x05 \x01(\x0b\x32m.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardAdviceInterjectionStepH\x00\x12\x98\x01\n\x19\x63onversation_interjection\x18\x06 \x01(\x0b\x32s.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardConversationInterjectionStepH\x00\x12\x1c\n\x14\x63\x61ll_to_action_asset\x18\x07 \x01(\t\x12(\n call_to_action_button_identifier\x18\x08 \x01(\t\x1a\x15\n\x13StoryboardPauseStep\x1aO\n\x1bStoryboardGenericDialogStep\x12\r\n\x05title\x18\x01 \x01(\t\x12\x0c\n\x04text\x18\x02 \x01(\t\x12\x13\n\x0b\x62utton_text\x18\x03 \x01(\t\x1a\xbc\x01\n\x0cSpeechBubble\x12 \n\x18\x63haracter_portrait_image\x18\x01 \x01(\t\x12\x1d\n\x15\x63haracter_name_lockey\x18\x02 \x01(\t\x12\x1a\n\x12\x62ubble_prefab_name\x18\x03 \x01(\t\x12\x1d\n\x15\x62ubble_content_lockey\x18\x04 \x01(\t\x12\x30\n\x0csound_config\x18\x05 \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x1a\x99\x01\n&StoryboardConversationInterjectionStep\x12o\n\x0c\x63onversation\x18\x01 \x03(\x0b\x32Y.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.SpeechBubble\x1a\x8e\x03\n\x1bStoryboardAdviceOverlayStep\x12p\n\rspeech_bubble\x18\x01 \x01(\x0b\x32Y.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.SpeechBubble\x12\x16\n\x0erequires_scrim\x18\x02 \x01(\x08\x12\x92\x01\n\talignment\x18\x03 \x01(\x0e\x32\x7f.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardAdviceOverlayStep.AdviceOverlayAlignment\x12!\n\x19show_continue_action_text\x18\x04 \x01(\x08\"-\n\x16\x41\x64viceOverlayAlignment\x12\n\n\x06\x62ottom\x10\x00\x12\x07\n\x03top\x10\x01\x1a\xe5\x01\n StoryboardAdviceInterjectionStep\x12 \n\x18\x63haracter_portrait_image\x18\x01 \x01(\t\x12\x1d\n\x15\x63haracter_name_lockey\x18\x02 \x01(\t\x12\x1b\n\x13\x63ontent_text_lockey\x18\x03 \x01(\t\x12\x1a\n\x12\x63ontent_image_name\x18\x04 \x01(\t\x12\x30\n\x0csound_config\x18\x05 \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12\x15\n\rbutton_lockey\x18\x06 \x01(\tB\x06\n\x04\x44\x61ta\x1a\xab\x02\n\rClientRpgstat\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0f\n\x07tooltip\x18\x02 \x01(\t\x12\x12\n\npercentage\x18\x03 \x01(\x08\x12\x0f\n\x07show_ui\x18\x04 \x01(\x08\x12\x11\n\tstat_name\x18\x05 \x01(\t\x12\x19\n\x11\x64isplay_threshold\x18\x06 \x01(\x05\x12\x19\n\x11icon_display_type\x18\x07 \x01(\t\x12\x11\n\tinfo_desc\x18\x08 \x01(\t\x12N\n\x05icons\x18\t \x03(\x0b\x32?.wuprotos.data.client.ClientGmTemplate.ClientRpgstat.IconsEntry\x1a,\n\nIconsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\x81\x02\n\x0c\x43lientRecipe\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\x12\x0c\n\x04icon\x18\x04 \x01(\t\x12\r\n\x05model\x18\x05 \x01(\t\x12\x12\n\ncollect_fx\x18\x06 \x01(\t\x12\x13\n\x0b\x63rafting_fx\x18\x07 \x01(\t\x12\x11\n\treveal_fx\x18\x08 \x01(\t\x12+\n\rprimary_color\x18\t \x01(\x0b\x32\x14.wuprotos.data.Color\x12-\n\x0fsecondary_color\x18\n \x01(\x0b\x32\x14.wuprotos.data.Color\x12\r\n\x05index\x18\x0b \x01(\x05\x1a\x65\n\x0b\x43lientQuest\x12\n\n\x02id\x18\x01 \x01(\t\x12\x12\n\nsort_order\x18\x02 \x01(\x05\x12\x1a\n\x12quest_name_loc_key\x18\x03 \x01(\t\x12\x1a\n\x12quest_desc_loc_key\x18\x04 \x01(\t\x1a\xc3\x02\n\x14\x43lientProtegoPattern\x12\n\n\x02id\x18\x01 \x01(\t\x12`\n\x13ui_target_start_pos\x18\x02 \x01(\x0b\x32\x43.wuprotos.data.client.ClientGmTemplate.ClientProtegoPattern.Vector2\x12\x1e\n\x16ui_target_start_radius\x18\x03 \x01(\x02\x12^\n\x11ui_target_end_pos\x18\x04 \x01(\x0b\x32\x43.wuprotos.data.client.ClientGmTemplate.ClientProtegoPattern.Vector2\x12\x1c\n\x14ui_target_end_radius\x18\x05 \x01(\x02\x1a\x1f\n\x07Vector2\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x1a\xb7\x05\n\x10\x43lientProfession\x12\n\n\x02id\x18\x01 \x01(\t\x12\x15\n\rdisplay_order\x18\x02 \x01(\x05\x12\x0c\n\x04name\x18\x03 \x01(\t\x12\x0c\n\x04\x64\x65sc\x18\x04 \x01(\t\x12\x0c\n\x04icon\x18\x05 \x01(\t\x12\x13\n\x0bmentor_name\x18\x06 \x01(\t\x12\x13\n\x0bmentor_desc\x18\x07 \x01(\t\x12\x13\n\x0bmentor_icon\x18\x08 \x01(\t\x12\x19\n\x11screen_background\x18\t \x01(\t\x12\x12\n\nicon_stamp\x18\n \x01(\t\x12 \n\x18screen_background_header\x18\x0b \x01(\t\x12\x18\n\x10show_coming_soon\x18\x0c \x01(\x08\x12\"\n\x1ashow_profession_rank_meter\x18\x0e \x01(\x08\x12 \n\x18profession_activated_sfx\x18\x0f \x01(\t\x12m\n\x14profession_ranks_map\x18\x10 \x03(\x0b\x32O.wuprotos.data.client.ClientGmTemplate.ClientProfession.ProfessionRanksMapEntry\x12\x1b\n\x13\x65nemy_affinity_icon\x18\x11 \x01(\t\x12\x1b\n\x13\x65nemy_affinity_name\x18\x12 \x01(\t\x12\x15\n\raffinity_desc\x18\x13 \x01(\t\x12.\n\x10profession_color\x18\x14 \x01(\x0b\x32\x14.wuprotos.data.Color\x1av\n\x17ProfessionRanksMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12J\n\x05value\x18\x02 \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank:\x02\x38\x01\x1a\xca\x06\n\x14\x43lientProfessionRank\x12q\n\x14profession_nodes_map\x18\x01 \x03(\x0b\x32S.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank.ProfessionNodesMapEntry\x12\x0c\n\x04name\x18\x02 \x01(\t\x12j\n\x10profession_nodes\x18\x03 \x03(\x0b\x32P.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank.ClientProfessionNode\x12\x16\n\x0eimage_unlocked\x18\x04 \x01(\t\x12\x1b\n\x13image_unlocked_open\x18\x05 \x01(\t\x12\x14\n\x0cimage_locked\x18\x06 \x01(\t\x12\x19\n\x11image_locked_open\x18\x07 \x01(\t\x12\x1c\n\x14professin_rank_order\x18\x08 \x01(\x05\x1a\x8b\x01\n\x17ProfessionNodesMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12_\n\x05value\x18\x02 \x01(\x0b\x32P.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank.ClientProfessionNode:\x02\x38\x01\x1a\xb2\x02\n\x14\x43lientProfessionNode\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04icon\x18\x02 \x01(\t\x12z\n\x06levels\x18\x03 \x03(\x0b\x32j.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank.ClientProfessionNode.ClientProfessionNodeLevel\x12\x13\n\x0bunlock_desc\x18\x04 \x01(\t\x12\x16\n\x0e\x63ompleted_desc\x18\x05 \x01(\t\x12\x16\n\x0e\x63ompleted_icon\x18\x06 \x01(\t\x1a=\n\x19\x43lientProfessionNodeLevel\x12 \n\x18is_grant_new_map_ability\x18\x01 \x01(\x08\x1aX\n\rClientPortkey\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x1f\n\x17localized_complete_text\x18\x04 \x01(\t\x1aG\n\x15\x43lientOutpostTemplate\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08interior\x18\x02 \x01(\t\x12\x10\n\x08\x65xterior\x18\x03 \x01(\t\x1aK\n\x13\x43lientMapIngredient\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06prefab\x18\x02 \x01(\t\x12\x18\n\x10hide_at_capacity\x18\x03 \x01(\x08\x1a\xf5\x02\n\x10\x43lientMapAbility\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x04 \x01(\t\x12\x15\n\reffect_sprite\x18\x05 \x01(\t\x12\x13\n\x0bstatus_icon\x18\x06 \x01(\t\x12\x0c\n\x04slot\x18\x07 \x01(\x05\x12\x15\n\reffect_prefab\x18\x08 \x01(\t\x12]\n\x04rule\x18\t \x01(\x0e\x32O.wuprotos.data.client.ClientGmTemplate.ClientMapAbility.AdditionalSelectionRule\"t\n\x17\x41\x64\x64itionalSelectionRule\x12\x1d\n\x19none_additional_selection\x10\x00\x12\x14\n\x10no_if_max_health\x10\x01\x12\x13\n\x0fno_if_max_focus\x10\x02\x12\x0f\n\x0bno_if_alive\x10\x03\x1a\xa1\x01\n\x0c\x43lientHaptic\x12\n\n\x02id\x18\x01 \x01(\t\x12\x17\n\x0fioswait_timings\x18\x02 \x03(\x05\x12\x17\n\x0fioshaptic_types\x18\x03 \x03(\x05\x12\x1c\n\x14\x61ndroid_wait_timings\x18\x04 \x03(\x05\x12\x1a\n\x12\x61ndroid_amplitudes\x18\x05 \x03(\x05\x12\x19\n\x11\x61ndroid_durations\x18\x06 \x03(\x05\x1a\xb5\x02\n\x0b\x43lientEvent\x12\n\n\x02id\x18\x01 \x01(\t\x12\x16\n\x0eis_user_facing\x18\x02 \x01(\x08\x12\x12\n\ntitle_text\x18\x03 \x01(\t\x12\x18\n\x10\x64\x65scription_text\x18\x04 \x01(\t\x12\r\n\x05image\x18\x05 \x01(\t\x12\x16\n\x0e\x65ncounter_icon\x18\x06 \x01(\t\x12\"\n\x1a\x65ncounter_hud_tooltip_text\x18\x07 \x01(\t\x12\x1c\n\x14\x65ncounter_start_text\x18\x08 \x01(\t\x12\x32\n\x14quest_ui_frame_color\x18\t \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x37\n\x19quest_ui_background_color\x18\n \x01(\x0b\x32\x14.wuprotos.data.Color\x1a\x90\x01\n\x13\x43lientEncounterType\x12\n\n\x02id\x18\x01 \x01(\t\x12\x17\n\x0fshow_in_look_in\x18\x02 \x01(\x08\x12\x1b\n\x13look_in_description\x18\x03 \x01(\t\x12\x14\n\x0clook_in_icon\x18\x04 \x01(\t\x12!\n\x19\x63onditional_tag_stat_desc\x18\x05 \x01(\t\x1a\xd2!\n\x0f\x43lientEncounter\x12\n\n\x02id\x18\x01 \x01(\t\x12$\n\x1c\x65ncounter_searching_timeline\x18\x02 \x01(\t\x12*\n\"encounter_searching_idle_timelines\x18\x03 \x03(\t\x12\x1f\n\x17\x65ncounter_flee_timeline\x18\x04 \x01(\t\x12\x18\n\x10\x65ncounter_target\x18\x05 \x01(\t\x12[\n\x06stages\x18\x06 \x03(\x0b\x32K.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage\x12\x1f\n\x17\x65ncounter_target_layout\x18\x07 \x01(\t\x12\x1c\n\x14search_target_layout\x18\x08 \x01(\t\x12\x18\n\x10\x65ncounter_assets\x18\t \x03(\t\x12\x1c\n\x14\x65ncounter_map_sprite\x18\n \x01(\t\x12=\n\x16\x65ncounter_music_params\x18\x0b \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12\x0c\n\x04name\x18\x0c \x01(\t\x12\"\n\x1a\x65ncounter_map_sprite_frame\x18\r \x01(\t\x12\x32\n\x14map_health_bar_color\x18\x0e \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x32\n\x14hud_health_bar_color\x18\x0f \x01(\x0b\x32\x14.wuprotos.data.Color\x1a\xf8\x1c\n\x14\x43lientEncounterStage\x12v\n\x05swish\x18\x01 \x01(\x0b\x32\x65.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageSwishH\x00\x12x\n\x06\x63ombat\x18\x02 \x01(\x0b\x32\x66.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombatH\x00\x12z\n\x07portkey\x18\x03 \x01(\x0b\x32g.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStagePortkeyH\x00\x12z\n\x07picture\x18\x04 \x01(\x0b\x32g.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStagePictureH\x00\x12\x17\n\x0f\x64isappear_delay\x18\x05 \x01(\x02\x12\x12\n\nintro_text\x18\x06 \x01(\t\x12|\n\x14stage_setup_sequence\x18\x07 \x03(\x0b\x32^.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientSequenceData\x12\x81\x01\n\x19stage_completion_sequence\x18\x08 \x03(\x0b\x32^.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientSequenceData\x12\x18\n\x10spell_aim_layout\x18\t \x01(\t\x12\x1b\n\x13idle_loop_timelines\x18\n \x03(\t\x12\x1a\n\x12rng_intro_timeline\x18\x0b \x01(\t\x12\x19\n\x11rng_loop_timeline\x18\x0c \x01(\t\x12\x1d\n\x15spell_failed_timeline\x18\r \x01(\t\x12\x19\n\x11\x63ombat_spell_list\x18\x0e \x03(\t\x1a\xc1\x01\n\x12\x43lientSequenceData\x12\x15\n\rsequence_type\x18\x01 \x01(\x05\x12\x10\n\x08obstacle\x18\x02 \x01(\t\x12\x16\n\x0eobstacle_alias\x18\x03 \x01(\t\x12\x18\n\x10\x65ncounter_target\x18\x04 \x01(\t\x12\x15\n\rtimeline_file\x18\x05 \x01(\t\x12\x1b\n\x13sequence_delay_time\x18\x06 \x01(\x02\x12\x1c\n\x14sequence_layout_node\x18\x07 \x01(\t\x1a\x96\x01\n\x19\x43lientEncounterStageSwish\x12=\n\x16trace_succeeds_fanfare\x18\x01 \x01(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12:\n\x13trace_fails_fanfare\x18\x02 \x01(\x0b\x32\x1d.wuprotos.data.AudioParameter\x1a\x93\x01\n\x1b\x43lientEncounterStagePortkey\x12\x10\n\x08scene_id\x18\x01 \x01(\t\x12\x11\n\tportal_id\x18\x02 \x01(\t\x12\x1b\n\x13object_placement_id\x18\x03 \x01(\t\x12\x1b\n\x13portal_placement_id\x18\x04 \x01(\t\x12\x15\n\rportkey_asset\x18\x05 \x01(\t\x1a\xa0\x02\n\x1b\x43lientEncounterStagePicture\x12\n\n\x02id\x18\x01 \x01(\t\x12\x13\n\x0bspawn_scale\x18\x02 \x01(\x02\x12\x11\n\tmin_scale\x18\x03 \x01(\x02\x12\x11\n\tmax_scale\x18\x04 \x01(\x02\x12\x8d\x01\n\x14simple_ar_pos_offset\x18\x05 \x01(\x0b\x32o.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStagePicture.Vector3\x1a*\n\x07Vector3\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x1a\x80\x0f\n\x1a\x43lientEncounterStageCombat\x12\x93\x01\n\x11state_graph_nodes\x18\x01 \x03(\x0b\x32x.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState\x12\x93\x01\n\x0c\x65nemy_traits\x18\x02 \x03(\x0b\x32}.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatEnemyTrait\x12S\n\x0f\x65nemy_rank_tags\x18\x03 \x03(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientEncounterType\x12\x19\n\x11\x65nemy_flavor_text\x18\x04 \x01(\t\x1a\xee\n\n\x11\x43lientCombatState\x12\xa6\x01\n\x0epossible_moves\x18\x01 \x03(\x0b\x32\x8d\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType\x1a\xaf\t\n\x14\x43lientCombatMoveType\x12\xc0\x01\n\rplayer_attack\x18\x01 \x01(\x0b\x32\xa6\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType.ClientCombatPlayerAttackH\x00\x12\xc0\x01\n\rplayer_defend\x18\x02 \x01(\x0b\x32\xa6\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType.ClientCombatPlayerDefendH\x00\x12\xcb\x01\n\x13player_auto_advance\x18\x03 \x01(\x0b\x32\xab\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType.ClientCombatPlayerAutoAdvanceH\x00\x12\x1d\n\x15\x65nemy_action_timeline\x18\x04 \x01(\t\x12\x1f\n\x17player_succeed_timeline\x18\x05 \x01(\t\x12\x1e\n\x16player_failed_timeline\x18\x06 \x01(\t\x1a\xc6\x02\n\x18\x43lientCombatPlayerDefend\x12\xdd\x01\n\x0cpattern_list\x18\x01 \x03(\x0b\x32\xc6\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType.ClientCombatPlayerDefend.ClientCombatPlayerDefendPattern\x1aJ\n\x1f\x43lientCombatPlayerDefendPattern\x12\x0e\n\x06weight\x18\x01 \x01(\x05\x12\x17\n\x0fprotego_pattern\x18\x02 \x01(\t\x1a\x1f\n\x1d\x43lientCombatPlayerAutoAdvance\x1ak\n\x18\x43lientCombatPlayerAttack\x12\x17\n\x0f\x65nemy_bone_name\x18\x01 \x01(\t\x12\x18\n\x10ui_target_radius\x18\x02 \x01(\x02\x12\x1c\n\x14reticle_time_to_fill\x18\x03 \x01(\x02\x42\x0c\n\nCombatMove\x1aU\n\x16\x43lientCombatEnemyTrait\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x04 \x01(\tB\x06\n\x04Type\x1a\xf3\x02\n ClientDailyRewardMonthlySchedule\x12\n\n\x02id\x18\x01 \x01(\t\x12p\n\rdaily_rewards\x18\x02 \x03(\x0b\x32Y.wuprotos.data.client.ClientGmTemplate.ClientDailyRewardMonthlySchedule.DailyRewardsEntry\x1a\x8e\x01\n\x11\x44\x61ilyRewardsEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12h\n\x05value\x18\x02 \x01(\x0b\x32Y.wuprotos.data.client.ClientGmTemplate.ClientDailyRewardMonthlySchedule.ClientDailyReward:\x02\x38\x01\x1a@\n\x11\x43lientDailyReward\x12\x15\n\rhide_as_crate\x18\x01 \x01(\x08\x12\x14\n\x0cmake_sparkly\x18\x02 \x01(\x08\x1a\xa8\x01\n\x14\x43lientCollectionPage\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x13\n\x0bpage_prefab\x18\x03 \x01(\t\x12\x0f\n\x07icon_bg\x18\x04 \x01(\t\x12\x12\n\nshow_in_ui\x18\x05 \x01(\x08\x12<\n\x17visibility_requirements\x18\x06 \x01(\x0b\x32\x1b.wuprotos.data.Requirements\x1a\xf4\x02\n\x14\x43lientCollectionItem\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x17\n\x0freturn_location\x18\x03 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x04 \x01(\t\x12\x15\n\ricon_returned\x18\x05 \x01(\t\x12\x12\n\nshow_in_ui\x18\x06 \x01(\x08\x12\x61\n\x0cmystery_data\x18\x07 \x03(\x0b\x32K.wuprotos.data.client.ClientGmTemplate.ClientCollectionItem.MysteryItemInfo\x12$\n\x1csticker_placed_storyboard_id\x18\x08 \x01(\t\x1a`\n\x0fMysteryItemInfo\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x1c\n\x14placed_storyboard_id\x18\x04 \x01(\t\x1a\xd9\x03\n\x15\x43lientChamberTemplate\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12(\n challenge_leaving_warning_radius\x18\x03 \x01(\x02\x12\x13\n\x0b\x61rena_scene\x18\x04 \x01(\t\x12\x17\n\x0f\x62\x61se_difficulty\x18\x05 \x01(\x05\x12w\n\x16runestone_difficulties\x18\x06 \x03(\x0b\x32W.wuprotos.data.client.ClientGmTemplate.ClientChamberTemplate.RunestoneDifficultiesEntry\x12\x63\n\x0cparkmode_bgs\x18\x07 \x03(\x0b\x32M.wuprotos.data.client.ClientGmTemplate.ClientChamberTemplate.ParkmodeBgsEntry\x1a<\n\x1aRunestoneDifficultiesEntry\x12\x0b\n\x03key\x18\x01 \x01(\x05\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x32\n\x10ParkmodeBgsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\x46\n\x14\x43lientChallengeBonus\x12\n\n\x02id\x18\x01 \x01(\t\x12\x14\n\x0c\x64isplay_text\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x1a\xcc\x04\n\nClientBuff\x12\n\n\x02id\x18\x01 \x01(\t\x12\x1c\n\x14reward_bonus_loc_key\x18\x03 \x01(\t\x12\x19\n\x11reward_bonus_icon\x18\x04 \x01(\t\x12\x13\n\x0bstatus_icon\x18\x05 \x01(\t\x12\x14\n\x0c\x64isplay_name\x18\x06 \x01(\t\x12k\n\x15\x63onditional_modifiers\x18\x07 \x03(\x0b\x32L.wuprotos.data.client.ClientGmTemplate.ClientBuff.ClientConditionalModifiers\x1a\xe0\x02\n\x1a\x43lientConditionalModifiers\x12\x0c\n\x04\x64\x65sc\x18\x01 \x01(\t\x12n\n\tmodifiers\x18\x02 \x03(\x0b\x32[.wuprotos.data.client.ClientGmTemplate.ClientBuff.ClientConditionalModifiers.ModifiersEntry\x1a\x98\x01\n\x0eModifiersEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12u\n\x05value\x18\x02 \x01(\x0b\x32\x66.wuprotos.data.client.ClientGmTemplate.ClientBuff.ClientConditionalModifiers.ClientConditionalModifier:\x02\x38\x01\x1a)\n\x19\x43lientConditionalModifier\x12\x0c\n\x04\x64\x65sc\x18\x01 \x01(\t\x1a\x36\n\x16\x43lientStoreSubcategory\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08priority\x18\x02 \x01(\x05\x1a\xb5\x02\n\x13\x43lientVaultCategory\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\x12\x0c\n\x04icon\x18\x04 \x01(\t\x12\x15\n\rshow_in_vault\x18\x05 \x01(\x08\x12\x19\n\x11warning_threshold\x18\x06 \x01(\x02\x12\x1e\n\x16\x63\x61tegory_display_order\x18\x07 \x01(\x05\x12-\n%increase_capacity_store_pack_proto_id\x18\x08 \x01(\t\x12.\n&increase_capacity_store_pack_proto_ids\x18\t \x03(\t\x12\x17\n\x0fstore_item_name\x18\n \x01(\t\x12\x17\n\x0fstore_item_icon\x18\x0b \x01(\t\x1aV\n\x15\x43lientWalkboxTemplate\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x15\n\runlocked_icon\x18\x04 \x01(\t\x1a\x41\n\x10\x43lientMasterNote\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\x1av\n\x13\x43lientBonusCategory\x12\n\n\x02id\x18\x01 \x01(\t\x12#\n\x05\x63olor\x18\x02 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x14\n\x0cname_loc_key\x18\x03 \x01(\t\x12\x18\n\x10\x62\x61\x63kground_image\x18\x04 \x01(\tB\r\n\x0bMessageTypeb\x06proto3')
+  serialized_pb=_b('\n-wuprotos/data/client/client_gm_template.proto\x12\x14wuprotos.data.client\x1a\x30wuprotos/data/client/client_profile_config.proto\x1a\x19wuprotos/data/color.proto\x1a wuprotos/data/requirements.proto\x1a#wuprotos/data/audio_parameter.proto\x1a wuprotos/data/sound_config.proto\x1a\x30wuprotos/data/collection/collection_family.proto\"\xde\xda\x01\n\x10\x43lientGmTemplate\x12Z\n\x11\x63ollection_family\x18\x01 \x01(\x0b\x32=.wuprotos.data.client.ClientGmTemplate.ClientCollectionFamilyH\x00\x12V\n\x0f\x63ollection_item\x18\x02 \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientCollectionItemH\x00\x12X\n\x10walkbox_template\x18\x03 \x01(\x0b\x32<.wuprotos.data.client.ClientGmTemplate.ClientWalkboxTemplateH\x00\x12K\n\tencounter\x18\x04 \x01(\x0b\x32\x36.wuprotos.data.client.ClientGmTemplate.ClientEncounterH\x00\x12G\n\x07portkey\x18\x05 \x01(\x0b\x32\x34.wuprotos.data.client.ClientGmTemplate.ClientPortkeyH\x00\x12L\n\nvault_item\x18\x06 \x01(\x0b\x32\x36.wuprotos.data.client.ClientGmTemplate.ClientVaultItemH\x00\x12N\n\x0bgame_config\x18\x07 \x01(\x0b\x32\x37.wuprotos.data.client.ClientGmTemplate.ClientGameConfigH\x00\x12L\n\nstore_pack\x18\x08 \x01(\x0b\x32\x36.wuprotos.data.client.ClientGmTemplate.ClientStorePackH\x00\x12\x43\n\x05spell\x18\t \x01(\x0b\x32\x32.wuprotos.data.client.ClientGmTemplate.ClientSpellH\x00\x12V\n\x0fprotego_pattern\x18\n \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientProtegoPatternH\x00\x12X\n\x10\x63hamber_template\x18\x0b \x01(\x0b\x32<.wuprotos.data.client.ClientGmTemplate.ClientChamberTemplateH\x00\x12V\n\x0f\x63ollection_page\x18\x0c \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientCollectionPageH\x00\x12P\n\x0cteam_control\x18\r \x01(\x0b\x32\x38.wuprotos.data.client.ClientGmTemplate.ClientTeamControlH\x00\x12P\n\x0cstore_config\x18\x0e \x01(\x0b\x32\x38.wuprotos.data.client.ClientGmTemplate.ClientStoreConfigH\x00\x12Z\n\x11store_subcategory\x18\x0f \x01(\x0b\x32=.wuprotos.data.client.ClientGmTemplate.ClientStoreSubcategoryH\x00\x12\x45\n\x06haptic\x18\x10 \x01(\x0b\x32\x33.wuprotos.data.client.ClientGmTemplate.ClientHapticH\x00\x12M\n\nprofession\x18\x11 \x01(\x0b\x32\x37.wuprotos.data.client.ClientGmTemplate.ClientProfessionH\x00\x12T\n\x0e\x62onus_category\x18\x12 \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientBonusCategoryH\x00\x12T\n\x0evault_category\x18\x13 \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientVaultCategoryH\x00\x12\x43\n\x0eprofile_config\x18\x14 \x01(\x0b\x32).wuprotos.data.client.ClientProfileConfigH\x00\x12T\n\x0emap_ingredient\x18\x15 \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientMapIngredientH\x00\x12N\n\x0bmap_ability\x18\x16 \x01(\x0b\x32\x37.wuprotos.data.client.ClientGmTemplate.ClientMapAbilityH\x00\x12M\n\nstoryboard\x18\x17 \x01(\x0b\x32\x37.wuprotos.data.client.ClientGmTemplate.ClientStoryboardH\x00\x12G\n\x07rpgstat\x18\x18 \x01(\x0b\x32\x34.wuprotos.data.client.ClientGmTemplate.ClientRpgstatH\x00\x12T\n\x0erpgstats_block\x18\x19 \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientRpgstatsBlockH\x00\x12]\n\x13selfie_avatar_asset\x18\x1a \x01(\x0b\x32>.wuprotos.data.client.ClientGmTemplate.ClientSelfieAvatarAssetH\x00\x12\x41\n\x04\x62uff\x18\x1b \x01(\x0b\x32\x31.wuprotos.data.client.ClientGmTemplate.ClientBuffH\x00\x12X\n\x10outpost_template\x18\x1d \x01(\x0b\x32<.wuprotos.data.client.ClientGmTemplate.ClientOutpostTemplateH\x00\x12V\n\x0f\x63hallenge_bonus\x18\x1e \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientChallengeBonusH\x00\x12\x45\n\x06recipe\x18\x1f \x01(\x0b\x32\x33.wuprotos.data.client.ClientGmTemplate.ClientRecipeH\x00\x12N\n\x0bmaster_note\x18  \x01(\x0b\x32\x37.wuprotos.data.client.ClientGmTemplate.ClientMasterNoteH\x00\x12\x43\n\x05quest\x18! \x01(\x0b\x32\x32.wuprotos.data.client.ClientGmTemplate.ClientQuestH\x00\x12p\n\x1d\x64\x61ily_reward_monthly_schedule\x18\" \x01(\x0b\x32G.wuprotos.data.client.ClientGmTemplate.ClientDailyRewardMonthlyScheduleH\x00\x12T\n\x0e\x65ncounter_type\x18# \x01(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientEncounterTypeH\x00\x12\x43\n\x05\x65vent\x18$ \x01(\x0b\x32\x32.wuprotos.data.client.ClientGmTemplate.ClientEventH\x00\x1a\xec;\n\x10\x43lientGameConfig\x12\n\n\x02id\x18\x01 \x01(\t\x12\x30\n\x12target_glyph_color\x18\x02 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x31\n\x13reticle_glyph_color\x18\x03 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x31\n\x13\x61ligned_glyph_color\x18\x04 \x01(\x0b\x32\x14.wuprotos.data.Color\x12 \n\x18\x65ncounter_angle_of_spawn\x18\x05 \x01(\x02\x12#\n\x1btime_before_ar_hint_display\x18\x06 \x01(\x02\x12%\n\x1dmax_lock_distance_from_origin\x18\x07 \x01(\x02\x12.\n&distance_behind_camera_to_spawn_marker\x18\x08 \x01(\x02\x12\'\n\x1ftime_before_switch_to_ar_simple\x18\t \x01(\x02\x12\x1d\n\x15tutorial_encounter_id\x18\n \x01(\t\x12\x1e\n\x16\x65ncounter_reset_gforce\x18\x0b \x01(\x02\x12)\n!local_map_update_interval_seconds\x18\x0c \x01(\x02\x12l\n\x13\x66loo_network_config\x18\r \x01(\x0b\x32O.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig\x12\'\n\x1f\x66loo_contribution_button_values\x18\x0e \x03(\x03\x12\x1a\n\x12\x61pp_background_map\x18\x0f \x01(\x05\x12\x1b\n\x13\x61pp_background_full\x18\x10 \x01(\x05\x12\x1c\n\x14triggerable_cooldown\x18\x11 \x01(\x02\x12!\n\x19level_up_trigger_priority\x18\x12 \x01(\x05\x12 \n\x18walkbox_trigger_priority\x18\x13 \x01(\x05\x12o\n\x12permissions_config\x18\x14 \x01(\x0b\x32S.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList\x12%\n\x1dswish_game_scoring_thresholds\x18\x16 \x03(\x02\x12\"\n\x1aswish_game_scoring_bonuses\x18\x17 \x03(\x02\x12Y\n\x0c\x61udio_config\x18\x18 \x01(\x0b\x32\x43.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.AudioConfig\x12\x1b\n\x13\x61udio_initial_banks\x18\x19 \x03(\t\x12~\n\x1asubfeature_prestige_levels\x18\x1a \x03(\x0b\x32Z.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeaturePrestigeLevels\x12_\n\x0c\x62onus_config\x18\x1b \x01(\x0b\x32I.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig\x12\x30\n(portkey_wrackspurt_collection_haptic_key\x18\x1c \x01(\t\x12^\n\x0cparkmode_bgs\x18\x1d \x03(\x0b\x32H.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ParkmodeBgsEntry\x12)\n!potion_masternote_unlock_treshold\x18\x1e \x01(\x05\x12z\n\x18subfeature_family_orders\x18\x1f \x03(\x0b\x32X.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeatureFamilyOrders\x12k\n\x16\x62\x61ttery_saver_profiles\x18  \x03(\x0b\x32K.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.BatterySaverProfile\x12!\n\x19rate_app_min_player_level\x18! \x01(\x05\x12\x1e\n\x16rate_app_cooldown_days\x18\" \x01(\x05\x12\x19\n\x11too_fast_cooldown\x18# \x01(\x05\x12\x64\n\x0f\x65ncounter_banks\x18$ \x03(\x0b\x32K.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.EncounterSoundBanks\x12+\n#daily_reward_popup_trigger_priority\x18% \x01(\x05\x12!\n\x19rate_app_trigger_priority\x18& \x01(\x05\x12\x61\n\nftue_video\x18+ \x01(\x0b\x32M.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig\x12\x1c\n\x14tutorial_potion_brew\x18, \x01(\t\x12$\n\x1cgeneric_trace_spell_fail_sfx\x18- \x01(\t\x12\x1f\n\x17tracing_spell_glyph_sfx\x18. \x01(\t\x12\x1c\n\x14tracing_complete_sfx\x18/ \x01(\t\x12 \n\x18spell_bar_increasing_sfx\x18\x30 \x01(\t\x12\x1a\n\x12\x62\x61\x64_spell_cast_sfx\x18\x31 \x01(\t\x12\x1b\n\x13good_spell_cast_sfx\x18\x32 \x01(\t\x12\x1c\n\x14great_spell_cast_sfx\x18\x33 \x01(\t\x12\x1e\n\x16perfect_spell_cast_sfx\x18\x34 \x01(\t\x12*\n\"registry_sticker_placed_haptic_key\x18\x35 \x01(\t\x12 \n\x18rewards_vessel_by_rarity\x18\x36 \x03(\t\x12\x1b\n\x13rewards_sound_banks\x18\x37 \x03(\t\x12#\n\x1b\x66irst_sticker_storyboard_id\x18\x38 \x01(\t\x12#\n\x1b\x66irst_sticker_collection_id\x18\x39 \x01(\t\x12\x32\n\x14\x61vatar_default_color\x18: \x01(\x0b\x32\x14.wuprotos.data.Color\x12:\n\x16lock_on_completion_sfx\x18; \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12\x37\n\x13lock_on_time_up_sfx\x18< \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12\x34\n\x10protego_cast_sfx\x18= \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12\x37\n\x13protego_time_up_sfx\x18> \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12!\n\x19ms_before_final_intensity\x18? \x01(\x05\x12%\n\x1dms_before_secondary_intensity\x18@ \x01(\x05\x12L\n%challenge_thirty_seconds_left_stinger\x18\x41 \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12T\n-challenge_encounter_player_victorious_stinger\x18\x42 \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12R\n+challenge_encounter_player_defeated_stinger\x18\x43 \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12>\n\x17\x63hallenge_begin_stinger\x18\x44 \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12?\n\x18\x63hallenge_finish_victory\x18\x45 \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12>\n\x17\x63hallenge_finish_defeat\x18\x46 \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12I\n\"challenge_elite_mob_spawns_stinger\x18G \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12\'\n\x1finternet_reachability_check_url\x18H \x01(\t\x12\x1c\n\x14rate_app_max_prompts\x18I \x01(\x05\x12\x18\n\x10rate_app_version\x18J \x01(\x05\x12,\n$rate_app_trigger_wizarding_challenge\x18K \x01(\x05\x12.\n&rate_app_trigger_sticker_page_complete\x18L \x01(\x05\x12\x32\n*rate_app_trigger_event_quest_line_complete\x18M \x01(\x05\x12\x1f\n\x17\x63hecks_until_gps_prompt\x18N \x01(\x05\x12\x1c\n\x14\x66ortress_sound_banks\x18O \x03(\t\x12\x45\n!ten_seconds_left_in_challenge_sfx\x18P \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12\x45\n!long_second_left_in_challenge_sfx\x18Q \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12K\n\'short_half_second_left_in_challenge_sfx\x18R \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12:\n\x16one_minute_warning_sfx\x18S \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12\"\n\x1arate_app_trigger_map_enter\x18T \x01(\x08\x12+\n#professions_affinity_advantage_icon\x18U \x01(\t\x12)\n!professions_affinity_neutral_icon\x18V \x01(\t\x12.\n&professions_affinity_disadvantage_icon\x18W \x01(\t\x12$\n\x1cinternet_outage_backoff_time\x18X \x01(\x05\x12\"\n\x1a\x61r_core_storyboard_trigger\x18Y \x01(\t\x12m\n\x13voice_over_mappings\x18Z \x03(\x0b\x32P.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.VoiceOverLanguageMapping\x12\'\n\x1fin_app_message_trigger_priority\x18[ \x01(\x05\x12(\n internal_fortress_interact_range\x18\\ \x01(\x02\x12/\n\'low_connectivity_threshold_bytes_per_ms\x18] \x01(\x02\x12\x17\n\x0fgame_size_in_kb\x18^ \x01(\x05\x12/\n\'wc_map_enemy_marker_buff_occupied_image\x18_ \x01(\t\x12-\n%wc_map_enemy_marker_buff_vacant_image\x18` \x01(\t\x12*\n\"wc_enemy_look_in_buff_border_image\x18\x61 \x01(\t\x12j\n\x15localization_mappings\x18\x62 \x03(\x0b\x32K.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.LocalizationMapping\x1a\x32\n\x10ParkmodeBgsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\x91\t\n\x15\x43lientFtueVideoConfig\x12\x86\x01\n\x0b\x66rom_assets\x18\x01 \x01(\x0b\x32o.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoFallbackDefinitionH\x00\x12\x7f\n\x08\x66rom_url\x18\x02 \x01(\x0b\x32k.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoNameDefinitionH\x00\x12\x17\n\x0fquality_buckets\x18\x03 \x03(\t\x12|\n\x10quality_mappings\x18\x04 \x03(\x0b\x32\x62.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.QualityMappingsEntry\x1a\xa3\x01\n\x14QualityMappingsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12z\n\x05value\x18\x02 \x01(\x0b\x32k.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoQualityMapping:\x02\x38\x01\x1a\xbd\x02\n\x1d\x43lientFtueVideoQualityMapping\x12\x84\x01\n\x07measure\x18\x01 \x01(\x0e\x32s.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoQualityMapping.Measure\x12\x13\n\x0blower_bound\x18\x02 \x01(\x05\x12\x13\n\x0bupper_bound\x18\x03 \x01(\x05\"k\n\x07Measure\x12\x16\n\x12\x63\x61mera_pixel_width\x10\x00\x12\x17\n\x13\x63\x61mera_pixel_height\x10\x01\x12\x16\n\x12screen_pixel_width\x10\x02\x12\x17\n\x13screen_pixel_height\x10\x03\x1a\xab\x01\n!ClientFtueVideoFallbackDefinition\x12\x85\x01\n\x10name_definitions\x18\x01 \x03(\x0b\x32k.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoNameDefinition\x1a\x34\n\x1d\x43lientFtueVideoNameDefinition\x12\x13\n\x0bname_format\x18\x01 \x01(\tB\r\n\x0bVideoSource\x1a\xe9\x01\n\x17\x43lientFlooNetworkConfig\x12\x94\x01\n\x1f\x65lectoral_votes_per_floo_points\x18\x01 \x03(\x0b\x32k.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig.ElectoralVotesPerFlooPoints\x1a\x37\n\x1b\x45lectoralVotesPerFlooPoints\x12\x18\n\x10\x66ortress_prefabs\x18\x01 \x03(\t\x1a\xee\x01\n\x11\x43lientBonusConfig\x12\n\n\x02id\x18\x01 \x01(\t\x12\x15\n\raccuracy_tier\x18\x02 \x03(\x02\x12\x1e\n\x16\x61\x63\x63uracy_tier_bonus_id\x18\x03 \x03(\t\x12 \n\x18\x61\x63\x63uracy_tier_bonus_text\x18\x04 \x03(\t\x12\x1b\n\x13\x66irst_time_bonus_id\x18\x05 \x01(\t\x12\x1d\n\x15\x66irst_time_bonus_text\x18\x06 \x01(\t\x12\x1a\n\x12life_time_bonus_id\x18\x07 \x01(\t\x12\x1c\n\x14life_time_bonus_text\x18\x08 \x01(\t\x1aT\n\x13LocalizationMapping\x12\x15\n\rlanguage_code\x18\x01 \x01(\t\x12\x12\n\nloc_string\x18\x02 \x01(\t\x12\x12\n\nis_enabled\x18\x03 \x01(\x08\x1a\xb1\x02\n\x1bPermissionsConfigStaticList\x12}\n\x04list\x18\x01 \x03(\x0b\x32o.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData\x1a\x92\x01\n\x1bPermissionsConfigStaticData\x12\n\n\x02id\x18\x01 \x01(\t\x12\x16\n\x0einitial_prompt\x18\x02 \x01(\t\x12\x15\n\rdenial_prompt\x18\x03 \x01(\t\x12\x10\n\x08optional\x18\x04 \x01(\x08\x12\r\n\x05title\x18\x05 \x01(\t\x12\x17\n\x0f\x62\x65gging_enabled\x18\x06 \x01(\x08\x1aJ\n\x18VoiceOverLanguageMapping\x12\x15\n\rlanguage_code\x18\x01 \x01(\t\x12\x17\n\x0flanguage_folder\x18\x02 \x01(\t\x1a}\n\x0b\x41udioConfig\x12\x13\n\x0bmusic_event\x18\x01 \x01(\t\x12Y\n\x0cmusic_config\x18\x02 \x03(\x0b\x32\x43.wuprotos.data.client.ClientGmTemplate.ClientGameConfig.MusicConfig\x1a\x35\n\x13\x42\x61tterySaverProfile\x12\x10\n\x08profiles\x18\x01 \x03(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x1a\x85\x01\n CollectionSubfeatureFamilyOrders\x12M\n\nsubfeature\x18\x01 \x01(\x0e\x32\x39.wuprotos.data.collection.CollectionFamily.SubfeatureType\x12\x12\n\nfamily_ids\x18\x02 \x03(\t\x1a\xcc\x01\n\"CollectionSubfeaturePrestigeLevels\x12M\n\nsubfeature\x18\x01 \x01(\x0e\x32\x39.wuprotos.data.collection.CollectionFamily.SubfeatureType\x12W\n\x0fprestige_levels\x18\x02 \x03(\x0b\x32>.wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel\x1a\x42\n\x13\x45ncounterSoundBanks\x12\x16\n\x0e\x65ncounter_type\x18\x01 \x01(\t\x12\x13\n\x0bsound_banks\x18\x02 \x03(\t\x1aX\n\x0bMusicConfig\x12\x16\n\x0emusic_location\x18\x01 \x01(\x05\x12\x31\n\nparameters\x18\x02 \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x1a\xfb\x04\n\x16\x43lientCollectionFamily\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x03 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x04 \x01(\t\x12\x0c\n\x04icon\x18\x05 \x01(\t\x12\x18\n\x10landmark_texture\x18\x06 \x01(\t\x12\x17\n\x0flandmark_prefab\x18\x07 \x01(\t\x12\x1c\n\x14landmark_description\x18\x08 \x01(\t\x12\x12\n\nshow_in_ui\x18\t \x01(\x08\x12\x15\n\rlandmark_icon\x18\x0b \x01(\t\x12#\n\x05\x63olor\x18\x0c \x01(\x0b\x32\x14.wuprotos.data.Color\x12-\n\x0f\x63olor_highlight\x18\r \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x14\n\x0ctrace_prefab\x18\x0e \x01(\t\x12\x15\n\rborder_images\x18\x0f \x03(\t\x12\x1d\n\x15\x66\x61mily_runestone_icon\x18\x10 \x01(\t\x12)\n\x05sound\x18\x11 \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12;\n\x16unarchive_requirements\x18\x12 \x01(\x0b\x32\x1b.wuprotos.data.Requirements\x12!\n\x19trace_rarity_vfx_override\x18\x13 \x01(\t\x12Y\n\x11prestige_override\x18\x14 \x03(\x0b\x32>.wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel\x12\"\n\x1ahide_landmark_info_details\x18\x15 \x01(\x08\x1a\xc6\x01\n\x17\x43ollectionPrestigeLevel\x12\x14\n\x0c\x62order_image\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12#\n\x05\x63olor\x18\x03 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x13\n\x0bis_metallic\x18\x04 \x01(\x08\x12\x12\n\nframe_mesh\x18\x05 \x01(\t\x12\x12\n\nnormal_map\x18\x06 \x01(\t\x12\x12\n\nalbedo_map\x18\x07 \x01(\t\x12\x11\n\troughness\x18\x08 \x01(\x02\x1a\xf9\x02\n\x0f\x43lientVaultItem\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x0e\n\x06prefab\x18\x04 \x01(\t\x12\x0e\n\x06rarity\x18\x05 \x01(\x03\x12\x13\n\x0b\x64\x65scription\x18\x06 \x01(\t\x12\x1f\n\x17show_in_vault_item_menu\x18\x08 \x01(\x08\x12\x11\n\tdeletable\x18\t \x01(\x08\x12\x1c\n\x14show_in_rewards_flow\x18\n \x01(\x08\x12#\n\x05\x63olor\x18\x0b \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x12\n\nbackground\x18\x0c \x01(\t\x12\x10\n\x08ordering\x18\r \x01(\x05\x12\x30\n\x0creward_sound\x18\x0e \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12\x1d\n\x15reward_sound_priority\x18\x0f \x01(\x05\x12\x1b\n\x13spine_animated_icon\x18\x10 \x01(\t\x1a\xfc\x04\n\x11\x43lientStoreConfig\x12\n\n\x02id\x18\x01 \x01(\t\x12`\n\x10store_categories\x18\x02 \x03(\x0b\x32\x46.wuprotos.data.client.ClientGmTemplate.ClientStoreConfig.StoreCategory\x12\\\n\x0estore_rarities\x18\x03 \x03(\x0b\x32\x44.wuprotos.data.client.ClientGmTemplate.ClientStoreConfig.StoreRarity\x12$\n\x1c\x64\x65\x66\x61ult_store_pack_icon_path\x18\x04 \x01(\t\x1aR\n\x0bStoreRarity\x12\n\n\x02id\x18\x01 \x01(\t\x12(\n\ntext_color\x18\x02 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\r\n\x05title\x18\x03 \x01(\t\x1a\xa0\x02\n\rStoreCategory\x12\x11\n\ticon_path\x18\x01 \x01(\t\x12\r\n\x05title\x18\x02 \x01(\t\x12\x0e\n\x06header\x18\x03 \x01(\t\x12*\n\x0cheader_color\x18\x04 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x12\n\nbackground\x18\x05 \x01(\t\x12.\n\x10\x62\x61\x63kground_color\x18\x06 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x1b\n\x13store_subcategories\x18\x07 \x03(\t\x12\x15\n\rheader_prefab\x18\x08 \x01(\t\x12(\n\nitem_color\x18\t \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x0f\n\x07\x65nabled\x18\n \x01(\x08\x1a\xf1\x04\n\x0b\x43lientSpell\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x18\n\x10\x63harge_up_effect\x18\x03 \x03(\t\x12T\n\ttimelines\x18\x04 \x03(\x0b\x32\x41.wuprotos.data.client.ClientGmTemplate.ClientSpell.TimelinesEntry\x12[\n\rcritical_hits\x18\x05 \x03(\x0b\x32\x44.wuprotos.data.client.ClientGmTemplate.ClientSpell.CriticalHitsEntry\x12\x0f\n\x07pattern\x18\x06 \x01(\t\x12\x13\n\x0bglyph_image\x18\x07 \x01(\t\x12!\n\x19protego_player_succeed_tl\x18\x08 \x01(\t\x12 \n\x18protego_player_failed_tl\x18\t \x01(\t\x12\'\n\x1fprotego_player_succeed_intro_tl\x18\n \x01(\t\x12\x18\n\x10\x65nd_burst_effect\x18\x0b \x01(\t\x12\x12\n\nrng_vfx_tl\x18\x0c \x01(\t\x12\x19\n\x11spell_rng_loop_tl\x18\r \x01(\t\x12\x1c\n\x14spell_rng_succeed_tl\x18\x0e \x01(\t\x12\x19\n\x11spell_rng_fail_tl\x18\x0f \x01(\t\x1a\x30\n\x0eTimelinesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\x33\n\x11\x43riticalHitsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\xb1\x01\n\x11\x43lientTeamControl\x12\n\n\x02id\x18\x01 \x01(\t\x12\x11\n\tteam_name\x18\x02 \x01(\t\x12\x11\n\tteam_icon\x18\x03 \x01(\t\x12(\n\nteam_color\x18\x04 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x18\n\x10team_header_icon\x18\x05 \x01(\t\x12\x13\n\x0bteam_banner\x18\x06 \x01(\t\x12\x11\n\tteam_flag\x18\x07 \x01(\t\x1a\xcf\x07\n\x17\x43lientSelfieAvatarAsset\x12\n\n\x02id\x18\x01 \x01(\t\x12\x36\n\x11unlock_conditions\x18\x02 \x03(\x0b\x32\x1b.wuprotos.data.Requirements\x12\x19\n\x11\x61sset_script_name\x18\x03 \x01(\t\x12\x0c\n\x04icon\x18\x04 \x01(\t\x12h\n\nasset_type\x18\x05 \x01(\x0e\x32T.wuprotos.data.client.ClientGmTemplate.ClientSelfieAvatarAsset.SelfieAvatarAssetType\x12\x66\n\tlens_type\x18\x06 \x01(\x0e\x32S.wuprotos.data.client.ClientGmTemplate.ClientSelfieAvatarAsset.SelfieAvatarLensType\x12\x0f\n\x07visible\x18\x07 \x01(\x08\x12{\n\x14media_supported_type\x18\x08 \x01(\x0e\x32].wuprotos.data.client.ClientGmTemplate.ClientSelfieAvatarAsset.SelfieAvatarMediaSupportedType\x12\x10\n\x08\x61nimated\x18\t \x01(\x08\x12\x15\n\rstore_pack_id\x18\n \x01(\t\x12\x10\n\x08order_id\x18\x0b \x01(\x05\x12\x19\n\x11is_full_body_lens\x18\x0c \x01(\x08\x12\x16\n\x0eis_empty_asset\x18\r \x01(\x08\x12\x12\n\nshow_badge\x18\x0e \x01(\x08\x12:\n\x15visibility_conditions\x18\x0f \x01(\x0b\x32\x1b.wuprotos.data.Requirements\x12\x18\n\x10stock_asset_name\x18\x10 \x01(\t\"i\n\x15SelfieAvatarAssetType\x12\x16\n\x12UNKNOWN_ASSET_TYPE\x10\x00\x12\t\n\x05LENSE\x10\x01\x12\n\n\x06\x46ILTER\x10\x02\x12\t\n\x05\x46RAME\x10\x03\x12\x0b\n\x07STICKER\x10\x04\x12\t\n\x05STOCK\x10\x05\"K\n\x14SelfieAvatarLensType\x12\x15\n\x11UNKNOWN_LENS_TYPE\x10\x00\x12\x08\n\x04HEAD\x10\x01\x12\x08\n\x04\x46\x41\x43\x45\x10\x02\x12\x08\n\x04NECK\x10\x03\"W\n\x1eSelfieAvatarMediaSupportedType\x12\x16\n\x12UNKNOWN_MEDIA_TYPE\x10\x00\x12\x07\n\x03\x41LL\x10\x01\x12\t\n\x05VIDEO\x10\x02\x12\t\n\x05PHOTO\x10\x03\x1a\x39\n\x13\x43lientRpgstatsBlock\x12\n\n\x02id\x18\x01 \x01(\t\x12\x16\n\x0erelevant_stats\x18\x02 \x03(\t\x1a\xf4\x06\n\x0f\x43lientStorePack\x12\n\n\x02id\x18\x01 \x01(\t\x12\x1a\n\x12show_in_inline_buy\x18\x02 \x01(\x08\x12\x0c\n\x04name\x18\x03 \x01(\t\x12\x61\n\x11store_pack_config\x18\x04 \x03(\x0b\x32\x46.wuprotos.data.client.ClientGmTemplate.ClientStorePack.StorePackConfig\x12\x0e\n\x06sku_id\x18\x05 \x01(\t\x12\x1e\n\x16override_title_loc_key\x18\x06 \x01(\t\x12\x1d\n\x15max_reward_item_count\x18\x07 \x01(\x05\x1a\xf8\x04\n\x0fStorePackConfig\x12\x10\n\x08priority\x18\x01 \x01(\x05\x12\x16\n\x0esubcategory_id\x18\x02 \x01(\t\x12\x11\n\ticon_path\x18\x03 \x01(\t\x12\x1c\n\x14show_quantity_banner\x18\x04 \x01(\x08\x12\x19\n\x11quantity_override\x18\x05 \x01(\t\x12\x13\n\x0bprefab_path\x18\x06 \x01(\t\x12\x16\n\x0emarketing_text\x18\x07 \x01(\t\x12\x18\n\x10\x64\x65scription_text\x18\x08 \x01(\t\x12\x12\n\nshow_badge\x18\t \x01(\x08\x12\x13\n\x0b\x62onus_value\x18\n \x01(\x05\x12\x11\n\trarity_id\x18\x0b \x01(\t\x12m\n\tpack_size\x18\x0c \x01(\x0e\x32Z.wuprotos.data.client.ClientGmTemplate.ClientStorePack.StorePackConfig.StorePackConfigSize\x12\x13\n\x0bshow_in_hud\x18\r \x01(\x08\x12\x14\n\x0chud_priority\x18\x0e \x01(\x05\x12\x15\n\rhud_icon_path\x18\x0f \x01(\t\x12\x12\n\nicon2_path\x18\x10 \x01(\t\x12\x1c\n\x14popup_image_override\x18\x11 \x01(\t\x12\x1d\n\x15hide_pack_on_sold_out\x18\x12 \x01(\x08\x12\"\n\x1ahide_pack_on_map_hud_click\x18\x13 \x01(\x08\"F\n\x13StorePackConfigSize\x12\x0e\n\nSIZE_SMALL\x10\x00\x12\x0f\n\x0bSIZE_MEDIUM\x10\x01\x12\x0e\n\nSIZE_LARGE\x10\x02\x1a\x86\x10\n\x10\x43lientStoryboard\x12\n\n\x02id\x18\x01 \x01(\t\x12[\n\x05steps\x18\x02 \x03(\x0b\x32L.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep\x12\x15\n\rtrigger_point\x18\x03 \x01(\t\x12\x10\n\x08priority\x18\x04 \x01(\x05\x1a\xdf\x0e\n\x14\x43lientStoryboardStep\x12\x14\n\x0c\x63ustom_state\x18\x01 \x01(\t\x12\x82\x01\n\x0egeneric_dialog\x18\x02 \x01(\x0b\x32h.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardGenericDialogStepH\x00\x12q\n\x05pause\x18\x03 \x01(\x0b\x32`.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardPauseStepH\x00\x12\x82\x01\n\x0e\x61\x64vice_overlay\x18\x04 \x01(\x0b\x32h.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardAdviceOverlayStepH\x00\x12\x8c\x01\n\x13\x61\x64vice_interjection\x18\x05 \x01(\x0b\x32m.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardAdviceInterjectionStepH\x00\x12\x98\x01\n\x19\x63onversation_interjection\x18\x06 \x01(\x0b\x32s.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardConversationInterjectionStepH\x00\x12\x1c\n\x14\x63\x61ll_to_action_asset\x18\x07 \x01(\t\x12(\n call_to_action_button_identifier\x18\x08 \x01(\t\x1a\x15\n\x13StoryboardPauseStep\x1aO\n\x1bStoryboardGenericDialogStep\x12\r\n\x05title\x18\x01 \x01(\t\x12\x0c\n\x04text\x18\x02 \x01(\t\x12\x13\n\x0b\x62utton_text\x18\x03 \x01(\t\x1a\xbc\x01\n\x0cSpeechBubble\x12 \n\x18\x63haracter_portrait_image\x18\x01 \x01(\t\x12\x1d\n\x15\x63haracter_name_lockey\x18\x02 \x01(\t\x12\x1a\n\x12\x62ubble_prefab_name\x18\x03 \x01(\t\x12\x1d\n\x15\x62ubble_content_lockey\x18\x04 \x01(\t\x12\x30\n\x0csound_config\x18\x05 \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x1a\x99\x01\n&StoryboardConversationInterjectionStep\x12o\n\x0c\x63onversation\x18\x01 \x03(\x0b\x32Y.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.SpeechBubble\x1a\x8e\x03\n\x1bStoryboardAdviceOverlayStep\x12p\n\rspeech_bubble\x18\x01 \x01(\x0b\x32Y.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.SpeechBubble\x12\x16\n\x0erequires_scrim\x18\x02 \x01(\x08\x12\x92\x01\n\talignment\x18\x03 \x01(\x0e\x32\x7f.wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.StoryboardAdviceOverlayStep.AdviceOverlayAlignment\x12!\n\x19show_continue_action_text\x18\x04 \x01(\x08\"-\n\x16\x41\x64viceOverlayAlignment\x12\n\n\x06\x62ottom\x10\x00\x12\x07\n\x03top\x10\x01\x1a\xe5\x01\n StoryboardAdviceInterjectionStep\x12 \n\x18\x63haracter_portrait_image\x18\x01 \x01(\t\x12\x1d\n\x15\x63haracter_name_lockey\x18\x02 \x01(\t\x12\x1b\n\x13\x63ontent_text_lockey\x18\x03 \x01(\t\x12\x1a\n\x12\x63ontent_image_name\x18\x04 \x01(\t\x12\x30\n\x0csound_config\x18\x05 \x01(\x0b\x32\x1a.wuprotos.data.SoundConfig\x12\x15\n\rbutton_lockey\x18\x06 \x01(\tB\x06\n\x04\x44\x61ta\x1a\xab\x02\n\rClientRpgstat\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0f\n\x07tooltip\x18\x02 \x01(\t\x12\x12\n\npercentage\x18\x03 \x01(\x08\x12\x0f\n\x07show_ui\x18\x04 \x01(\x08\x12\x11\n\tstat_name\x18\x05 \x01(\t\x12\x19\n\x11\x64isplay_threshold\x18\x06 \x01(\x05\x12\x19\n\x11icon_display_type\x18\x07 \x01(\t\x12\x11\n\tinfo_desc\x18\x08 \x01(\t\x12N\n\x05icons\x18\t \x03(\x0b\x32?.wuprotos.data.client.ClientGmTemplate.ClientRpgstat.IconsEntry\x1a,\n\nIconsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\x81\x02\n\x0c\x43lientRecipe\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\x12\x0c\n\x04icon\x18\x04 \x01(\t\x12\r\n\x05model\x18\x05 \x01(\t\x12\x12\n\ncollect_fx\x18\x06 \x01(\t\x12\x13\n\x0b\x63rafting_fx\x18\x07 \x01(\t\x12\x11\n\treveal_fx\x18\x08 \x01(\t\x12+\n\rprimary_color\x18\t \x01(\x0b\x32\x14.wuprotos.data.Color\x12-\n\x0fsecondary_color\x18\n \x01(\x0b\x32\x14.wuprotos.data.Color\x12\r\n\x05index\x18\x0b \x01(\x05\x1a\x65\n\x0b\x43lientQuest\x12\n\n\x02id\x18\x01 \x01(\t\x12\x12\n\nsort_order\x18\x02 \x01(\x05\x12\x1a\n\x12quest_name_loc_key\x18\x03 \x01(\t\x12\x1a\n\x12quest_desc_loc_key\x18\x04 \x01(\t\x1a\xc3\x02\n\x14\x43lientProtegoPattern\x12\n\n\x02id\x18\x01 \x01(\t\x12`\n\x13ui_target_start_pos\x18\x02 \x01(\x0b\x32\x43.wuprotos.data.client.ClientGmTemplate.ClientProtegoPattern.Vector2\x12\x1e\n\x16ui_target_start_radius\x18\x03 \x01(\x02\x12^\n\x11ui_target_end_pos\x18\x04 \x01(\x0b\x32\x43.wuprotos.data.client.ClientGmTemplate.ClientProtegoPattern.Vector2\x12\x1c\n\x14ui_target_end_radius\x18\x05 \x01(\x02\x1a\x1f\n\x07Vector2\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x1a\xb7\x05\n\x10\x43lientProfession\x12\n\n\x02id\x18\x01 \x01(\t\x12\x15\n\rdisplay_order\x18\x02 \x01(\x05\x12\x0c\n\x04name\x18\x03 \x01(\t\x12\x0c\n\x04\x64\x65sc\x18\x04 \x01(\t\x12\x0c\n\x04icon\x18\x05 \x01(\t\x12\x13\n\x0bmentor_name\x18\x06 \x01(\t\x12\x13\n\x0bmentor_desc\x18\x07 \x01(\t\x12\x13\n\x0bmentor_icon\x18\x08 \x01(\t\x12\x19\n\x11screen_background\x18\t \x01(\t\x12\x12\n\nicon_stamp\x18\n \x01(\t\x12 \n\x18screen_background_header\x18\x0b \x01(\t\x12\x18\n\x10show_coming_soon\x18\x0c \x01(\x08\x12\"\n\x1ashow_profession_rank_meter\x18\x0e \x01(\x08\x12 \n\x18profession_activated_sfx\x18\x0f \x01(\t\x12m\n\x14profession_ranks_map\x18\x10 \x03(\x0b\x32O.wuprotos.data.client.ClientGmTemplate.ClientProfession.ProfessionRanksMapEntry\x12\x1b\n\x13\x65nemy_affinity_icon\x18\x11 \x01(\t\x12\x1b\n\x13\x65nemy_affinity_name\x18\x12 \x01(\t\x12\x15\n\raffinity_desc\x18\x13 \x01(\t\x12.\n\x10profession_color\x18\x14 \x01(\x0b\x32\x14.wuprotos.data.Color\x1av\n\x17ProfessionRanksMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12J\n\x05value\x18\x02 \x01(\x0b\x32;.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank:\x02\x38\x01\x1a\xca\x06\n\x14\x43lientProfessionRank\x12q\n\x14profession_nodes_map\x18\x01 \x03(\x0b\x32S.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank.ProfessionNodesMapEntry\x12\x0c\n\x04name\x18\x02 \x01(\t\x12j\n\x10profession_nodes\x18\x03 \x03(\x0b\x32P.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank.ClientProfessionNode\x12\x16\n\x0eimage_unlocked\x18\x04 \x01(\t\x12\x1b\n\x13image_unlocked_open\x18\x05 \x01(\t\x12\x14\n\x0cimage_locked\x18\x06 \x01(\t\x12\x19\n\x11image_locked_open\x18\x07 \x01(\t\x12\x1c\n\x14professin_rank_order\x18\x08 \x01(\x05\x1a\x8b\x01\n\x17ProfessionNodesMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12_\n\x05value\x18\x02 \x01(\x0b\x32P.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank.ClientProfessionNode:\x02\x38\x01\x1a\xb2\x02\n\x14\x43lientProfessionNode\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04icon\x18\x02 \x01(\t\x12z\n\x06levels\x18\x03 \x03(\x0b\x32j.wuprotos.data.client.ClientGmTemplate.ClientProfessionRank.ClientProfessionNode.ClientProfessionNodeLevel\x12\x13\n\x0bunlock_desc\x18\x04 \x01(\t\x12\x16\n\x0e\x63ompleted_desc\x18\x05 \x01(\t\x12\x16\n\x0e\x63ompleted_icon\x18\x06 \x01(\t\x1a=\n\x19\x43lientProfessionNodeLevel\x12 \n\x18is_grant_new_map_ability\x18\x01 \x01(\x08\x1aX\n\rClientPortkey\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x1f\n\x17localized_complete_text\x18\x04 \x01(\t\x1aG\n\x15\x43lientOutpostTemplate\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08interior\x18\x02 \x01(\t\x12\x10\n\x08\x65xterior\x18\x03 \x01(\t\x1aK\n\x13\x43lientMapIngredient\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06prefab\x18\x02 \x01(\t\x12\x18\n\x10hide_at_capacity\x18\x03 \x01(\x08\x1a\xf5\x02\n\x10\x43lientMapAbility\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x04 \x01(\t\x12\x15\n\reffect_sprite\x18\x05 \x01(\t\x12\x13\n\x0bstatus_icon\x18\x06 \x01(\t\x12\x0c\n\x04slot\x18\x07 \x01(\x05\x12\x15\n\reffect_prefab\x18\x08 \x01(\t\x12]\n\x04rule\x18\t \x01(\x0e\x32O.wuprotos.data.client.ClientGmTemplate.ClientMapAbility.AdditionalSelectionRule\"t\n\x17\x41\x64\x64itionalSelectionRule\x12\x1d\n\x19none_additional_selection\x10\x00\x12\x14\n\x10no_if_max_health\x10\x01\x12\x13\n\x0fno_if_max_focus\x10\x02\x12\x0f\n\x0bno_if_alive\x10\x03\x1a\xa1\x01\n\x0c\x43lientHaptic\x12\n\n\x02id\x18\x01 \x01(\t\x12\x17\n\x0fioswait_timings\x18\x02 \x03(\x05\x12\x17\n\x0fioshaptic_types\x18\x03 \x03(\x05\x12\x1c\n\x14\x61ndroid_wait_timings\x18\x04 \x03(\x05\x12\x1a\n\x12\x61ndroid_amplitudes\x18\x05 \x03(\x05\x12\x19\n\x11\x61ndroid_durations\x18\x06 \x03(\x05\x1a\xb5\x02\n\x0b\x43lientEvent\x12\n\n\x02id\x18\x01 \x01(\t\x12\x16\n\x0eis_user_facing\x18\x02 \x01(\x08\x12\x12\n\ntitle_text\x18\x03 \x01(\t\x12\x18\n\x10\x64\x65scription_text\x18\x04 \x01(\t\x12\r\n\x05image\x18\x05 \x01(\t\x12\x16\n\x0e\x65ncounter_icon\x18\x06 \x01(\t\x12\"\n\x1a\x65ncounter_hud_tooltip_text\x18\x07 \x01(\t\x12\x1c\n\x14\x65ncounter_start_text\x18\x08 \x01(\t\x12\x32\n\x14quest_ui_frame_color\x18\t \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x37\n\x19quest_ui_background_color\x18\n \x01(\x0b\x32\x14.wuprotos.data.Color\x1a\x90\x01\n\x13\x43lientEncounterType\x12\n\n\x02id\x18\x01 \x01(\t\x12\x17\n\x0fshow_in_look_in\x18\x02 \x01(\x08\x12\x1b\n\x13look_in_description\x18\x03 \x01(\t\x12\x14\n\x0clook_in_icon\x18\x04 \x01(\t\x12!\n\x19\x63onditional_tag_stat_desc\x18\x05 \x01(\t\x1a\xd2!\n\x0f\x43lientEncounter\x12\n\n\x02id\x18\x01 \x01(\t\x12$\n\x1c\x65ncounter_searching_timeline\x18\x02 \x01(\t\x12*\n\"encounter_searching_idle_timelines\x18\x03 \x03(\t\x12\x1f\n\x17\x65ncounter_flee_timeline\x18\x04 \x01(\t\x12\x18\n\x10\x65ncounter_target\x18\x05 \x01(\t\x12[\n\x06stages\x18\x06 \x03(\x0b\x32K.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage\x12\x1f\n\x17\x65ncounter_target_layout\x18\x07 \x01(\t\x12\x1c\n\x14search_target_layout\x18\x08 \x01(\t\x12\x18\n\x10\x65ncounter_assets\x18\t \x03(\t\x12\x1c\n\x14\x65ncounter_map_sprite\x18\n \x01(\t\x12=\n\x16\x65ncounter_music_params\x18\x0b \x03(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12\x0c\n\x04name\x18\x0c \x01(\t\x12\"\n\x1a\x65ncounter_map_sprite_frame\x18\r \x01(\t\x12\x32\n\x14map_health_bar_color\x18\x0e \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x32\n\x14hud_health_bar_color\x18\x0f \x01(\x0b\x32\x14.wuprotos.data.Color\x1a\xf8\x1c\n\x14\x43lientEncounterStage\x12v\n\x05swish\x18\x01 \x01(\x0b\x32\x65.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageSwishH\x00\x12x\n\x06\x63ombat\x18\x02 \x01(\x0b\x32\x66.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombatH\x00\x12z\n\x07portkey\x18\x03 \x01(\x0b\x32g.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStagePortkeyH\x00\x12z\n\x07picture\x18\x04 \x01(\x0b\x32g.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStagePictureH\x00\x12\x17\n\x0f\x64isappear_delay\x18\x05 \x01(\x02\x12\x12\n\nintro_text\x18\x06 \x01(\t\x12|\n\x14stage_setup_sequence\x18\x07 \x03(\x0b\x32^.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientSequenceData\x12\x81\x01\n\x19stage_completion_sequence\x18\x08 \x03(\x0b\x32^.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientSequenceData\x12\x18\n\x10spell_aim_layout\x18\t \x01(\t\x12\x1b\n\x13idle_loop_timelines\x18\n \x03(\t\x12\x1a\n\x12rng_intro_timeline\x18\x0b \x01(\t\x12\x19\n\x11rng_loop_timeline\x18\x0c \x01(\t\x12\x1d\n\x15spell_failed_timeline\x18\r \x01(\t\x12\x19\n\x11\x63ombat_spell_list\x18\x0e \x03(\t\x1a\xc1\x01\n\x12\x43lientSequenceData\x12\x15\n\rsequence_type\x18\x01 \x01(\x05\x12\x10\n\x08obstacle\x18\x02 \x01(\t\x12\x16\n\x0eobstacle_alias\x18\x03 \x01(\t\x12\x18\n\x10\x65ncounter_target\x18\x04 \x01(\t\x12\x15\n\rtimeline_file\x18\x05 \x01(\t\x12\x1b\n\x13sequence_delay_time\x18\x06 \x01(\x02\x12\x1c\n\x14sequence_layout_node\x18\x07 \x01(\t\x1a\x96\x01\n\x19\x43lientEncounterStageSwish\x12=\n\x16trace_succeeds_fanfare\x18\x01 \x01(\x0b\x32\x1d.wuprotos.data.AudioParameter\x12:\n\x13trace_fails_fanfare\x18\x02 \x01(\x0b\x32\x1d.wuprotos.data.AudioParameter\x1a\x93\x01\n\x1b\x43lientEncounterStagePortkey\x12\x10\n\x08scene_id\x18\x01 \x01(\t\x12\x11\n\tportal_id\x18\x02 \x01(\t\x12\x1b\n\x13object_placement_id\x18\x03 \x01(\t\x12\x1b\n\x13portal_placement_id\x18\x04 \x01(\t\x12\x15\n\rportkey_asset\x18\x05 \x01(\t\x1a\xa0\x02\n\x1b\x43lientEncounterStagePicture\x12\n\n\x02id\x18\x01 \x01(\t\x12\x13\n\x0bspawn_scale\x18\x02 \x01(\x02\x12\x11\n\tmin_scale\x18\x03 \x01(\x02\x12\x11\n\tmax_scale\x18\x04 \x01(\x02\x12\x8d\x01\n\x14simple_ar_pos_offset\x18\x05 \x01(\x0b\x32o.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStagePicture.Vector3\x1a*\n\x07Vector3\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x1a\x80\x0f\n\x1a\x43lientEncounterStageCombat\x12\x93\x01\n\x11state_graph_nodes\x18\x01 \x03(\x0b\x32x.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState\x12\x93\x01\n\x0c\x65nemy_traits\x18\x02 \x03(\x0b\x32}.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatEnemyTrait\x12S\n\x0f\x65nemy_rank_tags\x18\x03 \x03(\x0b\x32:.wuprotos.data.client.ClientGmTemplate.ClientEncounterType\x12\x19\n\x11\x65nemy_flavor_text\x18\x04 \x01(\t\x1a\xee\n\n\x11\x43lientCombatState\x12\xa6\x01\n\x0epossible_moves\x18\x01 \x03(\x0b\x32\x8d\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType\x1a\xaf\t\n\x14\x43lientCombatMoveType\x12\xc0\x01\n\rplayer_attack\x18\x01 \x01(\x0b\x32\xa6\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType.ClientCombatPlayerAttackH\x00\x12\xc0\x01\n\rplayer_defend\x18\x02 \x01(\x0b\x32\xa6\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType.ClientCombatPlayerDefendH\x00\x12\xcb\x01\n\x13player_auto_advance\x18\x03 \x01(\x0b\x32\xab\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType.ClientCombatPlayerAutoAdvanceH\x00\x12\x1d\n\x15\x65nemy_action_timeline\x18\x04 \x01(\t\x12\x1f\n\x17player_succeed_timeline\x18\x05 \x01(\t\x12\x1e\n\x16player_failed_timeline\x18\x06 \x01(\t\x1a\xc6\x02\n\x18\x43lientCombatPlayerDefend\x12\xdd\x01\n\x0cpattern_list\x18\x01 \x03(\x0b\x32\xc6\x01.wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType.ClientCombatPlayerDefend.ClientCombatPlayerDefendPattern\x1aJ\n\x1f\x43lientCombatPlayerDefendPattern\x12\x0e\n\x06weight\x18\x01 \x01(\x05\x12\x17\n\x0fprotego_pattern\x18\x02 \x01(\t\x1a\x1f\n\x1d\x43lientCombatPlayerAutoAdvance\x1ak\n\x18\x43lientCombatPlayerAttack\x12\x17\n\x0f\x65nemy_bone_name\x18\x01 \x01(\t\x12\x18\n\x10ui_target_radius\x18\x02 \x01(\x02\x12\x1c\n\x14reticle_time_to_fill\x18\x03 \x01(\x02\x42\x0c\n\nCombatMove\x1aU\n\x16\x43lientCombatEnemyTrait\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x04 \x01(\tB\x06\n\x04Type\x1a\xf3\x02\n ClientDailyRewardMonthlySchedule\x12\n\n\x02id\x18\x01 \x01(\t\x12p\n\rdaily_rewards\x18\x02 \x03(\x0b\x32Y.wuprotos.data.client.ClientGmTemplate.ClientDailyRewardMonthlySchedule.DailyRewardsEntry\x1a\x8e\x01\n\x11\x44\x61ilyRewardsEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12h\n\x05value\x18\x02 \x01(\x0b\x32Y.wuprotos.data.client.ClientGmTemplate.ClientDailyRewardMonthlySchedule.ClientDailyReward:\x02\x38\x01\x1a@\n\x11\x43lientDailyReward\x12\x15\n\rhide_as_crate\x18\x01 \x01(\x08\x12\x14\n\x0cmake_sparkly\x18\x02 \x01(\x08\x1a\xa8\x01\n\x14\x43lientCollectionPage\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x13\n\x0bpage_prefab\x18\x03 \x01(\t\x12\x0f\n\x07icon_bg\x18\x04 \x01(\t\x12\x12\n\nshow_in_ui\x18\x05 \x01(\x08\x12<\n\x17visibility_requirements\x18\x06 \x01(\x0b\x32\x1b.wuprotos.data.Requirements\x1a\xf4\x02\n\x14\x43lientCollectionItem\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x17\n\x0freturn_location\x18\x03 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x04 \x01(\t\x12\x15\n\ricon_returned\x18\x05 \x01(\t\x12\x12\n\nshow_in_ui\x18\x06 \x01(\x08\x12\x61\n\x0cmystery_data\x18\x07 \x03(\x0b\x32K.wuprotos.data.client.ClientGmTemplate.ClientCollectionItem.MysteryItemInfo\x12$\n\x1csticker_placed_storyboard_id\x18\x08 \x01(\t\x1a`\n\x0fMysteryItemInfo\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x1c\n\x14placed_storyboard_id\x18\x04 \x01(\t\x1a\xd9\x03\n\x15\x43lientChamberTemplate\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12(\n challenge_leaving_warning_radius\x18\x03 \x01(\x02\x12\x13\n\x0b\x61rena_scene\x18\x04 \x01(\t\x12\x17\n\x0f\x62\x61se_difficulty\x18\x05 \x01(\x05\x12w\n\x16runestone_difficulties\x18\x06 \x03(\x0b\x32W.wuprotos.data.client.ClientGmTemplate.ClientChamberTemplate.RunestoneDifficultiesEntry\x12\x63\n\x0cparkmode_bgs\x18\x07 \x03(\x0b\x32M.wuprotos.data.client.ClientGmTemplate.ClientChamberTemplate.ParkmodeBgsEntry\x1a<\n\x1aRunestoneDifficultiesEntry\x12\x0b\n\x03key\x18\x01 \x01(\x05\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x32\n\x10ParkmodeBgsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x1a\x46\n\x14\x43lientChallengeBonus\x12\n\n\x02id\x18\x01 \x01(\t\x12\x14\n\x0c\x64isplay_text\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x1a\xcc\x04\n\nClientBuff\x12\n\n\x02id\x18\x01 \x01(\t\x12\x1c\n\x14reward_bonus_loc_key\x18\x03 \x01(\t\x12\x19\n\x11reward_bonus_icon\x18\x04 \x01(\t\x12\x13\n\x0bstatus_icon\x18\x05 \x01(\t\x12\x14\n\x0c\x64isplay_name\x18\x06 \x01(\t\x12k\n\x15\x63onditional_modifiers\x18\x07 \x03(\x0b\x32L.wuprotos.data.client.ClientGmTemplate.ClientBuff.ClientConditionalModifiers\x1a\xe0\x02\n\x1a\x43lientConditionalModifiers\x12\x0c\n\x04\x64\x65sc\x18\x01 \x01(\t\x12n\n\tmodifiers\x18\x02 \x03(\x0b\x32[.wuprotos.data.client.ClientGmTemplate.ClientBuff.ClientConditionalModifiers.ModifiersEntry\x1a\x98\x01\n\x0eModifiersEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12u\n\x05value\x18\x02 \x01(\x0b\x32\x66.wuprotos.data.client.ClientGmTemplate.ClientBuff.ClientConditionalModifiers.ClientConditionalModifier:\x02\x38\x01\x1a)\n\x19\x43lientConditionalModifier\x12\x0c\n\x04\x64\x65sc\x18\x01 \x01(\t\x1a\x36\n\x16\x43lientStoreSubcategory\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08priority\x18\x02 \x01(\x05\x1a\xb5\x02\n\x13\x43lientVaultCategory\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\x12\x0c\n\x04icon\x18\x04 \x01(\t\x12\x15\n\rshow_in_vault\x18\x05 \x01(\x08\x12\x19\n\x11warning_threshold\x18\x06 \x01(\x02\x12\x1e\n\x16\x63\x61tegory_display_order\x18\x07 \x01(\x05\x12-\n%increase_capacity_store_pack_proto_id\x18\x08 \x01(\t\x12.\n&increase_capacity_store_pack_proto_ids\x18\t \x03(\t\x12\x17\n\x0fstore_item_name\x18\n \x01(\t\x12\x17\n\x0fstore_item_icon\x18\x0b \x01(\t\x1aV\n\x15\x43lientWalkboxTemplate\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04icon\x18\x03 \x01(\t\x12\x15\n\runlocked_icon\x18\x04 \x01(\t\x1a\x41\n\x10\x43lientMasterNote\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\x1av\n\x13\x43lientBonusCategory\x12\n\n\x02id\x18\x01 \x01(\t\x12#\n\x05\x63olor\x18\x02 \x01(\x0b\x32\x14.wuprotos.data.Color\x12\x14\n\x0cname_loc_key\x18\x03 \x01(\t\x12\x18\n\x10\x62\x61\x63kground_image\x18\x04 \x01(\tB\r\n\x0bMessageTypeb\x06proto3')
   ,
-  dependencies=[wuprotos_dot_data_dot_client_dot_client__collection__family__pb2.DESCRIPTOR,wuprotos_dot_data_dot_client_dot_client__game__config__pb2.DESCRIPTOR,wuprotos_dot_data_dot_client_dot_client__profile__config__pb2.DESCRIPTOR,wuprotos_dot_data_dot_color__pb2.DESCRIPTOR,wuprotos_dot_data_dot_requirements__pb2.DESCRIPTOR,wuprotos_dot_data_dot_audio__parameter__pb2.DESCRIPTOR,wuprotos_dot_data_dot_sound__config__pb2.DESCRIPTOR,])
+  dependencies=[wuprotos_dot_data_dot_client_dot_client__profile__config__pb2.DESCRIPTOR,wuprotos_dot_data_dot_color__pb2.DESCRIPTOR,wuprotos_dot_data_dot_requirements__pb2.DESCRIPTOR,wuprotos_dot_data_dot_audio__parameter__pb2.DESCRIPTOR,wuprotos_dot_data_dot_sound__config__pb2.DESCRIPTOR,wuprotos_dot_data_dot_collection_dot_collection__family__pb2.DESCRIPTOR,])
 
 
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING_MEASURE = _descriptor.EnumDescriptor(
+  name='Measure',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoQualityMapping.Measure',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='camera_pixel_width', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='camera_pixel_height', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='screen_pixel_width', index=2, number=2,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='screen_pixel_height', index=3, number=3,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=8877,
+  serialized_end=8984,
+)
+_sym_db.RegisterEnumDescriptor(_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING_MEASURE)
 
 _CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET_SELFIEAVATARASSETTYPE = _descriptor.EnumDescriptor(
   name='SelfieAvatarAssetType',
@@ -66,8 +95,8 @@ _CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET_SELFIEAVATARASSETTYPE = _descriptor.En
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=5744,
-  serialized_end=5849,
+  serialized_start=14230,
+  serialized_end=14335,
 )
 _sym_db.RegisterEnumDescriptor(_CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET_SELFIEAVATARASSETTYPE)
 
@@ -96,8 +125,8 @@ _CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET_SELFIEAVATARLENSTYPE = _descriptor.Enu
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=5851,
-  serialized_end=5926,
+  serialized_start=14337,
+  serialized_end=14412,
 )
 _sym_db.RegisterEnumDescriptor(_CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET_SELFIEAVATARLENSTYPE)
 
@@ -126,8 +155,8 @@ _CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET_SELFIEAVATARMEDIASUPPORTEDTYPE = _desc
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=5928,
-  serialized_end=6015,
+  serialized_start=14414,
+  serialized_end=14501,
 )
 _sym_db.RegisterEnumDescriptor(_CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET_SELFIEAVATARMEDIASUPPORTEDTYPE)
 
@@ -152,8 +181,8 @@ _CLIENTGMTEMPLATE_CLIENTSTOREPACK_STOREPACKCONFIG_STOREPACKCONFIGSIZE = _descrip
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=6891,
-  serialized_end=6961,
+  serialized_start=15377,
+  serialized_end=15447,
 )
 _sym_db.RegisterEnumDescriptor(_CLIENTGMTEMPLATE_CLIENTSTOREPACK_STOREPACKCONFIG_STOREPACKCONFIGSIZE)
 
@@ -174,8 +203,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDADVICEOVERLAYS
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=8733,
-  serialized_end=8778,
+  serialized_start=17219,
+  serialized_end=17264,
 )
 _sym_db.RegisterEnumDescriptor(_CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDADVICEOVERLAYSTEP_ADVICEOVERLAYALIGNMENT)
 
@@ -204,11 +233,1690 @@ _CLIENTGMTEMPLATE_CLIENTMAPABILITY_ADDITIONALSELECTIONRULE = _descriptor.EnumDes
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=12052,
-  serialized_end=12168,
+  serialized_start=20538,
+  serialized_end=20654,
 )
 _sym_db.RegisterEnumDescriptor(_CLIENTGMTEMPLATE_CLIENTMAPABILITY_ADDITIONALSELECTIONRULE)
 
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PARKMODEBGSENTRY = _descriptor.Descriptor(
+  name='ParkmodeBgsEntry',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ParkmodeBgsEntry',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='key', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ParkmodeBgsEntry.key', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ParkmodeBgsEntry.value', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=_b('8\001'),
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8005,
+  serialized_end=8055,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_QUALITYMAPPINGSENTRY = _descriptor.Descriptor(
+  name='QualityMappingsEntry',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.QualityMappingsEntry',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='key', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.QualityMappingsEntry.key', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.QualityMappingsEntry.value', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=_b('8\001'),
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8501,
+  serialized_end=8664,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING = _descriptor.Descriptor(
+  name='ClientFtueVideoQualityMapping',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoQualityMapping',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='measure', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoQualityMapping.measure', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='lower_bound', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoQualityMapping.lower_bound', index=1,
+      number=2, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='upper_bound', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoQualityMapping.upper_bound', index=2,
+      number=3, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+    _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING_MEASURE,
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8667,
+  serialized_end=8984,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOFALLBACKDEFINITION = _descriptor.Descriptor(
+  name='ClientFtueVideoFallbackDefinition',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoFallbackDefinition',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='name_definitions', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoFallbackDefinition.name_definitions', index=0,
+      number=1, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8987,
+  serialized_end=9158,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEONAMEDEFINITION = _descriptor.Descriptor(
+  name='ClientFtueVideoNameDefinition',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoNameDefinition',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='name_format', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoNameDefinition.name_format', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9160,
+  serialized_end=9212,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG = _descriptor.Descriptor(
+  name='ClientFtueVideoConfig',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='from_assets', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.from_assets', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='from_url', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.from_url', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='quality_buckets', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.quality_buckets', index=2,
+      number=3, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='quality_mappings', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.quality_mappings', index=3,
+      number=4, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_QUALITYMAPPINGSENTRY, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOFALLBACKDEFINITION, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEONAMEDEFINITION, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+    _descriptor.OneofDescriptor(
+      name='VideoSource', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.VideoSource',
+      index=0, containing_type=None, fields=[]),
+  ],
+  serialized_start=8058,
+  serialized_end=9227,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG_ELECTORALVOTESPERFLOOPOINTS = _descriptor.Descriptor(
+  name='ElectoralVotesPerFlooPoints',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig.ElectoralVotesPerFlooPoints',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='fortress_prefabs', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig.ElectoralVotesPerFlooPoints.fortress_prefabs', index=0,
+      number=1, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9408,
+  serialized_end=9463,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG = _descriptor.Descriptor(
+  name='ClientFlooNetworkConfig',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='electoral_votes_per_floo_points', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig.electoral_votes_per_floo_points', index=0,
+      number=1, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG_ELECTORALVOTESPERFLOOPOINTS, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9230,
+  serialized_end=9463,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTBONUSCONFIG = _descriptor.Descriptor(
+  name='ClientBonusConfig',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig.id', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='accuracy_tier', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig.accuracy_tier', index=1,
+      number=2, type=2, cpp_type=6, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='accuracy_tier_bonus_id', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig.accuracy_tier_bonus_id', index=2,
+      number=3, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='accuracy_tier_bonus_text', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig.accuracy_tier_bonus_text', index=3,
+      number=4, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='first_time_bonus_id', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig.first_time_bonus_id', index=4,
+      number=5, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='first_time_bonus_text', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig.first_time_bonus_text', index=5,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='life_time_bonus_id', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig.life_time_bonus_id', index=6,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='life_time_bonus_text', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig.life_time_bonus_text', index=7,
+      number=8, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9466,
+  serialized_end=9704,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_LOCALIZATIONMAPPING = _descriptor.Descriptor(
+  name='LocalizationMapping',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.LocalizationMapping',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='language_code', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.LocalizationMapping.language_code', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='loc_string', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.LocalizationMapping.loc_string', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='is_enabled', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.LocalizationMapping.is_enabled', index=2,
+      number=3, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9706,
+  serialized_end=9790,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST_PERMISSIONSCONFIGSTATICDATA = _descriptor.Descriptor(
+  name='PermissionsConfigStaticData',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData.id', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='initial_prompt', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData.initial_prompt', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='denial_prompt', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData.denial_prompt', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='optional', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData.optional', index=3,
+      number=4, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='title', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData.title', index=4,
+      number=5, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='begging_enabled', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData.begging_enabled', index=5,
+      number=6, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9952,
+  serialized_end=10098,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST = _descriptor.Descriptor(
+  name='PermissionsConfigStaticList',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='list', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.list', index=0,
+      number=1, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST_PERMISSIONSCONFIGSTATICDATA, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9793,
+  serialized_end=10098,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_VOICEOVERLANGUAGEMAPPING = _descriptor.Descriptor(
+  name='VoiceOverLanguageMapping',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.VoiceOverLanguageMapping',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='language_code', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.VoiceOverLanguageMapping.language_code', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='language_folder', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.VoiceOverLanguageMapping.language_folder', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10100,
+  serialized_end=10174,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_AUDIOCONFIG = _descriptor.Descriptor(
+  name='AudioConfig',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.AudioConfig',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='music_event', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.AudioConfig.music_event', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='music_config', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.AudioConfig.music_config', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10176,
+  serialized_end=10301,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_BATTERYSAVERPROFILE = _descriptor.Descriptor(
+  name='BatterySaverProfile',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.BatterySaverProfile',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='profiles', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.BatterySaverProfile.profiles', index=0,
+      number=1, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='name', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.BatterySaverProfile.name', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10303,
+  serialized_end=10356,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREFAMILYORDERS = _descriptor.Descriptor(
+  name='CollectionSubfeatureFamilyOrders',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeatureFamilyOrders',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='subfeature', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeatureFamilyOrders.subfeature', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='family_ids', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeatureFamilyOrders.family_ids', index=1,
+      number=2, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10359,
+  serialized_end=10492,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREPRESTIGELEVELS = _descriptor.Descriptor(
+  name='CollectionSubfeaturePrestigeLevels',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeaturePrestigeLevels',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='subfeature', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeaturePrestigeLevels.subfeature', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='prestige_levels', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeaturePrestigeLevels.prestige_levels', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10495,
+  serialized_end=10699,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_ENCOUNTERSOUNDBANKS = _descriptor.Descriptor(
+  name='EncounterSoundBanks',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.EncounterSoundBanks',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='encounter_type', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.EncounterSoundBanks.encounter_type', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='sound_banks', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.EncounterSoundBanks.sound_banks', index=1,
+      number=2, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10701,
+  serialized_end=10767,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_MUSICCONFIG = _descriptor.Descriptor(
+  name='MusicConfig',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.MusicConfig',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='music_location', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.MusicConfig.music_location', index=0,
+      number=1, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='parameters', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.MusicConfig.parameters', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10769,
+  serialized_end=10857,
+)
+
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG = _descriptor.Descriptor(
+  name='ClientGameConfig',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.id', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='target_glyph_color', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.target_glyph_color', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='reticle_glyph_color', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.reticle_glyph_color', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='aligned_glyph_color', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.aligned_glyph_color', index=3,
+      number=4, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='encounter_angle_of_spawn', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.encounter_angle_of_spawn', index=4,
+      number=5, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='time_before_ar_hint_display', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.time_before_ar_hint_display', index=5,
+      number=6, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='max_lock_distance_from_origin', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.max_lock_distance_from_origin', index=6,
+      number=7, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='distance_behind_camera_to_spawn_marker', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.distance_behind_camera_to_spawn_marker', index=7,
+      number=8, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='time_before_switch_to_ar_simple', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.time_before_switch_to_ar_simple', index=8,
+      number=9, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='tutorial_encounter_id', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.tutorial_encounter_id', index=9,
+      number=10, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='encounter_reset_gforce', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.encounter_reset_gforce', index=10,
+      number=11, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='local_map_update_interval_seconds', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.local_map_update_interval_seconds', index=11,
+      number=12, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='floo_network_config', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.floo_network_config', index=12,
+      number=13, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='floo_contribution_button_values', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.floo_contribution_button_values', index=13,
+      number=14, type=3, cpp_type=2, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='app_background_map', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.app_background_map', index=14,
+      number=15, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='app_background_full', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.app_background_full', index=15,
+      number=16, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='triggerable_cooldown', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.triggerable_cooldown', index=16,
+      number=17, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='level_up_trigger_priority', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.level_up_trigger_priority', index=17,
+      number=18, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='walkbox_trigger_priority', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.walkbox_trigger_priority', index=18,
+      number=19, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='permissions_config', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.permissions_config', index=19,
+      number=20, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='swish_game_scoring_thresholds', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.swish_game_scoring_thresholds', index=20,
+      number=22, type=2, cpp_type=6, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='swish_game_scoring_bonuses', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.swish_game_scoring_bonuses', index=21,
+      number=23, type=2, cpp_type=6, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='audio_config', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.audio_config', index=22,
+      number=24, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='audio_initial_banks', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.audio_initial_banks', index=23,
+      number=25, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='subfeature_prestige_levels', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.subfeature_prestige_levels', index=24,
+      number=26, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bonus_config', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.bonus_config', index=25,
+      number=27, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='portkey_wrackspurt_collection_haptic_key', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.portkey_wrackspurt_collection_haptic_key', index=26,
+      number=28, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='parkmode_bgs', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.parkmode_bgs', index=27,
+      number=29, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='potion_masternote_unlock_treshold', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.potion_masternote_unlock_treshold', index=28,
+      number=30, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='subfeature_family_orders', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.subfeature_family_orders', index=29,
+      number=31, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='battery_saver_profiles', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.battery_saver_profiles', index=30,
+      number=32, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rate_app_min_player_level', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rate_app_min_player_level', index=31,
+      number=33, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rate_app_cooldown_days', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rate_app_cooldown_days', index=32,
+      number=34, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='too_fast_cooldown', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.too_fast_cooldown', index=33,
+      number=35, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='encounter_banks', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.encounter_banks', index=34,
+      number=36, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='daily_reward_popup_trigger_priority', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.daily_reward_popup_trigger_priority', index=35,
+      number=37, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rate_app_trigger_priority', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rate_app_trigger_priority', index=36,
+      number=38, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='ftue_video', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ftue_video', index=37,
+      number=43, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='tutorial_potion_brew', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.tutorial_potion_brew', index=38,
+      number=44, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='generic_trace_spell_fail_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.generic_trace_spell_fail_sfx', index=39,
+      number=45, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='tracing_spell_glyph_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.tracing_spell_glyph_sfx', index=40,
+      number=46, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='tracing_complete_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.tracing_complete_sfx', index=41,
+      number=47, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='spell_bar_increasing_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.spell_bar_increasing_sfx', index=42,
+      number=48, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bad_spell_cast_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.bad_spell_cast_sfx', index=43,
+      number=49, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='good_spell_cast_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.good_spell_cast_sfx', index=44,
+      number=50, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='great_spell_cast_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.great_spell_cast_sfx', index=45,
+      number=51, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='perfect_spell_cast_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.perfect_spell_cast_sfx', index=46,
+      number=52, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='registry_sticker_placed_haptic_key', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.registry_sticker_placed_haptic_key', index=47,
+      number=53, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rewards_vessel_by_rarity', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rewards_vessel_by_rarity', index=48,
+      number=54, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rewards_sound_banks', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rewards_sound_banks', index=49,
+      number=55, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='first_sticker_storyboard_id', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.first_sticker_storyboard_id', index=50,
+      number=56, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='first_sticker_collection_id', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.first_sticker_collection_id', index=51,
+      number=57, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='avatar_default_color', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.avatar_default_color', index=52,
+      number=58, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='lock_on_completion_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.lock_on_completion_sfx', index=53,
+      number=59, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='lock_on_time_up_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.lock_on_time_up_sfx', index=54,
+      number=60, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='protego_cast_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.protego_cast_sfx', index=55,
+      number=61, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='protego_time_up_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.protego_time_up_sfx', index=56,
+      number=62, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='ms_before_final_intensity', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ms_before_final_intensity', index=57,
+      number=63, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='ms_before_secondary_intensity', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ms_before_secondary_intensity', index=58,
+      number=64, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='challenge_thirty_seconds_left_stinger', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.challenge_thirty_seconds_left_stinger', index=59,
+      number=65, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='challenge_encounter_player_victorious_stinger', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.challenge_encounter_player_victorious_stinger', index=60,
+      number=66, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='challenge_encounter_player_defeated_stinger', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.challenge_encounter_player_defeated_stinger', index=61,
+      number=67, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='challenge_begin_stinger', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.challenge_begin_stinger', index=62,
+      number=68, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='challenge_finish_victory', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.challenge_finish_victory', index=63,
+      number=69, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='challenge_finish_defeat', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.challenge_finish_defeat', index=64,
+      number=70, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='challenge_elite_mob_spawns_stinger', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.challenge_elite_mob_spawns_stinger', index=65,
+      number=71, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='internet_reachability_check_url', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.internet_reachability_check_url', index=66,
+      number=72, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rate_app_max_prompts', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rate_app_max_prompts', index=67,
+      number=73, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rate_app_version', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rate_app_version', index=68,
+      number=74, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rate_app_trigger_wizarding_challenge', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rate_app_trigger_wizarding_challenge', index=69,
+      number=75, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rate_app_trigger_sticker_page_complete', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rate_app_trigger_sticker_page_complete', index=70,
+      number=76, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rate_app_trigger_event_quest_line_complete', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rate_app_trigger_event_quest_line_complete', index=71,
+      number=77, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='checks_until_gps_prompt', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.checks_until_gps_prompt', index=72,
+      number=78, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='fortress_sound_banks', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.fortress_sound_banks', index=73,
+      number=79, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='ten_seconds_left_in_challenge_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ten_seconds_left_in_challenge_sfx', index=74,
+      number=80, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='long_second_left_in_challenge_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.long_second_left_in_challenge_sfx', index=75,
+      number=81, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='short_half_second_left_in_challenge_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.short_half_second_left_in_challenge_sfx', index=76,
+      number=82, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='one_minute_warning_sfx', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.one_minute_warning_sfx', index=77,
+      number=83, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='rate_app_trigger_map_enter', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.rate_app_trigger_map_enter', index=78,
+      number=84, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='professions_affinity_advantage_icon', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.professions_affinity_advantage_icon', index=79,
+      number=85, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='professions_affinity_neutral_icon', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.professions_affinity_neutral_icon', index=80,
+      number=86, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='professions_affinity_disadvantage_icon', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.professions_affinity_disadvantage_icon', index=81,
+      number=87, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='internet_outage_backoff_time', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.internet_outage_backoff_time', index=82,
+      number=88, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='ar_core_storyboard_trigger', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ar_core_storyboard_trigger', index=83,
+      number=89, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='voice_over_mappings', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.voice_over_mappings', index=84,
+      number=90, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='in_app_message_trigger_priority', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.in_app_message_trigger_priority', index=85,
+      number=91, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='internal_fortress_interact_range', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.internal_fortress_interact_range', index=86,
+      number=92, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='low_connectivity_threshold_bytes_per_ms', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.low_connectivity_threshold_bytes_per_ms', index=87,
+      number=93, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='game_size_in_kb', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.game_size_in_kb', index=88,
+      number=94, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='wc_map_enemy_marker_buff_occupied_image', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.wc_map_enemy_marker_buff_occupied_image', index=89,
+      number=95, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='wc_map_enemy_marker_buff_vacant_image', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.wc_map_enemy_marker_buff_vacant_image', index=90,
+      number=96, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='wc_enemy_look_in_buff_border_image', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.wc_enemy_look_in_buff_border_image', index=91,
+      number=97, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='localization_mappings', full_name='wuprotos.data.client.ClientGmTemplate.ClientGameConfig.localization_mappings', index=92,
+      number=98, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PARKMODEBGSENTRY, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTBONUSCONFIG, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_LOCALIZATIONMAPPING, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_VOICEOVERLANGUAGEMAPPING, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_AUDIOCONFIG, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_BATTERYSAVERPROFILE, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREFAMILYORDERS, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREPRESTIGELEVELS, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_ENCOUNTERSOUNDBANKS, _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_MUSICCONFIG, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3197,
+  serialized_end=10857,
+)
+
+_CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY = _descriptor.Descriptor(
+  name='ClientCollectionFamily',
+  full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.id', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='name', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.name', index=1,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='description', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.description', index=2,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='icon', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.icon', index=3,
+      number=5, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='landmark_texture', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.landmark_texture', index=4,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='landmark_prefab', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.landmark_prefab', index=5,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='landmark_description', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.landmark_description', index=6,
+      number=8, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='show_in_ui', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.show_in_ui', index=7,
+      number=9, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='landmark_icon', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.landmark_icon', index=8,
+      number=11, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='color', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.color', index=9,
+      number=12, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='color_highlight', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.color_highlight', index=10,
+      number=13, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='trace_prefab', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.trace_prefab', index=11,
+      number=14, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='border_images', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.border_images', index=12,
+      number=15, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='family_runestone_icon', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.family_runestone_icon', index=13,
+      number=16, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='sound', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.sound', index=14,
+      number=17, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='unarchive_requirements', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.unarchive_requirements', index=15,
+      number=18, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='trace_rarity_vfx_override', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.trace_rarity_vfx_override', index=16,
+      number=19, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='prestige_override', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.prestige_override', index=17,
+      number=20, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='hide_landmark_info_details', full_name='wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily.hide_landmark_info_details', index=18,
+      number=21, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10860,
+  serialized_end=11495,
+)
+
+_CLIENTGMTEMPLATE_COLLECTIONPRESTIGELEVEL = _descriptor.Descriptor(
+  name='CollectionPrestigeLevel',
+  full_name='wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='border_image', full_name='wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel.border_image', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='name', full_name='wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel.name', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='color', full_name='wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel.color', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='is_metallic', full_name='wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel.is_metallic', index=3,
+      number=4, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='frame_mesh', full_name='wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel.frame_mesh', index=4,
+      number=5, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='normal_map', full_name='wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel.normal_map', index=5,
+      number=6, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='albedo_map', full_name='wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel.albedo_map', index=6,
+      number=7, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='roughness', full_name='wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel.roughness', index=7,
+      number=8, type=2, cpp_type=6, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=11498,
+  serialized_end=11696,
+)
 
 _CLIENTGMTEMPLATE_CLIENTVAULTITEM = _descriptor.Descriptor(
   name='ClientVaultItem',
@@ -334,8 +2042,8 @@ _CLIENTGMTEMPLATE_CLIENTVAULTITEM = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3213,
-  serialized_end=3590,
+  serialized_start=11699,
+  serialized_end=12076,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORECONFIG_STORERARITY = _descriptor.Descriptor(
@@ -378,8 +2086,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORECONFIG_STORERARITY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3856,
-  serialized_end=3938,
+  serialized_start=12342,
+  serialized_end=12424,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORECONFIG_STORECATEGORY = _descriptor.Descriptor(
@@ -471,8 +2179,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORECONFIG_STORECATEGORY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3941,
-  serialized_end=4229,
+  serialized_start=12427,
+  serialized_end=12715,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORECONFIG = _descriptor.Descriptor(
@@ -522,8 +2230,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORECONFIG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=3593,
-  serialized_end=4229,
+  serialized_start=12079,
+  serialized_end=12715,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSPELL_TIMELINESENTRY = _descriptor.Descriptor(
@@ -559,8 +2267,8 @@ _CLIENTGMTEMPLATE_CLIENTSPELL_TIMELINESENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4756,
-  serialized_end=4804,
+  serialized_start=13242,
+  serialized_end=13290,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSPELL_CRITICALHITSENTRY = _descriptor.Descriptor(
@@ -596,8 +2304,8 @@ _CLIENTGMTEMPLATE_CLIENTSPELL_CRITICALHITSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4806,
-  serialized_end=4857,
+  serialized_start=13292,
+  serialized_end=13343,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSPELL = _descriptor.Descriptor(
@@ -724,8 +2432,8 @@ _CLIENTGMTEMPLATE_CLIENTSPELL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4232,
-  serialized_end=4857,
+  serialized_start=12718,
+  serialized_end=13343,
 )
 
 _CLIENTGMTEMPLATE_CLIENTTEAMCONTROL = _descriptor.Descriptor(
@@ -796,8 +2504,8 @@ _CLIENTGMTEMPLATE_CLIENTTEAMCONTROL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=4860,
-  serialized_end=5037,
+  serialized_start=13346,
+  serialized_end=13523,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET = _descriptor.Descriptor(
@@ -934,8 +2642,8 @@ _CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=5040,
-  serialized_end=6015,
+  serialized_start=13526,
+  serialized_end=14501,
 )
 
 _CLIENTGMTEMPLATE_CLIENTRPGSTATSBLOCK = _descriptor.Descriptor(
@@ -971,8 +2679,8 @@ _CLIENTGMTEMPLATE_CLIENTRPGSTATSBLOCK = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6017,
-  serialized_end=6074,
+  serialized_start=14503,
+  serialized_end=14560,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTOREPACK_STOREPACKCONFIG = _descriptor.Descriptor(
@@ -1128,8 +2836,8 @@ _CLIENTGMTEMPLATE_CLIENTSTOREPACK_STOREPACKCONFIG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6329,
-  serialized_end=6961,
+  serialized_start=14815,
+  serialized_end=15447,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTOREPACK = _descriptor.Descriptor(
@@ -1200,8 +2908,8 @@ _CLIENTGMTEMPLATE_CLIENTSTOREPACK = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6077,
-  serialized_end=6961,
+  serialized_start=14563,
+  serialized_end=15447,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDPAUSESTEP = _descriptor.Descriptor(
@@ -1223,8 +2931,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDPAUSESTEP = _d
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7928,
-  serialized_end=7949,
+  serialized_start=16414,
+  serialized_end=16435,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDGENERICDIALOGSTEP = _descriptor.Descriptor(
@@ -1267,8 +2975,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDGENERICDIALOGS
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=7951,
-  serialized_end=8030,
+  serialized_start=16437,
+  serialized_end=16516,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_SPEECHBUBBLE = _descriptor.Descriptor(
@@ -1325,8 +3033,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_SPEECHBUBBLE = _descript
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8033,
-  serialized_end=8221,
+  serialized_start=16519,
+  serialized_end=16707,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDCONVERSATIONINTERJECTIONSTEP = _descriptor.Descriptor(
@@ -1355,8 +3063,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDCONVERSATIONIN
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8224,
-  serialized_end=8377,
+  serialized_start=16710,
+  serialized_end=16863,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDADVICEOVERLAYSTEP = _descriptor.Descriptor(
@@ -1407,8 +3115,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDADVICEOVERLAYS
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8380,
-  serialized_end=8778,
+  serialized_start=16866,
+  serialized_end=17264,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDADVICEINTERJECTIONSTEP = _descriptor.Descriptor(
@@ -1472,8 +3180,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP_STORYBOARDADVICEINTERJEC
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=8781,
-  serialized_end=9010,
+  serialized_start=17267,
+  serialized_end=17496,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP = _descriptor.Descriptor(
@@ -1554,8 +3262,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORYBOARD_CLIENTSTORYBOARDSTEP = _descriptor.Descriptor
       name='Data', full_name='wuprotos.data.client.ClientGmTemplate.ClientStoryboard.ClientStoryboardStep.Data',
       index=0, containing_type=None, fields=[]),
   ],
-  serialized_start=7131,
-  serialized_end=9018,
+  serialized_start=15617,
+  serialized_end=17504,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORYBOARD = _descriptor.Descriptor(
@@ -1605,8 +3313,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORYBOARD = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=6964,
-  serialized_end=9018,
+  serialized_start=15450,
+  serialized_end=17504,
 )
 
 _CLIENTGMTEMPLATE_CLIENTRPGSTAT_ICONSENTRY = _descriptor.Descriptor(
@@ -1642,8 +3350,8 @@ _CLIENTGMTEMPLATE_CLIENTRPGSTAT_ICONSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9276,
-  serialized_end=9320,
+  serialized_start=17762,
+  serialized_end=17806,
 )
 
 _CLIENTGMTEMPLATE_CLIENTRPGSTAT = _descriptor.Descriptor(
@@ -1728,8 +3436,8 @@ _CLIENTGMTEMPLATE_CLIENTRPGSTAT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9021,
-  serialized_end=9320,
+  serialized_start=17507,
+  serialized_end=17806,
 )
 
 _CLIENTGMTEMPLATE_CLIENTRECIPE = _descriptor.Descriptor(
@@ -1828,8 +3536,8 @@ _CLIENTGMTEMPLATE_CLIENTRECIPE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9323,
-  serialized_end=9580,
+  serialized_start=17809,
+  serialized_end=18066,
 )
 
 _CLIENTGMTEMPLATE_CLIENTQUEST = _descriptor.Descriptor(
@@ -1879,8 +3587,8 @@ _CLIENTGMTEMPLATE_CLIENTQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9582,
-  serialized_end=9683,
+  serialized_start=18068,
+  serialized_end=18169,
 )
 
 _CLIENTGMTEMPLATE_CLIENTPROTEGOPATTERN_VECTOR2 = _descriptor.Descriptor(
@@ -1916,8 +3624,8 @@ _CLIENTGMTEMPLATE_CLIENTPROTEGOPATTERN_VECTOR2 = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9978,
-  serialized_end=10009,
+  serialized_start=18464,
+  serialized_end=18495,
 )
 
 _CLIENTGMTEMPLATE_CLIENTPROTEGOPATTERN = _descriptor.Descriptor(
@@ -1974,8 +3682,8 @@ _CLIENTGMTEMPLATE_CLIENTPROTEGOPATTERN = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=9686,
-  serialized_end=10009,
+  serialized_start=18172,
+  serialized_end=18495,
 )
 
 _CLIENTGMTEMPLATE_CLIENTPROFESSION_PROFESSIONRANKSMAPENTRY = _descriptor.Descriptor(
@@ -2011,8 +3719,8 @@ _CLIENTGMTEMPLATE_CLIENTPROFESSION_PROFESSIONRANKSMAPENTRY = _descriptor.Descrip
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=10589,
-  serialized_end=10707,
+  serialized_start=19075,
+  serialized_end=19193,
 )
 
 _CLIENTGMTEMPLATE_CLIENTPROFESSION = _descriptor.Descriptor(
@@ -2167,8 +3875,8 @@ _CLIENTGMTEMPLATE_CLIENTPROFESSION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=10012,
-  serialized_end=10707,
+  serialized_start=18498,
+  serialized_end=19193,
 )
 
 _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK_PROFESSIONNODESMAPENTRY = _descriptor.Descriptor(
@@ -2204,8 +3912,8 @@ _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK_PROFESSIONNODESMAPENTRY = _descriptor.Des
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11104,
-  serialized_end=11243,
+  serialized_start=19590,
+  serialized_end=19729,
 )
 
 _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK_CLIENTPROFESSIONNODE_CLIENTPROFESSIONNODELEVEL = _descriptor.Descriptor(
@@ -2234,8 +3942,8 @@ _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK_CLIENTPROFESSIONNODE_CLIENTPROFESSIONNODE
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11491,
-  serialized_end=11552,
+  serialized_start=19977,
+  serialized_end=20038,
 )
 
 _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK_CLIENTPROFESSIONNODE = _descriptor.Descriptor(
@@ -2299,8 +4007,8 @@ _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK_CLIENTPROFESSIONNODE = _descriptor.Descri
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11246,
-  serialized_end=11552,
+  serialized_start=19732,
+  serialized_end=20038,
 )
 
 _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK = _descriptor.Descriptor(
@@ -2378,8 +4086,8 @@ _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=10710,
-  serialized_end=11552,
+  serialized_start=19196,
+  serialized_end=20038,
 )
 
 _CLIENTGMTEMPLATE_CLIENTPORTKEY = _descriptor.Descriptor(
@@ -2429,8 +4137,8 @@ _CLIENTGMTEMPLATE_CLIENTPORTKEY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11554,
-  serialized_end=11642,
+  serialized_start=20040,
+  serialized_end=20128,
 )
 
 _CLIENTGMTEMPLATE_CLIENTOUTPOSTTEMPLATE = _descriptor.Descriptor(
@@ -2473,8 +4181,8 @@ _CLIENTGMTEMPLATE_CLIENTOUTPOSTTEMPLATE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11644,
-  serialized_end=11715,
+  serialized_start=20130,
+  serialized_end=20201,
 )
 
 _CLIENTGMTEMPLATE_CLIENTMAPINGREDIENT = _descriptor.Descriptor(
@@ -2517,8 +4225,8 @@ _CLIENTGMTEMPLATE_CLIENTMAPINGREDIENT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11717,
-  serialized_end=11792,
+  serialized_start=20203,
+  serialized_end=20278,
 )
 
 _CLIENTGMTEMPLATE_CLIENTMAPABILITY = _descriptor.Descriptor(
@@ -2604,8 +4312,8 @@ _CLIENTGMTEMPLATE_CLIENTMAPABILITY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=11795,
-  serialized_end=12168,
+  serialized_start=20281,
+  serialized_end=20654,
 )
 
 _CLIENTGMTEMPLATE_CLIENTHAPTIC = _descriptor.Descriptor(
@@ -2669,8 +4377,8 @@ _CLIENTGMTEMPLATE_CLIENTHAPTIC = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=12171,
-  serialized_end=12332,
+  serialized_start=20657,
+  serialized_end=20818,
 )
 
 _CLIENTGMTEMPLATE_CLIENTEVENT = _descriptor.Descriptor(
@@ -2762,8 +4470,8 @@ _CLIENTGMTEMPLATE_CLIENTEVENT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=12335,
-  serialized_end=12644,
+  serialized_start=20821,
+  serialized_end=21130,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTERTYPE = _descriptor.Descriptor(
@@ -2820,8 +4528,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTERTYPE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=12647,
-  serialized_end=12791,
+  serialized_start=21133,
+  serialized_end=21277,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTSEQUENCEDATA = _descriptor.Descriptor(
@@ -2892,8 +4600,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTSEQUENCEDATA = _des
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=14382,
-  serialized_end=14575,
+  serialized_start=22868,
+  serialized_end=23061,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGESWISH = _descriptor.Descriptor(
@@ -2929,8 +4637,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGESWISH
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=14578,
-  serialized_end=14728,
+  serialized_start=23064,
+  serialized_end=23214,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGEPORTKEY = _descriptor.Descriptor(
@@ -2987,8 +4695,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGEPORTK
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=14731,
-  serialized_end=14878,
+  serialized_start=23217,
+  serialized_end=23364,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGEPICTURE_VECTOR3 = _descriptor.Descriptor(
@@ -3031,8 +4739,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGEPICTU
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15127,
-  serialized_end=15169,
+  serialized_start=23613,
+  serialized_end=23655,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGEPICTURE = _descriptor.Descriptor(
@@ -3089,8 +4797,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGEPICTU
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=14881,
-  serialized_end=15169,
+  serialized_start=23367,
+  serialized_end=23655,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBAT_CLIENTCOMBATSTATE_CLIENTCOMBATMOVETYPE_CLIENTCOMBATPLAYERDEFEND_CLIENTCOMBATPLAYERDEFENDPATTERN = _descriptor.Descriptor(
@@ -3126,8 +4834,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBA
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=16775,
-  serialized_end=16849,
+  serialized_start=25261,
+  serialized_end=25335,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBAT_CLIENTCOMBATSTATE_CLIENTCOMBATMOVETYPE_CLIENTCOMBATPLAYERDEFEND = _descriptor.Descriptor(
@@ -3156,8 +4864,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBA
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=16523,
-  serialized_end=16849,
+  serialized_start=25009,
+  serialized_end=25335,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBAT_CLIENTCOMBATSTATE_CLIENTCOMBATMOVETYPE_CLIENTCOMBATPLAYERAUTOADVANCE = _descriptor.Descriptor(
@@ -3179,8 +4887,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBA
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=16851,
-  serialized_end=16882,
+  serialized_start=25337,
+  serialized_end=25368,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBAT_CLIENTCOMBATSTATE_CLIENTCOMBATMOVETYPE_CLIENTCOMBATPLAYERATTACK = _descriptor.Descriptor(
@@ -3223,8 +4931,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBA
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=16884,
-  serialized_end=16991,
+  serialized_start=25370,
+  serialized_end=25477,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBAT_CLIENTCOMBATSTATE_CLIENTCOMBATMOVETYPE = _descriptor.Descriptor(
@@ -3291,8 +4999,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBA
       name='CombatMove', full_name='wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.ClientEncounterStageCombat.ClientCombatState.ClientCombatMoveType.CombatMove',
       index=0, containing_type=None, fields=[]),
   ],
-  serialized_start=15806,
-  serialized_end=17005,
+  serialized_start=24292,
+  serialized_end=25491,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBAT_CLIENTCOMBATSTATE = _descriptor.Descriptor(
@@ -3321,8 +5029,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBA
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15615,
-  serialized_end=17005,
+  serialized_start=24101,
+  serialized_end=25491,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBAT_CLIENTCOMBATENEMYTRAIT = _descriptor.Descriptor(
@@ -3372,8 +5080,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBA
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=17007,
-  serialized_end=17092,
+  serialized_start=25493,
+  serialized_end=25578,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBAT = _descriptor.Descriptor(
@@ -3423,8 +5131,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE_CLIENTENCOUNTERSTAGECOMBA
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=15172,
-  serialized_end=17092,
+  serialized_start=23658,
+  serialized_end=25578,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE = _descriptor.Descriptor(
@@ -3547,8 +5255,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER_CLIENTENCOUNTERSTAGE = _descriptor.Descriptor(
       name='Type', full_name='wuprotos.data.client.ClientGmTemplate.ClientEncounter.ClientEncounterStage.Type',
       index=0, containing_type=None, fields=[]),
   ],
-  serialized_start=13396,
-  serialized_end=17100,
+  serialized_start=21882,
+  serialized_end=25586,
 )
 
 _CLIENTGMTEMPLATE_CLIENTENCOUNTER = _descriptor.Descriptor(
@@ -3675,8 +5383,8 @@ _CLIENTGMTEMPLATE_CLIENTENCOUNTER = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=12794,
-  serialized_end=17100,
+  serialized_start=21280,
+  serialized_end=25586,
 )
 
 _CLIENTGMTEMPLATE_CLIENTDAILYREWARDMONTHLYSCHEDULE_DAILYREWARDSENTRY = _descriptor.Descriptor(
@@ -3712,8 +5420,8 @@ _CLIENTGMTEMPLATE_CLIENTDAILYREWARDMONTHLYSCHEDULE_DAILYREWARDSENTRY = _descript
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=17266,
-  serialized_end=17408,
+  serialized_start=25752,
+  serialized_end=25894,
 )
 
 _CLIENTGMTEMPLATE_CLIENTDAILYREWARDMONTHLYSCHEDULE_CLIENTDAILYREWARD = _descriptor.Descriptor(
@@ -3749,8 +5457,8 @@ _CLIENTGMTEMPLATE_CLIENTDAILYREWARDMONTHLYSCHEDULE_CLIENTDAILYREWARD = _descript
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=17410,
-  serialized_end=17474,
+  serialized_start=25896,
+  serialized_end=25960,
 )
 
 _CLIENTGMTEMPLATE_CLIENTDAILYREWARDMONTHLYSCHEDULE = _descriptor.Descriptor(
@@ -3786,8 +5494,8 @@ _CLIENTGMTEMPLATE_CLIENTDAILYREWARDMONTHLYSCHEDULE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=17103,
-  serialized_end=17474,
+  serialized_start=25589,
+  serialized_end=25960,
 )
 
 _CLIENTGMTEMPLATE_CLIENTCOLLECTIONPAGE = _descriptor.Descriptor(
@@ -3851,8 +5559,8 @@ _CLIENTGMTEMPLATE_CLIENTCOLLECTIONPAGE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=17477,
-  serialized_end=17645,
+  serialized_start=25963,
+  serialized_end=26131,
 )
 
 _CLIENTGMTEMPLATE_CLIENTCOLLECTIONITEM_MYSTERYITEMINFO = _descriptor.Descriptor(
@@ -3902,8 +5610,8 @@ _CLIENTGMTEMPLATE_CLIENTCOLLECTIONITEM_MYSTERYITEMINFO = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=17924,
-  serialized_end=18020,
+  serialized_start=26410,
+  serialized_end=26506,
 )
 
 _CLIENTGMTEMPLATE_CLIENTCOLLECTIONITEM = _descriptor.Descriptor(
@@ -3981,8 +5689,8 @@ _CLIENTGMTEMPLATE_CLIENTCOLLECTIONITEM = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=17648,
-  serialized_end=18020,
+  serialized_start=26134,
+  serialized_end=26506,
 )
 
 _CLIENTGMTEMPLATE_CLIENTCHAMBERTEMPLATE_RUNESTONEDIFFICULTIESENTRY = _descriptor.Descriptor(
@@ -4018,8 +5726,8 @@ _CLIENTGMTEMPLATE_CLIENTCHAMBERTEMPLATE_RUNESTONEDIFFICULTIESENTRY = _descriptor
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=18384,
-  serialized_end=18444,
+  serialized_start=26870,
+  serialized_end=26930,
 )
 
 _CLIENTGMTEMPLATE_CLIENTCHAMBERTEMPLATE_PARKMODEBGSENTRY = _descriptor.Descriptor(
@@ -4055,8 +5763,8 @@ _CLIENTGMTEMPLATE_CLIENTCHAMBERTEMPLATE_PARKMODEBGSENTRY = _descriptor.Descripto
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=18446,
-  serialized_end=18496,
+  serialized_start=8005,
+  serialized_end=8055,
 )
 
 _CLIENTGMTEMPLATE_CLIENTCHAMBERTEMPLATE = _descriptor.Descriptor(
@@ -4127,8 +5835,8 @@ _CLIENTGMTEMPLATE_CLIENTCHAMBERTEMPLATE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=18023,
-  serialized_end=18496,
+  serialized_start=26509,
+  serialized_end=26982,
 )
 
 _CLIENTGMTEMPLATE_CLIENTCHALLENGEBONUS = _descriptor.Descriptor(
@@ -4171,8 +5879,8 @@ _CLIENTGMTEMPLATE_CLIENTCHALLENGEBONUS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=18498,
-  serialized_end=18568,
+  serialized_start=26984,
+  serialized_end=27054,
 )
 
 _CLIENTGMTEMPLATE_CLIENTBUFF_CLIENTCONDITIONALMODIFIERS_MODIFIERSENTRY = _descriptor.Descriptor(
@@ -4208,8 +5916,8 @@ _CLIENTGMTEMPLATE_CLIENTBUFF_CLIENTCONDITIONALMODIFIERS_MODIFIERSENTRY = _descri
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=18964,
-  serialized_end=19116,
+  serialized_start=27450,
+  serialized_end=27602,
 )
 
 _CLIENTGMTEMPLATE_CLIENTBUFF_CLIENTCONDITIONALMODIFIERS_CLIENTCONDITIONALMODIFIER = _descriptor.Descriptor(
@@ -4238,8 +5946,8 @@ _CLIENTGMTEMPLATE_CLIENTBUFF_CLIENTCONDITIONALMODIFIERS_CLIENTCONDITIONALMODIFIE
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=19118,
-  serialized_end=19159,
+  serialized_start=27604,
+  serialized_end=27645,
 )
 
 _CLIENTGMTEMPLATE_CLIENTBUFF_CLIENTCONDITIONALMODIFIERS = _descriptor.Descriptor(
@@ -4275,8 +5983,8 @@ _CLIENTGMTEMPLATE_CLIENTBUFF_CLIENTCONDITIONALMODIFIERS = _descriptor.Descriptor
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=18807,
-  serialized_end=19159,
+  serialized_start=27293,
+  serialized_end=27645,
 )
 
 _CLIENTGMTEMPLATE_CLIENTBUFF = _descriptor.Descriptor(
@@ -4340,8 +6048,8 @@ _CLIENTGMTEMPLATE_CLIENTBUFF = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=18571,
-  serialized_end=19159,
+  serialized_start=27057,
+  serialized_end=27645,
 )
 
 _CLIENTGMTEMPLATE_CLIENTSTORESUBCATEGORY = _descriptor.Descriptor(
@@ -4377,8 +6085,8 @@ _CLIENTGMTEMPLATE_CLIENTSTORESUBCATEGORY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=19161,
-  serialized_end=19215,
+  serialized_start=27647,
+  serialized_end=27701,
 )
 
 _CLIENTGMTEMPLATE_CLIENTVAULTCATEGORY = _descriptor.Descriptor(
@@ -4477,8 +6185,8 @@ _CLIENTGMTEMPLATE_CLIENTVAULTCATEGORY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=19218,
-  serialized_end=19527,
+  serialized_start=27704,
+  serialized_end=28013,
 )
 
 _CLIENTGMTEMPLATE_CLIENTWALKBOXTEMPLATE = _descriptor.Descriptor(
@@ -4528,8 +6236,8 @@ _CLIENTGMTEMPLATE_CLIENTWALKBOXTEMPLATE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=19529,
-  serialized_end=19615,
+  serialized_start=28015,
+  serialized_end=28101,
 )
 
 _CLIENTGMTEMPLATE_CLIENTMASTERNOTE = _descriptor.Descriptor(
@@ -4572,8 +6280,8 @@ _CLIENTGMTEMPLATE_CLIENTMASTERNOTE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=19617,
-  serialized_end=19682,
+  serialized_start=28103,
+  serialized_end=28168,
 )
 
 _CLIENTGMTEMPLATE_CLIENTBONUSCATEGORY = _descriptor.Descriptor(
@@ -4623,8 +6331,8 @@ _CLIENTGMTEMPLATE_CLIENTBONUSCATEGORY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=19684,
-  serialized_end=19802,
+  serialized_start=28170,
+  serialized_end=28288,
 )
 
 _CLIENTGMTEMPLATE = _descriptor.Descriptor(
@@ -4882,7 +6590,7 @@ _CLIENTGMTEMPLATE = _descriptor.Descriptor(
   ],
   extensions=[
   ],
-  nested_types=[_CLIENTGMTEMPLATE_CLIENTVAULTITEM, _CLIENTGMTEMPLATE_CLIENTSTORECONFIG, _CLIENTGMTEMPLATE_CLIENTSPELL, _CLIENTGMTEMPLATE_CLIENTTEAMCONTROL, _CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET, _CLIENTGMTEMPLATE_CLIENTRPGSTATSBLOCK, _CLIENTGMTEMPLATE_CLIENTSTOREPACK, _CLIENTGMTEMPLATE_CLIENTSTORYBOARD, _CLIENTGMTEMPLATE_CLIENTRPGSTAT, _CLIENTGMTEMPLATE_CLIENTRECIPE, _CLIENTGMTEMPLATE_CLIENTQUEST, _CLIENTGMTEMPLATE_CLIENTPROTEGOPATTERN, _CLIENTGMTEMPLATE_CLIENTPROFESSION, _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK, _CLIENTGMTEMPLATE_CLIENTPORTKEY, _CLIENTGMTEMPLATE_CLIENTOUTPOSTTEMPLATE, _CLIENTGMTEMPLATE_CLIENTMAPINGREDIENT, _CLIENTGMTEMPLATE_CLIENTMAPABILITY, _CLIENTGMTEMPLATE_CLIENTHAPTIC, _CLIENTGMTEMPLATE_CLIENTEVENT, _CLIENTGMTEMPLATE_CLIENTENCOUNTERTYPE, _CLIENTGMTEMPLATE_CLIENTENCOUNTER, _CLIENTGMTEMPLATE_CLIENTDAILYREWARDMONTHLYSCHEDULE, _CLIENTGMTEMPLATE_CLIENTCOLLECTIONPAGE, _CLIENTGMTEMPLATE_CLIENTCOLLECTIONITEM, _CLIENTGMTEMPLATE_CLIENTCHAMBERTEMPLATE, _CLIENTGMTEMPLATE_CLIENTCHALLENGEBONUS, _CLIENTGMTEMPLATE_CLIENTBUFF, _CLIENTGMTEMPLATE_CLIENTSTORESUBCATEGORY, _CLIENTGMTEMPLATE_CLIENTVAULTCATEGORY, _CLIENTGMTEMPLATE_CLIENTWALKBOXTEMPLATE, _CLIENTGMTEMPLATE_CLIENTMASTERNOTE, _CLIENTGMTEMPLATE_CLIENTBONUSCATEGORY, ],
+  nested_types=[_CLIENTGMTEMPLATE_CLIENTGAMECONFIG, _CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY, _CLIENTGMTEMPLATE_COLLECTIONPRESTIGELEVEL, _CLIENTGMTEMPLATE_CLIENTVAULTITEM, _CLIENTGMTEMPLATE_CLIENTSTORECONFIG, _CLIENTGMTEMPLATE_CLIENTSPELL, _CLIENTGMTEMPLATE_CLIENTTEAMCONTROL, _CLIENTGMTEMPLATE_CLIENTSELFIEAVATARASSET, _CLIENTGMTEMPLATE_CLIENTRPGSTATSBLOCK, _CLIENTGMTEMPLATE_CLIENTSTOREPACK, _CLIENTGMTEMPLATE_CLIENTSTORYBOARD, _CLIENTGMTEMPLATE_CLIENTRPGSTAT, _CLIENTGMTEMPLATE_CLIENTRECIPE, _CLIENTGMTEMPLATE_CLIENTQUEST, _CLIENTGMTEMPLATE_CLIENTPROTEGOPATTERN, _CLIENTGMTEMPLATE_CLIENTPROFESSION, _CLIENTGMTEMPLATE_CLIENTPROFESSIONRANK, _CLIENTGMTEMPLATE_CLIENTPORTKEY, _CLIENTGMTEMPLATE_CLIENTOUTPOSTTEMPLATE, _CLIENTGMTEMPLATE_CLIENTMAPINGREDIENT, _CLIENTGMTEMPLATE_CLIENTMAPABILITY, _CLIENTGMTEMPLATE_CLIENTHAPTIC, _CLIENTGMTEMPLATE_CLIENTEVENT, _CLIENTGMTEMPLATE_CLIENTENCOUNTERTYPE, _CLIENTGMTEMPLATE_CLIENTENCOUNTER, _CLIENTGMTEMPLATE_CLIENTDAILYREWARDMONTHLYSCHEDULE, _CLIENTGMTEMPLATE_CLIENTCOLLECTIONPAGE, _CLIENTGMTEMPLATE_CLIENTCOLLECTIONITEM, _CLIENTGMTEMPLATE_CLIENTCHAMBERTEMPLATE, _CLIENTGMTEMPLATE_CLIENTCHALLENGEBONUS, _CLIENTGMTEMPLATE_CLIENTBUFF, _CLIENTGMTEMPLATE_CLIENTSTORESUBCATEGORY, _CLIENTGMTEMPLATE_CLIENTVAULTCATEGORY, _CLIENTGMTEMPLATE_CLIENTWALKBOXTEMPLATE, _CLIENTGMTEMPLATE_CLIENTMASTERNOTE, _CLIENTGMTEMPLATE_CLIENTBONUSCATEGORY, ],
   enum_types=[
   ],
   serialized_options=None,
@@ -4894,10 +6602,89 @@ _CLIENTGMTEMPLATE = _descriptor.Descriptor(
       name='MessageType', full_name='wuprotos.data.client.ClientGmTemplate.MessageType',
       index=0, containing_type=None, fields=[]),
   ],
-  serialized_start=355,
-  serialized_end=19817,
+  serialized_start=305,
+  serialized_end=28303,
 )
 
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PARKMODEBGSENTRY.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_QUALITYMAPPINGSENTRY.fields_by_name['value'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_QUALITYMAPPINGSENTRY.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING.fields_by_name['measure'].enum_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING_MEASURE
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING_MEASURE.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOFALLBACKDEFINITION.fields_by_name['name_definitions'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEONAMEDEFINITION
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOFALLBACKDEFINITION.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEONAMEDEFINITION.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.fields_by_name['from_assets'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOFALLBACKDEFINITION
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.fields_by_name['from_url'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEONAMEDEFINITION
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.fields_by_name['quality_mappings'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_QUALITYMAPPINGSENTRY
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.oneofs_by_name['VideoSource'].fields.append(
+  _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.fields_by_name['from_assets'])
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.fields_by_name['from_assets'].containing_oneof = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.oneofs_by_name['VideoSource']
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.oneofs_by_name['VideoSource'].fields.append(
+  _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.fields_by_name['from_url'])
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.fields_by_name['from_url'].containing_oneof = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG.oneofs_by_name['VideoSource']
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG_ELECTORALVOTESPERFLOOPOINTS.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG.fields_by_name['electoral_votes_per_floo_points'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG_ELECTORALVOTESPERFLOOPOINTS
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTBONUSCONFIG.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_LOCALIZATIONMAPPING.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST_PERMISSIONSCONFIGSTATICDATA.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST.fields_by_name['list'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST_PERMISSIONSCONFIGSTATICDATA
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_VOICEOVERLANGUAGEMAPPING.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_AUDIOCONFIG.fields_by_name['music_config'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_MUSICCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_AUDIOCONFIG.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_BATTERYSAVERPROFILE.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREFAMILYORDERS.fields_by_name['subfeature'].enum_type = wuprotos_dot_data_dot_collection_dot_collection__family__pb2._COLLECTIONFAMILY_SUBFEATURETYPE
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREFAMILYORDERS.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREPRESTIGELEVELS.fields_by_name['subfeature'].enum_type = wuprotos_dot_data_dot_collection_dot_collection__family__pb2._COLLECTIONFAMILY_SUBFEATURETYPE
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREPRESTIGELEVELS.fields_by_name['prestige_levels'].message_type = _CLIENTGMTEMPLATE_COLLECTIONPRESTIGELEVEL
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREPRESTIGELEVELS.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_ENCOUNTERSOUNDBANKS.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_MUSICCONFIG.fields_by_name['parameters'].message_type = wuprotos_dot_data_dot_audio__parameter__pb2._AUDIOPARAMETER
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_MUSICCONFIG.containing_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['target_glyph_color'].message_type = wuprotos_dot_data_dot_color__pb2._COLOR
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['reticle_glyph_color'].message_type = wuprotos_dot_data_dot_color__pb2._COLOR
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['aligned_glyph_color'].message_type = wuprotos_dot_data_dot_color__pb2._COLOR
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['floo_network_config'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['permissions_config'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['audio_config'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_AUDIOCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['subfeature_prestige_levels'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREPRESTIGELEVELS
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['bonus_config'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTBONUSCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['parkmode_bgs'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PARKMODEBGSENTRY
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['subfeature_family_orders'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREFAMILYORDERS
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['battery_saver_profiles'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_BATTERYSAVERPROFILE
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['encounter_banks'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_ENCOUNTERSOUNDBANKS
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['ftue_video'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['avatar_default_color'].message_type = wuprotos_dot_data_dot_color__pb2._COLOR
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['lock_on_completion_sfx'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['lock_on_time_up_sfx'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['protego_cast_sfx'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['protego_time_up_sfx'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['challenge_thirty_seconds_left_stinger'].message_type = wuprotos_dot_data_dot_audio__parameter__pb2._AUDIOPARAMETER
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['challenge_encounter_player_victorious_stinger'].message_type = wuprotos_dot_data_dot_audio__parameter__pb2._AUDIOPARAMETER
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['challenge_encounter_player_defeated_stinger'].message_type = wuprotos_dot_data_dot_audio__parameter__pb2._AUDIOPARAMETER
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['challenge_begin_stinger'].message_type = wuprotos_dot_data_dot_audio__parameter__pb2._AUDIOPARAMETER
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['challenge_finish_victory'].message_type = wuprotos_dot_data_dot_audio__parameter__pb2._AUDIOPARAMETER
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['challenge_finish_defeat'].message_type = wuprotos_dot_data_dot_audio__parameter__pb2._AUDIOPARAMETER
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['challenge_elite_mob_spawns_stinger'].message_type = wuprotos_dot_data_dot_audio__parameter__pb2._AUDIOPARAMETER
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['ten_seconds_left_in_challenge_sfx'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['long_second_left_in_challenge_sfx'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['short_half_second_left_in_challenge_sfx'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['one_minute_warning_sfx'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['voice_over_mappings'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_VOICEOVERLANGUAGEMAPPING
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.fields_by_name['localization_mappings'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_LOCALIZATIONMAPPING
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG.containing_type = _CLIENTGMTEMPLATE
+_CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY.fields_by_name['color'].message_type = wuprotos_dot_data_dot_color__pb2._COLOR
+_CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY.fields_by_name['color_highlight'].message_type = wuprotos_dot_data_dot_color__pb2._COLOR
+_CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY.fields_by_name['sound'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
+_CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY.fields_by_name['unarchive_requirements'].message_type = wuprotos_dot_data_dot_requirements__pb2._REQUIREMENTS
+_CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY.fields_by_name['prestige_override'].message_type = _CLIENTGMTEMPLATE_COLLECTIONPRESTIGELEVEL
+_CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY.containing_type = _CLIENTGMTEMPLATE
+_CLIENTGMTEMPLATE_COLLECTIONPRESTIGELEVEL.fields_by_name['color'].message_type = wuprotos_dot_data_dot_color__pb2._COLOR
+_CLIENTGMTEMPLATE_COLLECTIONPRESTIGELEVEL.containing_type = _CLIENTGMTEMPLATE
 _CLIENTGMTEMPLATE_CLIENTVAULTITEM.fields_by_name['color'].message_type = wuprotos_dot_data_dot_color__pb2._COLOR
 _CLIENTGMTEMPLATE_CLIENTVAULTITEM.fields_by_name['reward_sound'].message_type = wuprotos_dot_data_dot_sound__config__pb2._SOUNDCONFIG
 _CLIENTGMTEMPLATE_CLIENTVAULTITEM.containing_type = _CLIENTGMTEMPLATE
@@ -5088,13 +6875,13 @@ _CLIENTGMTEMPLATE_CLIENTWALKBOXTEMPLATE.containing_type = _CLIENTGMTEMPLATE
 _CLIENTGMTEMPLATE_CLIENTMASTERNOTE.containing_type = _CLIENTGMTEMPLATE
 _CLIENTGMTEMPLATE_CLIENTBONUSCATEGORY.fields_by_name['color'].message_type = wuprotos_dot_data_dot_color__pb2._COLOR
 _CLIENTGMTEMPLATE_CLIENTBONUSCATEGORY.containing_type = _CLIENTGMTEMPLATE
-_CLIENTGMTEMPLATE.fields_by_name['collection_family'].message_type = wuprotos_dot_data_dot_client_dot_client__collection__family__pb2._CLIENTCOLLECTIONFAMILY
+_CLIENTGMTEMPLATE.fields_by_name['collection_family'].message_type = _CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY
 _CLIENTGMTEMPLATE.fields_by_name['collection_item'].message_type = _CLIENTGMTEMPLATE_CLIENTCOLLECTIONITEM
 _CLIENTGMTEMPLATE.fields_by_name['walkbox_template'].message_type = _CLIENTGMTEMPLATE_CLIENTWALKBOXTEMPLATE
 _CLIENTGMTEMPLATE.fields_by_name['encounter'].message_type = _CLIENTGMTEMPLATE_CLIENTENCOUNTER
 _CLIENTGMTEMPLATE.fields_by_name['portkey'].message_type = _CLIENTGMTEMPLATE_CLIENTPORTKEY
 _CLIENTGMTEMPLATE.fields_by_name['vault_item'].message_type = _CLIENTGMTEMPLATE_CLIENTVAULTITEM
-_CLIENTGMTEMPLATE.fields_by_name['game_config'].message_type = wuprotos_dot_data_dot_client_dot_client__game__config__pb2._CLIENTGAMECONFIG
+_CLIENTGMTEMPLATE.fields_by_name['game_config'].message_type = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG
 _CLIENTGMTEMPLATE.fields_by_name['store_pack'].message_type = _CLIENTGMTEMPLATE_CLIENTSTOREPACK
 _CLIENTGMTEMPLATE.fields_by_name['spell'].message_type = _CLIENTGMTEMPLATE_CLIENTSPELL
 _CLIENTGMTEMPLATE.fields_by_name['protego_pattern'].message_type = _CLIENTGMTEMPLATE_CLIENTPROTEGOPATTERN
@@ -5232,6 +7019,160 @@ DESCRIPTOR.message_types_by_name['ClientGmTemplate'] = _CLIENTGMTEMPLATE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 ClientGmTemplate = _reflection.GeneratedProtocolMessageType('ClientGmTemplate', (_message.Message,), dict(
+
+  ClientGameConfig = _reflection.GeneratedProtocolMessageType('ClientGameConfig', (_message.Message,), dict(
+
+    ParkmodeBgsEntry = _reflection.GeneratedProtocolMessageType('ParkmodeBgsEntry', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PARKMODEBGSENTRY,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ParkmodeBgsEntry)
+      ))
+    ,
+
+    ClientFtueVideoConfig = _reflection.GeneratedProtocolMessageType('ClientFtueVideoConfig', (_message.Message,), dict(
+
+      QualityMappingsEntry = _reflection.GeneratedProtocolMessageType('QualityMappingsEntry', (_message.Message,), dict(
+        DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_QUALITYMAPPINGSENTRY,
+        __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+        # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.QualityMappingsEntry)
+        ))
+      ,
+
+      ClientFtueVideoQualityMapping = _reflection.GeneratedProtocolMessageType('ClientFtueVideoQualityMapping', (_message.Message,), dict(
+        DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOQUALITYMAPPING,
+        __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+        # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoQualityMapping)
+        ))
+      ,
+
+      ClientFtueVideoFallbackDefinition = _reflection.GeneratedProtocolMessageType('ClientFtueVideoFallbackDefinition', (_message.Message,), dict(
+        DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEOFALLBACKDEFINITION,
+        __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+        # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoFallbackDefinition)
+        ))
+      ,
+
+      ClientFtueVideoNameDefinition = _reflection.GeneratedProtocolMessageType('ClientFtueVideoNameDefinition', (_message.Message,), dict(
+        DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_CLIENTFTUEVIDEONAMEDEFINITION,
+        __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+        # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoNameDefinition)
+        ))
+      ,
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig)
+      ))
+    ,
+
+    ClientFlooNetworkConfig = _reflection.GeneratedProtocolMessageType('ClientFlooNetworkConfig', (_message.Message,), dict(
+
+      ElectoralVotesPerFlooPoints = _reflection.GeneratedProtocolMessageType('ElectoralVotesPerFlooPoints', (_message.Message,), dict(
+        DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG_ELECTORALVOTESPERFLOOPOINTS,
+        __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+        # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig.ElectoralVotesPerFlooPoints)
+        ))
+      ,
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFLOONETWORKCONFIG,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig)
+      ))
+    ,
+
+    ClientBonusConfig = _reflection.GeneratedProtocolMessageType('ClientBonusConfig', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTBONUSCONFIG,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.ClientBonusConfig)
+      ))
+    ,
+
+    LocalizationMapping = _reflection.GeneratedProtocolMessageType('LocalizationMapping', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_LOCALIZATIONMAPPING,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.LocalizationMapping)
+      ))
+    ,
+
+    PermissionsConfigStaticList = _reflection.GeneratedProtocolMessageType('PermissionsConfigStaticList', (_message.Message,), dict(
+
+      PermissionsConfigStaticData = _reflection.GeneratedProtocolMessageType('PermissionsConfigStaticData', (_message.Message,), dict(
+        DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST_PERMISSIONSCONFIGSTATICDATA,
+        __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+        # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData)
+        ))
+      ,
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PERMISSIONSCONFIGSTATICLIST,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList)
+      ))
+    ,
+
+    VoiceOverLanguageMapping = _reflection.GeneratedProtocolMessageType('VoiceOverLanguageMapping', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_VOICEOVERLANGUAGEMAPPING,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.VoiceOverLanguageMapping)
+      ))
+    ,
+
+    AudioConfig = _reflection.GeneratedProtocolMessageType('AudioConfig', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_AUDIOCONFIG,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.AudioConfig)
+      ))
+    ,
+
+    BatterySaverProfile = _reflection.GeneratedProtocolMessageType('BatterySaverProfile', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_BATTERYSAVERPROFILE,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.BatterySaverProfile)
+      ))
+    ,
+
+    CollectionSubfeatureFamilyOrders = _reflection.GeneratedProtocolMessageType('CollectionSubfeatureFamilyOrders', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREFAMILYORDERS,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeatureFamilyOrders)
+      ))
+    ,
+
+    CollectionSubfeaturePrestigeLevels = _reflection.GeneratedProtocolMessageType('CollectionSubfeaturePrestigeLevels', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_COLLECTIONSUBFEATUREPRESTIGELEVELS,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.CollectionSubfeaturePrestigeLevels)
+      ))
+    ,
+
+    EncounterSoundBanks = _reflection.GeneratedProtocolMessageType('EncounterSoundBanks', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_ENCOUNTERSOUNDBANKS,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.EncounterSoundBanks)
+      ))
+    ,
+
+    MusicConfig = _reflection.GeneratedProtocolMessageType('MusicConfig', (_message.Message,), dict(
+      DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG_MUSICCONFIG,
+      __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+      # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig.MusicConfig)
+      ))
+    ,
+    DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTGAMECONFIG,
+    __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+    # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientGameConfig)
+    ))
+  ,
+
+  ClientCollectionFamily = _reflection.GeneratedProtocolMessageType('ClientCollectionFamily', (_message.Message,), dict(
+    DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTCOLLECTIONFAMILY,
+    __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+    # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.ClientCollectionFamily)
+    ))
+  ,
+
+  CollectionPrestigeLevel = _reflection.GeneratedProtocolMessageType('CollectionPrestigeLevel', (_message.Message,), dict(
+    DESCRIPTOR = _CLIENTGMTEMPLATE_COLLECTIONPRESTIGELEVEL,
+    __module__ = 'wuprotos.data.client.client_gm_template_pb2'
+    # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate.CollectionPrestigeLevel)
+    ))
+  ,
 
   ClientVaultItem = _reflection.GeneratedProtocolMessageType('ClientVaultItem', (_message.Message,), dict(
     DESCRIPTOR = _CLIENTGMTEMPLATE_CLIENTVAULTITEM,
@@ -5748,6 +7689,28 @@ ClientGmTemplate = _reflection.GeneratedProtocolMessageType('ClientGmTemplate', 
   # @@protoc_insertion_point(class_scope:wuprotos.data.client.ClientGmTemplate)
   ))
 _sym_db.RegisterMessage(ClientGmTemplate)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.ParkmodeBgsEntry)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.QualityMappingsEntry)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoQualityMapping)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoFallbackDefinition)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.ClientFtueVideoConfig.ClientFtueVideoNameDefinition)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.ClientFlooNetworkConfig.ElectoralVotesPerFlooPoints)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.ClientBonusConfig)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.LocalizationMapping)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.PermissionsConfigStaticList.PermissionsConfigStaticData)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.VoiceOverLanguageMapping)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.AudioConfig)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.BatterySaverProfile)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.CollectionSubfeatureFamilyOrders)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.CollectionSubfeaturePrestigeLevels)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.EncounterSoundBanks)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientGameConfig.MusicConfig)
+_sym_db.RegisterMessage(ClientGmTemplate.ClientCollectionFamily)
+_sym_db.RegisterMessage(ClientGmTemplate.CollectionPrestigeLevel)
 _sym_db.RegisterMessage(ClientGmTemplate.ClientVaultItem)
 _sym_db.RegisterMessage(ClientGmTemplate.ClientStoreConfig)
 _sym_db.RegisterMessage(ClientGmTemplate.ClientStoreConfig.StoreRarity)
@@ -5823,6 +7786,8 @@ _sym_db.RegisterMessage(ClientGmTemplate.ClientMasterNote)
 _sym_db.RegisterMessage(ClientGmTemplate.ClientBonusCategory)
 
 
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_PARKMODEBGSENTRY._options = None
+_CLIENTGMTEMPLATE_CLIENTGAMECONFIG_CLIENTFTUEVIDEOCONFIG_QUALITYMAPPINGSENTRY._options = None
 _CLIENTGMTEMPLATE_CLIENTSPELL_TIMELINESENTRY._options = None
 _CLIENTGMTEMPLATE_CLIENTSPELL_CRITICALHITSENTRY._options = None
 _CLIENTGMTEMPLATE_CLIENTRPGSTAT_ICONSENTRY._options = None
