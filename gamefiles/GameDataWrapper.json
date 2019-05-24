@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1558386382932",
+  "basisBatchId": "1558642899677",
   "environment": "19",
   "messages": [
     {
@@ -133,7 +133,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_player_stat_spellcast_success_chance_boost": "21000"
+              "proto_rpgstat_player_stat_spellcast_success_chance_boost": "30000"
             }
           },
           {
@@ -145,13 +145,13 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_attack_multiplier": "100000"
+              "proto_rpgstat_stat_combat_attack_multiplier": "125000"
             }
           }
         ],
         "duration": {
           "charges": {
-            "numCharges": 3
+            "numCharges": 4
           }
         },
         "exclusivityGroup": {
@@ -227,13 +227,13 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_attack_multiplier": "150000"
+              "proto_rpgstat_stat_combat_attack_multiplier": "225000"
             }
           }
         ],
         "duration": {
           "charges": {
-            "numCharges": 3
+            "numCharges": 5
           }
         },
         "exclusivityGroup": {
@@ -44797,7 +44797,7 @@
           {
             "spellGmtId": "proto_spell_ebublio",
             "swish": {
-              "baseWinRate": 0.20000000298023224
+              "baseWinRate": 0.11999999731779099
             }
           }
         ]
@@ -44858,7 +44858,7 @@
           {
             "spellGmtId": "proto_spell_finite",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -45354,7 +45354,7 @@
           {
             "spellGmtId": "proto_spell_flipendo",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -45386,7 +45386,7 @@
           {
             "spellGmtId": "proto_spell_diffindo",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -45402,7 +45402,7 @@
           {
             "spellGmtId": "proto_spell_arrestomomentum",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -45418,7 +45418,7 @@
           {
             "spellGmtId": "proto_spell_ebublio",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -45450,7 +45450,7 @@
           {
             "spellGmtId": "proto_spell_aguamenti",
             "swish": {
-              "baseWinRate": 0.0010000000474974513
+              "baseWinRate": 0.00800000037997961
             }
           }
         ]
@@ -45482,7 +45482,7 @@
           {
             "spellGmtId": "proto_spell_alohomora",
             "swish": {
-              "baseWinRate": 0.017000000923871994
+              "baseWinRate": 0.010999999940395355
             }
           }
         ]
@@ -48579,7 +48579,7 @@
           {
             "spellGmtId": "proto_spell_arrestomomentum",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -48745,7 +48745,7 @@
           {
             "spellGmtId": "proto_spell_flipendo",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -50067,7 +50067,7 @@
           {
             "spellGmtId": "proto_spell_ebublio",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -50083,7 +50083,7 @@
           {
             "spellGmtId": "proto_spell_alohomora",
             "swish": {
-              "baseWinRate": 0.026000000536441803
+              "baseWinRate": 0.017000000923871994
             }
           }
         ]
@@ -50099,7 +50099,7 @@
           {
             "spellGmtId": "proto_spell_ebublio",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -50115,7 +50115,7 @@
           {
             "spellGmtId": "proto_spell_diffindo",
             "swish": {
-              "baseWinRate": 0.017000000923871994
+              "baseWinRate": 0.010999999940395355
             }
           }
         ]
@@ -50273,7 +50273,7 @@
           {
             "spellGmtId": "proto_spell_diffindo",
             "swish": {
-              "baseWinRate": 0.017000000923871994
+              "baseWinRate": 0.010999999940395355
             }
           }
         ]
@@ -50289,7 +50289,7 @@
           {
             "spellGmtId": "proto_spell_arrestomomentum",
             "swish": {
-              "baseWinRate": 0.11999999731779099
+              "baseWinRate": 0.10000000149011612
             }
           }
         ]
@@ -50785,7 +50785,7 @@
           {
             "spellGmtId": "proto_spell_ebublio",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -50913,7 +50913,7 @@
           {
             "spellGmtId": "proto_spell_ebublio",
             "swish": {
-              "baseWinRate": 0.026000000536441803
+              "baseWinRate": 0.017000000923871994
             }
           }
         ]
@@ -50942,7 +50942,7 @@
           {
             "spellGmtId": "proto_spell_meteolojinxrecanto",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -50974,23 +50974,7 @@
           {
             "spellGmtId": "proto_spell_meteolojinxrecanto",
             "swish": {
-              "baseWinRate": 0.20000000298023224
-            }
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_magicalgamesandsports",
-        "collectionItemRewardGmtId": "proto_collectionitem_goldensnitch",
-        "collectionItemRewardShards": 1,
-        "id": "proto_encounter_goldensnitch_b0001",
-        "stages": [
-          {
-            "spellGmtId": "proto_spell_meteolojinxrecanto",
-            "swish": {
-              "baseWinRate": 0.20000000298023224
+              "baseWinRate": 0.11999999731779099
             }
           }
         ]
@@ -51022,7 +51006,7 @@
           {
             "spellGmtId": "proto_spell_diffindo",
             "swish": {
-              "baseWinRate": 0.017000000923871994
+              "baseWinRate": 0.010999999940395355
             }
           }
         ]
@@ -51142,22 +51126,6 @@
     },
     {
       "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_magicalgamesandsports",
-        "collectionItemRewardGmtId": "proto_collectionitem_harrypotter_hp6_quidditch",
-        "collectionItemRewardShards": 1,
-        "id": "proto_encounter_harrypotter_hp6_quidditch_b0001",
-        "stages": [
-          {
-            "spellGmtId": "proto_spell_expectopatronum",
-            "swish": {
-              "baseWinRate": 0.00800000037997961
-            }
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
         "collectionFamilyGmtId": "proto_collectionfamily_legendsofhogwarts",
         "collectionItemRewardGmtId": "proto_collectionitem_harrypotter_hp8_street",
         "collectionItemRewardShards": 1,
@@ -51191,22 +51159,6 @@
         "collectionItemRewardGmtId": "proto_collectionitem_hedwig",
         "collectionItemRewardShards": 1,
         "id": "proto_encounter_hedwig_0001",
-        "stages": [
-          {
-            "spellGmtId": "proto_spell_meteolojinxrecanto",
-            "swish": {
-              "baseWinRate": 0.44999998807907104
-            }
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_legendsofhogwarts",
-        "collectionItemRewardGmtId": "proto_collectionitem_hedwig",
-        "collectionItemRewardShards": 1,
-        "id": "proto_encounter_hedwig_b0001",
         "stages": [
           {
             "spellGmtId": "proto_spell_meteolojinxrecanto",
@@ -51288,7 +51240,7 @@
           {
             "spellGmtId": "proto_spell_incendio",
             "swish": {
-              "baseWinRate": 0.11999999731779099
+              "baseWinRate": 0.10000000149011612
             }
           }
         ]
@@ -51304,7 +51256,7 @@
           {
             "spellGmtId": "proto_spell_ebublio",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -51894,7 +51846,7 @@
           {
             "spellGmtId": "proto_spell_arrestomomentum",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -51910,7 +51862,7 @@
           {
             "spellGmtId": "proto_spell_expectopatronum",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -52079,7 +52031,7 @@
           {
             "spellGmtId": "proto_spell_bombarda",
             "swish": {
-              "baseWinRate": 0.11999999731779099
+              "baseWinRate": 0.10000000149011612
             }
           }
         ]
@@ -52108,7 +52060,7 @@
           {
             "spellGmtId": "proto_spell_meteolojinxrecanto",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -52137,7 +52089,7 @@
           {
             "spellGmtId": "proto_spell_arrestomomentum",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -52214,7 +52166,7 @@
           {
             "spellGmtId": "proto_spell_flipendo",
             "swish": {
-              "baseWinRate": 0.11999999731779099
+              "baseWinRate": 0.10000000149011612
             }
           }
         ]
@@ -52230,7 +52182,7 @@
           {
             "spellGmtId": "proto_spell_bombarda",
             "swish": {
-              "baseWinRate": 0.20000000298023224
+              "baseWinRate": 0.11999999731779099
             }
           }
         ]
@@ -52246,7 +52198,7 @@
           {
             "spellGmtId": "proto_spell_aguamenti",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -52262,7 +52214,7 @@
           {
             "spellGmtId": "proto_spell_ebublio",
             "swish": {
-              "baseWinRate": 0.11999999731779099
+              "baseWinRate": 0.10000000149011612
             }
           }
         ]
@@ -52827,38 +52779,9 @@
     },
     {
       "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_events_0001",
-        "collectionItemRewardGmtId": "proto_collectionitem_newtscamander_fb1",
-        "collectionItemRewardShards": 1,
-        "id": "proto_encounter_newtscamander_fb1_b0001",
-        "stages": [
-          {
-            "spellGmtId": "proto_spell_ebublio",
-            "swish": {
-              "baseWinRate": 0.0010000000474974513
-            }
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
         "collectionFamilyGmtId": "proto_collectionfamily_magizoology",
         "collectionItemRewardGmtId": "proto_collectionitem_newtscamander_fb1",
         "id": "proto_encounter_newtscamander_fb1_picture_0001",
-        "stages": [
-          {
-            "picture": {},
-            "spellGmtId": "proto_spell_aguamenti"
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_magizoology",
-        "collectionItemRewardGmtId": "proto_collectionitem_newtscamander_fb1",
-        "id": "proto_encounter_newtscamander_fb1_picture_b0001",
         "stages": [
           {
             "picture": {},
@@ -52922,7 +52845,7 @@
           {
             "spellGmtId": "proto_spell_incendio",
             "swish": {
-              "baseWinRate": 0.20000000298023224
+              "baseWinRate": 0.11999999731779099
             }
           }
         ]
@@ -52951,7 +52874,7 @@
           {
             "spellGmtId": "proto_spell_meteolojinxrecanto",
             "swish": {
-              "baseWinRate": 0.11999999731779099
+              "baseWinRate": 0.10000000149011612
             }
           }
         ]
@@ -52967,7 +52890,7 @@
           {
             "spellGmtId": "proto_spell_expectopatronum",
             "swish": {
-              "baseWinRate": 0.20000000298023224
+              "baseWinRate": 0.11999999731779099
             }
           }
         ]
@@ -53015,7 +52938,7 @@
           {
             "spellGmtId": "proto_spell_bombarda",
             "swish": {
-              "baseWinRate": 0.20000000298023224
+              "baseWinRate": 0.11999999731779099
             }
           }
         ]
@@ -53031,7 +52954,7 @@
           {
             "spellGmtId": "proto_spell_arrestomomentum",
             "swish": {
-              "baseWinRate": 0.017000000923871994
+              "baseWinRate": 0.010999999940395355
             }
           }
         ]
@@ -53172,7 +53095,7 @@
           {
             "spellGmtId": "proto_spell_bombarda",
             "swish": {
-              "baseWinRate": 0.017000000923871994
+              "baseWinRate": 0.010999999940395355
             }
           }
         ]
@@ -54786,7 +54709,7 @@
           {
             "spellGmtId": "proto_spell_finite",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -56008,7 +55931,7 @@
           {
             "spellGmtId": "proto_spell_finite",
             "swish": {
-              "baseWinRate": 0.3499999940395355
+              "baseWinRate": 0.30000001192092896
             }
           }
         ]
@@ -56069,7 +55992,7 @@
           {
             "spellGmtId": "proto_spell_incendio",
             "swish": {
-              "baseWinRate": 0.026000000536441803
+              "baseWinRate": 0.017000000923871994
             }
           }
         ]
@@ -56159,7 +56082,7 @@
           {
             "spellGmtId": "proto_spell_meteolojinxrecanto",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -57297,7 +57220,7 @@
           {
             "spellGmtId": "proto_spell_flipendo",
             "swish": {
-              "baseWinRate": 0.026000000536441803
+              "baseWinRate": 0.017000000923871994
             }
           }
         ]
@@ -58379,7 +58302,7 @@
           {
             "spellGmtId": "proto_spell_diffindo",
             "swish": {
-              "baseWinRate": 0.026000000536441803
+              "baseWinRate": 0.017000000923871994
             }
           }
         ]
@@ -58411,7 +58334,7 @@
           {
             "spellGmtId": "proto_spell_flipendo",
             "swish": {
-              "baseWinRate": 0.026000000536441803
+              "baseWinRate": 0.017000000923871994
             }
           }
         ]
@@ -59496,7 +59419,7 @@
           {
             "spellGmtId": "proto_spell_bombarda",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -60260,7 +60183,7 @@
           {
             "spellGmtId": "proto_spell_meteolojinxrecanto",
             "swish": {
-              "baseWinRate": 0.30000001192092896
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -61513,7 +61436,7 @@
           {
             "spellGmtId": "proto_spell_arrestomomentum",
             "swish": {
-              "baseWinRate": 0.026000000536441803
+              "baseWinRate": 0.017000000923871994
             }
           }
         ]
@@ -61674,7 +61597,10 @@
         "activationReqs": {
           "reqs": [
             {
-              "boolLiteralReq": "FALSE"
+              "dateReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "epochDateInSeconds": "1559250000"
+              }
             }
           ]
         },
@@ -61682,7 +61608,10 @@
         "runningReqs": {
           "reqs": [
             {
-              "boolLiteralReq": "FALSE"
+              "dateReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "epochDateInSeconds": "1559768400"
+              }
             }
           ]
         }
@@ -64002,7 +63931,7 @@
         "greenhouseCoolDownMs": "300000",
         "id": "proto_game_config",
         "innCoolDownMs": "300000",
-        "innMenuStalenessThresholdMs": "1000",
+        "innMenuStalenessThresholdMs": "300000",
         "levelBonusWeight": 0.20000000298023224,
         "mapEventUpdateRate": 1,
         "mapPuzzleUpdateRate": 5,
@@ -79739,7 +79668,7 @@
               {
                 "levelReq": {
                   "comparisonOperator": "GREATER_OR_EQUAL",
-                  "level": 10
+                  "level": 7
                 }
               }
             ]
@@ -79834,7 +79763,7 @@
               {
                 "levelReq": {
                   "comparisonOperator": "GREATER_OR_EQUAL",
-                  "level": 20
+                  "level": 10
                 }
               }
             ]
@@ -91438,7 +91367,7 @@
             "rewards": [
               {
                 "itemReward": {
-                  "amount": "2",
+                  "amount": "1",
                   "itemId": "proto_vaultitem_energy_1"
                 }
               }
@@ -94363,7 +94292,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "179225",
+        "dataVersion": "180896",
         "id": "proto_version_data"
       }
     },
