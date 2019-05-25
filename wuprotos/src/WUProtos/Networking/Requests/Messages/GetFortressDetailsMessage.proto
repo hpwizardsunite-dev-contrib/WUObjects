@@ -1,0 +1,8 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message GetFortressDetailsMessage {
+	string fortress_id = 1;
+	double latitude = 4;
+	double longitude = 5;
+}

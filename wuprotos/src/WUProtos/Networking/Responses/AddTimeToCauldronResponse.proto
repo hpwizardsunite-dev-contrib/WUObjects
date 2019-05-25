@@ -1,0 +1,15 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message AddTimeToCauldronResponse {
+	AddTimeToCauldronResult result = 1;
+
+	enum AddTimeToCauldronResult {
+		UNKNOWN = 0;
+		SUCCESS = 1;
+		CAULDRON_NOT_FOUND = 2;
+		TIME_ITEM_NOT_FOUND = 3;
+		INVALID_CAULDRON_TYPE = 4;
+		INSUFFICIENT_RESOURCES = 5;
+	}
+}

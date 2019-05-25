@@ -1,0 +1,25 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Client/ClientMapPoi.proto";
+
+message GetPlayerStateResponse {
+	ClientPlayer player = 1;
+
+	message ClientPlayer {
+		int64 creation_time_ms = 1;
+
+		oneof State {
+			ClientPlayerMapState map = 2;
+			ClientPlayerChallengeState challenge = 3;
+		}
+	}
+
+	message ClientPlayerMapState {
+	}
+
+	message ClientPlayerChallengeState {
+		string fortress_id = 1;
+		.WUProtos.Data.Client.ClientMapPoi fortress_poi = 2;
+	}
+}

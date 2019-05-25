@@ -1,0 +1,19 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/FlooNetworkFortressStatistics.proto";
+
+message ContributeFlooPowderToFortressResponse {
+	Result result = 1;
+	.WUProtos.Data.FlooNetworkFortressStatistics fortress_statistics = 2;
+
+	enum Result {
+		UNKNOWN = 0;
+		SUCCESS = 1;
+		PLAYER_HAS_NO_TEAM = 2;
+		INSUFFICIENT_FLOO_POWDER = 3;
+		TOO_FAR_FROM_FORTRESS = 4;
+		SEASON_NOT_ACTIVE = 5;
+		FLOO_NETWORK_UNAVAILABLE = 6;
+	}
+}

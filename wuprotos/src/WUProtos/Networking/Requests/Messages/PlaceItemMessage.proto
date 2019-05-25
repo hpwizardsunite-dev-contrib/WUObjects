@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message PlaceItemMessage {
+	string collection_item_id = 1;
+}

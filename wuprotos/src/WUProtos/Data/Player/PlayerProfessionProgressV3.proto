@@ -1,0 +1,25 @@
+syntax = "proto3";
+package WUProtos.Data.Player;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message PlayerProfessionProgressV3 {
+	map<string, NodeProgressV3> node_progress = 1;
+	uint32 rank_points = 2;
+	map<string, RankProgressV3> rank_progress_map = 3;
+	uint32 profession_grade = 4;
+
+	message NodeProgressV3 {
+		uint32 level = 1;
+		int64 last_updated_timestamp = 2;
+		.WUProtos.Data.Loot.LootReward.LootCollection unlocked_levels_cost = 3;
+	}
+
+	message RankProgressV3 {
+		message NodeProgressV3 {
+			uint32 level = 1;
+			int64 last_updated_timestamp = 2;
+			.WUProtos.Data.Loot.LootReward.LootCollection unlocked_levels_cost = 3;
+		}
+	}
+}

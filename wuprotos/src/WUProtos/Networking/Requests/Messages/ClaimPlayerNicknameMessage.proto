@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message ClaimPlayerNicknameMessage {
+	string desired_nickname = 1;
+}

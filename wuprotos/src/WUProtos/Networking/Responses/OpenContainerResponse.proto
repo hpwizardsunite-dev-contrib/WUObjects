@@ -1,0 +1,11 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message OpenContainerResponse {
+	int32 family_level = 1;
+	repeated .WUProtos.Data.Loot.LootReward.LootCollection chest_reward = 2;
+	int32 family_xp = 3;
+	int32 current_chests_opened = 4;
+}

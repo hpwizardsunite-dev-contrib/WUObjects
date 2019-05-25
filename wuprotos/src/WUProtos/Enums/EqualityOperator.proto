@@ -1,0 +1,8 @@
+syntax = "proto3";
+package WUProtos.Enums;
+
+enum EqualityOperator {
+    EQUALITY_OPERATOR_UNSET = 0;
+    IS_EQUAL = 1;
+    IS_NOT_EQUAL = 2;
+}

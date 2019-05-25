@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message StoryboardCompleteMessage {
+	string storyboard_gmt_id = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+message DefaultProfile {
+	string id = 1;
+}

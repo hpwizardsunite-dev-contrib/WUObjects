@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Enums;
+
+enum AppBackgroundResult {
+    NONE = 0;
+    MAP_STATE = 1;
+    FULL_RESET = 2;
+    DEFAULT_APP_BACKGROUND = 3;
+}

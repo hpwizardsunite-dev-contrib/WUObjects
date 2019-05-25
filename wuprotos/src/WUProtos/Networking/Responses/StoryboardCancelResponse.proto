@@ -1,0 +1,12 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message StoryboardCancelResponse {
+	Status status = 1;
+
+	enum Status {
+		STORYBOARD_SKIP_UNKNOWN = 0;
+		STORYBOARD_SKIP_SUCCESS = 1;
+		STORYBOARD_SKIP_ERROR = 2;
+	}
+}

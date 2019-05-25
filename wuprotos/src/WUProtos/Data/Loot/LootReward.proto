@@ -1,0 +1,150 @@
+syntax = "proto3";
+package WUProtos.Data.Loot;
+
+import "WUProtos/Data/Challenge/ChallengeBonus.proto";
+
+message LootReward {
+	oneof RewardData {
+		VaultItemLootReward item_reward = 1;
+		CollectionFamilyLootReward collection_family_reward = 2;
+		CollectionItemReward collection_reward = 3;
+		WalkboxReward walkbox_reward = 4;
+		PortkeyReward portkey_reward = 5;
+		LootTableReward loot_table_reward = 6;
+		VaultCapacityLootReward vault_capacity_reward = 7;
+		GenericRunestoneReward generic_runestone = 8;
+		PotionReward potion_reward = 9;
+		PortkeyCollectibleReward portkey_collectible = 10;
+		GenericCollectionFamilyLootReward generic_collection_family_reward = 11;
+		CauldronReward cauldron_reward = 12;
+		CurrencyReward currency_reward = 13;
+		QuestReward quest_reward = 14;
+		MapIngredientReward map_ingredient_reward = 15;
+	}
+
+	//int64 amount = 15; // not sure this is needed according dynspy viewer 
+	BonusMetadata bonus_metadata = 101;
+
+	message GenericCollectionFamilyLootReward {
+		int32 amount = 1;
+	}
+
+	message GenericRunestoneReward {
+		int32 rank = 1;
+		int64 amount = 2;
+	}
+
+	message PortkeyCollectibleReward {
+		string collection_item_id = 1;
+	}
+
+	message PortkeyReward {
+		string portkey_id = 1;
+	}
+
+	message BonusMetadata {
+		oneof MetadataType {
+			PotionBonusMetadata potion = 1;
+			WrackspurtBonusMetadata wrackspurt = 2;
+			FirstTimeCollectionBonusMetadata first_time_collection = 3;
+			.WUProtos.Data.Challenge.ChallengeBonus challenge = 4;
+			SpellGameBonusMetadata spell_game = 5;
+			ChallengeBonusMetadata challenge_bonus = 6;
+			ShardConversionBonusMetadata shard_conversion = 7;
+			ChallengeChamberBonusMetadata challenge_chamber_bonus = 8;
+			ChallengeSocialBonusMetadata challenge_social_bonus = 9;
+		}
+
+		message FirstTimeCollectionBonusMetadata {
+		}
+
+		message ShardConversionBonusMetadata {
+			int32 amount = 1;
+		}
+
+		message PotionBonusMetadata {
+			string potion_id = 1;
+		}
+
+		message WrackspurtBonusMetadata {
+			float multiplier = 1;
+		}
+
+		message ChallengeChamberBonusMetadata {
+			string chamber_template_gmt_id = 1;
+		}
+
+		message ChallengeBonusMetadata {
+			string challenge_bonus_gmt_id = 1;
+		}
+
+		message ChallengeSocialBonusMetadata {
+			string social_friend_bonus_gmt_id = 1;
+			string challenge_bonus_gmt_id = 2;
+		}
+
+		message SpellGameBonusMetadata {
+			string id = 1;
+		}
+	}
+
+	message CauldronReward {
+		string template_id = 1;
+		int64 cauldron_id = 2;
+		int64 availability_time = 3;
+	}
+
+	message CollectionFamilyLootReward {
+		string family_id = 1;
+		int32 amount = 2;
+	}
+
+	message CollectionItemReward {
+		string item_id = 1;
+		uint32 shard_count = 2;
+	}
+
+	message PotionReward {
+		.WUProtos.Data.Loot.LootReward.LootCollection rewards = 1;
+		int64 time_to_brew = 2;
+		int64 cauldron_id = 3;
+		string recipe_gmt_id = 4;
+	}
+
+	message LootTableReward {
+		string loot_table_id = 1;
+	}
+
+	message LootCollection {
+		repeated .WUProtos.Data.Loot.LootReward rewards = 1;
+		repeated .WUProtos.Data.Loot.LootReward escrowed_rewards = 2;
+	}
+
+	message CurrencyReward {
+		string currency_id = 1;
+		int64 amount = 2;
+	}
+
+	message VaultCapacityLootReward {
+		string vault_category_gmt_id = 1;
+		int64 amount = 2;
+	}
+
+	message VaultItemLootReward {
+		string item_id = 1;
+		int64 amount = 2;
+	}
+
+	message WalkboxReward {
+		string walkbox_template_id = 1;
+	}
+
+	message MapIngredientReward {
+		string ingredient_gmt_id = 1;
+		int64 amount = 2;
+	}
+
+	message QuestReward {
+		string quest_gmt_id = 1;
+	}
+}

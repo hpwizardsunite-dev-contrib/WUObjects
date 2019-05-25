@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+message SocialFriendBonus {
+    string id = 1;
+}

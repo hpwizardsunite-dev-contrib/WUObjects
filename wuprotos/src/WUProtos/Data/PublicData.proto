@@ -1,0 +1,23 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+message PublicData {
+    int32 level = 1;
+    float distance_walked_km = 2;
+    string profession_id = 3;
+    string house_id = 4;
+    WandOptions wand = 5;
+    repeated string favorite_badge_ids = 6;
+    repeated string favorite_title_ids = 7;
+    int64 lifetime_inn_looted = 8;
+    int64 lifetime_greenhouse_looted = 9;
+    int64 lifetime_map_encounter_won = 10;
+    int64 lifetime_wc_won = 11;
+
+    message WandOptions {
+        string core_id = 1;
+        string wood_id = 2;
+        string flexibility_id = 3;
+        string length_id = 4;
+    }
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message PlantIngredientMessage {
+    string outpost_id = 1;
+    string pot_id = 2;
+    string recipe_gmt_id = 3;
+}

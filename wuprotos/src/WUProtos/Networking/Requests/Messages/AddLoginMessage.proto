@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+import "WUProtos/Enums/IdentityProvider.proto";
+
+message AddLoginMessage {
+	.WUProtos.Enums.IdentityProvider identity_provider = 1;
+	bytes inner_message = 2;
+}

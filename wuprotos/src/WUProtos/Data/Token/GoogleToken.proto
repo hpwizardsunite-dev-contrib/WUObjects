@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Data.Token;
+
+message GoogleToken {
+    string id_token = 1;
+}

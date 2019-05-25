@@ -1,0 +1,32 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Encounter/EncounterStartStageResult.proto";
+import "WUProtos/Data/Combat/CombatResults.proto";
+
+message EncounterStartResponse {
+	Status status = 1;
+	bytes encounter_id = 2;
+	repeated .WUProtos.Data.Encounter.EncounterStartStageResult stages = 3;
+	.WUProtos.Data.Combat.CombatResults first_stage_combat_results = 4;
+
+	enum Status {
+		ENCOUNTER_START_UNKNOWN = 0;
+		ENCOUNTER_START_SUCCESS = 1;
+		ENCOUNTER_START_NOT_AVAILABLE = 2;
+		ENCOUNTER_START_NOT_IN_RANGE = 3;
+		ENCOUNTER_START_ALREADY_HAPPENED = 4;
+		ENCOUNTER_START_ALREADY_STARTED = 5;
+		ENCOUNTER_START_CLIENT_STALE_DATA = 6;
+		ENCOUNTER_START_BAD_ENCOUNTER_TICKET = 7;
+		ENCOUNTER_START_WC_PLAYER_NOT_IN_CHAMBER = 8;
+		ENCOUNTER_START_WC_NOT_IN_PROGRESS = 9;
+		ENCOUNTER_START_WC_MOB_NOT_FOUND = 10;
+		ENCOUNTER_START_WC_MOB_IS_DEFEATED = 11;
+		ENCOUNTER_START_WC_PLAYER_ALREADY_ENGAGED = 12;
+		ENCOUNTER_START_WC_MOB_ALREADY_ENGAGED = 13;
+		ENCOUNTER_TUTORIAL_COMPLETED = 14;
+		ENCOUNTER_START_EXPIRY_TIME_REACHED = 15;
+		ENCOUNTER_START_WC_ACTION_ON_COOLDOWN = 16;
+	}
+}

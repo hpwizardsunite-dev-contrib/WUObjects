@@ -1,0 +1,52 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+message WeatherAlertSettings {
+	bool warn_weather = 1;
+	WeatherAlert.Severity default_severity = 2;
+	repeated AlertIgnoreSettings ignores = 3;
+	repeated AlertEnforceSettings enforces = 4;
+
+	message AlertEnforceSettings {
+		message EnforceCondition {
+			repeated string color = 1;
+			repeated string type = 2;
+			repeated string category = 3;
+		}
+
+		string country_code = 1;
+		WeatherAlertSettings.EnforceCondition when = 2;
+	}
+
+	message AlertIgnoreSettings {
+		message OverrideCondition {
+			repeated string color = 1;
+			repeated string type = 2;
+		}
+
+		string country_code = 1;
+		WeatherAlertSettings.OverrideCondition when = 2;
+	}
+
+	message EnforceCondition {
+		repeated string color = 1;
+		repeated string type = 2;
+		repeated string category = 3;
+	}
+
+	message OverrideCondition {
+		repeated string color = 1;
+		repeated string type = 2;
+	}
+
+	message WeatherAlert {
+		Severity severity = 1;
+		bool warn_weather = 2;
+
+		enum Severity {
+			NONE = 0;
+			MODERATE = 1;
+			EXTREME = 2;
+		}
+	}
+}

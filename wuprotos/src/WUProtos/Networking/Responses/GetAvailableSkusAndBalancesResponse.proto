@@ -1,0 +1,36 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/CurrencyQuantity.proto";
+
+message GetAvailableSkusAndBalancesResponse {
+	repeated AvailableSku available_sku = 1;
+	repeated .WUProtos.Data.CurrencyQuantity balance = 2;
+	string player_token = 3;
+
+	enum Status {
+		UNSET = 0;
+		SUCCESS = 1;
+		FAILURE = 2;
+	}
+
+	message AvailableSku {
+		string id = 1;
+		bool is_third_party_vendor_item = 2;
+		repeated .WUProtos.Data.CurrencyQuantity price = 3;
+		repeated .WUProtos.Data.CurrencyQuantity currency_granted = 4;
+		repeated GameItemContent game_item_content = 5;
+		repeated SkuPresentation presentation_data = 6;
+		bool can_be_purchased = 7;
+
+		message SkuPresentation {
+			string key = 1;
+			string value = 2;
+		}
+
+		message GameItemContent {
+			string type = 1;
+			int32 quantity = 2;
+		}
+	}
+}

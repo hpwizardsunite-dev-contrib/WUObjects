@@ -1,0 +1,15 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/StorePack.proto";
+
+message GetAllStorePacksResponse {
+	repeated .WUProtos.Data.StorePack store_pack = 1;
+	Status status = 2;
+
+	enum Status {
+		UNKNOWN = 0;
+		SUCCESS = 1;
+		ERROR = 2;
+	}
+}

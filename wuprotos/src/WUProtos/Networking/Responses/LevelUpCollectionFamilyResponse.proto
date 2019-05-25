@@ -1,0 +1,7 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message LevelUpCollectionFamilyResponse {
+	bool did_level_up = 1;
+	int32 family_level = 2;
+}

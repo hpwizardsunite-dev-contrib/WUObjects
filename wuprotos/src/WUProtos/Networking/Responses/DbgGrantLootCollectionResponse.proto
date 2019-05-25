@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message DbgGrantLootCollectionResponse {
+    bool loot_granted = 1;
+}

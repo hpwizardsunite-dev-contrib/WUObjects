@@ -1,0 +1,248 @@
+syntax = "proto3";
+package WUProtos.Inventory;
+
+import "WUProtos/Data/EmailOpts.proto";
+import "WUProtos/Data/Player/PlayerProfessionsProgressV3.proto";
+import "WUProtos/Data/Loot/LootReward.proto";
+import "WUProtos/Data/HookQuestProgress.proto";
+import "WUProtos/Data/Buff/ActiveBuffList.proto";
+
+message AtlasInventoryItem {
+	oneof Type {
+		PlayerProfile profile = 1;
+		InventoryVaultItem vault_item = 2;
+		InventoryCollectionItem collection_item = 3;
+		InventoryCollectionFamily collection_family = 4;
+		InventoryWalkboxItem walkbox = 5;
+		InventoryFeatureFlags player_flags = 6;
+		InventoryPortkeyItem portkey = 7;
+		.WUProtos.Data.Buff.ActiveBuffList player_active_buff_list = 8;
+		InventoryCollectionPage collection_page = 9;
+		InventoryVaultCapacity vault_capacity = 11;
+		InventoryCauldron cauldron = 12;
+		InventoryEscrowedRewards escrowed_rewards = 13;
+		.WUProtos.Data.Player.PlayerProfessionsProgressV3 professions_progress_v3 = 14;
+		InventoryQuestLog quest_log = 15;
+		LifetimeMetrics lifetime_metrics = 16;
+	}
+
+	message InventoryCauldron {
+		int64 id = 1;
+		string template_id = 2;
+		repeated InventoryCauldronSlot cauldron_slot = 3;
+		int64 brewing_start_timestamp = 4;
+		int64 availability_start_timestamp = 5;
+		int64 availability_time = 6;
+
+		message InventoryCauldronSlot {
+			.WUProtos.Data.Loot.LootReward.LootCollection rewards = 1;
+			int64 time_to_brew = 2;
+			string recipe_gmt_id = 3;
+			bool master_note_applied = 4;
+		}
+	}
+
+	message InventoryFeatureFlags {
+		string id = 1;
+		repeated InventoryFeatureFlag flags = 2;
+
+		message InventoryFeatureFlag {
+			string id = 1;
+
+			oneof Value {
+				bool bval = 2;
+				int64 lval = 3;
+				string sval = 4;
+				float fval = 5;
+			}
+		}
+	}
+
+	message InventoryWalkboxItem {
+		int64 id = 1;
+		string template_id = 2;
+		UnlockingStatus status = 3;
+		float completion_pedometer_km = 4;
+		int64 timestamp = 5;
+
+		enum UnlockingStatus {
+			UNKNOWN = 0;
+			NOT_STARTED = 1;
+			INFINITE_UNLOCKER = 2;
+			PREMIUM_UNLOCKER = 3;
+		}
+	}
+
+	message InventoryVaultItem {
+		string id = 1;
+		int64 qty = 2;
+	}
+
+	message InventoryVaultCapacity {
+		map<string, int64> category_capacity = 1;
+	}
+
+	message InventoryPortkeyItem {
+		int64 id = 1;
+		int64 timestamp = 2;
+		string template_id = 3;
+	}
+
+	message InventoryQuestLog {
+		repeated InventoryInProgressQuest quests = 1;
+		repeated InventoryCompletedQuest completed_quests = 2;
+
+		message InventoryCompletedQuest {
+			string quest_gmt_id = 1;
+			int64 completed_day_since_epoch_if_daily = 2;
+			int64 completed_day_since_epoch = 3;
+		}
+
+		message InventoryInProgressQuest {
+			string quest_gmt_id = 1;
+			repeated QuestProgress progress_per_task = 2;
+			int32 version = 3;
+			int64 start_day_since_epoch_if_daily = 4;
+			int64 start_day_since_epoch = 5;
+
+			message QuestProgress {
+				oneof Type {
+					RequirementsQuestProgress req_progress = 1;
+					.WUProtos.Data.HookQuestProgress hook_progress = 2;
+				}
+
+				message RequirementsQuestProgress {
+				}
+			}
+		}
+	}
+
+	message InventoryEscrowedRewards {
+		.WUProtos.Data.Loot.LootReward.LootCollection rewards = 1;
+	}
+
+	message InventoryCollectionPage {
+		string id = 1;
+		string first_sticker_gmt_id = 2;
+		int64 first_sticker_timestamp = 3;
+		string last_sticker_gmt_id = 4;
+		int64 last_sticker_timestamp = 5;
+		int32 level = 6;
+	}
+
+	message InventoryCollectionItem {
+		string id = 1;
+		int32 times_encountered = 2;
+		int32 times_returned = 3;
+		bool first_time_rewards_collected = 4;
+		string found_location = 5;
+		int64 found_time = 6;
+		bool placed = 8;
+		int32 current_returned = 9;
+		uint32 shards = 10;
+	}
+
+	message InventoryCollectionFamily {
+		string id = 1;
+		int32 family_xp = 2;
+		int32 family_level = 3;
+		int32 rewards_collected_level = 4;
+		int32 current_chests_opened = 5;
+	}
+
+	message LifetimeMetrics {
+		map<string, FamilyMetrics> family_metrics = 1;
+		PoiLootedMetrics poi_looted = 2;
+		MapEncounterMetrics map_encounter = 3;
+		WcMetrics wc = 4;
+		int32 collected_gold_quantity = 5;
+		int32 used_gold_quantity = 6;
+		map<int32, int32> dark_detectors_placed = 7;
+		map<string, int32> collected_category_quantity = 8;
+		map<string, int32> used_category_quantity = 9;
+		int32 successful_swish_spellcast = 10;
+		int32 successful_combat_attack_spellcast = 11;
+		int32 successful_combat_defend_spellcast = 12;
+		int32 portkeys_opened = 13;
+		int32 potions_brewed = 14;
+		int32 map_ingredient_collected = 15;
+		int32 potion_exstimulo1_used = 16;
+		int32 potion_exstimulo2_used = 17;
+		int32 potion_exstimulo3_used = 18;
+		int32 potion_brain_elixir_used = 19;
+		int32 potion_used_encounter = 20;
+		int32 potion_used_wc = 21;
+		int32 swish_masterful_spellcast = 22;
+		int32 mobs_defeated_by_me = 23;
+		int32 seeds_planted = 24;
+		int32 mystery_items_found = 25;
+		repeated string encounter_completed_countries = 26;
+		int32 elite_mobs_defeated_by_me = 27;
+		int32 map_abilities_used = 28;
+
+		message FamilyMetrics {
+			int64 family_xp = 1;
+			int64 family_chest = 2;
+			int64 family_sticker = 3;
+		}
+
+		message MapEncounterMetrics {
+			int64 swish_completed = 1;
+			int64 swish_user_fled = 2;
+			int64 swish_captured = 3;
+			int64 combat_completed = 4;
+			int64 combat_user_fled = 5;
+			int64 combat_captured = 6;
+		}
+
+		message PoiLootedMetrics {
+			int64 inn = 1;
+			int64 greenhouse = 2;
+		}
+
+		message WcMetrics {
+			int64 completed = 1;
+			int64 won = 2;
+		}
+	}
+
+	message PlayerProfile {
+		string nickname = 1;
+		int32 level = 2;
+		float distance_walked_km = 3;
+		int64 max_hp = 4;
+		int64 attack_power = 5;
+		string player_team_id = 6;
+		string profession_id = 7;
+		string title_id = 8;
+		repeated string unlocked_title_ids = 9;
+		string theme_id = 10;
+		repeated string unlocked_theme_ids = 11;
+		string house_id = 12;
+		WandOptions wand = 13;
+		repeated string favorite_badge_ids = 14;
+		repeated string unlocked_badge_ids = 15;
+		repeated string favorite_title_ids = 16;
+		string first_name = 17;
+		string last_name = 18;
+		string profile_creation_location = 19;
+		repeated string unlocked_selfie_asset_ids = 20;
+		int64 total_swish_success_spell = 21;
+		repeated string discovered_potions_master_note_ids = 22;
+		map<string, int64> master_note_discovery_status = 23;
+		map<string, int64> swish_spellcasts = 24;
+		map<string, int64> store_pack_purchased = 25;
+		.WUProtos.Data.EmailOpts email_opts = 26;
+		int64 lifetime_inn_looted = 27;
+		int64 lifetime_greenhouse_looted = 28;
+		int64 lifetime_map_encounter_won = 29;
+		int64 lifetime_wc_won = 30;
+
+		message WandOptions {
+			string core_id = 1;
+			string wood_id = 2;
+			string flexibility_id = 3;
+			string length_id = 4;
+		}
+	}
+}

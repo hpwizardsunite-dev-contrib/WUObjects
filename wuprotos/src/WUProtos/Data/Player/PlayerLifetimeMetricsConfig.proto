@@ -1,0 +1,12 @@
+syntax = "proto3";
+package WUProtos.Data.Player;
+
+message PlayerLifetimeMetricsConfig {
+    string energy_vault_category_gmt_id = 1;
+    string ingredient_vault_category_gmt_id = 2;
+    string potion_extimulo1_gmt_id = 3;
+    string potion_extimulo2_gmt_id = 4;
+    string potion_extimulo3_gmt_id = 5;
+    string potion_brain_elixir_gmt_id = 6;
+    string elite_mob_tag = 7;
+}

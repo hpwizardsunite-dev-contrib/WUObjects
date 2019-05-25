@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests;
+
+import "WUProtos/Networking/Requests/RequestType.proto";
+
+message Request {
+	.WUProtos.Networking.Requests.RequestType request_type = 1;
+	bytes request_message = 2;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message ClaimPotionResponse {
+	ClaimPotionResult result = 1;
+	.WUProtos.Data.Loot.LootReward.LootCollection received_rewards = 2;
+	.WUProtos.Data.Loot.LootReward.LootCollection remaining_rewards = 3;
+
+	enum ClaimPotionResult {
+		UNKNOWN = 0;
+		SUCCESS = 1;
+		EMPTY_SLOT_SELECTED = 2;
+		BREWING_NOT_COMPLETE = 3;
+		INSUFFICIENT_INVENTORY_SPACE_FOR_POTION = 4;
+		CAULDRON_DOES_NOT_CONTAIN_REQUESTED_REWARDS = 5;
+	}
+}

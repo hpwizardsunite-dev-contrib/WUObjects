@@ -1,0 +1,8 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message DbgGetLootRollInfoResponse {
+    .WUProtos.Data.Loot.LootReward.LootCollection loot = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+package WUProtos.Inventory;
+
+import "WUProtos/Inventory/InventoryItem.proto";
+
+message Inventory {
+    repeated .WUProtos.Inventory.InventoryItem inventory_item = 1;
+}

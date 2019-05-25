@@ -1,0 +1,18 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message ReleaseEscrowedRewardsResponse {
+	Status status = 1;
+	.WUProtos.Data.Loot.LootReward.LootCollection claimed_rewards = 2;
+
+	enum Status {
+		UNSET = 0;
+		CLAIM_SUCCESS = 1;
+		NO_ESCROW_ERROR = 2;
+		FULL_CAPACITY_ERROR = 3;
+		CATEGORY_UNKNOWN_ERROR = 4;
+		ABANDON_ALL_SUCCESS = 5;
+	}
+}

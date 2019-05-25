@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+import "WUProtos/Enums/MasterNoteGesture.proto";
+
+message ApplyMasterNoteMessage {
+	int64 cauldron_id = 1;
+	repeated .WUProtos.Enums.MasterNoteGesture gesture = 2;
+}

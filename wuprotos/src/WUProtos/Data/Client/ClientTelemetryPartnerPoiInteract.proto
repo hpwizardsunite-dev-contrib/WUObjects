@@ -1,0 +1,8 @@
+syntax = "proto3";
+package WUProtos.Data.Client;
+
+message ClientTelemetryPartnerPoiInteract {
+    string poi_id = 1;
+    string partner_id = 2;
+    bool is_preview = 3;
+}

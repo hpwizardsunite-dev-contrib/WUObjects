@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Data.Client;
+
+message ClientTheme {
+	string icon = 1;
+}

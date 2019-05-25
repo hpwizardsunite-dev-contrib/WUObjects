@@ -1,0 +1,7 @@
+syntax = "proto3";
+package WUProtos.Data.Telemetry;
+
+message TelemetryCommon {
+	int64 timestamp = 1;
+	string correlation_vector = 2;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message AcknowledgePunishmentMessage {
+	Punishment punishment = 1;
+
+	enum Punishment {
+		UNKNOWN = 0;
+		WARN = 1;
+		SUSPEND = 2;
+	}
+}

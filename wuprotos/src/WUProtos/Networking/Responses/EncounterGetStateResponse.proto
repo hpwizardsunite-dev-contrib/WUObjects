@@ -1,0 +1,34 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Combat/CombatResults.proto";
+
+message EncounterGetStateResponse {
+	Status status = 1;
+	int32 current_stage_index = 2;
+	EncounterGetStateStageResult stage = 3;
+
+	message EncounterGetStateStageResult {
+		oneof Type {
+			EncounterGetStateSwishStageResult swish = 1;
+			EncounterGetStateCombatStageResult combat = 2;
+		}
+
+		message EncounterGetStateSwishStageResult {
+		}
+
+		message EncounterGetStateCombatStageResult {
+			.WUProtos.Data.Combat.CombatResults results = 1;
+		}
+	}
+
+	enum Status {
+		ENCOUNTER_GET_STATE_UNKNOWN = 0;
+		ENCOUNTER_GET_STATE_SUCCESS = 1;
+		ENCOUNTER_GET_STATE_NOT_IN_ENCOUNTER = 2;
+		ENCOUNTER_GET_STATE_CLIENT_STALE_DATA = 3;
+		ENCOUNTER_GET_STATE_ERROR = 4;
+		ENCOUNTER_GET_STATE_WC_PLAYER_NOT_IN_CHAMBER = 5;
+		ENCOUNTER_GET_STATE_WC_NOT_IN_PROGRESS = 6;
+	}
+}

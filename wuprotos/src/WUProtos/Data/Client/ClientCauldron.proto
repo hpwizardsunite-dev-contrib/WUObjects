@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Data.Client;
+
+message ClientCauldron {
+    string id = 1;
+}

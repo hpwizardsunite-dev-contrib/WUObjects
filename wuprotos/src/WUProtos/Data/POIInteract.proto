@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+message POIInteract {
+	double distance_from_poimeters = 1;
+}

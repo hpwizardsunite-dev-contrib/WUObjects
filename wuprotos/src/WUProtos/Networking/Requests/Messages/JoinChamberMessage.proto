@@ -1,0 +1,10 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message JoinChamberMessage {
+	string fortress_id = 1;
+	string chamber_template_gmt_id = 2;
+	string reg_runestone_vaultitem_gmt_id = 3;
+	double fortress_latitude = 4;
+	double fortress_longitude = 5;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+message FriendVisibleData {
+    string last_foundable_returned_id = 1;
+    int64 last_foundable_returned_timestamp = 2;
+}

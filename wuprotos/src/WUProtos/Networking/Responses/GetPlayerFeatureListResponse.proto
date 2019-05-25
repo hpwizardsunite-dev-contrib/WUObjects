@@ -1,0 +1,14 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Requirements.proto";
+
+message GetPlayerFeatureListResponse {
+	repeated string enabled_feature_list = 1;
+	repeated DisabledFeatureConfig disabled_feature_list = 2;
+
+	message DisabledFeatureConfig {
+		string id = 1;
+		.WUProtos.Data.Requirements failed_reqs = 2;
+	}
+}

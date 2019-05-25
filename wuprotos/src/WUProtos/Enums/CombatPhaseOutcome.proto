@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Enums;
+
+enum CombatPhaseOutcome {
+    COMBAT_PHASE_OUTCOME_UNKNOWN = 0;
+    SUCCEED = 1;
+    FAIL_CHECKPOINT = 2;
+    FAIL_TIME = 3;
+}

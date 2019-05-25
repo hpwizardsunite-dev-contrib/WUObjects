@@ -1,0 +1,5 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message PushPerformanceMetricsResponse {
+}

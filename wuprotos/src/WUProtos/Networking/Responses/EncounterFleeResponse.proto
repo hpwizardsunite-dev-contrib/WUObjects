@@ -1,0 +1,16 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message EncounterFleeResponse {
+	Status status = 1;
+
+	enum Status {
+		ENCOUNTER_FLEE_UNKNOWN = 0;
+		ENCOUNTER_FLEE_SUCCESS = 1;
+		ENCOUNTER_FLEE_NOT_IN_ENCOUNTER = 2;
+		ENCOUNTER_FLEE_CLIENT_STALE_DATA = 3;
+		ENCOUNTER_FLEE_ERROR = 4;
+		ENCOUNTER_FLEE_WC_PLAYER_NOT_IN_CHAMBER = 5;
+		ENCOUNTER_FLEE_WC_NOT_IN_PROGRESS = 6;
+	}
+}

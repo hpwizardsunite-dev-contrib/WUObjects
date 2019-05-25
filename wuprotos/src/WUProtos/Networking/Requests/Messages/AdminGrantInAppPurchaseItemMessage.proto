@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message AdminGrantInAppPurchaseItemMessage {
+	string player_id = 1;
+	string sku_id = 2;
+	string reason = 3;
+	int32 quantity = 4;
+}

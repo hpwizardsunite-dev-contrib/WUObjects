@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message GetStorePackInfoMessage {
+	string pack_id = 1;
+}

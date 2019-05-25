@@ -1,0 +1,89 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+message HookQuestTask {
+	oneof Type {
+		DoEncounterHookQuestTask do_encounter = 1;
+		LootOutpostsQuestTask loot_outposts = 2;
+		WinTracesQuestTask win_traces = 3;
+		CollectPotionIngredientsQuestTask collect_potion_ingredients = 4;
+		BrewPotionsQuestTask brew_potions = 5;
+		WalkDistanceQuestTask walk_distance = 6;
+		PlayFortressChallengesQuestTask play_fortress_challenges = 7;
+		DefeatMobTypeInWizardingChallengeQuestTask defeat_mob_in_challenges = 8;
+		UnlockPortmanteauQuestTask unlock_portmanteau = 9;
+		UsePotionsQuestTask use_potions = 10;
+		PlaceStickersQuestTask place_stickers = 11;
+		CollectStickersQuestTask collect_stickers = 12;
+		CastSpellsQuestTask cast_spells = 13;
+	}
+
+	message PlaceStickersQuestTask {
+		int64 required_place_count = 1;
+		string sticker_gmt_id = 2;
+		string sticker_page_gmt_id = 3;
+		string sticker_family_gmt_id = 4;
+	}
+
+	message PlayFortressChallengesQuestTask {
+		int64 required_challenge_count = 1;
+		int64 required_least_player_count = 2;
+	}
+
+	message UnlockPortmanteauQuestTask {
+		int64 required_unlock_count = 1;
+		float minimum_distance_type = 2;
+	}
+
+	message WalkDistanceQuestTask {
+		int64 required_micrometers_to_walk = 1;
+	}
+
+	message UsePotionsQuestTask {
+		int64 required_use_count = 1;
+		string required_potion = 2;
+	}
+
+	message BrewPotionsQuestTask {
+		int64 required_brew_count = 1;
+	}
+
+	message CastSpellsQuestTask {
+		int64 required_spell_count = 1;
+		float required_mastery_level = 2;
+	}
+
+	message CollectPotionIngredientsQuestTask {
+		int64 required_potion_ingredient_count = 1;
+		string ingredient_gmt_id = 2;
+	}
+
+	message CollectStickersQuestTask {
+		int64 required_collect_count = 1;
+		string sticker_gmt_id = 2;
+		string sticker_page_gmt_id = 3;
+		string sticker_family_gmt_id = 4;
+	}
+
+	message LootOutpostsQuestTask {
+		int64 required_outposts_count = 1;
+	}
+
+	message DefeatMobTypeInWizardingChallengeQuestTask {
+		int64 required_defeat_count = 1;
+		string encounter_gmt_id = 2;
+	}
+
+	message DoEncounterHookQuestTask {
+		string encounter_gmt_id = 1;
+		int64 required_win_count = 2;
+	}
+
+	message WinTracesQuestTask {
+		int64 required_trace_count = 1;
+		string encounter_gmt_id = 2;
+		string registry_page_gmt_id = 3;
+		string family_gmt_id = 4;
+		float difficulty = 5;
+	}
+}

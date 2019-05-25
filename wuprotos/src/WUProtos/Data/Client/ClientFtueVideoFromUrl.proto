@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Data.Client;
+
+message ClientFtueVideoFromUrl {
+    string url_format = 1;
+}

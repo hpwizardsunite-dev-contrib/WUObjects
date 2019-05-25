@@ -1,0 +1,7 @@
+syntax = "proto3";
+package WUProtos.Data.Debug;
+
+message DebugInfo {
+	double latitude = 1;
+	double longitude = 2;
+}

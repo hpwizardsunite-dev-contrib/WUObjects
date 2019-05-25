@@ -1,0 +1,13 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message ApplyKeyToWalkboxMessage {
+	int64 walkbox_id = 1;
+	WalkboxKeyType key_type = 2;
+
+	enum WalkboxKeyType {
+		UNKNOWN = 0;
+		INFINITE = 1;
+		PREMIUM = 2;
+	}
+}

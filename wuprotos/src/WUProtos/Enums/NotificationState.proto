@@ -1,0 +1,7 @@
+syntax = "proto3";
+package WUProtos.Enums;
+
+enum NotificationState {
+    UNSET_STATE = 0;
+    VIEWED = 1;
+}

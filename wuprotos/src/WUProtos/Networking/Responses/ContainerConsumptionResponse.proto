@@ -1,0 +1,16 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message ContainerConsumptionResponse {
+	Status status = 1;
+	.WUProtos.Data.Loot.LootReward.LootCollection container_contents = 2;
+
+	enum Status {
+		NONE = 0;
+		UNKNOWN_CONTAINER_CONSUMPTION_RESULT = 1;
+		SUCCESS = 2;
+		CONTAINER_NOT_IN_VAULT = 3;
+	}
+}

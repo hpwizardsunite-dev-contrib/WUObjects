@@ -1,0 +1,22 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Combat/CombatResults.proto";
+
+message EncounterUsePotionResponse {
+	EncounterUsePotionResult result = 1;
+	.WUProtos.Data.Combat.CombatResults maybe_updated_combat_results = 2;
+
+	enum EncounterUsePotionResult {
+		UNKNOWN_ENCOUNTER_USE_POTION_RESULT = 0;
+		POTION_USED = 1;
+		POTION_NOT_IN_VAULT = 2;
+		POTION_EFFECTS_ALREADY_ACTIVE = 3;
+		POTION_NOT_USABLE_FOR_ENCOUNTERS = 4;
+		INCORRECT_ENCOUNTER_ID = 5;
+		ENCOUNTER_USE_POTION_ERROR = 6;
+		ENCOUNTER_USE_POTION_WC_PLAYER_NOT_IN_CHAMBER = 7;
+		ENCOUNTER_USE_POTION_WC_NOT_IN_PROGRESS = 8;
+		ENCOUNTER_USE_POTION_WC_POTION_USED_BUT_PLAYER_DISENGAGED = 9;
+	}
+}

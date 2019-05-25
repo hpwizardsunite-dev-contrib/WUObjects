@@ -1,0 +1,482 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+import "WUProtos/Data/ARMode.proto";
+import "WUProtos/Enums/CombatPhaseOutcome.proto";
+import "WUProtos/Data/POIInteract.proto";
+import "WUProtos/Enums/CategoryShareLocation.proto";
+import "WUProtos/Enums/DownloadType.proto";
+import "WUProtos/Enums/ActiveEngagement.proto";
+
+message LexiconApprovedClientTelemetry {
+	oneof TelemetryData {
+		ClientTelemetryStartup startup = 1;
+		ClientTelemetrySwishSpellGameStart swish_spell_game_start = 2;
+		ClientTelemetrySwishSpellGameEnd swish_spell_game_end = 3;
+		ClientTelemetryAssetLoad asset_load = 4;
+		ClientTelemetryBundleDownload bundle_download = 5;
+		ClientTelemetryStopwatch stopwatch = 6;
+		ClientTelemetrySmokeTest smoke_test = 7;
+		ClientTelemetryEnvironmentalTagsUIEntered environmental_tags_ui_entered = 8;
+		ClientTelemetryEnvironmentalTagSevereWeatherAcknowledged environmental_tags_weather_acknowledged = 9;
+		ClientTelemetryAvatarInteract avatar_interact = 10;
+		ClientTelemetryRewardsFlow rewards_flow = 11;
+		ClientTelemetryPortkeysWrackspurtTapped portkeys_wrackspurt_tapped = 12;
+		ClientTelemetryPortkeysOutOfBoundsReached portkeys_out_of_bounds_reached = 13;
+		ClientTelemetryPortkeysAdvancedARCheck portkeys_advanced_ar_check = 14;
+		ClientTelemetryProfessionMainMenu profession_main_menu = 15;
+		ClientTelemetryProfessionNodeSelected profession_node_selected = 16;
+		ClientTelemetryButtonPress button_press = 17;
+		ClientTelemetryWizardingChallengeSelectMob select_mob = 18;
+		ClientTelemetryWizardingChallengeMoreInfo more_info = 19;
+		ClientTelemetryLandmarkInteract landmark_interact = 20;
+		ClientTelemetryCombatGameOffensiveLockOnAttempt lock_on_attempt = 21;
+		ClientTelemetryCombatGameOffensiveTraceAttempt offensive_trace_attempt = 22;
+		ClientTelemetryCombatGameProtegoCastAttempt protego_cast_attempt = 23;
+		ClientTelemetryCombatGameOutOfEnergyDialogShown out_of_energy_shown = 24;
+		ClientTelemetryCombatGameOutOfEnergyPurchaseButton out_of_energy_purchase = 25;
+		ClientTelemetryCombatGamePotionButton combat_potion_button = 26;
+		ClientTelemetryImpression impression = 27;
+		ClientTelemetryDescriptionClickthrough description_clickthrough = 28;
+		ClientTelemetryHyperlinkClickthrough hyperlink_clickthrough = 29;
+		ClientTelemetrySurfaceDetection surface_detection = 30;
+		ClientTelemetryEncounterStart encounter_start = 31;
+		ClientTelemetryPermissionsRequested permission_requested = 32;
+		ClientTelemetryPermissionsCheckFailed permission_check_failed = 33;
+		ClientTelemetryDeeplinkTriggered deeplink_triggered = 34;
+		ClientTelemetryLoginStart login_start = 35;
+		ClientTelemetryLoginComplete login_complete = 36;
+		ClientTelemetryPotionsMasterNoteAttempt potions_master_note_attempt = 37;
+		ClientTelemetryProfilePortraitAction profile_portrait_action = 38;
+		ClientTelemetryProfileButtonRandomize profile_button_randomize = 39;
+		ClientTelemetryProfileButtonLens profile_button_lens = 40;
+		ClientTelemetryProfileButtonAssset profile_button_asset = 41;
+		ClientTelemetryProfileScreenGrab profile_screengrab = 42;
+		ClientTelemetryOutpostInteract outpost_interact = 43;
+		ClientTelemetryGreenhouseInteract greenhouse_interact = 44;
+		ClientTelemetryFamilyDetails family_details_clicked = 45;
+		ClientTelemetryStickerDetails sticker_details_clicked = 46;
+		ClientTelemetryRegistryInfo registry_info_clicked = 47;
+		ClientTelemetryRateApp rate_app = 48;
+		ClientTelemetryException exception_info = 49;
+		ClientTelemetrySettingsARModeToggled ar_mode_toggled = 50;
+		ClientTelemetrySettingsBatteryModeToggled battery_mode_toggled = 51;
+		ClientTelemetrySettingsAuthUpdated auth_updated = 52;
+		ClientTelemetryStorePopupOpen store_popup_open = 53;
+		ClientTelemetryStoreTabOpen store_tab_open = 54;
+		ClientTelemetryVaultItemImpression vault_popup_open = 55;
+		ClientTelemetryVaultTabImpression vault_tab_open = 56;
+	}
+
+	PlatformServerData server_data = 1001;
+
+	message ClientTelemetrySwishSpellGameStart {
+		string encounter_id = 1;
+		int32 attempt_number = 2;
+		int32 player_level = 3;
+		string encounter_proto_id = 4;
+		string spell_pattern = 5;
+		.WUProtos.Data.ARMode ar_mode = 6;
+	}
+
+	message ClientTelemetryWizardingChallengeSelectMob {
+		int32 mob_level = 1;
+		string mob_affinity = 2;
+		string mob_gmt_id = 3;
+		int32 player_profession_rank = 4;
+		string player_profession_gmt_id = 5;
+		.WUProtos.Enums.ActiveEngagement is_mob_already_engaged = 6;
+		string player_engagement_with_mob = 7;
+	}
+
+	message ClientTelemetryWizardingChallengeMoreInfo {
+		int32 mob_level = 1;
+		string mob_affinity = 2;
+		int32 player_profession_rank = 3;
+		string player_profession_gmt_id = 4;
+		.WUProtos.Enums.ActiveEngagement is_mob_already_engaged = 5;
+	}
+
+	message ClientTelemetryStartup {
+		string client_version = 2;
+		string device_type = 3;
+		bool first_time = 4;
+		double load_to_tos_login_time = 5;
+		double load_to_map_time = 6;
+		string device_os = 7;
+		string graphics_device_vendor = 8;
+		string graphics_device_name = 9;
+		string graphics_device_type = 10;
+		double graphics_shader_level = 11;
+		repeated ClientTelemetrySubsystemStartup subsystem_load_times = 12;
+		string player_nickname = 13;
+
+		message ClientTelemetrySubsystemStartup {
+			string system_name = 1;
+			float load_time = 2;
+		}
+	}
+
+	message ClientTelemetrySettingsARModeToggled {
+		.WUProtos.Data.ARMode ar_mode = 1;
+	}
+
+	message ClientTelemetryProfileScreenGrab {
+		.WUProtos.Enums.CategoryShareLocation screengrab_location = 1;
+	}
+
+	message ClientTelemetryProfilePortraitAction {
+		ProfileTabSource baseline_src = 1;
+		PortraitType portrait_format = 2;
+		PortraitAction portrait_action = 3;
+		string portrait_lens_top = 4;
+		string portrait_lens_mid = 5;
+		string portrait_lens_bottom = 6;
+		string portrait_frame = 7;
+		string portrait_filter = 8;
+		repeated string portrait_sticker_ids = 9;
+		int32 portrait_sticker_count = 10;
+		.WUProtos.Enums.CategoryShareLocation share_source = 11;
+		.WUProtos.Enums.DownloadType share_type = 12;
+		string share_network = 13;
+		.WUProtos.Enums.CategoryShareLocation download_source = 14;
+		.WUProtos.Enums.DownloadType download_type = 15;
+
+		enum PortraitAction {
+			PORTRATE_ACTION_UNSET = 0;
+			PORTRAIT_ACTION_SAVE = 1;
+			PORTRAIT_ACTION_DOWNLOAD = 2;
+			PORTRAIT_ACTION_SHARE = 3;
+		}
+
+		enum PortraitType {
+			PORTRAIT_TYPE_UNSET = 0;
+			PORTRAIT_PHOTO = 1;
+			PORTRAIT_VIDEO = 2;
+		}
+
+		enum ProfileTabSource {
+			PROFILE_TAB_SOURCE_UNSET = 0;
+			TAB_NEW = 1;
+			TAB_LAST_PHOTO = 2;
+			TAB_STOCK_PHOTO = 3;
+			TAB_GALLERY = 4;
+		}
+	}
+
+	message ClientTelemetryProfessionProgress {
+		string profession_gmt_id = 1;
+		uint32 rank_points = 2;
+	}
+
+	message ClientTelemetryProfessionNodeSelected {
+		int32 player_level = 1;
+		string active_profession_gmt_id = 2;
+		repeated ClientTelemetryProfessionProgress profession_progress = 3;
+		string node_id = 4;
+	}
+
+	message ClientTelemetryProfessionMainMenu {
+		int32 player_level = 1;
+		string active_profession_gmt_id = 2;
+		repeated ClientTelemetryProfessionProgress profession_progress = 3;
+	}
+
+	message ClientTelemetryOutpostInteract {
+		string outpost_type = 1;
+		.WUProtos.Data.POIInteract common_data = 2;
+	}
+
+	message ClientTelemetryLandmarkInteract {
+		string landmark_type = 1;
+		.WUProtos.Data.POIInteract common_data = 2;
+	}
+
+	message ClientTelemetryGreenhouseInteract {
+		.WUProtos.Data.POIInteract common_data = 1;
+	}
+
+	message ClientTelemetryCombatGameProtegoCastAttempt {
+		int32 player_level = 1;
+		string encounter_id = 2;
+		string spell_id = 3;
+		.WUProtos.Enums.CombatPhaseOutcome outcome = 4;
+		int32 checkpoint_fail_round = 5;
+	}
+
+	message ClientTelemetryCombatGameOffensiveTraceAttempt {
+		int32 player_level = 1;
+		string encounter_id = 2;
+		string spell_id = 3;
+		.WUProtos.Enums.CombatPhaseOutcome outcome = 4;
+		int32 checkpoint_fail_round = 5;
+	}
+
+	message ClientTelemetryCombatGameOffensiveLockOnAttempt {
+		int32 player_level = 1;
+		string encounter_id = 2;
+		string node_location = 3;
+		.WUProtos.Enums.CombatPhaseOutcome outcome = 4;
+	}
+
+	message ClientTelemetryPortkeysAdvancedARCheck {
+		bool advanced_ar_on = 1;
+		string portkey_id = 2;
+		.WUProtos.Data.ARMode ar_mode = 3;
+	}
+
+	message ClientTelemetryVaultTabImpression {
+		string category_name = 1;
+	}
+
+	message ClientTelemetryVaultItemImpression {
+		string vault_item_id = 1;
+	}
+
+	message ClientTelemetrySwishSpellGameEnd {
+		string encounter_id = 1;
+		int32 attempt_number = 2;
+		bool success = 3;
+		FailReason fail_reason = 4;
+		double cast_time = 5;
+		int32 failed_checkpoint_number = 6;
+		double average_drawing_error = 7;
+		double median_drawing_error = 8;
+		double final_spellbar_score = 9;
+		string encounter_proto_id = 10;
+
+		enum FailReason {
+			none = 0;
+			timer = 1;
+			checkpoint = 2;
+			score = 3;
+		}
+	}
+
+	message ClientTelemetrySurfaceDetection {
+		string encounter_gmt_id = 1;
+		bool found_surface = 2;
+	}
+
+	message ClientTelemetryStoreTabOpen {
+		string page_id = 1;
+	}
+
+	message ClientTelemetryStorePopupOpen {
+		string pack_id = 1;
+		bool player_can_afford = 2;
+		repeated string currency_type = 3;
+		repeated int64 cost = 4;
+		repeated int64 player_wallet = 5;
+		double real_money_cost = 6;
+		string real_money_currency_code = 7;
+	}
+
+	message ClientTelemetryStopwatch {
+		string event_name = 1;
+		double min = 2;
+		double max = 3;
+		double average = 4;
+	}
+
+	message ClientTelemetrySettingsBatteryModeToggled {
+		bool battery_mode = 1;
+	}
+
+	message ClientTelemetrySettingsAuthUpdated {
+		string primary_auth_channel = 1;
+		string secondary_auth_channel = 2;
+		string platform = 3;
+	}
+
+	message ClientTelemetryStickerDetails {
+		string collection_id = 1;
+	}
+
+	message ClientTelemetryProfileButtonRandomize {
+		CategoryRandomize category = 1;
+
+		enum CategoryRandomize {
+			CATEGORY_RANDOMIZE_UNSET = 0;
+			RANDOMIZE_LENS = 1;
+			RANDOMIZE_FILTER_FRAME = 2;
+		}
+	}
+
+	message ClientTelemetryProfileButtonLens {
+		string pressed_button_id = 1;
+		CategoryLens lens_category = 2;
+
+		enum CategoryLens {
+			CATEGORY_LENS_UNSET = 0;
+			CATEGORY_LENS_TOP = 1;
+			CATEGORY_LENS_MIDDLE = 2;
+			CATEGORY_LENS_BOTTOM = 3;
+		}
+	}
+
+	message ClientTelemetryProfileButtonAssset {
+		string pressed_button_id = 1;
+		bool sticker_add = 2;
+		CategoryAssetType asset_type = 3;
+
+		enum CategoryAssetType {
+			CATEGORY_ASSET_TYPE_UNSET = 0;
+			CATEGORY_ASSET_LENS = 1;
+			CATEGORY_ASSET_FILTER = 2;
+			CATEGORY_ASSET_FRAME = 3;
+			CATEGORY_ASSET_STICKER = 4;
+		}
+	}
+
+	message ClientTelemetryPotionsMasterNoteAttempt {
+		string potion_name_id = 1;
+		string cauldron_id = 2;
+		string master_note_id = 3;
+		int32 gesture_count = 4;
+		repeated string gesture_steps = 5;
+		bool master_note_start = 6;
+		int32 gesture_attempt_step = 7;
+		bool gesture_success = 8;
+	}
+
+	message ClientTelemetryPortkeysWrackspurtTapped {
+		string wrackspurt_id = 1;
+		string portkey_id = 2;
+	}
+
+	message ClientTelemetryPortkeysOutOfBoundsReached {
+		string portkey_id = 2;
+	}
+
+	message ClientTelemetryPermissionsRequested {
+		string permission_type = 1;
+		bool granted = 2;
+	}
+
+	message ClientTelemetryPermissionsCheckFailed {
+		string permission_type = 1;
+	}
+
+	message ClientTelemetryLoginStart {
+		string auth_provider_id = 1;
+	}
+
+	message ClientTelemetryLoginComplete {
+		string auth_provider_id = 1;
+		string auth_status = 2;
+	}
+
+	message ClientTelemetryImpression {
+		string outpost_id = 1;
+		string partner_id = 2;
+	}
+
+	message ClientTelemetryHyperlinkClickthrough {
+		string url = 1;
+		string outpost_id = 2;
+		string partner_id = 3;
+	}
+
+	message ClientTelemetryFamilyDetails {
+		string family_id = 1;
+	}
+
+	message ClientTelemetryException {
+		string exception_type = 1;
+		string stack_trace = 2;
+	}
+
+	message ClientTelemetryEnvironmentalTagsUIEntered {
+		int32 player_level = 1;
+		string warning_severity = 2;
+		string weather_tag = 3;
+		string moon_tag = 4;
+		string time_of_day_tag = 5;
+	}
+
+	message ClientTelemetryEnvironmentalTagSevereWeatherAcknowledged {
+		int32 player_level = 1;
+		string warning_severity = 2;
+	}
+
+	message ClientTelemetryEncounterStart {
+		bool battery_saver_on = 1;
+	}
+
+	message ClientTelemetryDescriptionClickthrough {
+		string outpost_id = 1;
+		string partner_id = 2;
+	}
+
+	message ClientTelemetryDeeplinkTriggered {
+		string link = 1;
+		bool rejected = 2;
+		string rejection_reason = 3;
+	}
+
+	message ClientTelemetryCombatGamePotionButton {
+		int32 player_level = 1;
+		string encounter_id = 2;
+		int32 attempt = 3;
+	}
+
+	message ClientTelemetryCombatGameOutOfEnergyPurchaseButton {
+		int32 player_level = 1;
+		string encounter_id = 2;
+	}
+
+	message ClientTelemetryCombatGameOutOfEnergyDialogShown {
+		int32 player_level = 1;
+		string encounter_id = 2;
+	}
+
+	message ClientTelemetryButtonPress {
+		string pressed_button_id = 1;
+	}
+
+	message ClientTelemetryBundleDownload {
+		string bundle_name = 1;
+		string bundle_url = 2;
+		double load_time = 3;
+	}
+
+	message ClientTelemetryAvatarInteract {
+		int64 player_level = 1;
+	}
+
+	message ClientTelemetryAssetLoad {
+		string asset_name = 1;
+		double total_load_time = 2;
+		repeated string bundle_name = 3;
+	}
+
+	message ClientTelemetryRewardsFlow {
+		bool skipped_long_rewards = 1;
+		float current_player_level = 2;
+	}
+
+	message ClientTelemetryRateApp {
+		bool having_fun_response = 1;
+		string platform = 2;
+		string client_version = 3;
+	}
+
+	message ClientTelemetrySmokeTest {
+		string current_bot_program_name = 1;
+		double time_start = 2;
+		double time_end = 3;
+		double time_delta = 4;
+		int32 smoke_test_count = 5;
+	}
+
+	message ClientTelemetryRegistryInfo {
+	}
+
+	message PlatformServerData {
+		string user_id = 1;
+		string telemetry_id = 2;
+		string session_id = 3;
+		repeated int32 experiment_ids = 4;
+	}
+}

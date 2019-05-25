@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message UsePortkeyMessage {
+	int64 portkey_id = 1;
+}

@@ -1,0 +1,51 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+message QualityLevel {
+	string id = 1;
+	SharedQualityLevel quality_level = 2;
+
+	message SharedQualityLevel {
+		string name = 1;
+		int32 texture_quality = 2;
+		int32 shader_lod = 3;
+		int32 default_target_fps = 4;
+		int32 antialiasing = 5;
+		int32 anisotropic_filtering = 7;
+		bool billboards_face_camera_position = 9;
+		int32 realtime_shadows = 10;
+		bool ar_azimuth_blurring = 11;
+		map<string, QualityLevelOverrides> gamemode_overrides = 13;
+		int32 ar_encounter_particle_cap = 14;
+		int32 locked_encounter_particle_cap = 15;
+		int32 menu_particle_cap = 16;
+		bool ar_azimuth_color_grading = 17;
+		int32 shadow_map_size = 18;
+		int32 encounter_camera_target_scaling = 19;
+		int32 advanced_ar_camera_resolution = 20;
+		int32 vfx_lod = 21;
+		bool force_simple_ar = 22;
+
+		message QualityLevelOverrides {
+			int32 target_fps = 1;
+		}
+	}
+
+	enum AntialiasingSetting {
+		offf = 0;
+		msaa2x = 2;
+		msaa4x = 4;
+		msaa8x = 8;
+	}
+
+	enum RealtimeShadowsSetting {
+		off = 0;
+		realtime_planar = 1;
+		realtime_planar_and_self_shadowing = 2;
+	}
+
+	enum TextureQualitySetting {
+		full_res = 0;
+		half_res = 1;
+	}
+}

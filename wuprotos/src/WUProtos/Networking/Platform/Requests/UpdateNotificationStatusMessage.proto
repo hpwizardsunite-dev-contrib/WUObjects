@@ -1,0 +1,10 @@
+syntax = "proto3";
+package WUProtos.Networking.Platform.Requests;
+
+import "WUProtos/Enums/NotificationState.proto";
+
+message UpdateNotificationStatusMessage {
+	repeated string notification_ids = 1;
+	repeated int64 create_timestamp_ms = 2;
+	.WUProtos.Enums.NotificationState state = 3;
+}

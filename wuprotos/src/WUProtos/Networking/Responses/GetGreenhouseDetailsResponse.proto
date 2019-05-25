@@ -1,0 +1,29 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/PoiDetails.proto";
+import "WUProtos/Enums/PoiAccessibility.proto";
+
+message GetGreenhouseDetailsResponse {
+	string partner_id = 1;
+	.WUProtos.Data.PoiDetails poi_details = 2;
+	.WUProtos.Enums.PoiAccessibility poi_accessibility = 3;
+	repeated ClientPot normal_pot = 4;
+	repeated ClientPot rental_pot = 5;
+
+	message ClientPot {
+		string id = 1;
+		string recipe_gmt_id = 2;
+		string planter = 3;
+		repeated string contributor = 4;
+		int64 growing_completion_time_ms = 5;
+		int32 spell_count = 6;
+		RentalDetails rental_details = 7;
+
+		message RentalDetails {
+			string renter = 1;
+			int64 rental_start_time_ms = 2;
+			int64 rental_expiration_time_ms = 3;
+		}
+	}
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message DbgResetProfessionResponse {
+    bool success = 1;
+}

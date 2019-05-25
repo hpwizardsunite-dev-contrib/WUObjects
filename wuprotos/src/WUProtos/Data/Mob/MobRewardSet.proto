@@ -1,0 +1,8 @@
+syntax = "proto3";
+package WUProtos.Data.Mob;
+
+import "WUProtos/Data/Mob/MobReward.proto";
+
+message MobRewardSet {
+	repeated .WUProtos.Data.Mob.MobReward rewards = 1;
+}

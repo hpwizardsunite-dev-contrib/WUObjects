@@ -1,0 +1,7 @@
+syntax = "proto3";
+package WUProtos.Networking.Platform.Responses;
+
+message GetAvailableSubmissionsResponse {
+	int32 submissions_left = 1;
+	int32 min_player_level = 2;
+}

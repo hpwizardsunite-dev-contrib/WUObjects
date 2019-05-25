@@ -1,0 +1,29 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/PoiDetails.proto";
+import "WUProtos/Data/FortressCooldownData.proto";
+import "WUProtos/Enums/PoiAccessibility.proto";
+
+message GetFortressDetailsResponse {
+	string fortress_template_gmt_id = 1;
+	repeated ChamberPreview chambers = 2;
+	string partner_id = 4;
+	.WUProtos.Data.PoiDetails poi_details = 5;
+	.WUProtos.Enums.PoiAccessibility poi_accessibility = 6;
+	Occupancy fortress_occupancy = 7;
+	.WUProtos.Data.FortressCooldownData cooldown_data = 8;
+
+	message ChamberPreview {
+		string chamber_template_gmt_id = 1;
+		uint32 player_count = 2;
+		int64 start_time_ms = 3;
+		uint32 num_friends_inside = 4;
+	}
+
+	enum Occupancy {
+		NOT_BUSY = 0;
+		BUSY = 1;
+		FULL = 2;
+	}
+}

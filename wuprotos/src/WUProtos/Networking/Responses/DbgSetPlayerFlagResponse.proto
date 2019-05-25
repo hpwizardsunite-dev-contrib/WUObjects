@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message DbgSetPlayerFlagResponse {
+    bool did_set_flag = 1;
+}

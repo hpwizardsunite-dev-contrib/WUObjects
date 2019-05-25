@@ -1,0 +1,5 @@
+syntax = "proto3";
+package WUProtos.Data.Event;
+
+message SyncRequestedEventParams {
+}

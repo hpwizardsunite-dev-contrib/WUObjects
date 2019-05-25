@@ -1,0 +1,11 @@
+syntax = "proto3";
+package WUProtos.Enums;
+
+enum ComparisonOperator {
+    COMPARISON_UNKNOWN = 0;
+    EQUAL = 1;
+    GREATER_THAN = 2;
+    LESS_THAN = 3;
+    GREATER_OR_EQUAL = 4;
+    LESS_OR_EQUAL = 5;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message ApplyMasterNoteResponse {
+	ApplyMasterNoteResult result = 1;
+
+	enum ApplyMasterNoteResult {
+		UNKNOWN = 0;
+		SUCCESS = 1;
+		INCORRECT_GESTURE_SEQUENCE = 2;
+		NO_POTION_BREWING = 3;
+		CAULDRON_HAS_COMPLETED_BREWS = 4;
+		MASTER_NOTE_ALREADY_APPLIED = 5;
+	}
+}

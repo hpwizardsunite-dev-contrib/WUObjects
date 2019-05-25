@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message CastSpellForGrowingMessage {
+    string outpost_id = 1;
+    string pot_id = 2;
+    int32 spell_energy = 3;
+}
+

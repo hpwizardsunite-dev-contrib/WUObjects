@@ -1,0 +1,219 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+import "WUProtos/Enums/BoolLiteral.proto";
+import "WUProtos/Enums/ComparisonOperator.proto";
+import "WUProtos/Enums/EqualityOperator.proto";
+import "WUProtos/Enums/DevicePlatform.proto";
+import "WUProtos/Data/ARMode.proto";
+
+message Requirements {
+	repeated Requirement reqs = 1;
+
+	message Requirement {
+		oneof Requirement {
+			.WUProtos.Enums.BoolLiteral bool_literal_req = 1;
+			LevelRequirement level_req = 2;
+			VaultItemRequirement vault_item_req = 3;
+			CollectionItemRequirement collection_item_req = 4;
+			CollectionFamilyRequirement collection_family_req = 5;
+			DateRequirement date_req = 6;
+			PlayerFlagRequirement flag_req = 7;
+			ProfessionRequirement profession_req = 8;
+			ProfessionNodeRequirement profession_node_req = 9;
+			ProfessionTotalNodeLevelRequirement profession_num_node_level_req = 10;
+			HasWalkboxRequirement has_walkbox_req = 11;
+			HasPortkeyRequirement has_portkey_req = 12;
+			ProfessionRankPointsRequirement profession_rank_points_req = 13;
+			CollectionPageLevelRequirement collection_page_req = 14;
+			CollectionItemPlacedRequirement collection_item_placed_requirement = 15;
+			EventRequirement event_req = 16;
+			QuestCompletedRequirement quest_completed_req = 17;
+			FeatureFlagRequirement feature_flag_req = 18;
+			StorePackQuantityRequirement store_pack_req = 19;
+			ActiveArModeRequirement active_ar_mode_req = 20;
+			PlatformRequirement platform_requirement = 21;
+			PlayerAccountAgeRequirement player_account_age_requirement = 22;
+			ProfessionTierRequirement profession_tier_req = 23;
+			AccountCreationDateRequirement account_creation_date_requirement = 24;
+			LifetimeMetricRequirement lifetime_metric_req = 25;
+		}
+
+		message HasPortkeyRequirement {
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 1;
+			int32 qty = 2;
+		}
+
+		message HasWalkboxRequirement {
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 1;
+			int32 qty = 2;
+		}
+
+		message EventRequirement {
+			string event_id = 1;
+			repeated EventReqSubset req_subsets = 2;
+
+			enum EventReqSubset {
+				SUBSET_UNKNOWN = 0;
+				SUBSET_ACTIVATION = 1;
+				SUBSET_RUNNING = 2;
+			}
+		}
+
+		message FeatureFlagRequirement {
+			string feature_flag_id = 1;
+		}
+
+		message LevelRequirement {
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 1;
+			int32 level = 2;
+		}
+
+		message LifetimeMetricRequirement {
+			LifetimeMetric lifetime_metric = 1;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 2;
+			int64 required_count = 3;
+
+			enum LifetimeMetric {
+				NONE = 0;
+				INN_LOOTED = 1;
+				GREENHOUSE_LOOTED = 2;
+				KM_WALKED = 3;
+				MAP_ENCOUNTER_CAPTURED = 4;
+				WC_WON = 5;
+				STICKERS_COMPLETED = 6;
+				SUCCESSFUL_SWISH_SPELLCAST = 7;
+				SUCCESSFUL_COMBAT_ATTACK_SPELLCAST = 8;
+				SUCCESSFUL_COMBAT_DEFEND_SPELLCAST = 9;
+				WC_COMPLETED = 10;
+				POTIONS_BREWED = 11;
+				DARK_DETECTOR_PLACED = 12;
+				PORTKEYS_OPENED = 13;
+				MAP_INGREDIENTS_COLLECTED = 14;
+				POTION_EXSTIMULO_1_USED = 15;
+				POTION_EXSTIMULO_2_USED = 16;
+				POTION_EXSTIMULO_3_USED = 17;
+				POTION_BRAIN_ELIXIR_USED = 18;
+				POTION_USED_ENCOUNTER = 19;
+				POTION_USED_WC = 20;
+				MOBS_DEFEATED_BY_ME = 21;
+				SEEDS_PLANTED = 22;
+				MYSTERY_ITEMS_FOUND = 23;
+				SWISH_MASTERFUL_SPELLCAST = 24;
+				ENCOUNTER_COMPLETED_COUNTRY_COUNT = 25;
+				ELITE_MOBS_DEFEATED_BY_ME = 26;
+				MAP_ABILITIES_USED = 27;
+			}
+		}
+
+		message StorePackQuantityRequirement {
+			string store_pack_id = 1;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 2;
+			int64 qty = 3;
+		}
+
+		message VaultItemRequirement {
+			string item_id = 1;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 2;
+			int64 qty = 3;
+		}
+
+		message QuestCompletedRequirement {
+			string quest_gmt_id = 1;
+		}
+
+		message AccountCreationDateRequirement {
+			int64 account_creation_date = 1;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 2;
+		}
+
+		message ActiveArModeRequirement {
+			.WUProtos.Data.ARMode ar_mode = 1;
+			.WUProtos.Enums.EqualityOperator operator = 2;
+		}
+
+		message CollectionFamilyRequirement {
+			string family_id = 1;
+			int32 family_level = 2;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 3;
+		}
+
+		message TimeRequirementTuple {
+		}
+
+		message CollectionItemPlacedRequirement {
+			string item_gmt_id = 1;
+			bool check_for_current_prestige_only = 2;
+			string page_gmt_id = 3;
+		}
+
+		message CollectionItemRequirement {
+			string item_id = 1;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 2;
+			int32 shards = 3;
+		}
+
+		message CollectionPageLevelRequirement {
+			string page_gmt_id = 1;
+			int32 level = 2;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 3;
+		}
+
+		message DateRequirement {
+			int64 epoch_date_in_seconds = 1;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 2;
+		}
+
+		message PlayerAccountAgeRequirement {
+			int64 account_age_in_seconds = 1;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 2;
+		}
+
+		message PlayerFlagRequirement {
+			string player_flag_feature_id = 1;
+			string player_flag_id = 2;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 3;
+
+			oneof FlagValue {
+				bool bval = 4;
+				int64 lval = 5;
+				string sval = 6;
+				float fval = 7;
+			}
+		}
+
+		message ProfessionNodeRequirement {
+			string profession_node_id = 1;
+			uint32 profession_node_level = 2;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 3;
+			string profession_rank_id = 5;
+		}
+
+		message ProfessionRankPointsRequirement {
+			string profession_gmt_id = 1;
+			int32 rank_points = 2;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 3;
+		}
+
+		message ProfessionRequirement {
+			string profession_gmt_id = 1;
+		}
+
+		message ProfessionTierRequirement {
+			string profession_gmt_id = 1;
+			uint32 profession_tier = 2;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 3;
+		}
+
+		message ProfessionTotalNodeLevelRequirement {
+			string profession_gmt_id = 1;
+			int32 num_profession_node_levels = 2;
+			.WUProtos.Enums.ComparisonOperator comparison_operator = 3;
+		}
+
+		message PlatformRequirement {
+			.WUProtos.Enums.DevicePlatform platform = 1;
+			.WUProtos.Enums.EqualityOperator operator = 2;
+		}
+	}
+}

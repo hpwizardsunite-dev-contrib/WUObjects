@@ -1,0 +1,63 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+import "WUProtos/Data/GameplayWeather.proto";
+import "WUProtos/Data/DisplayWeather.proto";
+import "WUProtos/Data/WeatherAlertSettings.proto";
+
+message WeatherSettings {
+	GameplayWeatherSettings gameplay_settings = 1;
+	DisplayWeatherSettings display_settings = 2;
+	.WUProtos.Data.WeatherAlertSettings alert_settings = 3;
+
+	message ConditionMapSettings {
+		.WUProtos.Data.GameplayWeather.WeatherCondition gameplay_condition = 1;
+		repeated string provider_enums = 2;
+	}
+
+	message DisplayLevelSettings {
+		repeated string condition_enums = 1;
+		.WUProtos.Data.DisplayWeather.DisplayLevel cloud_level = 2;
+		.WUProtos.Data.DisplayWeather.DisplayLevel rain_level = 3;
+		.WUProtos.Data.DisplayWeather.DisplayLevel snow_level = 4;
+		.WUProtos.Data.DisplayWeather.DisplayLevel fog_level = 5;
+		.WUProtos.Data.DisplayWeather.DisplayLevel special_effect_level = 6;
+	}
+
+	message DisplayWeatherSettings {
+		message DisplayLevelSettings {
+			repeated string condition_enums = 1;
+			.WUProtos.Data.DisplayWeather.DisplayLevel cloud_level = 2;
+			.WUProtos.Data.DisplayWeather.DisplayLevel rain_level = 3;
+			.WUProtos.Data.DisplayWeather.DisplayLevel snow_level = 4;
+			.WUProtos.Data.DisplayWeather.DisplayLevel fog_level = 5;
+			.WUProtos.Data.DisplayWeather.DisplayLevel special_effect_level = 6;
+		}
+
+		message WindLevelSettings {
+			int32 wind_level1_speed = 1;
+			int32 wind_level2_speed = 2;
+			int32 wind_level3_speed = 3;
+		}
+
+		repeated WeatherSettings.DisplayLevelSettings display_level_settings = 1;
+		WeatherSettings.WindLevelSettings wind_level_settings = 2;
+	}
+
+	message GameplayWeatherSettings {
+		message ConditionMapSettings {
+			.WUProtos.Data.GameplayWeather.WeatherCondition gameplay_condition = 1;
+			repeated string provider_enums = 2;
+		}
+
+		repeated WeatherSettings.ConditionMapSettings condition_map = 1;
+		int32 min_speed_for_windy = 2;
+		repeated string conditions_for_windy = 3;
+	}
+
+	message WindLevelSettings {
+		int32 wind_level1_speed = 1;
+		int32 wind_level2_speed = 2;
+		int32 wind_level3_speed = 3;
+	}
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message DbgGetChamberInfoResponse {
+    string chamber_template_id = 1;
+    uint32 total_population_allotment = 2;
+    uint32 used_population_allotment = 3;
+    uint32 challenge_rating = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message DbgGetSpellcastInfoResponse {
+    double spell_hit_chance = 1;
+    double spell_hit_roll = 2;
+    double flee_chance = 3;
+    double flee_roll = 4;
+}

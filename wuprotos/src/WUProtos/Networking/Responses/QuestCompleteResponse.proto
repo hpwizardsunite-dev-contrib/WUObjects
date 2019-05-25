@@ -1,0 +1,17 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message QuestCompleteResponse {
+	Status status = 1;
+
+	enum Status {
+		QUEST_COMPLETE_UNKNOWN = 0;
+		QUEST_COMPLETE_SUCCESS = 1;
+		QUEST_COMPLETE_STILL_IN_PROGRESS = 2;
+		QUEST_COMPLETE_ALREADY_COMPLETE = 3;
+		QUEST_COMPLETE_NOT_IN_QUEST_LOG = 4;
+		QUEST_COMPLETE_DAILY_TOO_OLD = 5;
+		QUEST_COMPLETE_DAILY_NOT_ENABLED_IN_GAME_CONFIG = 6;
+		QUEST_COMPLETE_ERROR = 7;
+	}
+}

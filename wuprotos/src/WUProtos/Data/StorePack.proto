@@ -1,0 +1,16 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+import "WUProtos/Data/SkuData.proto";
+import "WUProtos/Data/Requirements.proto";
+
+message StorePack {
+	string id = 1;
+	.WUProtos.Data.Loot.LootReward.LootCollection contents = 2;
+	.WUProtos.Data.Loot.LootReward.LootCollection cost = 3;
+	string iap_id = 4;
+	.WUProtos.Data.SkuData sku_data = 5;
+	.WUProtos.Data.Requirements requirements = 6;
+
+}

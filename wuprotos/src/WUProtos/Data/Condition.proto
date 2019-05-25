@@ -1,0 +1,106 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+import "WUProtos/Enums/BoolLiteral.proto";
+import "WUProtos/Enums/ComparisonOperator.proto";
+import "WUProtos/Enums/ConditionTargetType.proto";
+
+message Condition {
+	oneof Condition {
+		.WUProtos.Enums.BoolLiteral always = 1;
+		EnemyTagCondition enemy_tag_cond = 2;
+		StatsTagCondition stats_tag_cond = 3;
+		BuffCountCondition buff_count_cond = 4;
+		RuneInChallengeCondition rune_in_challenge_cond = 5;
+		TimeRemainingCondition time_remaining_cond = 6;
+		FocusAmountCondition focus_level_cond = 7;
+		TeamCompositionCondition team_composition_cond = 8;
+		TimeOfDayCondition time_of_day_cond = 9;
+		WeatherCondition weather_cond = 10;
+		TeamPropertyCondition team_property_cond = 11;
+		EnemiesDefeatedCountCondition enemies_defeated_cond = 12;
+	}
+
+	message FocusAmountCondition {
+		.WUProtos.Enums.ComparisonOperator comparison_operator = 1;
+		int32 target_comparison_value = 2;
+	}
+
+	message RuneInChallengeCondition {
+		string vault_item_id = 1;
+	}
+
+	message TeamCompositionCondition {
+		.WUProtos.Enums.ComparisonOperator comparison_operator = 1;
+		int32 target_comparison_value = 2;
+		string profession_id = 3;
+	}
+
+	message TeamPropertyCondition {
+		.WUProtos.Enums.ComparisonOperator comparison_operator = 1;
+		int32 target_comparison_value = 2;
+		Criteria criteria = 3;
+
+		enum Criteria {
+			UNKNOWN = 0;
+			FRIENDS = 1;
+			NON_FRIENDS = 2;
+			SAME_TEAM = 3;
+			OTHER_TEAM = 4;
+		}
+	}
+
+	message TimeOfDayCondition {
+		int64 starting_daily_timestamp = 1;
+		int64 ending_daily_timestamp = 2;
+	}
+
+	message TimeRemainingCondition {
+		.WUProtos.Enums.ComparisonOperator comparison_operator = 1;
+		int64 target_comparison_value = 2;
+	}
+
+	message BuffCountCondition {
+		string target_type = 1;
+		.WUProtos.Enums.ComparisonOperator comparison_operator = 2;
+		int32 target_comparison_value = 3;
+		bool look_for_buffs = 4;
+		.WUProtos.Enums.ConditionTargetType condition_target_type = 5;
+	}
+
+	message EnemiesDefeatedCountCondition {
+		.WUProtos.Enums.ComparisonOperator comparison_operator = 1;
+		int32 target_comparison_value = 2;
+	}
+
+	message EnemyTagCondition {
+		string rank_tag = 1;
+	}
+
+	message WeatherCondition {
+		WeatherType weather_condition = 1;
+
+		enum WeatherType {
+			UNKNOWN = 0;
+			SUNNY = 1;
+			CLOUDY = 2;
+			RAINING = 3;
+			SNOWING = 4;
+			SLEETING = 5;
+			FULL_MOON = 6;
+			NIGHT_TIME = 7;
+			DAY_TIME = 8;
+			HALF_MOON = 9;
+			QUARTER_MOON = 10;
+		}
+	}
+
+	message StatsTagCondition {
+		string target_type = 1;
+		string target_stat = 2;
+		.WUProtos.Enums.ComparisonOperator comparison_operator = 3;
+		int64 target_comparison_value = 4;
+		bool target_stat_is_percentage = 5;
+		.WUProtos.Enums.ConditionTargetType condition_target_type = 6;
+	}
+}

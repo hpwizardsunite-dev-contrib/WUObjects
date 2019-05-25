@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Platform.Requests;
+
+message GetInventoryMessage {
+    int64 timestamp_millis = 1;
+}

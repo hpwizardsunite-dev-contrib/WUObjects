@@ -1,0 +1,14 @@
+syntax = "proto3";
+package WUProtos.Data.Client;
+
+message ClientDarkDetectorAmplifier {
+    int32 num_slots = 1;
+    map<int32, ClientDarkDetector> active_dark_detectors = 2;
+
+    message ClientDarkDetector {
+        string dark_detector_gmt_id = 1;
+        int64 end_time_ms = 2;
+        string deploying_player_id = 3;
+        string deploying_player_nickname = 4;
+    }
+}

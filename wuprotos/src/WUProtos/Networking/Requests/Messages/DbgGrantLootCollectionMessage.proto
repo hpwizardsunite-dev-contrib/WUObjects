@@ -1,0 +1,14 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message DbgGrantLootCollectionMessage {
+    .WUProtos.Data.Loot.LootReward.LootCollection loot_collection = 1;
+    RequestType request_type = 2;
+
+    enum RequestType {
+        ADD = 0;
+        REMOVE = 1;
+    }
+}

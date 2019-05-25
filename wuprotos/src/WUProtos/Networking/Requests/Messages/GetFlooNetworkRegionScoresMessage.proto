@@ -1,0 +1,7 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message GetFlooNetworkRegionScoresMessage {
+	string season_id = 1;
+	string region_id = 2;
+}

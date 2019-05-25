@@ -1,0 +1,12 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message DbgModifyCollectionItemsMessage {
+    repeated DebugModifyCollectionItem collection_items = 1;
+
+    message DebugModifyCollectionItem {
+        string id = 1;
+        int32 increment_times_encountered_by = 2;
+        int32 increment_times_returned_by = 3;
+    }
+}

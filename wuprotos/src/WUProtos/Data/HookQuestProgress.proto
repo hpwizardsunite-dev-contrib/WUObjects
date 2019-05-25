@@ -1,0 +1,72 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+message HookQuestProgress {
+	oneof Type {
+		DoEncounterHookQuestProgress do_encounter = 1;
+		LootOutpostsQuestProgress loot_outposts = 2;
+		WinTracesQuestProgress win_traces = 3;
+		CollectPotionIngredientsQuestProgress collect_potion_ingredients = 4;
+		BrewPotionsQuestProgress brew_potions = 5;
+		WalkDistanceQuestProgress walk_distance = 6;
+		PlayFortressChallengesQuestProgress play_fortress_challenges = 7;
+		DefeatMobTypeInWizardingChallengeProgress defeat_mob_in_challenges = 8;
+		UnlockPortmanteauProgress unlock_portmanteau = 9;
+		UsePotionsProgress use_potions = 10;
+		PlaceStickersProgress place_stickers = 11;
+		CollectStickersProgress collect_stickers = 12;
+		CastSpellsProgress cast_spells = 13;
+	}
+
+	message PlaceStickersProgress {
+		int64 current_sticker_place_count = 1;
+	}
+
+	message PlayFortressChallengesQuestProgress {
+		int64 current_challenge_count = 1;
+	}
+
+	message UnlockPortmanteauProgress {
+		int64 current_unlock_count = 1;
+	}
+
+	message UsePotionsProgress {
+		int64 current_use_count = 1;
+	}
+
+	message WalkDistanceQuestProgress {
+		int64 current_micrometers_walked = 1;
+	}
+
+	message BrewPotionsQuestProgress {
+		int64 current_brew_count = 1;
+	}
+
+	message CastSpellsProgress {
+		int64 current_spell_count = 1;
+	}
+
+	message CollectPotionIngredientsQuestProgress {
+		int64 current_potion_ingredient_count = 1;
+	}
+
+	message CollectStickersProgress {
+		int64 current_collect_count = 1;
+	}
+
+	message LootOutpostsQuestProgress {
+		int64 current_outpost_count = 1;
+	}
+
+	message DefeatMobTypeInWizardingChallengeProgress {
+		int64 current_defeat_count = 1;
+	}
+
+	message DoEncounterHookQuestProgress {
+		int64 current_win_count = 1;
+	}
+
+	message WinTracesQuestProgress {
+		int64 current_trace_count = 1;
+	}
+}

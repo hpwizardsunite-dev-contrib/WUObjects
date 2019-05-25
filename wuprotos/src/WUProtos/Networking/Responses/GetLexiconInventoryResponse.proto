@@ -1,0 +1,10 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Networking/Responses/GetInventoryResponse.proto";
+
+message GetLexiconInventoryResponse {
+	bool success = 1;
+	.WUProtos.Networking.Responses.InventoryDelta inventory_delta = 2;
+	map<string, int64> volatile_vault_deltas = 3;
+}

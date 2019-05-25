@@ -1,0 +1,21 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message PlantIngredientResponse {
+    Status status = 1;
+
+    enum Status {
+        UNSET = 0;
+        SUCCESS = 1;
+        TOO_FAR = 2;
+        POI_CLOSED = 3;
+        FEATURE_DISABLED = 4;
+        INVALID_POT = 5;
+        RECIPE_DISABLED = 6;
+        RECIPE_LOCKED = 7;
+        INSUFFICIENT_RESOURCES = 8;
+        GROWING_IN_PROGRESS = 9;
+        RENTAL_EXPIRED = 10;
+        RENTER_HAS_PRIORITY = 11;
+    }
+}

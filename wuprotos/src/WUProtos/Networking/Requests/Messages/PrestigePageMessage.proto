@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message PrestigePageMessage {
+	string collection_page_id = 1;
+}

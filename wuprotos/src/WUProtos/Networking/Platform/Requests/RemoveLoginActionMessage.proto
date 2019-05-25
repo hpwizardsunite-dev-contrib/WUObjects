@@ -1,0 +1,8 @@
+syntax = "proto3";
+package WUProtos.Networking.Platform.Requests;
+
+import "WUProtos/Enums/IdentityProvider.proto";
+
+message RemoveLoginActionMessage {
+	.WUProtos.Enums.IdentityProvider identity_provider = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+package WUProtos.Enums;
+
+enum LexiconMetricIds {
+    UNSET_METRIC_ID = 0;
+    GENERIC_METRIC_ID = 1;
+}

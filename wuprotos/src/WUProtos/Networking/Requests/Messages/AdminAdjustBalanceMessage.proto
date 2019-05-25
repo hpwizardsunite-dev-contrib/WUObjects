@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message AdminAdjustBalanceMessage {
+	string player_id = 1;
+	int32 adjustment = 2;
+	string currency_type = 3;
+	string reason = 4;
+}

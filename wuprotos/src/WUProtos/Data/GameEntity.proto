@@ -1,0 +1,88 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+import "WUProtos/Data/Client/ClientMapPoi.proto";
+import "WUProtos/Data/DisplayWeather.proto";
+import "WUProtos/Data/GameplayWeather.proto";
+import "WUProtos/Data/WeatherAlertSettings.proto";
+
+message GameEntity {
+	oneof Type {
+		.WUProtos.Data.Client.ClientMapPoi poi = 1;
+		ClientMapTrace trace = 2;
+		ClientMapLandmark landmark = 3;
+		ClientMapPotionIngredient potion_ingredient = 4;
+		ClientWeather weather = 5;
+		ClientEnvironmentTags environment_tags = 6;
+	}
+
+	message ClientWeather {
+		int64 s2_cell_id = 1;
+		.WUProtos.Data.DisplayWeather display_weather = 2;
+		.WUProtos.Data.GameplayWeather gameplay_weather = 3;
+		repeated .WUProtos.Data.WeatherAlertSettings.WeatherAlert alerts = 4;
+	}
+
+	message ClientMapTrace {
+		string encounter_gmt_id = 1;
+		double latitude = 2;
+		double longitude = 3;
+		bytes encounter_ticket = 4;
+		Source source = 5;
+		int64 expiry_time_ms = 6;
+
+		enum Source {
+			UNKNOWN = 0;
+			STANDARD = 1;
+			DARK_DETECTOR = 2;
+		}
+	}
+
+	message ClientMapLandmark {
+		string collection_family_id = 1;
+		double poi_latitude = 2;
+		double poi_longitude = 3;
+		repeated double border_latitude = 4;
+		repeated double border_longitude = 5;
+	}
+
+	message ClientMapPotionIngredient {
+		string ingredient_gmt_id = 1;
+		double latitude = 2;
+		double longitude = 3;
+		bytes ticket = 4;
+		int64 expiry_time_ms = 5;
+		Source source = 6;
+
+		enum Source {
+			UNKNOWN = 0;
+			STANDARD = 1;
+			SOCIAL_GROWING = 2;
+		}
+	}
+
+	message ClientEnvironmentTags {
+		DayNightTag day_night = 1;
+		MoonPhaseTag moon_phase = 2;
+
+		enum DayNightTag {
+			ENV_DAY_NIGHT_UNSET = 0;
+			ENV_DAY = 1;
+			ENV_NIGHT = 2;
+			ENV_DAWN = 3;
+			ENV_DUSK = 4;
+		}
+
+		enum MoonPhaseTag {
+			ENV_MOON_PHASE_UNSET = 0;
+			ENV_NEW = 1;
+			ENV_FIRST_QUARTER = 2;
+			ENV_FULL = 3;
+			ENV_THIRD_QUARTER = 4;
+			ENV_WAXING_CRESCENT = 5;
+			ENV_WAXING_GIBBOUS = 6;
+			ENV_WANING_GIBBOUS = 7;
+			ENV_WANING_CRESCENT = 8;
+		}
+	}
+}

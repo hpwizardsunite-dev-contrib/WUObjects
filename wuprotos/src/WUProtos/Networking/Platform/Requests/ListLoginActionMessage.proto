@@ -1,0 +1,5 @@
+syntax = "proto3";
+package WUProtos.Networking.Platform.Requests;
+
+message ListLoginActionMessage {
+}

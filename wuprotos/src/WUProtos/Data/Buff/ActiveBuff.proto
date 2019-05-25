@@ -1,0 +1,62 @@
+syntax = "proto3";
+package WUProtos.Data.Buff;
+
+message ActiveBuff {
+    string gmt_buff_id = 1;
+    ActiveBuffExpiration expiration = 2;
+    ActiveBuffSource source = 3;
+    int64 start_time_ms = 5;
+
+    message ActiveBuffExpiration {
+        oneof Type {
+            TimeActiveBuffExpiration time = 1;
+            ChargesActiveBuffExpiration charges = 2;
+            ProfessionBuffExpiration profession = 3;
+            PermanentBuffExpiration permanent = 4;
+            ChallengeBuffExpiration challenge = 6;
+        }
+
+        message TimeActiveBuffExpiration {
+            int64 expiry_time_ms = 1;
+        }
+
+        message ChargesActiveBuffExpiration {
+            bytes encounter_id = 1;
+            int32 remaining_charges = 2;
+        }
+
+        message PermanentBuffExpiration {
+        }
+
+        message ChallengeBuffExpiration {
+        }
+
+        message ProfessionBuffExpiration {
+            string profession_gmt_id = 1;
+        }
+    }
+
+    message ActiveBuffSource {
+        oneof Type {
+            VaultItemActiveBuffSource vault_item = 1;
+            ProfessionActiveBuffSource profession = 2;
+            MapAbilityActiveBuffSource map_ability = 3;
+        }
+
+        message ProfessionActiveBuffSource {
+            string profession_gmt_id = 1;
+            string profession_gmt_node_id = 2;
+            uint32 profession_node_level = 3;
+        }
+
+        message MapAbilityActiveBuffSource {
+            string map_ability_gmt_id = 1;
+            uint32 map_ability_level = 2;
+            string casting_player_nickname = 3;
+        }
+
+        message VaultItemActiveBuffSource {
+            string vault_item_gmt_id = 1;
+        }
+    }
+}

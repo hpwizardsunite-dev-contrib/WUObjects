@@ -1,0 +1,15 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message PurchaseSkuResponse {
+	Status status = 1;
+
+	enum Status {
+		UNSET = 0;
+		SUCCESS = 1;
+		FAILURE = 2;
+		BALANCE_TOO_LOW = 3;
+		SKU_NOT_AVAILABLE = 4;
+		OVER_INVENTORY_LIMIT = 5;
+	}
+}

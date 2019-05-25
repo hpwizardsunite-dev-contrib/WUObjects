@@ -1,0 +1,7 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message AddTimeToCauldronMessage {
+	int64 cauldron_id = 1;
+	string time_item_gmt_id = 2;
+}

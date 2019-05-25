@@ -1,0 +1,13 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message DbgSetPlayerFlagMessage {
+    string feature_flag_id = 1;
+
+    oneof Value {
+        bool bval = 2;
+        int64 lval = 3;
+        string sval = 4;
+        float fval = 5;
+    }
+}

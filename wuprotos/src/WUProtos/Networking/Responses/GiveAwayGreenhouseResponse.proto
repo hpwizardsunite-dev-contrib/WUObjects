@@ -1,0 +1,19 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message GiveAwayGreenhouseResponse {
+	Status status = 1;
+	.WUProtos.Data.Loot.LootReward.LootCollection loot = 2;
+	int64 next_loot_time = 3;
+
+	enum Status {
+		UNKNOWN = 0;
+		ERROR = 1;
+		TOO_FAR = 2;
+		ON_COOLDOWN = 3;
+		SUCCESS = 4;
+		POI_CLOSED = 5;
+	}
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+package WUProtos.Data.Buff;
+
+import "WUProtos/Data/Buff/ActiveBuff.proto";
+
+message ActiveBuffList {
+    repeated .WUProtos.Data.Buff.ActiveBuff buffs = 1;
+}

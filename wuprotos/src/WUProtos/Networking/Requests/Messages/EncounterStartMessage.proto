@@ -1,0 +1,6 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message EncounterStartMessage {
+	bytes encounter_ticket = 1;
+}

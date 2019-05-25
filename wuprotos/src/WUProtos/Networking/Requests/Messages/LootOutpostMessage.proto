@@ -1,0 +1,9 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+message LootOutpostMessage {
+	string outpost_id = 1;
+	double latitude = 2;
+	double longitude = 3;
+	int64 menu_timestamp = 4;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message AcknowledgePunishmentResponse {
+	Result result = 1;
+
+	enum Result {
+		UNKNOWN = 0;
+		SUCCESS = 1;
+		ERROR_ANTICHEAT_NOT_ENABLED = 2;
+		ERROR_NO_PUNISHMENT_TO_ACK = 3;
+	}
+}

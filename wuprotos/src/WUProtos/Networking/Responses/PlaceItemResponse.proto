@@ -1,0 +1,16 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message PlaceItemResponse {
+	Status status = 1;
+	string collection_item_id = 2;
+	repeated .WUProtos.Data.Loot.LootReward.LootCollection completion_rewards = 3;
+
+	enum Status {
+		UNKNOWN = 0;
+		SUCCESS = 1;
+		NOT_READY = 2;
+	}
+}

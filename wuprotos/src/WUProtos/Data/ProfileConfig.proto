@@ -1,0 +1,21 @@
+syntax = "proto3";
+package WUProtos.Data;
+
+import "WUProtos/Data/Client/ClientBadge.proto";
+import "WUProtos/Data/Client/ClientHouse.proto";
+import "WUProtos/Data/Client/ClientTheme.proto";
+import "WUProtos/Data/Client/ClientWandCore.proto";
+import "WUProtos/Data/Client/ClientWandWood.proto";
+import "WUProtos/Data/Client/ClientWandFlexibility.proto";
+import "WUProtos/Data/Client/ClientWandLength.proto";
+
+message ProfileConfig {
+	string id = 1;
+	map<string, .WUProtos.Data.Client.ClientBadge> badges = 2;
+	map<string, .WUProtos.Data.Client.ClientHouse> houses = 3;
+	map<string, .WUProtos.Data.Client.ClientTheme> themes = 4;
+	map<string, .WUProtos.Data.Client.ClientWandCore> wand_cores = 5;
+	map<string, .WUProtos.Data.Client.ClientWandWood> wand_woods = 6;
+	map<string, .WUProtos.Data.Client.ClientWandFlexibility> wand_flexibilities = 7;
+	map<string, .WUProtos.Data.Client.ClientWandLength> wand_lengths = 8;
+}

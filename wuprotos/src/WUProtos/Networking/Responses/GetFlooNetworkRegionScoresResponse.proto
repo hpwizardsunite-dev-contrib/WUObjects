@@ -1,0 +1,15 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+message GetFlooNetworkRegionScoresResponse {
+	string season_id = 1;
+	string region_id = 2;
+	FlooNetworkRegionScores scores = 3;
+	string region_name = 4;
+
+	message FlooNetworkRegionScores {
+		string season_id = 1;
+		string region_id = 2;
+		map<string, int64> points_per_team = 3;
+	}
+}

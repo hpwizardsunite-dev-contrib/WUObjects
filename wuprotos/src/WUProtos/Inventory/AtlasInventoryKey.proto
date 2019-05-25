@@ -1,0 +1,23 @@
+syntax = "proto3";
+package WUProtos.Inventory;
+
+message AtlasInventoryKey {
+	oneof Type {
+		bool profile = 1;
+		string vault_item = 2;
+		string collection_item = 3;
+		string collection_family = 4;
+		int64 walkbox = 5;
+		string player_flags = 6;
+		int64 portkey = 7;
+		bool player_active_buff_list = 8;
+		string collection_page = 9;
+		bool professions_progress = 10;
+		bool vault_capacity = 11;
+		int64 cauldron = 12;
+		bool escrowed_rewards = 13;
+		bool professions_progress_v3 = 14;
+		bool quest_log = 15;
+		bool lifetime_metrics = 16;
+	}
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+package WUProtos.Data.Client;
+
+import "WUProtos/Data/Requirements.proto";
+
+message ClientBadge {
+    string name = 1;
+    string icon = 2;
+    bool disabled = 3;
+    bool show_badge = 4;
+    .WUProtos.Data.Requirements visibility_conditions = 5;
+    .WUProtos.Data.Requirements unlock_conditions = 6;
+}

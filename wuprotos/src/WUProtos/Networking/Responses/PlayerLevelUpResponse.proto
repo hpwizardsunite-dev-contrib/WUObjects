@@ -1,0 +1,10 @@
+syntax = "proto3";
+package WUProtos.Networking.Responses;
+
+import "WUProtos/Data/Loot/LootReward.proto";
+
+message PlayerLevelUpResponse {
+	bool did_level_up = 1;
+	int32 new_level = 2;
+	.WUProtos.Data.Loot.LootReward.LootCollection granted_rewards = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+package WUProtos.Networking.Requests.Messages;
+
+import "WUProtos/Inventory/AtlasInventoryItem.proto";
+import "WUProtos/Inventory/AtlasInventoryKey.proto";
+
+message DbgUpdateInventoryMessage {
+    repeated .WUProtos.Inventory.AtlasInventoryItem insert_or_replace_items = 1;
+    repeated .WUProtos.Inventory.AtlasInventoryKey delete_items = 2;
+}
