@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message EncounterUsePotionMessage {
-	string potion_id = 1;
-	bytes encounter_id = 2;
-}

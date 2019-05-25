@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Enums;
-
-enum CombatMoveType {
-    COMBAT_PLAYER_ATTACK = 0;
-    COMBAT_PLAYER_DEFEND = 1;
-    COMBAT_PLAYER_AUTO_ADVANCE = 2;
-}

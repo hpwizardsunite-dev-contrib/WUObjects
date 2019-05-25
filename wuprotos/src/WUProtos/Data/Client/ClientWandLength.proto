@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Client;
-
-message ClientWandLength {
-	string name = 1;
-	string model_path = 2;
-	int32 slidervalue = 3;
-}

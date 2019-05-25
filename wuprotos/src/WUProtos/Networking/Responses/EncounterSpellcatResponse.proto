@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Responses;
-
-import "WUProtos/Networking/Responses/EncounterStartResponse.proto";
-
-message EncounterSpellcatResponse {
-	.WUProtos.Networking.Responses.EncounterStartResponse response = 1;
-}

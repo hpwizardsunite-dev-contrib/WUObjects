@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Responses;
-
-import "WUProtos/Data/FlooNetworkFortressStatistics.proto";
-
-message DbgSetTeamFlooPointsResponse {
-	.WUProtos.Data.FlooNetworkFortressStatistics fortress_statistics = 1;
-}

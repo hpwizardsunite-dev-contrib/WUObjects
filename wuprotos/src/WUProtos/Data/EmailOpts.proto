@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data;
-
-message EmailOpts {
-	bool send_update_emails = 1;
-	bool send_wb_marketing_emails = 2;
-	int64 email_opts_last_updated_ms = 3;
-}

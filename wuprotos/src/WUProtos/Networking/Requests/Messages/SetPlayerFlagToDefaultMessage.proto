@@ -1,6 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message SetPlayerFlagToDefaultMessage {
-	string player_flag_id = 1;
-}

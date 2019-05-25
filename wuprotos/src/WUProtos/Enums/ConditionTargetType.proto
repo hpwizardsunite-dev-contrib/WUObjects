@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Enums;
-
-enum ConditionTargetType {
-    CONDITION_TARGET_TYPE_UNSET = 0;
-    SELF = 1;
-    OPPONENT = 2;
-}

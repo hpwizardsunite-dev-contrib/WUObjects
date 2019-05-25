@@ -1,6 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Responses;
-
-message SetPlayerFlagToDefaultResponse {
-	bool did_set_flag = 1;
-}

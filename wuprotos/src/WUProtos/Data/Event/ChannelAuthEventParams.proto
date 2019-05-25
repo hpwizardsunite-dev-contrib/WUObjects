@@ -1,6 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Event;
-
-message ChannelAuthEventParams {
-    uint32 status = 1;
-}

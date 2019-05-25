@@ -1,9 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Responses;
-
-import "WUProtos/Data/FlooNetworkFortressStatistics.proto";
-
-message GetFortressFlooNetworkStatisticsResponse {
-	.WUProtos.Data.FlooNetworkFortressStatistics fortress_statistics = 1;
-	int64 temp_next_add_pts_timestamp_ms = 2;
-}

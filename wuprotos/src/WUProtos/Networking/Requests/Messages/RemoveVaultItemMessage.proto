@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message RemoveVaultItemMessage {
-	string vault_item_id = 1;
-	uint64 quantity = 2;
-}

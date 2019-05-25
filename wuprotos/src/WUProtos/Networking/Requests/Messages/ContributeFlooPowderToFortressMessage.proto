@@ -1,9 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message ContributeFlooPowderToFortressMessage {
-	string fortress_id = 1;
-	double fortress_lat = 2;
-	double fortress_lng = 3;
-	int64 floo_powder = 4;
-}

@@ -1,9 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Client;
-
-import "WUProtos/Data/Buff/ActiveBuff.proto";
-
-message ClientPlayerSnapshot {
-    map<string, int64> vault_items = 1;
-    repeated .WUProtos.Data.Buff.ActiveBuff buffs = 2;
-}

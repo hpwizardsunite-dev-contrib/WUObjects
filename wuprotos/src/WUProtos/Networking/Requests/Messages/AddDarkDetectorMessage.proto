@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message AddDarkDetectorMessage {
-	string dark_detector_id = 1;
-	string target_outpost_id = 2;
-	int32 slot_index = 3;
-}

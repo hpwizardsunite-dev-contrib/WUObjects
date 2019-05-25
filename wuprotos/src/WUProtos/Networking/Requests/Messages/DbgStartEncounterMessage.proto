@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message DbgStartEncounterMessage {
-    string encounter_gmt_id = 1;
-    int32 starting_stage_index = 2;
-    int32 level = 3;
-}

@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data;
-
-message AudioParameter {
-    string param_name = 1;
-    float param_value = 2;
-}

@@ -1,9 +1,0 @@
-syntax = "proto3";
-package WUProtos.Enums;
-
-enum PoiAccessibility {
-    UNKNOWN_POI_STATE = 0;
-    POI_OPEN = 1;
-    POI_CLOSED = 2;
-    POI_CLOSING = 3;
-}

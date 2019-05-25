@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message ProfessionNodeLevelUnlockMessage {
-	string profession_node_id = 1;
-	uint32 level = 2;
-	string profession_rank_id = 4;
-}

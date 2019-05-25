@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Client;
-
-message ClientFtueVideoFromAsset {
-    string asset_name_format = 1;
-    string fallback_asset_name_format = 2;
-}

@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data;
-
-message CurrencyQuantity {
-	string currency_type = 1;
-	int32 quantity = 2;
-}

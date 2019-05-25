@@ -1,6 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Challenge;
-
-message ChallengeLootTable {
-    string id = 1;
-}

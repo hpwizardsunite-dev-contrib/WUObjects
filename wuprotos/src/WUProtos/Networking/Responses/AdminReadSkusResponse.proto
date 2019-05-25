@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Responses;
-
-import "WUProtos/Data/SkuData.proto";
-
-message AdminReadSkusResponse {
-	repeated .WUProtos.Data.SkuData sku = 1;
-}

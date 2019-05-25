@@ -1,6 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Responses;
-
-message DbgResetStorePackPurchasedResponse {
-    bool successful = 1;
-}

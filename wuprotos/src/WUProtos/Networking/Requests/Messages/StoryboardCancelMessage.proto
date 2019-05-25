@@ -1,6 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message StoryboardCancelMessage {
-	string storyboard_gmt_id = 1;
-}

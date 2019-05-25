@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Enums;
-
-enum DownloadType {
-    DOWNLOAD_TYPE_UNSET = 0;
-    PORTRAIT_DOWNLOAD_PASSPORT = 1;
-    PORTRAIT_DOWNLOAD_PHOTO = 2;
-}

@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message DbgGetLootRollInfoMessage {
-    string loot_table_id = 1;
-    int32 num_rolls = 2;
-}

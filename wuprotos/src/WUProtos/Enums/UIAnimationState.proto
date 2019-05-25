@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Enums;
-
-enum UIAnimationState {
-    NOT_STARTED = 0;
-    RUNNING = 1;
-    COMPLETE = 2;
-}

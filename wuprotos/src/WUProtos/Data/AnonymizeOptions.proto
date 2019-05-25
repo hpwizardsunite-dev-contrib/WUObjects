@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data;
-
-message AnonymizeOptions {
-	bool user_id = 1;
-	bool remove = 2;
-	bool unknown = 3;
-}

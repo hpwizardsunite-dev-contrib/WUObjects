@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-import "WUProtos/Data/EmailOpts.proto";
-
-message OptIntoMarketingEmailsMessage {
-	.WUProtos.Data.EmailOpts email_opts = 1;
-}

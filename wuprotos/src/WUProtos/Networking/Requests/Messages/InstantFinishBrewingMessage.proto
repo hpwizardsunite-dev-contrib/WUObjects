@@ -1,6 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message InstantFinishBrewingMessage {
-	int64 cauldron_id = 1;
-}

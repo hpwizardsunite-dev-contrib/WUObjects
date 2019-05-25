@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data;
-
-message FlooNetworkFortressStatistics {
-	map<string, int64> points_per_team = 1;
-	int64 electoral_votes = 2;
-	string owning_team_id = 3;
-}

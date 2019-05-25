@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Client;
-
-message ClientWandCore {
-	string name = 1;
-	string icon = 2;
-	string sound_select = 3;
-}

@@ -1,6 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Responses;
-
-message PlayerHelpInfoResponse {
-	string player_id = 1;
-}

@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Enums;
-
-enum BoolLiteral {
-    BOOL_UNKNOWN = 0;
-    TRUE = 1;
-    FALSE = 2;
-}

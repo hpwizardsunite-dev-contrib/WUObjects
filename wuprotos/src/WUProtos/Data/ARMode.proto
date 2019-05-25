@@ -1,9 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data;
-
-enum ARMode {
-    AR_MODE_UNSET = 0;
-    advanced = 1;
-    simple = 2;
-    park = 3;
-}

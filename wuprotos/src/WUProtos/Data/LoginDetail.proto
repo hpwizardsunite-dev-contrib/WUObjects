@@ -1,9 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data;
-
-import "WUProtos/Enums/IdentityProvider.proto";
-
-message LoginDetail {
-	.WUProtos.Enums.IdentityProvider identity_provider = 1;
-	string email = 2;
-}

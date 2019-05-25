@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message SetRunestonesMessage {
-	string reg_runestone_vaultitem_gmt_id = 1;
-	string boss_runestone_vaultitem_gmt_id_or_empty = 2;
-}

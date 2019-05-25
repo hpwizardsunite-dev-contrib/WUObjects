@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data;
-
-import "WUProtos/Data/Condition.proto";
-
-message Conditions {
-	repeated .WUProtos.Data.Condition conds = 1;
-}

@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Client;
-
-import "WUProtos/Data/Client/ClientGmTemplate.proto";
-
-message ClientGameDataWrapper {
-    repeated .WUProtos.Data.Client.ClientGmTemplate messages = 1;
-}

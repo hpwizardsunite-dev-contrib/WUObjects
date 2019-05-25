@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message AdminGetInAppPurchaseLogsMessage {
-	string player_id = 1;
-	int64 min_timestamp_ms = 2;
-	int64 max_timestamp_ms = 3;
-}

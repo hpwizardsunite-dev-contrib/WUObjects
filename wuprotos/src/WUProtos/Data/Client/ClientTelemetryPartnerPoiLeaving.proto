@@ -1,9 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Client;
-
-message ClientTelemetryPartnerPoiLeaving {
-    string poi_id = 1;
-    string partner_id = 2;
-    int64 time_in_poi = 3;
-    int64 time_in_range = 4;
-}

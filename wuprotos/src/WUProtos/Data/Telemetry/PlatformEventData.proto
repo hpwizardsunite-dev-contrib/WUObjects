@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Telemetry;
-
-import "WUProtos/Data/Telemetry/TelemetryCommon.proto";
-
-message PlatformEventData {
-	.WUProtos.Data.Telemetry.TelemetryCommon common_telemetry = 1;
-}

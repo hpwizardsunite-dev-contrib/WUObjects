@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message GetSignedUrlForPhotoUploadMessage {
-	string user_id = 1;
-	string game_unique_id = 2;
-}

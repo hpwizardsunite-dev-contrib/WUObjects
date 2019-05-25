@@ -1,9 +1,0 @@
-syntax = "proto3";
-package WUProtos.Map;
-
-message MapCoordinate {
-	double latitude = 1;
-	double longitude = 2;
-	double x = 3;
-	double y = 4;
-}

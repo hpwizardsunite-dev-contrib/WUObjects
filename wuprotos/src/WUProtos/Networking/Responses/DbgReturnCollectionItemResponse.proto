@@ -1,6 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Responses;
-
-message DbgReturnCollectionItemResponse {
-    bool did_return_collection_item = 1;
-}

@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Client;
-
-message ClientTelemetryPartnerPoiInfo {
-    string poi_id = 1;
-    string partner_id = 2;
-}

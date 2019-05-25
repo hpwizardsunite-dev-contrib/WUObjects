@@ -1,8 +1,0 @@
-syntax = "proto3";
-package WUProtos.Networking.Requests.Messages;
-
-message DbgWcAddBuffMessage {
-    string buff_gmt_id = 1;
-    uint32 quantity = 2;
-    bytes encounter_id = 3;
-}

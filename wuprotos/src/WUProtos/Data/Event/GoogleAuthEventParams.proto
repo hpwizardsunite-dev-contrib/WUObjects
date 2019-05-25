@@ -1,7 +1,0 @@
-syntax = "proto3";
-package WUProtos.Data.Event;
-
-message GoogleAuthEventParams {
-    string payload = 1;
-    string account_name = 2;
-}
