@@ -1,6 +1,5 @@
-[![Discord](https://img.shields.io/badge/Discord-Online-blue.svg)](https://discord.gg/mFH2D34)
+# WUObjects [![Build Status](https://travis-ci.org/hpwizardsunite-dev-contrib/WUObjects.svg?branch=master)](https://travis-ci.org/hpwizardsunite-dev-contrib/WUObjects) [![Discord](https://img.shields.io/badge/Discord-Online-blue.svg)](https://discord.gg/mFH2D34)
 
-# WUObjects
 Scripts to extract useful details from Harry Potter Wizards Unite such as spells, foundables, professions, potions, etc.
 
 <pre>/assets - Files that are loaded as the game is played. Sourced from /gamefiles/manifest
