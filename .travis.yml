@@ -4,9 +4,14 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - cd ./WUProtos_Base
+  - pushd /tmp
+  - wget https://github.com/google/protobuf/releases/download/v3.7.1/protoc-3.7.1-linux-x86_64.zip
+  - unzip protoc-3.7.1-linux-x86_64.zip
+  - popd
+  - export PATH=/tmp/bin:$PATH
+  - cd WUProtos_Base
   - chmod +x ./compile.py
-  - ./compile.py python -o ../ --keep_proto_files
-  - cd ..
+  - ./compile.py python ../ --keep_proto_files
+  - cd
   - chmod +x ./*.py
   - ./gamefiles_decode.py
