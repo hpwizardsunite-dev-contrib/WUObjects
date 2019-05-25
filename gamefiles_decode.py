@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import json
 
 from google.protobuf.json_format import MessageToJson
