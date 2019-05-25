@@ -1,5 +1,5 @@
-from WUProtos.Data.Client import ClientGameDataWrapper_pb2
-from WUProtos.Data import GameDataWrapper_pb2
+from wuprotos.data.client import client_game_data_wrapper_pb2
+from wuprotos.data import game_data_wrapper_pb2
 from google.protobuf.json_format import MessageToJson
 import json
 
@@ -9,7 +9,7 @@ folder_name = 'gamefiles/'
 def parse_gdc():
     with open(folder_name + 'GameDataClient.bytes', 'rb') as f:
         s = f.read()
-    wrapper = ClientGameDataWrapper_pb2.ClientGameDataWrapper()
+    wrapper = client_game_data_wrapper_pb2.ClientGameDataWrapper()
     wrapper.ParseFromString(s)
     with open(folder_name + 'GameDataClient.json', 'w') as f:
         f.write(MessageToJson(wrapper))
@@ -19,7 +19,7 @@ def parse_gdc():
 def parse_gdw():
     with open(folder_name + 'GameDataWrapper.bytes', 'rb') as f:
         s = f.read()
-    wrapper = GameDataWrapper_pb2.GameDataWrapper()
+    wrapper = game_data_wrapper_pb2.GameDataWrapper()
     wrapper.ParseFromString(s)
     with open(folder_name + 'GameDataWrapper.json', 'w') as f:
         f.write(MessageToJson(wrapper))
