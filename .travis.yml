@@ -12,6 +12,6 @@ script:
   - cd ./WUProtos_Base
   - chmod +x ./compile.py
   - ./compile.py python -o ../ --keep_proto_files
-  - cd
+  - cd ..
   - chmod +x ./gamefiles_decode.py
   - ./gamefiles_decode.py
