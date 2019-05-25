@@ -11,5 +11,5 @@ install:
   - popd
   - export PATH=/tmp/bin:$PATH
 script:
-  - chmod +x ./gamefiles_decode.py
+  - chmod +x ./*.py
   - ./gamefiles_decode.py
