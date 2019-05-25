@@ -6,7 +6,7 @@ install:
 script:
   - cd ./WUProtos_Base
   - chmod +x ./compile.py
-  - ./compile.py python ../ --keep_proto_files
+  - ./compile.py python -o ../ --keep_proto_files
   - cd ..
   - chmod +x ./*.py
   - ./gamefiles_decode.py
