@@ -66529,6 +66529,1041 @@
         "profesionRanksMap": {
           "auror_rank_0": {
             "professionNodesMap": {
+              "proto_professionnode_auror_rank_0_37": {
+                "id": "proto_professionnode_auror_rank_0_37",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_38",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_protego_2",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_protego_2",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_protego_3",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "17"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 12
+              },
+              "proto_professionnode_auror_rank_0_42": {
+                "id": "proto_professionnode_auror_rank_0_42",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_38",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_startingfocus_1",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 13,
+                "colPos": 1
+              },
+              "proto_professionnode_auror_rank_0_38": {
+                "id": "proto_professionnode_auror_rank_0_38",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_34",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_affinitypower_8",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_affinitypower_9",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_affinitypower_11",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "17"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_affinitypower_14",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "17"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_affinitypower_19",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "35"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "17"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 12,
+                "colPos": 1
+              },
+              "proto_professionnode_auror_rank_0_43": {
+                "id": "proto_professionnode_auror_rank_0_43",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_39",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_44",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critdamage_6",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critdamage_7",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critdamage_9",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "21"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 13,
+                "colPos": 2
+              },
+              "proto_professionnode_auror_rank_0_39": {
+                "id": "proto_professionnode_auror_rank_0_39",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_38",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_35",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critchance_2",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critchance_2",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critchance_3",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "17"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critchance_3",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "26"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "17"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 12,
+                "colPos": 2
+              },
+              "proto_professionnode_auror_rank_0_44": {
+                "id": "proto_professionnode_auror_rank_0_44",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_40",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critdamage_7",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critdamage_9",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critdamage_10",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "21"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 13,
+                "colPos": 3
+              },
+              "proto_professionnode_auror_rank_0_45": {
+                "id": "proto_professionnode_auror_rank_0_45",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_40",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_3",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_3",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_3",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "21"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_4",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "32"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "21"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 13,
+                "colPos": 4
+              },
+              "proto_professionnode_auror_rank_0_50": {
+                "id": "proto_professionnode_auror_rank_0_50",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_43",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critdamage_enefullhealth_50",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "46"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_03",
+                            "amount": "15"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 15,
+                "colPos": 2
+              },
+              "proto_professionnode_auror_rank_0_51": {
+                "id": "proto_professionnode_auror_rank_0_51",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_48",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_sunder_werewolf_30",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "46"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_03",
+                            "amount": "15"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 15,
+                "colPos": 4
+              },
+              "proto_professionnode_auror_rank_0_46": {
+                "id": "proto_professionnode_auror_rank_0_46",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_41",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_mitigation_10",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "38"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_mitigation_14",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "38"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 14
+              },
+              "proto_professionnode_auror_rank_0_52": {
+                "id": "proto_professionnode_auror_rank_0_52",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_3",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "5"
+                          }
+                        }
+                      ]
+                    },
+                    "mapAbilities": [
+                      "proto_mapability_auror_damageping"
+                    ],
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 3,
+                "colPos": 2
+              },
+              "proto_professionnode_auror_rank_0_47": {
+                "id": "proto_professionnode_auror_rank_0_47",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_42",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "38"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_03",
+                            "amount": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "mapAbilities": [
+                      "proto_mapability_auror_dodgemitigationdebuff"
+                    ],
+                    "rankPoints": 1
+                  },
+                  {
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "38"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_03",
+                            "amount": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "mapAbilities": [
+                      "proto_mapability_auror_dodgemitigationdebuff"
+                    ],
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 14,
+                "colPos": 1
+              },
+              "proto_professionnode_auror_rank_0_53": {
+                "id": "proto_professionnode_auror_rank_0_53",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_52",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "7"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_03",
+                            "amount": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "mapAbilities": [
+                      "proto_mapability_auror_damageping"
+                    ],
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 5,
+                "colPos": 2
+              },
+              "proto_professionnode_auror_rank_0_48": {
+                "id": "proto_professionnode_auror_rank_0_48",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_45",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_3",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "38"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_3",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "38"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_4",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "38"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "25"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_4",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "38"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_01",
+                            "amount": "25"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 14,
+                "colPos": 4
+              },
+              "proto_professionnode_auror_rank_0_49": {
+                "id": "proto_professionnode_auror_rank_0_49",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_auror_rank_0_46",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "auror_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_critchance_deatheater_25",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "46"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_03",
+                            "amount": "15"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 15
+              },
               "proto_professionnode_auror_rank_0_1": {
                 "id": "proto_professionnode_auror_rank_0_1",
                 "edges": [
@@ -69226,1041 +70261,6 @@
                   }
                 ],
                 "rowPos": 13
-              },
-              "proto_professionnode_auror_rank_0_37": {
-                "id": "proto_professionnode_auror_rank_0_37",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_38",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_protego_2",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_protego_2",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_protego_3",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "17"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 12
-              },
-              "proto_professionnode_auror_rank_0_42": {
-                "id": "proto_professionnode_auror_rank_0_42",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_38",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_startingfocus_1",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 13,
-                "colPos": 1
-              },
-              "proto_professionnode_auror_rank_0_38": {
-                "id": "proto_professionnode_auror_rank_0_38",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_34",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_affinitypower_8",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_affinitypower_9",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_affinitypower_11",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "17"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_affinitypower_14",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "17"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_affinitypower_19",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "35"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "17"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 12,
-                "colPos": 1
-              },
-              "proto_professionnode_auror_rank_0_43": {
-                "id": "proto_professionnode_auror_rank_0_43",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_39",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_44",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critdamage_6",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critdamage_7",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critdamage_9",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "21"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 13,
-                "colPos": 2
-              },
-              "proto_professionnode_auror_rank_0_39": {
-                "id": "proto_professionnode_auror_rank_0_39",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_38",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_35",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critchance_2",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critchance_2",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critchance_3",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "17"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critchance_3",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "26"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "17"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 12,
-                "colPos": 2
-              },
-              "proto_professionnode_auror_rank_0_44": {
-                "id": "proto_professionnode_auror_rank_0_44",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_40",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critdamage_7",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critdamage_9",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critdamage_10",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "21"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 13,
-                "colPos": 3
-              },
-              "proto_professionnode_auror_rank_0_45": {
-                "id": "proto_professionnode_auror_rank_0_45",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_40",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_3",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_3",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_3",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "21"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_4",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "32"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "21"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 13,
-                "colPos": 4
-              },
-              "proto_professionnode_auror_rank_0_50": {
-                "id": "proto_professionnode_auror_rank_0_50",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_43",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critdamage_enefullhealth_50",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "46"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_03",
-                            "amount": "15"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 15,
-                "colPos": 2
-              },
-              "proto_professionnode_auror_rank_0_51": {
-                "id": "proto_professionnode_auror_rank_0_51",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_48",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_sunder_werewolf_30",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "46"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_03",
-                            "amount": "15"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 15,
-                "colPos": 4
-              },
-              "proto_professionnode_auror_rank_0_46": {
-                "id": "proto_professionnode_auror_rank_0_46",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_41",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_mitigation_10",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "38"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_mitigation_14",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "38"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 14
-              },
-              "proto_professionnode_auror_rank_0_52": {
-                "id": "proto_professionnode_auror_rank_0_52",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_3",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "5"
-                          }
-                        }
-                      ]
-                    },
-                    "mapAbilities": [
-                      "proto_mapability_auror_damageping"
-                    ],
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 3,
-                "colPos": 2
-              },
-              "proto_professionnode_auror_rank_0_47": {
-                "id": "proto_professionnode_auror_rank_0_47",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_42",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "38"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_03",
-                            "amount": "4"
-                          }
-                        }
-                      ]
-                    },
-                    "mapAbilities": [
-                      "proto_mapability_auror_dodgemitigationdebuff"
-                    ],
-                    "rankPoints": 1
-                  },
-                  {
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "38"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_03",
-                            "amount": "4"
-                          }
-                        }
-                      ]
-                    },
-                    "mapAbilities": [
-                      "proto_mapability_auror_dodgemitigationdebuff"
-                    ],
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 14,
-                "colPos": 1
-              },
-              "proto_professionnode_auror_rank_0_53": {
-                "id": "proto_professionnode_auror_rank_0_53",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_52",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "7"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_03",
-                            "amount": "4"
-                          }
-                        }
-                      ]
-                    },
-                    "mapAbilities": [
-                      "proto_mapability_auror_damageping"
-                    ],
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 5,
-                "colPos": 2
-              },
-              "proto_professionnode_auror_rank_0_48": {
-                "id": "proto_professionnode_auror_rank_0_48",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_45",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_3",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "38"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_3",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "38"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_4",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "38"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "25"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_4",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "38"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_01",
-                            "amount": "25"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 14,
-                "colPos": 4
-              },
-              "proto_professionnode_auror_rank_0_49": {
-                "id": "proto_professionnode_auror_rank_0_49",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_auror_rank_0_46",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "auror_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_critchance_deatheater_25",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "46"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_03",
-                            "amount": "15"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 15
               }
             },
             "showInUi": true,
@@ -74170,6 +74170,309 @@
         "profesionRanksMap": {
           "professor_rank_0": {
             "professionNodesMap": {
+              "proto_professionnode_professor_rank_0_4": {
+                "id": "proto_professionnode_professor_rank_0_4",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_professor_rank_0_3",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "professor_rank_0"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_professor_rank_0_5",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "professor_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "mapAbilities": [
+                      "proto_mapability_professor_damageoverstates"
+                    ],
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 2,
+                "colPos": 2
+              },
+              "proto_professionnode_professor_rank_0_5": {
+                "id": "proto_professionnode_professor_rank_0_5",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_professor_rank_0_39",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "professor_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_2",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "2"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_2",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "2"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 1,
+                "colPos": 3
+              },
+              "proto_professionnode_professor_rank_0_6": {
+                "id": "proto_professionnode_professor_rank_0_6",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_professor_rank_0_10",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "professor_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_mitigation_enedebuff1_6",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "5"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_03",
+                            "amount": "15"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 3
+              },
+              "proto_professionnode_professor_rank_0_7": {
+                "id": "proto_professionnode_professor_rank_0_7",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_professor_rank_0_4",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "professor_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_mitigation_7",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_mitigation_10",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 2,
+                "colPos": 1
+              },
+              "proto_professionnode_professor_rank_0_8": {
+                "id": "proto_professionnode_professor_rank_0_8",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_professor_rank_0_4",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "professor_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_2",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_2",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "4"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 2,
+                "colPos": 3
+              },
+              "proto_professionnode_professor_rank_0_9": {
+                "id": "proto_professionnode_professor_rank_0_9",
+                "edges": [
+                  {
+                    "reqs": [
+                      {
+                        "professionNodeReq": {
+                          "professionNodeId": "proto_professionnode_professor_rank_0_12",
+                          "comparisonOperator": "GREATER_THAN",
+                          "professionRankId": "professor_rank_0"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "levels": [
+                  {
+                    "prerequisite": {},
+                    "cost": {}
+                  },
+                  {
+                    "buffGmtId": "proto_buff_profession_player_attack_selfbuff1_5",
+                    "prerequisite": {},
+                    "cost": {
+                      "rewards": [
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_02",
+                            "amount": "5"
+                          }
+                        },
+                        {
+                          "itemReward": {
+                            "itemId": "proto_vaultitem_currency_profession_03",
+                            "amount": "15"
+                          }
+                        }
+                      ]
+                    },
+                    "rankPoints": 1
+                  }
+                ],
+                "rowPos": 3,
+                "colPos": 4
+              },
               "proto_professionnode_professor_rank_0_10": {
                 "id": "proto_professionnode_professor_rank_0_10",
                 "edges": [
@@ -77658,309 +77961,6 @@
                 ],
                 "rowPos": 1,
                 "colPos": 1
-              },
-              "proto_professionnode_professor_rank_0_4": {
-                "id": "proto_professionnode_professor_rank_0_4",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_professor_rank_0_3",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "professor_rank_0"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_professor_rank_0_5",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "professor_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "4"
-                          }
-                        }
-                      ]
-                    },
-                    "mapAbilities": [
-                      "proto_mapability_professor_damageoverstates"
-                    ],
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 2,
-                "colPos": 2
-              },
-              "proto_professionnode_professor_rank_0_5": {
-                "id": "proto_professionnode_professor_rank_0_5",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_professor_rank_0_39",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "professor_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_2",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "2"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_2",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "2"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 1,
-                "colPos": 3
-              },
-              "proto_professionnode_professor_rank_0_6": {
-                "id": "proto_professionnode_professor_rank_0_6",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_professor_rank_0_10",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "professor_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_mitigation_enedebuff1_6",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "5"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_03",
-                            "amount": "15"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 3
-              },
-              "proto_professionnode_professor_rank_0_7": {
-                "id": "proto_professionnode_professor_rank_0_7",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_professor_rank_0_4",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "professor_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_mitigation_7",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "4"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_mitigation_10",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "4"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 2,
-                "colPos": 1
-              },
-              "proto_professionnode_professor_rank_0_8": {
-                "id": "proto_professionnode_professor_rank_0_8",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_professor_rank_0_4",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "professor_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_2",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "4"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_2",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "4"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 2,
-                "colPos": 3
-              },
-              "proto_professionnode_professor_rank_0_9": {
-                "id": "proto_professionnode_professor_rank_0_9",
-                "edges": [
-                  {
-                    "reqs": [
-                      {
-                        "professionNodeReq": {
-                          "professionNodeId": "proto_professionnode_professor_rank_0_12",
-                          "comparisonOperator": "GREATER_THAN",
-                          "professionRankId": "professor_rank_0"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "levels": [
-                  {
-                    "prerequisite": {},
-                    "cost": {}
-                  },
-                  {
-                    "buffGmtId": "proto_buff_profession_player_attack_selfbuff1_5",
-                    "prerequisite": {},
-                    "cost": {
-                      "rewards": [
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_02",
-                            "amount": "5"
-                          }
-                        },
-                        {
-                          "itemReward": {
-                            "itemId": "proto_vaultitem_currency_profession_03",
-                            "amount": "15"
-                          }
-                        }
-                      ]
-                    },
-                    "rankPoints": 1
-                  }
-                ],
-                "rowPos": 3,
-                "colPos": 4
               }
             },
             "showInUi": true,

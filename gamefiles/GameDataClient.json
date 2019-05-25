@@ -15501,30 +15501,6 @@
       "dailyRewardMonthlySchedule": {
         "id": "proto_dailyrewardmonthlyschedule_default_28_days",
         "dailyRewards": {
-          "23": {},
-          "6": {
-            "hideAsCrate": true
-          },
-          "19": {},
-          "2": {},
-          "14": {
-            "makeSparkly": true
-          },
-          "27": {
-            "hideAsCrate": true
-          },
-          "10": {},
-          "5": {},
-          "22": {},
-          "1": {},
-          "18": {},
-          "13": {
-            "hideAsCrate": true
-          },
-          "9": {},
-          "26": {
-            "makeSparkly": true
-          },
           "21": {
             "hideAsCrate": true,
             "makeSparkly": true
@@ -15545,7 +15521,31 @@
           "28": {},
           "15": {},
           "24": {},
-          "11": {}
+          "11": {},
+          "23": {},
+          "6": {
+            "hideAsCrate": true
+          },
+          "19": {},
+          "2": {},
+          "14": {
+            "makeSparkly": true
+          },
+          "27": {
+            "hideAsCrate": true
+          },
+          "10": {},
+          "5": {},
+          "22": {},
+          "1": {},
+          "18": {},
+          "13": {
+            "hideAsCrate": true
+          },
+          "9": {},
+          "26": {
+            "makeSparkly": true
+          }
         }
       }
     },
@@ -15553,6 +15553,26 @@
       "dailyRewardMonthlySchedule": {
         "id": "proto_dailyrewardmonthlyschedule_default_29_days",
         "dailyRewards": {
+          "21": {
+            "hideAsCrate": true,
+            "makeSparkly": true
+          },
+          "4": {},
+          "17": {},
+          "29": {},
+          "12": {},
+          "25": {},
+          "8": {},
+          "20": {},
+          "7": {
+            "makeSparkly": true
+          },
+          "16": {},
+          "3": {},
+          "28": {},
+          "15": {},
+          "24": {},
+          "11": {},
           "23": {},
           "6": {
             "hideAsCrate": true
@@ -15577,27 +15597,7 @@
           "9": {},
           "26": {
             "makeSparkly": true
-          },
-          "21": {
-            "hideAsCrate": true,
-            "makeSparkly": true
-          },
-          "4": {},
-          "17": {},
-          "29": {},
-          "12": {},
-          "25": {},
-          "8": {},
-          "20": {},
-          "7": {
-            "makeSparkly": true
-          },
-          "16": {},
-          "3": {},
-          "28": {},
-          "15": {},
-          "24": {},
-          "11": {}
+          }
         }
       }
     },
@@ -15605,6 +15605,28 @@
       "dailyRewardMonthlySchedule": {
         "id": "proto_dailyrewardmonthlyschedule_default_30_days",
         "dailyRewards": {
+          "21": {
+            "hideAsCrate": true,
+            "makeSparkly": true
+          },
+          "4": {},
+          "17": {},
+          "29": {},
+          "12": {},
+          "25": {},
+          "8": {},
+          "20": {},
+          "7": {
+            "makeSparkly": true
+          },
+          "16": {},
+          "3": {},
+          "28": {
+            "makeSparkly": true
+          },
+          "15": {},
+          "24": {},
+          "11": {},
           "23": {},
           "6": {
             "hideAsCrate": true
@@ -15630,29 +15652,7 @@
           },
           "30": {},
           "9": {},
-          "26": {},
-          "21": {
-            "hideAsCrate": true,
-            "makeSparkly": true
-          },
-          "4": {},
-          "17": {},
-          "29": {},
-          "12": {},
-          "25": {},
-          "8": {},
-          "20": {},
-          "7": {
-            "makeSparkly": true
-          },
-          "16": {},
-          "3": {},
-          "28": {
-            "makeSparkly": true
-          },
-          "15": {},
-          "24": {},
-          "11": {}
+          "26": {}
         }
       }
     },
@@ -15660,6 +15660,28 @@
       "dailyRewardMonthlySchedule": {
         "id": "proto_dailyrewardmonthlyschedule_default_30_days_v2",
         "dailyRewards": {
+          "21": {
+            "hideAsCrate": true,
+            "makeSparkly": true
+          },
+          "4": {},
+          "17": {},
+          "29": {},
+          "12": {},
+          "25": {},
+          "8": {},
+          "20": {},
+          "7": {
+            "makeSparkly": true
+          },
+          "16": {},
+          "3": {},
+          "28": {
+            "makeSparkly": true
+          },
+          "15": {},
+          "24": {},
+          "11": {},
           "23": {},
           "6": {
             "hideAsCrate": true
@@ -15685,29 +15707,7 @@
           },
           "30": {},
           "9": {},
-          "26": {},
-          "21": {
-            "hideAsCrate": true,
-            "makeSparkly": true
-          },
-          "4": {},
-          "17": {},
-          "29": {},
-          "12": {},
-          "25": {},
-          "8": {},
-          "20": {},
-          "7": {
-            "makeSparkly": true
-          },
-          "16": {},
-          "3": {},
-          "28": {
-            "makeSparkly": true
-          },
-          "15": {},
-          "24": {},
-          "11": {}
+          "26": {}
         }
       }
     },
@@ -15715,30 +15715,6 @@
       "dailyRewardMonthlySchedule": {
         "id": "proto_dailyrewardmonthlyschedule_default_31_days",
         "dailyRewards": {
-          "23": {},
-          "6": {
-            "hideAsCrate": true
-          },
-          "19": {},
-          "2": {},
-          "31": {},
-          "14": {
-            "makeSparkly": true
-          },
-          "27": {
-            "hideAsCrate": true
-          },
-          "10": {},
-          "5": {},
-          "22": {},
-          "1": {},
-          "18": {},
-          "13": {
-            "hideAsCrate": true
-          },
-          "30": {},
-          "9": {},
-          "26": {},
           "21": {
             "hideAsCrate": true,
             "makeSparkly": true
@@ -15762,7 +15738,31 @@
           },
           "15": {},
           "24": {},
-          "11": {}
+          "11": {},
+          "23": {},
+          "6": {
+            "hideAsCrate": true
+          },
+          "19": {},
+          "2": {},
+          "31": {},
+          "14": {
+            "makeSparkly": true
+          },
+          "27": {
+            "hideAsCrate": true
+          },
+          "10": {},
+          "5": {},
+          "22": {},
+          "1": {},
+          "18": {},
+          "13": {
+            "hideAsCrate": true
+          },
+          "30": {},
+          "9": {},
+          "26": {}
         }
       }
     },
@@ -73959,6 +73959,129 @@
         "professionRanksMap": {
           "auror_rank_0": {
             "professionNodesMap": {
+              "proto_professionnode_auror_rank_0_1": {
+                "name": "profession_auror_rank_0_1_name",
+                "icon": "ui_profession_skilltree_auror_stat_stamina2_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_1_desc",
+                "completedDesc": "profession_auror_rank_0_1_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_stamina2"
+              },
+              "proto_professionnode_auror_rank_0_2": {
+                "name": "profession_auror_rank_0_2_name",
+                "icon": "ui_profession_skilltree_auror_stat_protegopower_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_2_desc",
+                "completedDesc": "profession_auror_rank_0_2_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_protegopower"
+              },
+              "proto_professionnode_auror_rank_0_3": {
+                "name": "profession_auror_rank_0_3_name",
+                "icon": "ui_profession_skilltree_mapability_spellpower_hex_inprogress",
+                "levels": [
+                  {},
+                  {
+                    "isGrantNewMapAbility": true
+                  }
+                ],
+                "unlockDesc": "profession_auror_rank_0_3_desc",
+                "completedDesc": "profession_auror_rank_0_3_desc",
+                "completedIcon": "ui_profession_skilltree_mapability_spellpower_hex"
+              },
+              "proto_professionnode_auror_rank_0_4": {
+                "name": "profession_auror_rank_0_4_name",
+                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_4_desc",
+                "completedDesc": "profession_auror_rank_0_4_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_power"
+              },
+              "proto_professionnode_auror_rank_0_5": {
+                "name": "profession_auror_rank_0_5_name",
+                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_5_desc",
+                "completedDesc": "profession_auror_rank_0_5_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_power"
+              },
+              "proto_professionnode_auror_rank_0_6": {
+                "name": "profession_auror_rank_0_6_name",
+                "icon": "ui_profession_skilltree_auror_stat_precision_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_6_desc",
+                "completedDesc": "profession_auror_rank_0_6_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_precision"
+              },
+              "proto_professionnode_auror_rank_0_7": {
+                "name": "profession_auror_rank_0_7_name",
+                "icon": "ui_profession_skilltree_auror_conditional_inprogress",
+                "levels": [
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_7_desc",
+                "completedDesc": "profession_auror_rank_0_7_desc",
+                "completedIcon": "ui_profession_skilltree_auror_conditional"
+              },
+              "proto_professionnode_auror_rank_0_8": {
+                "name": "profession_auror_rank_0_8_name",
+                "icon": "ui_profession_skilltree_auror_stat_stamina2_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_8_desc",
+                "completedDesc": "profession_auror_rank_0_8_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_stamina2"
+              },
+              "proto_professionnode_auror_rank_0_9": {
+                "name": "profession_auror_rank_0_9_name",
+                "icon": "ui_profession_skilltree_auror_conditional_inprogress",
+                "levels": [
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_9_desc",
+                "completedDesc": "profession_auror_rank_0_9_desc",
+                "completedIcon": "ui_profession_skilltree_auror_conditional"
+              },
+              "proto_professionnode_auror_rank_0_10": {
+                "name": "profession_auror_rank_0_10_name",
+                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_auror_rank_0_10_desc",
+                "completedDesc": "profession_auror_rank_0_10_desc",
+                "completedIcon": "ui_profession_skilltree_auror_stat_power"
+              },
               "proto_professionnode_auror_rank_0_11": {
                 "name": "profession_auror_rank_0_11_name",
                 "icon": "ui_profession_skilltree_auror_stat_maximumfocus_inprogress",
@@ -74510,129 +74633,6 @@
                 "unlockDesc": "profession_auror_rank_0_49_desc",
                 "completedDesc": "profession_auror_rank_0_49_desc",
                 "completedIcon": "ui_profession_skilltree_auror_conditional"
-              },
-              "proto_professionnode_auror_rank_0_1": {
-                "name": "profession_auror_rank_0_1_name",
-                "icon": "ui_profession_skilltree_auror_stat_stamina2_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_1_desc",
-                "completedDesc": "profession_auror_rank_0_1_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_stamina2"
-              },
-              "proto_professionnode_auror_rank_0_2": {
-                "name": "profession_auror_rank_0_2_name",
-                "icon": "ui_profession_skilltree_auror_stat_protegopower_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_2_desc",
-                "completedDesc": "profession_auror_rank_0_2_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_protegopower"
-              },
-              "proto_professionnode_auror_rank_0_3": {
-                "name": "profession_auror_rank_0_3_name",
-                "icon": "ui_profession_skilltree_mapability_spellpower_hex_inprogress",
-                "levels": [
-                  {},
-                  {
-                    "isGrantNewMapAbility": true
-                  }
-                ],
-                "unlockDesc": "profession_auror_rank_0_3_desc",
-                "completedDesc": "profession_auror_rank_0_3_desc",
-                "completedIcon": "ui_profession_skilltree_mapability_spellpower_hex"
-              },
-              "proto_professionnode_auror_rank_0_4": {
-                "name": "profession_auror_rank_0_4_name",
-                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_4_desc",
-                "completedDesc": "profession_auror_rank_0_4_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_power"
-              },
-              "proto_professionnode_auror_rank_0_5": {
-                "name": "profession_auror_rank_0_5_name",
-                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_5_desc",
-                "completedDesc": "profession_auror_rank_0_5_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_power"
-              },
-              "proto_professionnode_auror_rank_0_6": {
-                "name": "profession_auror_rank_0_6_name",
-                "icon": "ui_profession_skilltree_auror_stat_precision_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_6_desc",
-                "completedDesc": "profession_auror_rank_0_6_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_precision"
-              },
-              "proto_professionnode_auror_rank_0_7": {
-                "name": "profession_auror_rank_0_7_name",
-                "icon": "ui_profession_skilltree_auror_conditional_inprogress",
-                "levels": [
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_7_desc",
-                "completedDesc": "profession_auror_rank_0_7_desc",
-                "completedIcon": "ui_profession_skilltree_auror_conditional"
-              },
-              "proto_professionnode_auror_rank_0_8": {
-                "name": "profession_auror_rank_0_8_name",
-                "icon": "ui_profession_skilltree_auror_stat_stamina2_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_8_desc",
-                "completedDesc": "profession_auror_rank_0_8_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_stamina2"
-              },
-              "proto_professionnode_auror_rank_0_9": {
-                "name": "profession_auror_rank_0_9_name",
-                "icon": "ui_profession_skilltree_auror_conditional_inprogress",
-                "levels": [
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_9_desc",
-                "completedDesc": "profession_auror_rank_0_9_desc",
-                "completedIcon": "ui_profession_skilltree_auror_conditional"
-              },
-              "proto_professionnode_auror_rank_0_10": {
-                "name": "profession_auror_rank_0_10_name",
-                "icon": "ui_profession_skilltree_auror_stat_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_auror_rank_0_10_desc",
-                "completedDesc": "profession_auror_rank_0_10_desc",
-                "completedIcon": "ui_profession_skilltree_auror_stat_power"
               }
             },
             "name": "profession_auror_rank_0_name",
@@ -75420,6 +75420,77 @@
         "professionRanksMap": {
           "professor_rank_0": {
             "professionNodesMap": {
+              "proto_professionnode_professor_rank_0_4": {
+                "name": "profession_professor_rank_0_4_name",
+                "icon": "ui_profession_skilltree_mapability_deterioration_hex_inprogress",
+                "levels": [
+                  {},
+                  {
+                    "isGrantNewMapAbility": true
+                  }
+                ],
+                "unlockDesc": "profession_professor_rank_0_4_desc",
+                "completedDesc": "profession_professor_rank_0_4_desc",
+                "completedIcon": "ui_profession_skilltree_mapability_deterioration_hex"
+              },
+              "proto_professionnode_professor_rank_0_5": {
+                "name": "profession_professor_rank_0_5_name",
+                "icon": "ui_profession_skilltree_professor_stat_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_professor_rank_0_5_desc",
+                "completedDesc": "profession_professor_rank_0_5_desc",
+                "completedIcon": "ui_profession_skilltree_professor_stat_power"
+              },
+              "proto_professionnode_professor_rank_0_6": {
+                "name": "profession_professor_rank_0_6_name",
+                "icon": "ui_profession_skilltree_professor_conditional_inprogress",
+                "levels": [
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_professor_rank_0_6_desc",
+                "completedDesc": "profession_professor_rank_0_6_desc",
+                "completedIcon": "ui_profession_skilltree_professor_conditional"
+              },
+              "proto_professionnode_professor_rank_0_7": {
+                "name": "profession_professor_rank_0_7_name",
+                "icon": "ui_profession_skilltree_professor_stat_defense_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_professor_rank_0_7_desc",
+                "completedDesc": "profession_professor_rank_0_7_desc",
+                "completedIcon": "ui_profession_skilltree_professor_stat_defense"
+              },
+              "proto_professionnode_professor_rank_0_8": {
+                "name": "profession_professor_rank_0_8_name",
+                "icon": "ui_profession_skilltree_professor_stat_power_inprogress",
+                "levels": [
+                  {},
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_professor_rank_0_8_desc",
+                "completedDesc": "profession_professor_rank_0_8_desc",
+                "completedIcon": "ui_profession_skilltree_professor_stat_power"
+              },
+              "proto_professionnode_professor_rank_0_9": {
+                "name": "profession_professor_rank_0_9_name",
+                "icon": "ui_profession_skilltree_professor_conditional_inprogress",
+                "levels": [
+                  {},
+                  {}
+                ],
+                "unlockDesc": "profession_professor_rank_0_9_desc",
+                "completedDesc": "profession_professor_rank_0_9_desc",
+                "completedIcon": "ui_profession_skilltree_professor_conditional"
+              },
               "proto_professionnode_professor_rank_0_10": {
                 "name": "profession_professor_rank_0_10_name",
                 "icon": "ui_profession_skilltree_professor_stat_stamina2_inprogress",
@@ -76040,77 +76111,6 @@
                 "unlockDesc": "profession_professor_rank_0_3_desc",
                 "completedDesc": "profession_professor_rank_0_3_desc",
                 "completedIcon": "ui_profession_skilltree_professor_stat_stamina2"
-              },
-              "proto_professionnode_professor_rank_0_4": {
-                "name": "profession_professor_rank_0_4_name",
-                "icon": "ui_profession_skilltree_mapability_deterioration_hex_inprogress",
-                "levels": [
-                  {},
-                  {
-                    "isGrantNewMapAbility": true
-                  }
-                ],
-                "unlockDesc": "profession_professor_rank_0_4_desc",
-                "completedDesc": "profession_professor_rank_0_4_desc",
-                "completedIcon": "ui_profession_skilltree_mapability_deterioration_hex"
-              },
-              "proto_professionnode_professor_rank_0_5": {
-                "name": "profession_professor_rank_0_5_name",
-                "icon": "ui_profession_skilltree_professor_stat_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_professor_rank_0_5_desc",
-                "completedDesc": "profession_professor_rank_0_5_desc",
-                "completedIcon": "ui_profession_skilltree_professor_stat_power"
-              },
-              "proto_professionnode_professor_rank_0_6": {
-                "name": "profession_professor_rank_0_6_name",
-                "icon": "ui_profession_skilltree_professor_conditional_inprogress",
-                "levels": [
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_professor_rank_0_6_desc",
-                "completedDesc": "profession_professor_rank_0_6_desc",
-                "completedIcon": "ui_profession_skilltree_professor_conditional"
-              },
-              "proto_professionnode_professor_rank_0_7": {
-                "name": "profession_professor_rank_0_7_name",
-                "icon": "ui_profession_skilltree_professor_stat_defense_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_professor_rank_0_7_desc",
-                "completedDesc": "profession_professor_rank_0_7_desc",
-                "completedIcon": "ui_profession_skilltree_professor_stat_defense"
-              },
-              "proto_professionnode_professor_rank_0_8": {
-                "name": "profession_professor_rank_0_8_name",
-                "icon": "ui_profession_skilltree_professor_stat_power_inprogress",
-                "levels": [
-                  {},
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_professor_rank_0_8_desc",
-                "completedDesc": "profession_professor_rank_0_8_desc",
-                "completedIcon": "ui_profession_skilltree_professor_stat_power"
-              },
-              "proto_professionnode_professor_rank_0_9": {
-                "name": "profession_professor_rank_0_9_name",
-                "icon": "ui_profession_skilltree_professor_conditional_inprogress",
-                "levels": [
-                  {},
-                  {}
-                ],
-                "unlockDesc": "profession_professor_rank_0_9_desc",
-                "completedDesc": "profession_professor_rank_0_9_desc",
-                "completedIcon": "ui_profession_skilltree_professor_conditional"
               }
             },
             "name": "profession_professor_rank_0_name",
