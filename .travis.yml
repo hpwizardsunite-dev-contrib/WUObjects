@@ -17,6 +17,7 @@ script:
   - cd ./assets
   - chmod +x ./aaa_download_assets.py
   - ./aaa_download_assets.py
+  - cd ..
   #- cd ./various_scripts
   #- chmod +x ./clean.py
   #- ./clean.py
