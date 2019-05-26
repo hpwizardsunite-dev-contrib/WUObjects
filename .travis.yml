@@ -14,10 +14,10 @@ script:
   - ./compile.py python -o ../ --keep_proto_files
   - cd ..
   - chmod 755 -R ./wuprotos
-  - cd ./assets
-  - chmod +x ./aaa_download_assets.py
-  - ./aaa_download_assets.py
-  - cd ..
+  #- cd ./assets
+  #- chmod +x ./aaa_download_assets.py
+  #- ./aaa_download_assets.py
+  #- cd ..
   #- cd ./various_scripts
   #- chmod +x ./clean.py
   #- ./clean.py
@@ -26,5 +26,5 @@ script:
   #- cd ..
   - chmod +x ./gamefiles_decode.py
   - ./gamefiles_decode.py
-  - chmod +x ./extract_objects.py
-  - ./extract_objects.py
+  #- chmod +x ./extract_objects.py
+  #- ./extract_objects.py
