@@ -9,7 +9,10 @@ Scripts to extract useful details from Harry Potter Wizards Unite such as spells
   - strings - US localization text
   - manifest - File that is used to determine which assets to load
 /various_scripts - junk I had sitting around from previous decoding
-/WUProtos - compiled python protos, do not edit
+Compile *.proto files
+cd ./WUProtos_Base
+  - ./compile.py python -o ../ --keep_proto_files
+/wuprotos - compiled python protos, do not edit
 gamefiles_decode.py - already has been run, just here for there are updates to GDC/GDW/Strings
 extract_objects.py - main extraction script. WIP.</pre>
 
