@@ -1,10 +1,12 @@
+#!/usr/bin/env python
+
 # A script that was used to help debug issues with decoding the GameDataClient protobuf due
 # to terribly vague error messages
 import binascii
-from WUProtos.Data.Client import ClientGmTemplate_pb2
+from wuprotos.data.client import client_gm_template_pb2
 from google.protobuf.json_format import MessageToJson
 
-f = open('GameDataClient.bytes', 'rb')
+f = open('../gamefiles/GameDataClient.bytes', 'rb')
 s = f.read()
 f.close()
 
@@ -58,7 +60,7 @@ while(pos < len(s)):
     proto_chunk = s[pos:pos + length]
     print(binascii.hexlify(proto_chunk))
 
-    wrapper = ClientGmTemplate_pb2.ClientGmTemplate()
+    wrapper = client_gm_template_pb2.ClientGmTemplate()
     wrapper.ParseFromString(proto_chunk)
     print(MessageToJson(wrapper))
 

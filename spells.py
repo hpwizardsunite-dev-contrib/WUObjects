@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Example extraction script
 
 class Spell:
