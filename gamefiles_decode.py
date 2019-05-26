@@ -17,7 +17,7 @@ def parse_gdc():
     wrapper = client_game_data_wrapper_pb2.ClientGameDataWrapper()
     wrapper.ParseFromString(s)
     with open(folder_name + 'GameDataClient.json', 'w') as f:
-        f.write(MessageToJson(wrapper))
+        f.write(MessageToJson(wrapper, sort_keys=True))
     print('Parsed GDC')
 
 
@@ -28,7 +28,7 @@ def parse_gdw():
     wrapper = game_data_wrapper_pb2.GameDataWrapper()
     wrapper.ParseFromString(s)
     with open(folder_name + 'GameDataWrapper.json', 'w') as f:
-        f.write(MessageToJson(wrapper))
+        f.write(MessageToJson(wrapper, sort_keys=True))
     print('Parsed GDW')
 
 
