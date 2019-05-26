@@ -13,7 +13,7 @@ class Foundable:
 
     def __str__(self):
         # format can be anything you want
-        return json.dumps(self.__dict__)
+        return json.dumps(self.__dict__, sort_keys=True)
 
 class Foundables:
     def __init__(self, gdc, gdw, s):
@@ -38,5 +38,6 @@ class Foundables:
                     foundable.name = self.s.find(message['collectionItem']['name'])
                     foundable.desc = self.s.find(message['collectionItem']['description'])
                     foundable.icon = message['collectionItem']['iconReturned']
-            if len(foundable.counts) == 4 and foundable.counts[0] == 1 and foundable.counts[1] == 2 and foundable.counts[2] == 3 and foundable.counts[3] == 4:
-                print(foundable.id)
+            #if len(foundable.counts) == 4 and foundable.counts[0] == 1 and foundable.counts[1] == 2 and foundable.counts[2] == 3 and foundable.counts[3] == 4:
+            #    print(foundable.id)
+            print(foundable)

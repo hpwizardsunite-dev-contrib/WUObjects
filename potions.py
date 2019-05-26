@@ -10,6 +10,9 @@ class Potion:
     deletable = False
     ordering = 0
 
+    def __str__(self):
+        return json.dumps(self.__dict__, sort_keys=True)
+
 class Potions:
     def __init__(self, gdc, gdw, s):
         self.gdc = gdc
@@ -36,4 +39,4 @@ class Potions:
                     potion.name = self.s.find(obj['name'])
                     potion.desc = self.s.find(obj['description'])
                     potion.ordering = obj['ordering']
-            print(potion.name)
+            print(potion)

@@ -1,3 +1,5 @@
+import json
+
 class Runestone:
     id = ''
     name = ''
@@ -8,6 +10,9 @@ class Runestone:
     level = 0
     deletable = False
     show_in_menu = False
+
+    def __str__(self):
+        return json.dumps(self.__dict__, sort_keys=True)
 
 class Runestones:
     def __init__(self, gdc, gdw, s):
@@ -46,3 +51,4 @@ class Runestones:
                     runestone.name = self.s.find(obj['name'])
                     runestone.desc = self.s.find(obj['description'])
 
+            print(runestone)

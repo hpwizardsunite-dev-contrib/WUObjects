@@ -1,4 +1,6 @@
-class PotionIngredient:
+import json
+
+class Ingredient:
     id = ''
     name = ''
     desc = ''
@@ -8,7 +10,10 @@ class PotionIngredient:
     deletable = False
     show_in_menu = False
 
-class PotionIngredients:
+    def __str__(self):
+        return json.dumps(self.__dict__, sort_keys=True)
+
+class Ingredients:
     def __init__(self, gdc, gdw, s):
         self.gdc = gdc
         self.gdw = gdw
@@ -18,7 +23,7 @@ class PotionIngredients:
         for message in self.gdw['messages']:
             if 'vaultItem' in message and message['vaultItem']['vaultCategoryGmtId'] == 'proto_vaultcategory_ingredients':
                 obj = message['vaultItem']
-                ingredient = PotionIngredient()
+                ingredient = Ingredient()
                 ingredient.id = obj['id']
                 ingredient.limit = int(obj['cap'])
                 ingredient.cost = int(obj['potionIngredient']['cost']['rewards'][0]['currencyReward']['amount'])
@@ -37,4 +42,4 @@ class PotionIngredients:
                     ingredient.name = self.s.find(obj['name'])
                     ingredient.desc = self.s.find(obj['description'])
 
-            print(ingredient.icon)
+            print(ingredient)
