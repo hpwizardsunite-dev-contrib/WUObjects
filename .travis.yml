@@ -14,6 +14,9 @@ script:
   - ./compile.py python -o ../ --keep_proto_files
   - cd ..
   - chmod 755 -R ./wuprotos
+  - cd ./assets
+  - chmod +x ./aaa_download_assets.py
+  - ./aaa_download_assets.py
   #- cd ./various_scripts
   #- chmod +x ./clean.py
   #- ./clean.py
