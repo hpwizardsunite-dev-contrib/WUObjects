@@ -14,7 +14,7 @@ script:
   - ./compile.py python -o ../ --keep_proto_files
   - cd ..
   - chmod 755 -R ./wuprotos
-  - cd ./various_scrips
+  - cd ./various_scripts
   - chmod +x ./clean.py
   - ./clean.py
   - chmod +x ./gdc_split.py
