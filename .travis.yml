@@ -14,5 +14,13 @@ script:
   - ./compile.py python -o ../ --keep_proto_files
   - cd ..
   - chmod 755 -R ./wuprotos
+  - cd ./various_scrips
+  - chmod +x ./clean.py
+  - ./clean.py
+  - chmod +x ./gdc_split.py
+  - ./gdc_split.py
+  - cd ..
   - chmod +x ./gamefiles_decode.py
   - ./gamefiles_decode.py
+  - chmod +x ./extract_objects.py
+  - ./extract_objects.py
