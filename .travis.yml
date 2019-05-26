@@ -11,7 +11,7 @@ script:
   - export PATH=/tmp/bin:$PATH
   - cd ./WUProtos_Base
   - chmod +x ./compile.py
-  - ./compile.py python -o ../ --keep_proto_files
+  - ./compile.py python -o ../ --keep_proto_files --generate_desc --include_imports --include_source_info
   - cd ..
   - chmod 755 -R ./wuprotos
   #- cd ./assets
