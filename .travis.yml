@@ -5,7 +5,7 @@ install:
   - pip install -r requirements.txt
 script:
   - pushd /tmp
-  - wget https://github.com/google/protobuf/releases/download/v3.8.0/protoc-3.80-linux-x86_64.zip
+  - wget https://github.com/google/protobuf/releases/download/v3.8.0/protoc-3.8.0-linux-x86_64.zip
   - unzip protoc-3.8.0-linux-x86_64.zip
   - popd
   - export PATH=/tmp/bin:$PATH
