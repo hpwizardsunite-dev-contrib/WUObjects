@@ -36507,70 +36507,6 @@
     {
       "encounter": {
         "encounterAssets": [
-          "target_goldensnitch_0001_intro_tl",
-          "target_goldensnitch_0001_game_succeed_tl",
-          "target_goldensnitch_0001_spell_succeed_tl",
-          "target_goldensnitch_0001_idle_loop_00_tl",
-          "target_goldensnitch_0001_rng_intro_tl",
-          "target_goldensnitch_0001_rng_loop_tl",
-          "target_goldensnitch_0001_spell_failed_tl",
-          "target_goldensnitch_0001_disappear_tl",
-          "BNK_SFX_ENCOUNTER_GOLDENSNITCH",
-          "BNK_SFX_ENCOUNTER_MARAUDERSMAP",
-          "target_goldensnitch_prefab",
-          "encounter_layout_goldensnitch_b0001"
-        ],
-        "encounterFleeTimeline": "target_goldensnitch_0001_disappear_tl",
-        "encounterMusicParams": [
-          {
-            "paramName": "MusicState",
-            "paramValue": 4.0
-          }
-        ],
-        "encounterTarget": "target_goldensnitch_prefab",
-        "encounterTargetLayout": "target encounter",
-        "hudHealthBarColor": {},
-        "id": "proto_encounter_goldensnitch_b0001",
-        "mapHealthBarColor": {},
-        "name": "encounter_name_goldensnitch",
-        "searchTargetLayout": "search target",
-        "stages": [
-          {
-            "idleLoopTimelines": [
-              "target_goldensnitch_0001_idle_loop_00_tl"
-            ],
-            "introText": "encounter_intro_text_goldensnitch_0001",
-            "rngIntroTimeline": "target_goldensnitch_0001_rng_intro_tl",
-            "rngLoopTimeline": "target_goldensnitch_0001_rng_loop_tl",
-            "spellAimLayout": "spell stage 1",
-            "spellFailedTimeline": "target_goldensnitch_0001_spell_failed_tl",
-            "stageCompletionSequence": [
-              {
-                "sequenceType": 3
-              },
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_goldensnitch_0001_spell_succeed_tl"
-              },
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_goldensnitch_0001_game_succeed_tl"
-              }
-            ],
-            "stageSetupSequence": [
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_goldensnitch_0001_intro_tl"
-              }
-            ],
-            "swish": {}
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
-        "encounterAssets": [
           "target_goldensnitch_0001_picturemode_00_tl",
           "target_goldensnitch_prefab",
           "encounter_layout_goldensnitch_picture_0001"
@@ -38888,75 +38824,6 @@
     {
       "encounter": {
         "encounterAssets": [
-          "target_harrypotter_hp6_quidditch_b0001_intro_tl",
-          "target_dementor_prefab",
-          "target_harrypotter_hp6_quidditch_b0001_game_succeed_tl",
-          "target_harrypotter_hp6_quidditch_b0001_spell_succeed_tl",
-          "target_harrypotter_hp6_quidditch_b0001_idle_loop_00_tl",
-          "target_harrypotter_hp6_quidditch_b0001_idle_loop_01_tl",
-          "target_harrypotter_hp6_quidditch_b0001_rng_intro_tl",
-          "target_harrypotter_hp6_quidditch_b0001_rng_loop_tl",
-          "target_harrypotter_hp6_quidditch_b0001_spell_failed_tl",
-          "target_harrypotter_hp6_quidditch_b0001_disappear_tl",
-          "BNK_SFX_ENCOUNTER_HARRYPOTTERQUIDDITCH",
-          "target_harrypotter_hp6_quidditch_brilliant_prefab",
-          "encounter_layout_harrypotter_hp6_quidditch_b0001"
-        ],
-        "encounterFleeTimeline": "target_harrypotter_hp6_quidditch_b0001_disappear_tl",
-        "encounterMusicParams": [
-          {
-            "paramName": "MusicState",
-            "paramValue": 3.0
-          }
-        ],
-        "encounterTarget": "target_harrypotter_hp6_quidditch_brilliant_prefab",
-        "encounterTargetLayout": "target encounter",
-        "hudHealthBarColor": {},
-        "id": "proto_encounter_harrypotter_hp6_quidditch_b0001",
-        "mapHealthBarColor": {},
-        "name": "encounter_name_harrypotter_hp6_quidditch",
-        "searchTargetLayout": "search target",
-        "stages": [
-          {
-            "idleLoopTimelines": [
-              "target_harrypotter_hp6_quidditch_b0001_idle_loop_00_tl",
-              "target_harrypotter_hp6_quidditch_b0001_idle_loop_01_tl"
-            ],
-            "introText": "encounter_intro_text_harrypotter_hp6_quidditch_0001",
-            "rngIntroTimeline": "target_harrypotter_hp6_quidditch_b0001_rng_intro_tl",
-            "rngLoopTimeline": "target_harrypotter_hp6_quidditch_b0001_rng_loop_tl",
-            "spellAimLayout": "spell stage 1",
-            "spellFailedTimeline": "target_harrypotter_hp6_quidditch_b0001_spell_failed_tl",
-            "stageCompletionSequence": [
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_harrypotter_hp6_quidditch_b0001_spell_succeed_tl"
-              },
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_harrypotter_hp6_quidditch_b0001_game_succeed_tl"
-              }
-            ],
-            "stageSetupSequence": [
-              {
-                "obstacle": "target_dementor_prefab",
-                "obstacleAlias": "dementor",
-                "sequenceLayoutNode": "target encounter",
-                "sequenceType": 2
-              },
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_harrypotter_hp6_quidditch_b0001_intro_tl"
-              }
-            ],
-            "swish": {}
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
-        "encounterAssets": [
           "target_harrypotter_hp6_quidditch_0001_picturemode_00_tl",
           "target_harrypotter_hp6_quidditch_prefab",
           "encounter_layout_harrypotter_hp6_quidditch_picture_0001"
@@ -39176,68 +39043,6 @@
               {
                 "sequenceType": 4,
                 "timelineFile": "target_hedwig_0001_intro_tl"
-              }
-            ],
-            "swish": {}
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
-        "encounterAssets": [
-          "target_hedwig_b0001_intro_tl",
-          "target_hedwig_b0001_game_succeed_tl",
-          "target_hedwig_b0001_spell_succeed_tl",
-          "target_hedwig_b0001_idle_loop_00_tl",
-          "target_hedwig_b0001_idle_loop_01_tl",
-          "target_hedwig_b0001_rng_intro_tl",
-          "target_hedwig_b0001_rng_loop_tl",
-          "target_hedwig_b0001_spell_failed_tl",
-          "target_hedwig_b0001_disappear_tl",
-          "BNK_SFX_ENCOUNTER_HEDWIG",
-          "target_hedwig_brilliant_prefab",
-          "encounter_layout_hedwig_b0001"
-        ],
-        "encounterFleeTimeline": "target_hedwig_b0001_disappear_tl",
-        "encounterMusicParams": [
-          {
-            "paramName": "MusicState",
-            "paramValue": 4.0
-          }
-        ],
-        "encounterTarget": "target_hedwig_brilliant_prefab",
-        "encounterTargetLayout": "target encounter",
-        "hudHealthBarColor": {},
-        "id": "proto_encounter_hedwig_b0001",
-        "mapHealthBarColor": {},
-        "name": "encounter_name_hedwig",
-        "searchTargetLayout": "search target",
-        "stages": [
-          {
-            "idleLoopTimelines": [
-              "target_hedwig_b0001_idle_loop_00_tl",
-              "target_hedwig_b0001_idle_loop_01_tl"
-            ],
-            "introText": "encounter_intro_text_hedwig_0001",
-            "rngIntroTimeline": "target_hedwig_b0001_rng_intro_tl",
-            "rngLoopTimeline": "target_hedwig_b0001_rng_loop_tl",
-            "spellAimLayout": "spell stage 1",
-            "spellFailedTimeline": "target_hedwig_b0001_spell_failed_tl",
-            "stageCompletionSequence": [
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_hedwig_b0001_spell_succeed_tl"
-              },
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_hedwig_b0001_game_succeed_tl"
-              }
-            ],
-            "stageSetupSequence": [
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_hedwig_b0001_intro_tl"
               }
             ],
             "swish": {}
@@ -45777,94 +45582,6 @@
     {
       "encounter": {
         "encounterAssets": [
-          "target_newtscamander_fb1_b0001_intro_tl",
-          "target_bubble_prefab",
-          "target_executioner_macusa_prefab",
-          "target_newtscamander_fb1_b0001_game_succeed_tl",
-          "target_newtscamander_fb1_b0001_spell_succeed_tl",
-          "target_newtscamander_fb1_b0001_idle_loop_00_tl",
-          "target_newtscamander_fb1_b0001_rng_intro_tl",
-          "target_newtscamander_fb1_b0001_rng_loop_tl",
-          "target_newtscamander_fb1_b0001_spell_failed_tl",
-          "target_newtscamander_fb1_b0001_disappear_tl",
-          "BNK_SFX_ENCOUNTER_NEWTSCAMANDER",
-          "target_newtscamander_fb1_brilliant_prefab",
-          "encounter_layout_newtscamander_fb1_b0001"
-        ],
-        "encounterFleeTimeline": "target_newtscamander_fb1_b0001_disappear_tl",
-        "encounterMusicParams": [
-          {
-            "paramName": "MusicState",
-            "paramValue": 3.0
-          },
-          {
-            "paramName": "BrilliantEncounter",
-            "paramValue": 1.0
-          }
-        ],
-        "encounterTarget": "target_newtscamander_fb1_brilliant_prefab",
-        "encounterTargetLayout": "target encounter",
-        "hudHealthBarColor": {},
-        "id": "proto_encounter_newtscamander_fb1_b0001",
-        "mapHealthBarColor": {},
-        "name": "encounter_name_newtscamander_fb1",
-        "searchTargetLayout": "search target",
-        "stages": [
-          {
-            "idleLoopTimelines": [
-              "target_newtscamander_fb1_b0001_idle_loop_00_tl"
-            ],
-            "introText": "encounter_intro_text_newtscamander_fb1_0001",
-            "rngIntroTimeline": "target_newtscamander_fb1_b0001_rng_intro_tl",
-            "rngLoopTimeline": "target_newtscamander_fb1_b0001_rng_loop_tl",
-            "spellAimLayout": "spell stage 1",
-            "spellFailedTimeline": "target_newtscamander_fb1_b0001_spell_failed_tl",
-            "stageCompletionSequence": [
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_newtscamander_fb1_b0001_spell_succeed_tl"
-              },
-              {
-                "sequenceType": 3
-              },
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_newtscamander_fb1_b0001_game_succeed_tl"
-              }
-            ],
-            "stageSetupSequence": [
-              {
-                "obstacle": "target_executioner_macusa_prefab",
-                "sequenceLayoutNode": "obstacle stage 1",
-                "sequenceType": 2
-              },
-              {
-                "obstacle": "target_bubble_prefab",
-                "sequenceLayoutNode": "obstacle stage 1",
-                "sequenceType": 2
-              },
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_newtscamander_fb1_b0001_intro_tl"
-              }
-            ],
-            "swish": {
-              "traceFailsFanfare": {
-                "paramName": "MusicState",
-                "paramValue": 49.0
-              },
-              "traceSucceedsFanfare": {
-                "paramName": "MusicState",
-                "paramValue": 48.0
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
-        "encounterAssets": [
           "target_newtscamander_fb1_0001_picturemode_00_tl",
           "target_newtscamander_fb1_picturemode_prefab",
           "encounter_layout_newtscamander_fb1_picture_0001"
@@ -45899,49 +45616,6 @@
               {
                 "sequenceType": 4,
                 "timelineFile": "target_newtscamander_fb1_0001_picturemode_00_tl"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "encounter": {
-        "encounterAssets": [
-          "target_newtscamander_fb1_b0001_picturemode_00_tl",
-          "target_newtscamander_fb1_picturemode_brilliant_prefab",
-          "encounter_layout_newtscamander_fb1_picture_b0001"
-        ],
-        "encounterFleeTimeline": "target_newtscamander_fb1_b0001_picturemode_00_tl",
-        "encounterTarget": "target_newtscamander_fb1_picturemode_brilliant_prefab",
-        "encounterTargetLayout": "target encounter",
-        "hudHealthBarColor": {},
-        "id": "proto_encounter_newtscamander_fb1_picture_b0001",
-        "mapHealthBarColor": {},
-        "name": "encounter_name_pickett",
-        "searchTargetLayout": "search target",
-        "stages": [
-          {
-            "idleLoopTimelines": [
-              "target_newtscamander_fb1_b0001_picturemode_00_tl"
-            ],
-            "picture": {
-              "maxScale": 2.0,
-              "minScale": 0.5,
-              "simpleArPosOffset": {},
-              "spawnScale": 1.0
-            },
-            "rngIntroTimeline": "target_newtscamander_fb1_b0001_picturemode_00_tl",
-            "spellAimLayout": "spell stage 1",
-            "stageCompletionSequence": [
-              {
-                "sequenceType": 3
-              }
-            ],
-            "stageSetupSequence": [
-              {
-                "sequenceType": 4,
-                "timelineFile": "target_newtscamander_fb1_b0001_picturemode_00_tl"
               }
             ]
           }
@@ -72474,7 +72148,7 @@
         "rateAppTriggerEventQuestLineComplete": 1,
         "rateAppTriggerStickerPageComplete": 1,
         "rateAppTriggerWizardingChallenge": 1,
-        "rateAppVersion": 1,
+        "rateAppVersion": 2,
         "registryStickerPlacedHapticKey": "proto_haptic_medium",
         "reticleGlyphColor": {
           "a": 1.0,
@@ -84238,7 +83912,7 @@
             "conversationInterjection": {
               "conversation": [
                 {
-                  "bubbleContentLockey": "storyboard_event_b0001_fff_0_1_salamander",
+                  "bubbleContentLockey": "storyboard_event_b0001_fff_0_1_acromantula",
                   "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
                   "characterNameLockey": "characters_hagrid",
                   "characterPortraitImage": "ui_storyboard_hagrid_neutral",
