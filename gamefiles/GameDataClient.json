@@ -76687,6 +76687,22 @@
     },
     {
       "quest": {
+        "id": "proto_quest_daily_use_potions",
+        "questDescLocKey": "quests_daily_use_potions_description",
+        "questNameLocKey": "quests_daily_walk_name",
+        "sortOrder": 5
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_daily_wizarding_challenge",
+        "questDescLocKey": "quests_hooks_play_fortress_number_only",
+        "questNameLocKey": "quests_daily_walk_name",
+        "sortOrder": 8
+      }
+    },
+    {
+      "quest": {
         "id": "proto_quest_event_brilliant0001_link1",
         "questDescLocKey": "quests_event_brilliant0001_step1_description",
         "questNameLocKey": "quests_event_brilliant0001_step1_name"
@@ -76830,7 +76846,7 @@
         "id": "proto_quests_daily_walk",
         "questDescLocKey": "quests_daily_walk_description",
         "questNameLocKey": "quests_daily_walk_name",
-        "sortOrder": 5
+        "sortOrder": 6
       }
     },
     {
@@ -77760,8 +77776,7 @@
         "mediaSupportedType": "ALL",
         "orderId": 6,
         "storePackId": "proto_storepack_frame_diagonalley",
-        "visibilityConditions": {},
-        "visible": true
+        "visibilityConditions": {}
       }
     },
     {
@@ -81359,19 +81374,13 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_15brainelixir_1300",
+        "id": "proto_storepack_15brainelixir_1200",
         "name": "storepack_15brainelixir_1300_name",
-        "skuId": "proto_storepack_15brainelixir_1300"
-      }
-    },
-    {
-      "storePack": {
-        "id": "proto_storepack_15brainelixir_1350",
-        "name": "storepack_15brainelixir_1300_name",
-        "skuId": "proto_storepack_15brainelixir_1350",
+        "skuId": "proto_storepack_15brainelixir_1200",
         "storePackConfig": [
           {
             "descriptionText": "storepack_15brainelixir_1300_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_15Brainelixirs_glow",
             "iconPath": "ui_store_med_15Brainelixirs",
             "marketingText": "storepack_15brainelixir_1300_marketing_text",
@@ -81387,12 +81396,20 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_15darkdetector_1600",
+        "id": "proto_storepack_15brainelixir_1300",
+        "name": "storepack_15brainelixir_1300_name",
+        "skuId": "proto_storepack_15brainelixir_1300"
+      }
+    },
+    {
+      "storePack": {
+        "id": "proto_storepack_15darkdetector_1400",
         "name": "storepack_20darkdetectors_1800_name",
-        "skuId": "proto_storepack_15darkdetector_1600",
+        "skuId": "proto_storepack_15darkdetector_1400",
         "storePackConfig": [
           {
             "descriptionText": "storepack_20darkdetectors_1800_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_20DarkDetectors_glow",
             "iconPath": "ui_store_med_20DarkDetectors",
             "marketingText": "storepack_20darkdetectors_1800_marketing_text",
@@ -81431,12 +81448,26 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_3darkdetector_350",
+        "id": "proto_storepack_3darkdetector_325",
         "name": "storepack_3darkdetectors_275_name",
-        "skuId": "proto_storepack_3darkdetector_350",
+        "skuId": "proto_storepack_3darkdetector_325",
         "storePackConfig": [
           {
             "descriptionText": "storepack_3darkdetectors_275_description",
+            "hidePackOnMapHudClick": true,
+            "icon2Path": "ui_store_med_stackofdarkdetectors_glow",
+            "iconPath": "ui_store_med_stackofdarkdetectors",
+            "marketingText": "storepack_3darkdetectors_275_marketing_text",
+            "packSize": "SIZE_MEDIUM",
+            "prefabPath": "UI_Store_Item_Medium",
+            "priority": 4,
+            "rarityId": "rarity_common",
+            "showQuantityBanner": true,
+            "subcategoryId": "proto_storesubcategory_dark_detectors_1"
+          },
+          {
+            "descriptionText": "storepack_3darkdetectors_275_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_stackofdarkdetectors_glow",
             "iconPath": "ui_store_med_stackofdarkdetectors",
             "marketingText": "storepack_3darkdetectors_275_marketing_text",
@@ -81459,33 +81490,26 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_4exstimulo_4sexstimulo_4pextimulo_850",
-        "name": "storepack_2019_01_weakregularstrongexstimulo_800_name",
-        "overrideTitleLocKey": "dark_detectors_in_line_purchase",
-        "skuId": "proto_storepack_4exstimulo_4sexstimulo_4pextimulo_850",
-        "storePackConfig": [
-          {
-            "descriptionText": "storepack_2019_01_weakregularstrongexstimulo_800_description",
-            "icon2Path": "ui_store_med_extimulocrate_glow",
-            "iconPath": "ui_store_med_extimulocrate",
-            "marketingText": "storepack_counfound_confoundables_marketing_text",
-            "packSize": "SIZE_MEDIUM",
-            "prefabPath": "UI_Store_Item_Medium",
-            "priority": 4,
-            "rarityId": "rarity_common",
-            "subcategoryId": "proto_storesubcategory_featured_1"
-          }
-        ]
-      }
-    },
-    {
-      "storePack": {
-        "id": "proto_storepack_4key_350",
+        "id": "proto_storepack_4key_325",
         "name": "storepack_4keys_410_name",
-        "skuId": "proto_storepack_4key_350",
+        "skuId": "proto_storepack_4key_325",
         "storePackConfig": [
           {
             "descriptionText": "storepack_4keys_410_description",
+            "hidePackOnMapHudClick": true,
+            "icon2Path": "ui_store_med_pileofkeys_glow",
+            "iconPath": "ui_store_med_pileofkeys",
+            "marketingText": "storepack_4keys_410_marketing_text",
+            "packSize": "SIZE_MEDIUM",
+            "prefabPath": "UI_Store_Item_Medium",
+            "priority": 2,
+            "rarityId": "rarity_common",
+            "showQuantityBanner": true,
+            "subcategoryId": "proto_storesubcategory_dark_detectors_1"
+          },
+          {
+            "descriptionText": "storepack_4keys_410_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_pileofkeys_glow",
             "iconPath": "ui_store_med_pileofkeys",
             "marketingText": "storepack_4keys_410_marketing_text",
@@ -81501,6 +81525,13 @@
     },
     {
       "storePack": {
+        "id": "proto_storepack_4key_350",
+        "name": "storepack_4keys_410_name",
+        "skuId": "proto_storepack_4key_350"
+      }
+    },
+    {
+      "storePack": {
         "id": "proto_storepack_4keys_410",
         "name": "storepack_4keys_410_name",
         "skuId": "proto_storepack_4keys_410"
@@ -81508,13 +81539,26 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_4pexstimulo_4belixir_4healing_850",
+        "id": "proto_storepack_4pexstimulo_4belixir_4healing_725",
         "name": "storepack_exstimulo_brainelixir_healing_950_name",
         "overrideTitleLocKey": "dark_detectors_in_line_purchase",
-        "skuId": "proto_storepack_4pexstimulo_4belixir_4healing_850",
+        "skuId": "proto_storepack_4pexstimulo_4belixir_4healing_725",
         "storePackConfig": [
           {
             "descriptionText": "storepack_exstimulo_brainelixir_healing_950_description",
+            "hidePackOnMapHudClick": true,
+            "icon2Path": "ui_store_med_potionvarietycrate_glow",
+            "iconPath": "ui_store_med_potionvarietycrate",
+            "marketingText": "storepack_exstimulo_brainelixir_healing_950_marketing_text",
+            "packSize": "SIZE_MEDIUM",
+            "prefabPath": "UI_Store_Item_Medium",
+            "priority": 7,
+            "rarityId": "rarity_common",
+            "subcategoryId": "proto_storesubcategory_potions_1"
+          },
+          {
+            "descriptionText": "storepack_exstimulo_brainelixir_healing_950_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_med_potionvarietycrate_glow",
             "iconPath": "ui_store_med_potionvarietycrate",
             "marketingText": "storepack_exstimulo_brainelixir_healing_950_marketing_text",
@@ -81542,7 +81586,7 @@
             "marketingText": "storepack_energy_marketing_text",
             "packSize": "SIZE_MEDIUM",
             "prefabPath": "UI_Store_Item_Medium",
-            "priority": 3,
+            "priority": 5,
             "rarityId": "rarity_common",
             "showQuantityBanner": true,
             "subcategoryId": "proto_storesubcategory_dark_detectors_1"
@@ -81562,12 +81606,47 @@
     },
     {
       "storePack": {
+        "id": "proto_storepack_6exstimulo_6sexstimulo_6pextimulo_800",
+        "name": "storepack_2019_01_weakregularstrongexstimulo_800_name",
+        "overrideTitleLocKey": "dark_detectors_in_line_purchase",
+        "skuId": "proto_storepack_6exstimulo_6sexstimulo_6pextimulo_800",
+        "storePackConfig": [
+          {
+            "descriptionText": "storepack_2019_01_weakregularstrongexstimulo_800_description",
+            "hidePackOnMapHudClick": true,
+            "icon2Path": "ui_store_med_extimulocrate_glow",
+            "iconPath": "ui_store_med_extimulocrate",
+            "marketingText": "storepack_counfound_confoundables_marketing_text",
+            "packSize": "SIZE_MEDIUM",
+            "prefabPath": "UI_Store_Item_Medium",
+            "priority": 8,
+            "rarityId": "rarity_common",
+            "subcategoryId": "proto_storesubcategory_potions_1"
+          },
+          {
+            "descriptionText": "storepack_2019_01_weakregularstrongexstimulo_800_description",
+            "hidePackOnMapHudClick": true,
+            "icon2Path": "ui_store_med_extimulocrate_glow",
+            "iconPath": "ui_store_med_extimulocrate",
+            "marketingText": "storepack_counfound_confoundables_marketing_text",
+            "packSize": "SIZE_MEDIUM",
+            "prefabPath": "UI_Store_Item_Medium",
+            "priority": 4,
+            "rarityId": "rarity_common",
+            "subcategoryId": "proto_storesubcategory_featured_1"
+          }
+        ]
+      }
+    },
+    {
+      "storePack": {
         "id": "proto_storepack_brainelixir_100",
         "name": "storepack_potion_brainelixer",
         "skuId": "proto_storepack_brainelixir_100",
         "storePackConfig": [
           {
             "descriptionText": "storepack_potion_description_brainelixer",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_store_med_brainelixir",
             "marketingText": "storepack_potion_marketing_text_brainelixer",
             "packSize": "SIZE_MEDIUM",
@@ -81593,7 +81672,7 @@
             "packSize": "SIZE_MEDIUM",
             "popupImageOverride": "ui_icon_energy_expansion",
             "prefabPath": "UI_Store_Item_Medium",
-            "priority": 4,
+            "priority": 6,
             "rarityId": "rarity_common",
             "subcategoryId": "proto_storesubcategory_dark_detectors_1"
           },
@@ -81854,13 +81933,14 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_cauldron_time_1",
+        "id": "proto_storepack_cauldron_time_24h",
         "name": "storepack_cauldron_time_1_name",
         "showInInlineBuy": true,
-        "skuId": "proto_storepack_cauldron_time_1",
+        "skuId": "proto_storepack_cauldron_time_24h",
         "storePackConfig": [
           {
             "descriptionText": "storepack_cauldron_time_1_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_icon_cauldron_rent_empty_up",
             "marketingText": "storepack_cauldron_time_1_marketing_text",
             "packSize": "SIZE_LARGE",
@@ -81874,18 +81954,19 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_cauldron_time_2",
-        "name": "storepack_cauldron_time_2_name",
+        "id": "proto_storepack_cauldron_time_3h",
+        "name": "storepack_cauldron_time_3_name",
         "showInInlineBuy": true,
-        "skuId": "proto_storepack_cauldron_time_2",
+        "skuId": "proto_storepack_cauldron_time_3h",
         "storePackConfig": [
           {
-            "descriptionText": "storepack_cauldron_time_2_description",
+            "descriptionText": "storepack_cauldron_time_3_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_icon_cauldron_rent_empty_up",
-            "marketingText": "storepack_cauldron_time_2_marketing_text",
+            "marketingText": "storepack_cauldron_time_3_marketing_text",
             "packSize": "SIZE_LARGE",
             "prefabPath": "UI_Store_Item_Large",
-            "priority": 1,
+            "priority": 3,
             "rarityId": "rarity_common",
             "showBadge": true,
             "subcategoryId": "proto_storesubcategory_cauldron_time_1"
@@ -81895,18 +81976,19 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_cauldron_time_3",
-        "name": "storepack_cauldron_time_3_name",
+        "id": "proto_storepack_cauldron_time_8h",
+        "name": "storepack_cauldron_time_2_name",
         "showInInlineBuy": true,
-        "skuId": "proto_storepack_cauldron_time_3",
+        "skuId": "proto_storepack_cauldron_time_8h",
         "storePackConfig": [
           {
-            "descriptionText": "storepack_cauldron_time_3_description",
+            "descriptionText": "storepack_cauldron_time_2_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_icon_cauldron_rent_empty_up",
-            "marketingText": "storepack_cauldron_time_3_marketing_text",
+            "marketingText": "storepack_cauldron_time_2_marketing_text",
             "packSize": "SIZE_LARGE",
             "prefabPath": "UI_Store_Item_Large",
-            "priority": 3,
+            "priority": 1,
             "rarityId": "rarity_common",
             "showBadge": true,
             "subcategoryId": "proto_storesubcategory_cauldron_time_1"
@@ -81996,7 +82078,7 @@
             "marketingText": "storepack_dark_detector_marketing_text",
             "packSize": "SIZE_MEDIUM",
             "prefabPath": "UI_Store_Item_Medium",
-            "priority": 1,
+            "priority": 3,
             "rarityId": "rarity_common",
             "subcategoryId": "proto_storesubcategory_dark_detectors_1"
           }
@@ -82014,13 +82096,14 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_ddetector_25energy_3pexstimulo_460",
+        "id": "proto_storepack_ddetector_15energy_4pexstimulo_400",
         "maxRewardItemCount": 20,
         "name": "storepack_2019_01_dd_energy_strongexstimulo_500_name",
-        "skuId": "proto_storepack_ddetector_25energy_3pexstimulo_460",
+        "skuId": "proto_storepack_ddetector_15energy_4pexstimulo_400",
         "storePackConfig": [
           {
             "descriptionText": "storepack_2019_01_dd_energy_strongexstimulo_500_description",
+            "hidePackOnMapHudClick": true,
             "icon2Path": "ui_store_large_confoundconfoundablespack_glow",
             "iconPath": "ui_store_large_confoundconfoundablespack",
             "marketingText": "storepack_2019_01_dd_energy_strongexstimulo_500_marketing_text",
@@ -82065,13 +82148,14 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_exstimulo_50",
+        "id": "proto_storepack_exstimulo_25",
         "name": "storepack_weakexstimulo_40_name",
         "showInInlineBuy": true,
-        "skuId": "proto_storepack_exstimulo_50",
+        "skuId": "proto_storepack_exstimulo_25",
         "storePackConfig": [
           {
             "descriptionText": "storepack_weakexstimulo_40_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_item_potion_Exstimulo_weak",
             "marketingText": "storepack_weakexstimulo_40_marketing_text",
             "prefabPath": "UI_Store_Item_Small",
@@ -82164,15 +82248,14 @@
     {
       "storePack": {
         "id": "proto_storepack_free_softlaunchtest",
-        "name": "storepack_2019_01_weakregularstrongexstimulo_800_name",
+        "name": "storepack_free_softlaunchtest_name",
         "overrideTitleLocKey": "dark_detectors_in_line_purchase",
         "skuId": "proto_storepack_free_softlaunchtest",
         "storePackConfig": [
           {
-            "descriptionText": "storepack_2019_01_weakregularstrongexstimulo_800_description",
+            "descriptionText": "storepack_free_softlaunchtest_description",
             "hidePackOnMapHudClick": true,
             "hudIconPath": "ui_store_hud_newuserpack_1",
-            "icon2Path": "ui_store_large_newuserpack_01_glow",
             "iconPath": "ui_store_large_newuserpack_01",
             "marketingText": "storepack_counfound_confoundables_marketing_text",
             "packSize": "SIZE_LARGE",
@@ -82464,6 +82547,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_potion_description_restoration",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_store_med_healingpotion",
             "marketingText": "storepack_potion_marketing_text_restoration",
             "packSize": "SIZE_MEDIUM",
@@ -82596,7 +82680,7 @@
             "marketingText": "storepack_unlocker_marketing_text",
             "packSize": "SIZE_MEDIUM",
             "prefabPath": "UI_Store_Item_Medium",
-            "priority": 2,
+            "priority": 1,
             "rarityId": "rarity_common",
             "subcategoryId": "proto_storesubcategory_dark_detectors_1"
           }
@@ -82946,10 +83030,37 @@
           {
             "bonusValue": 4,
             "descriptionText": "storepack_nub_walking_description",
-            "hidePackOnMapHudClick": true,
             "hidePackOnSoldOut": true,
             "hudIconPath": "ui_store_hud_newuserpack_1",
             "hudPriority": 1,
+            "icon2Path": "ui_store_large_AnticalamityKit_glow",
+            "iconPath": "ui_store_large_AnticalamityKit",
+            "marketingText": "storepack_nub_walking_marketing_text",
+            "packSize": "SIZE_LARGE",
+            "prefabPath": "UI_Store_Item_Large",
+            "priority": 1,
+            "rarityId": "rarity_levelup",
+            "showBadge": true,
+            "showInHud": true,
+            "subcategoryId": "proto_storesubcategory_levelup_bundles"
+          }
+        ]
+      }
+    },
+    {
+      "storePack": {
+        "id": "proto_storepack_nub_walking_earlyinstalls",
+        "maxRewardItemCount": 20,
+        "name": "storepack_nub_walking_name",
+        "skuId": "proto_storepack_nub_walking_earlyinstalls",
+        "storePackConfig": [
+          {
+            "bonusValue": 4,
+            "descriptionText": "storepack_nub_walking_description",
+            "hidePackOnMapHudClick": true,
+            "hidePackOnSoldOut": true,
+            "hudIconPath": "ui_store_hud_newuserpack_1",
+            "hudPriority": 3,
             "icon2Path": "ui_store_large_AnticalamityKit_glow",
             "iconPath": "ui_store_large_AnticalamityKit",
             "marketingText": "storepack_nub_walking_marketing_text",
@@ -82974,7 +83085,6 @@
           {
             "bonusValue": 4,
             "descriptionText": "storepack_nub_walking_description",
-            "hidePackOnMapHudClick": true,
             "hidePackOnSoldOut": true,
             "hudIconPath": "ui_store_hud_newuserpack_1",
             "hudPriority": 3,
@@ -83002,7 +83112,6 @@
           {
             "bonusValue": 3,
             "descriptionText": "storepack_nub_walking_description",
-            "hidePackOnMapHudClick": true,
             "hudIconPath": "ui_store_hud_newuserpack_1",
             "hudPriority": 1,
             "iconPath": "ui_store_med_crate",
@@ -83020,13 +83129,14 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_potentexstimulo_100",
+        "id": "proto_storepack_potentexstimulo_75",
         "name": "storepack_strongexstimulo_100_name",
         "showInInlineBuy": true,
-        "skuId": "proto_storepack_potentexstimulo_100",
+        "skuId": "proto_storepack_potentexstimulo_75",
         "storePackConfig": [
           {
             "descriptionText": "storepack_strongexstimulo_100_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_item_potion_Exstimulo_strong",
             "marketingText": "storepack_strongexstimulo_100_marketing_text",
             "prefabPath": "UI_Store_Item_Small",
@@ -83236,6 +83346,7 @@
         "storePackConfig": [
           {
             "descriptionText": "storepack_animated_sticker_generic_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_white_square",
             "marketingText": "storepack_animated_sticker_generic_marketing_text",
             "packSize": "SIZE_LARGE",
@@ -83258,13 +83369,14 @@
     },
     {
       "storePack": {
-        "id": "proto_storepack_strongexstimulo_75",
+        "id": "proto_storepack_strongexstimulo_50",
         "name": "storepack_exstimulo_70_name",
         "showInInlineBuy": true,
-        "skuId": "proto_storepack_strongexstimulo_75",
+        "skuId": "proto_storepack_strongexstimulo_50",
         "storePackConfig": [
           {
             "descriptionText": "storepack_exstimulo_70_description",
+            "hidePackOnMapHudClick": true,
             "iconPath": "ui_item_potion_Exstimulo",
             "marketingText": "storepack_exstimulo_70_marketing_text",
             "prefabPath": "UI_Store_Item_Small",

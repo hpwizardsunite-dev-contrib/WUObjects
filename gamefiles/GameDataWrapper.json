@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1559166203595",
+  "basisBatchId": "1560279946702",
   "environment": "19",
   "messages": [
     {
@@ -133,7 +133,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_player_stat_spellcast_success_chance_boost": "30000"
+              "proto_rpgstat_player_stat_spellcast_success_chance_boost": "15000"
             }
           },
           {
@@ -145,7 +145,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_attack_multiplier": "125000"
+              "proto_rpgstat_stat_combat_attack_multiplier": "15000"
             }
           }
         ],
@@ -174,7 +174,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_player_stat_spellcast_success_chance_boost": "10500"
+              "proto_rpgstat_player_stat_spellcast_success_chance_boost": "6000"
             }
           },
           {
@@ -186,7 +186,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_attack_multiplier": "50000"
+              "proto_rpgstat_stat_combat_attack_multiplier": "6000"
             }
           }
         ],
@@ -227,7 +227,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_attack_multiplier": "225000"
+              "proto_rpgstat_stat_combat_attack_multiplier": "42000"
             }
           }
         ],
@@ -18314,7 +18314,7 @@
       "challengeBonus": {
         "defeatedMobCount": {},
         "id": "proto_challengebonus_playercount_2",
-        "modifierPercentage": 10,
+        "modifierPercentage": 25,
         "receiver": "TEAM",
         "targetReward": "CHALLENGE_FAMILY_XP"
       }
@@ -18323,7 +18323,7 @@
       "challengeBonus": {
         "defeatedMobCount": {},
         "id": "proto_challengebonus_playercount_3",
-        "modifierPercentage": 20,
+        "modifierPercentage": 50,
         "receiver": "TEAM",
         "targetReward": "CHALLENGE_FAMILY_XP"
       }
@@ -18332,7 +18332,7 @@
       "challengeBonus": {
         "defeatedMobCount": {},
         "id": "proto_challengebonus_playercount_4",
-        "modifierPercentage": 30,
+        "modifierPercentage": 75,
         "receiver": "TEAM",
         "targetReward": "CHALLENGE_FAMILY_XP"
       }
@@ -18341,7 +18341,7 @@
       "challengeBonus": {
         "defeatedMobCount": {},
         "id": "proto_challengebonus_playercount_5",
-        "modifierPercentage": 50,
+        "modifierPercentage": 100,
         "receiver": "PLAYER",
         "targetReward": "CHALLENGE_FAMILY_XP"
       }
@@ -24590,7 +24590,19 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "170"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
             "totalXpReq": "200"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "230"
           },
           {
             "chestCount": 1,
@@ -24608,7 +24620,19 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "360"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
             "totalXpReq": "380"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "400"
           },
           {
             "chestCount": 1,
@@ -24620,13 +24644,49 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "440"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "460"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
             "totalXpReq": "480"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "570"
+            "totalXpReq": "500"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "520"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "540"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "560"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "580"
           },
           {
             "chestCount": 1,
@@ -24638,7 +24698,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "630"
+            "totalXpReq": "620"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "640"
           },
           {
             "chestCount": 1,
@@ -24650,7 +24716,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "690"
+            "totalXpReq": "680"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "700"
           },
           {
             "chestCount": 1,
@@ -24662,7 +24734,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "750"
+            "totalXpReq": "740"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "760"
           },
           {
             "chestCount": 1,
@@ -24674,7 +24752,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "810"
+            "totalXpReq": "800"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "820"
           },
           {
             "chestCount": 1,
@@ -24686,7 +24770,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "870"
+            "totalXpReq": "860"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "880"
           },
           {
             "chestCount": 1,
@@ -24698,7 +24788,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "930"
+            "totalXpReq": "920"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "940"
           },
           {
             "chestCount": 1,
@@ -24710,7 +24806,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "990"
+            "totalXpReq": "980"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1000"
           },
           {
             "chestCount": 1,
@@ -24722,7 +24824,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1050"
+            "totalXpReq": "1040"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1060"
           },
           {
             "chestCount": 1,
@@ -24734,7 +24842,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1110"
+            "totalXpReq": "1100"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1120"
           },
           {
             "chestCount": 1,
@@ -24746,7 +24860,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1170"
+            "totalXpReq": "1160"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1180"
           },
           {
             "chestCount": 1,
@@ -24758,7 +24878,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1230"
+            "totalXpReq": "1220"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1240"
           },
           {
             "chestCount": 1,
@@ -24770,7 +24896,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1290"
+            "totalXpReq": "1280"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1300"
           },
           {
             "chestCount": 1,
@@ -24782,7 +24914,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1350"
+            "totalXpReq": "1340"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1360"
           },
           {
             "chestCount": 1,
@@ -24794,7 +24932,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1410"
+            "totalXpReq": "1400"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1420"
           },
           {
             "chestCount": 1,
@@ -24806,7 +24950,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1470"
+            "totalXpReq": "1460"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1480"
           },
           {
             "chestCount": 1,
@@ -24818,7 +24968,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1530"
+            "totalXpReq": "1520"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1540"
           },
           {
             "chestCount": 1,
@@ -24830,7 +24986,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1590"
+            "totalXpReq": "1580"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1600"
           },
           {
             "chestCount": 1,
@@ -24842,7 +25004,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1650"
+            "totalXpReq": "1640"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1660"
           },
           {
             "chestCount": 1,
@@ -24854,7 +25022,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1710"
+            "totalXpReq": "1700"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1720"
           },
           {
             "chestCount": 1,
@@ -24866,7 +25040,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1770"
+            "totalXpReq": "1760"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1780"
           },
           {
             "chestCount": 1,
@@ -24878,7 +25058,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1830"
+            "totalXpReq": "1820"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1840"
           },
           {
             "chestCount": 1,
@@ -24890,7 +25076,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1890"
+            "totalXpReq": "1880"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1900"
           },
           {
             "chestCount": 1,
@@ -24902,7 +25094,13 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "1950"
+            "totalXpReq": "1940"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "1960"
           },
           {
             "chestCount": 1,
@@ -24914,103 +25112,7 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2010"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2040"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2070"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2100"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2130"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2160"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2190"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2220"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2250"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2280"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2310"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2340"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2370"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2400"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2430"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2460"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2490"
+            "totalXpReq": "2000"
           },
           {
             "chestCount": 1,
@@ -25028,19 +25130,25 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2580"
+            "totalXpReq": "2570"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2610"
+            "totalXpReq": "2600"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2640"
+            "totalXpReq": "2620"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "2650"
           },
           {
             "chestCount": 1,
@@ -25058,19 +25166,25 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2730"
+            "totalXpReq": "2720"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2760"
+            "totalXpReq": "2750"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2790"
+            "totalXpReq": "2770"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "2800"
           },
           {
             "chestCount": 1,
@@ -25088,19 +25202,25 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2880"
+            "totalXpReq": "2870"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2910"
+            "totalXpReq": "2900"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "2940"
+            "totalXpReq": "2920"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "2950"
           },
           {
             "chestCount": 1,
@@ -25118,19 +25238,25 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3030"
+            "totalXpReq": "3020"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3060"
+            "totalXpReq": "3050"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3090"
+            "totalXpReq": "3070"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "3100"
           },
           {
             "chestCount": 1,
@@ -25148,19 +25274,25 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3180"
+            "totalXpReq": "3170"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3210"
+            "totalXpReq": "3200"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3240"
+            "totalXpReq": "3220"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "3250"
           },
           {
             "chestCount": 1,
@@ -25178,19 +25310,25 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3330"
+            "totalXpReq": "3320"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3360"
+            "totalXpReq": "3350"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3390"
+            "totalXpReq": "3370"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "3400"
           },
           {
             "chestCount": 1,
@@ -25208,19 +25346,25 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3480"
+            "totalXpReq": "3470"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3510"
+            "totalXpReq": "3500"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3540"
+            "totalXpReq": "3520"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "3550"
           },
           {
             "chestCount": 1,
@@ -25238,19 +25382,25 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3630"
+            "totalXpReq": "3620"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3660"
+            "totalXpReq": "3650"
           },
           {
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3690"
+            "totalXpReq": "3670"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
+            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
+            "totalXpReq": "3700"
           },
           {
             "chestCount": 1,
@@ -25268,157 +25418,7 @@
             "chestCount": 1,
             "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
             "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3780"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3810"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3840"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3870"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3900"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3930"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3960"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "3990"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4020"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4050"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4080"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4110"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4140"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4170"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4200"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4230"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4260"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4290"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4320"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4350"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4380"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4410"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4440"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4470"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4500"
-          },
-          {
-            "chestCount": 1,
-            "levelUpLoottableId": "proto_loottable_familychest_challenge_large_rank1",
-            "smallLoottableId": "proto_loottable_familychest_challenge_small_rank1",
-            "totalXpReq": "4500"
+            "totalXpReq": "3770"
           }
         ]
       }
@@ -61643,6 +61643,31 @@
         "runningReqs": {
           "reqs": [
             {
+              "dateReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "epochDateInSeconds": "1560373200"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": {
+        "activationReqs": {
+          "reqs": [
+            {
+              "dateReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "epochDateInSeconds": "1560632400"
+              }
+            }
+          ]
+        },
+        "id": "proto_event_selfieavatar_on",
+        "runningReqs": {
+          "reqs": [
+            {
               "boolLiteralReq": "TRUE"
             }
           ]
@@ -61654,26 +61679,10 @@
         "activationReqs": {
           "reqs": [
             {
-              "boolLiteralReq": "FALSE"
-            }
-          ]
-        },
-        "id": "proto_event_selfieavatar_on",
-        "runningReqs": {
-          "reqs": [
-            {
-              "boolLiteralReq": "FALSE"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "event": {
-        "activationReqs": {
-          "reqs": [
-            {
-              "boolLiteralReq": "FALSE"
+              "dateReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "epochDateInSeconds": "1560373200"
+              }
             }
           ]
         },
@@ -61681,7 +61690,10 @@
         "runningReqs": {
           "reqs": [
             {
-              "boolLiteralReq": "FALSE"
+              "dateReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "epochDateInSeconds": "1560632400"
+              }
             }
           ]
         }
@@ -63850,7 +63862,7 @@
     },
     {
       "gameConfig": {
-        "accuracyMaxBonus": 1.2000000476837158,
+        "accuracyMaxBonus": 1.0700000524520874,
         "accuracyMinBonus": 1.0,
         "arModeMaxEncounters": 5,
         "arModeRange": 52.0,
@@ -63879,8 +63891,10 @@
           "proto_quests_daily_collect_inns",
           "proto_quests_daily_trace_complete",
           "proto_quests_daily_potion_ingredients",
-          "proto_quests_daily_brew_potions",
           "proto_quests_daily_walk",
+          "proto_quests_daily_brew_potions",
+          "proto_quest_daily_use_potions",
+          "proto_quest_daily_wizarding_challenge",
           "proto_quest_daily_complete_all"
         ],
         "dailyRewardScheduleGmtId": "proto_dailyrewardschedule_prime",
@@ -63925,9 +63939,9 @@
           ],
           "pointsPerDecayCycle": 2
         },
-        "gameplayBonusMax": 1.7039999961853027,
+        "gameplayBonusMax": 1.5194000005722046,
         "gameplayBonusMin": 1.0,
-        "gameplayBonusWeight": 2.0,
+        "gameplayBonusWeight": 4.0,
         "greenhouseCoolDownMs": "300000",
         "id": "proto_game_config",
         "innCoolDownMs": "300000",
@@ -64049,6 +64063,11 @@
     {
       "featureFlag": {
         "lval": "10"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
       }
     },
     {
@@ -78379,7 +78398,7 @@
           "rewards": [
             {
               "currencyReward": {
-                "amount": "5",
+                "amount": "8",
                 "currencyId": "vault_item_coins"
               }
             }
@@ -78414,8 +78433,70 @@
                     "questCompletedReq": {
                       "questGmtId": "proto_quests_daily_walk"
                     }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_daily_use_potions"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_daily_wizarding_challenge"
+                    }
                   }
                 ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_DAILY",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_daily_use_potions",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_currency_profession_02"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "hookTask": {
+              "usePotions": {
+                "requiredUseCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_DAILY",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_daily_wizarding_challenge",
+        "rewards": {
+          "rewards": [
+            {
+              "currencyReward": {
+                "amount": "2",
+                "currencyId": "vault_item_coins"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "hookTask": {
+              "playFortressChallenges": {
+                "requiredChallengeCount": "1"
               }
             }
           }
@@ -79280,7 +79361,7 @@
           "rewards": [
             {
               "itemReward": {
-                "amount": "4",
+                "amount": "2",
                 "itemId": "proto_vaultitem_currency_profession_02"
               }
             }
@@ -81422,22 +81503,6 @@
     },
     {
       "selfieAvatarAsset": {
-        "id": "proto_selfieavatarasset_lens_wool_beanie_brilliant_top",
-        "unlockConditions": {
-          "reqs": [
-            {
-              "vaultItemReq": {
-                "comparisonOperator": "GREATER_OR_EQUAL",
-                "itemId": "proto_vaultitem_lens_beanie_brilliant_top",
-                "qty": "1"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_lens_wool_beanie_gryffindor_top",
         "unlockConditions": {}
       }
@@ -83019,7 +83084,7 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_15brainelixir_1300",
+        "id": "proto_storepack_15brainelixir_1200",
         "requirements": {}
       }
     },
@@ -83036,7 +83101,7 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_15brainelixir_1350",
+        "id": "proto_storepack_15brainelixir_1300",
         "requirements": {}
       }
     },
@@ -83053,7 +83118,7 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_15darkdetector_1600",
+        "id": "proto_storepack_15darkdetector_1400",
         "requirements": {}
       }
     },
@@ -83145,7 +83210,7 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_3darkdetector_350",
+        "id": "proto_storepack_3darkdetector_325",
         "requirements": {}
       }
     },
@@ -83173,25 +83238,13 @@
             {
               "itemReward": {
                 "amount": "4",
-                "itemId": "proto_vaultitem_potion_extimulo_1"
-              }
-            },
-            {
-              "itemReward": {
-                "amount": "4",
-                "itemId": "proto_vaultitem_potion_extimulo"
-              }
-            },
-            {
-              "itemReward": {
-                "amount": "4",
-                "itemId": "proto_vaultitem_potion_extimulo_2"
+                "itemId": "proto_vaultitem_premium_unlocker"
               }
             }
           ]
         },
         "cost": {},
-        "id": "proto_storepack_4exstimulo_4sexstimulo_4pextimulo_850",
+        "id": "proto_storepack_4key_325",
         "requirements": {}
       }
     },
@@ -83254,7 +83307,7 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_4pexstimulo_4belixir_4healing_850",
+        "id": "proto_storepack_4pexstimulo_4belixir_4healing_725",
         "requirements": {}
       }
     },
@@ -83289,6 +83342,35 @@
         },
         "cost": {},
         "id": "proto_storepack_50energy_100_inline",
+        "requirements": {}
+      }
+    },
+    {
+      "storePack": {
+        "contents": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "6",
+                "itemId": "proto_vaultitem_potion_extimulo_1"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "6",
+                "itemId": "proto_vaultitem_potion_extimulo"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "6",
+                "itemId": "proto_vaultitem_potion_extimulo_2"
+              }
+            }
+          ]
+        },
+        "cost": {},
+        "id": "proto_storepack_6exstimulo_6sexstimulo_6pextimulo_800",
         "requirements": {}
       }
     },
@@ -83754,33 +83836,7 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_cauldron_time_1",
-        "requirements": {
-          "reqs": [
-            {
-              "levelReq": {
-                "comparisonOperator": "GREATER_OR_EQUAL",
-                "level": 3
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "storePack": {
-        "contents": {
-          "rewards": [
-            {
-              "itemReward": {
-                "amount": "1",
-                "itemId": "proto_vaultitem_cauldron_time_2"
-              }
-            }
-          ]
-        },
-        "cost": {},
-        "id": "proto_storepack_cauldron_time_2",
+        "id": "proto_storepack_cauldron_time_24h",
         "requirements": {
           "reqs": [
             {
@@ -83806,7 +83862,33 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_cauldron_time_3",
+        "id": "proto_storepack_cauldron_time_3h",
+        "requirements": {
+          "reqs": [
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 3
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storePack": {
+        "contents": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_cauldron_time_2"
+              }
+            }
+          ]
+        },
+        "cost": {},
+        "id": "proto_storepack_cauldron_time_8h",
         "requirements": {
           "reqs": [
             {
@@ -83933,20 +84015,20 @@
             },
             {
               "itemReward": {
-                "amount": "25",
+                "amount": "15",
                 "itemId": "proto_vaultitem_energy_1"
               }
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "4",
                 "itemId": "proto_vaultitem_potion_extimulo_2"
               }
             }
           ]
         },
         "cost": {},
-        "id": "proto_storepack_ddetector_25energy_3pexstimulo_460",
+        "id": "proto_storepack_ddetector_15energy_4pexstimulo_400",
         "requirements": {}
       }
     },
@@ -84006,7 +84088,7 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_exstimulo_50",
+        "id": "proto_storepack_exstimulo_25",
         "requirements": {}
       }
     },
@@ -84139,21 +84221,21 @@
         "contents": {
           "rewards": [
             {
-              "itemReward": {
-                "amount": "4",
-                "itemId": "proto_vaultitem_potion_extimulo_1"
+              "currencyReward": {
+                "amount": "100",
+                "currencyId": "vault_item_coins"
               }
             },
             {
               "itemReward": {
-                "amount": "4",
-                "itemId": "proto_vaultitem_potion_extimulo"
+                "amount": "1",
+                "itemId": "vault_item_dark_detector_test"
               }
             },
             {
               "itemReward": {
-                "amount": "4",
-                "itemId": "proto_vaultitem_potion_extimulo_2"
+                "amount": "10",
+                "itemId": "proto_vaultitem_currency_profession_02"
               }
             }
           ]
@@ -84162,6 +84244,12 @@
         "id": "proto_storepack_free_softlaunchtest",
         "requirements": {
           "reqs": [
+            {
+              "dateReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "epochDateInSeconds": "1560470400"
+              }
+            },
             {
               "storePackReq": {
                 "comparisonOperator": "LESS_THAN",
@@ -84668,7 +84756,7 @@
           "rewards": [
             {
               "currencyReward": {
-                "amount": "875",
+                "amount": "900",
                 "currencyId": "vault_item_coins"
               }
             },
@@ -84686,7 +84774,7 @@
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "5",
                 "itemId": "proto_vaultitem_potion_brainelixir"
               }
             }
@@ -84746,7 +84834,7 @@
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "5",
                 "itemId": "proto_vaultitem_potion_brainelixir"
               }
             }
@@ -84782,7 +84870,7 @@
           "rewards": [
             {
               "currencyReward": {
-                "amount": "875",
+                "amount": "900",
                 "currencyId": "vault_item_coins"
               }
             },
@@ -84800,7 +84888,7 @@
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "5",
                 "itemId": "proto_vaultitem_potion_brainelixir"
               }
             }
@@ -84860,7 +84948,7 @@
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "5",
                 "itemId": "proto_vaultitem_potion_brainelixir"
               }
             }
@@ -84896,7 +84984,7 @@
           "rewards": [
             {
               "currencyReward": {
-                "amount": "1850",
+                "amount": "2100",
                 "currencyId": "vault_item_coins"
               }
             },
@@ -84914,8 +85002,8 @@
             },
             {
               "itemReward": {
-                "amount": "3",
-                "itemId": "proto_vaultitem_runestone_magizoology_1"
+                "amount": "1",
+                "itemId": "proto_vaultitem_runestone_magizoology_3"
               }
             },
             {
@@ -85100,7 +85188,7 @@
           "rewards": [
             {
               "currencyReward": {
-                "amount": "875",
+                "amount": "900",
                 "currencyId": "vault_item_coins"
               }
             },
@@ -85118,7 +85206,7 @@
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "5",
                 "itemId": "proto_vaultitem_potion_brainelixir"
               }
             }
@@ -85178,7 +85266,7 @@
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "5",
                 "itemId": "proto_vaultitem_potion_brainelixir"
               }
             }
@@ -85214,7 +85302,7 @@
           "rewards": [
             {
               "currencyReward": {
-                "amount": "875",
+                "amount": "900",
                 "currencyId": "vault_item_coins"
               }
             },
@@ -85232,7 +85320,7 @@
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "5",
                 "itemId": "proto_vaultitem_potion_brainelixir"
               }
             }
@@ -85292,7 +85380,7 @@
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "5",
                 "itemId": "proto_vaultitem_potion_brainelixir"
               }
             }
@@ -85382,6 +85470,63 @@
                   "SUBSET_ACTIVATION",
                   "SUBSET_RUNNING"
                 ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storePack": {
+        "contents": {
+          "rewards": [
+            {
+              "currencyReward": {
+                "amount": "425",
+                "currencyId": "vault_item_coins"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "3",
+                "itemId": "proto_vaultitem_potion_extimulo_2"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "50",
+                "itemId": "proto_vaultitem_energy_1"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "3",
+                "itemId": "proto_vaultitem_premium_unlocker"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_lens_luna_mid"
+              }
+            }
+          ]
+        },
+        "cost": {},
+        "id": "proto_storepack_nub_walking_earlyinstalls",
+        "requirements": {
+          "reqs": [
+            {
+              "playerAccountAgeRequirement": {
+                "accountAgeInSeconds": "604800",
+                "comparisonOperator": "LESS_OR_EQUAL"
+              }
+            },
+            {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_nub_walking"
               }
             }
           ]
@@ -85521,7 +85666,7 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_potentexstimulo_100",
+        "id": "proto_storepack_potentexstimulo_75",
         "requirements": {}
       }
     },
@@ -85918,7 +86063,7 @@
           ]
         },
         "cost": {},
-        "id": "proto_storepack_strongexstimulo_75",
+        "id": "proto_storepack_strongexstimulo_50",
         "requirements": {}
       }
     },
@@ -94292,7 +94437,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "180896",
+        "dataVersion": "184629",
         "id": "proto_version_data"
       }
     },
