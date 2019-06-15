@@ -82248,6 +82248,7 @@
     {
       "storePack": {
         "id": "proto_storepack_free_softlaunchtest",
+        "maxRewardItemCount": 12,
         "name": "storepack_free_softlaunchtest_name",
         "overrideTitleLocKey": "dark_detectors_in_line_purchase",
         "skuId": "proto_storepack_free_softlaunchtest",
@@ -82255,6 +82256,7 @@
           {
             "descriptionText": "storepack_free_softlaunchtest_description",
             "hidePackOnMapHudClick": true,
+            "hidePackOnSoldOut": true,
             "hudIconPath": "ui_store_hud_newuserpack_1",
             "iconPath": "ui_store_large_newuserpack_01",
             "marketingText": "storepack_counfound_confoundables_marketing_text",
