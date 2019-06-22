@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1561152396082",
+  "basisBatchId": "1561167643152",
   "environment": "21",
   "messages": [
     {
@@ -116490,6 +116490,39 @@
         "contents": {
           "rewards": [
             {
+              "itemReward": {
+                "amount": "50",
+                "itemId": "proto_vaultitem_energy_1"
+              }
+            }
+          ]
+        },
+        "cost": {},
+        "id": "proto_storepack_free_worldwide_energy",
+        "requirements": {
+          "reqs": [
+            {
+              "dateReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "epochDateInSeconds": "1561420800"
+              }
+            },
+            {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_free_worldwide_energy"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storePack": {
+        "contents": {
+          "rewards": [
+            {
               "currencyReward": {
                 "amount": "80",
                 "currencyId": "vault_item_coins"
@@ -130035,7 +130068,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "186312",
+        "dataVersion": "187018",
         "id": "proto_version_data"
       }
     },
