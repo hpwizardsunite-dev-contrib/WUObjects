@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1561668144476",
+  "basisBatchId": "1561677412062",
   "environment": "21",
   "messages": [
     {
@@ -127441,7 +127441,7 @@
             "rewards": [
               {
                 "itemReward": {
-                  "amount": "1",
+                  "amount": "3",
                   "itemId": "proto_vaultitem_energy_1"
                 }
               }
@@ -127481,7 +127481,7 @@
             "rewards": [
               {
                 "itemReward": {
-                  "amount": "2",
+                  "amount": "3",
                   "itemId": "proto_vaultitem_energy_1"
                 }
               }
@@ -127561,7 +127561,7 @@
             "rewards": [
               {
                 "itemReward": {
-                  "amount": "2",
+                  "amount": "3",
                   "itemId": "proto_vaultitem_energy_1"
                 }
               }
@@ -127581,7 +127581,7 @@
             "rewards": [
               {
                 "itemReward": {
-                  "amount": "1",
+                  "amount": "3",
                   "itemId": "proto_vaultitem_energy_1"
                 }
               }
