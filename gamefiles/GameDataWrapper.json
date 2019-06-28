@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1561260324638",
+  "basisBatchId": "1561668144476",
   "environment": "21",
   "messages": [
     {
@@ -3203,7 +3203,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-10"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-5"
             }
           }
         ],
@@ -3230,7 +3230,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-100"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-50"
             }
           }
         ],
@@ -3257,7 +3257,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-110"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-55"
             }
           }
         ],
@@ -3284,7 +3284,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-120"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-60"
             }
           }
         ],
@@ -3311,7 +3311,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-20"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-10"
             }
           }
         ],
@@ -3338,7 +3338,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-30"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-15"
             }
           }
         ],
@@ -3365,7 +3365,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-40"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-20"
             }
           }
         ],
@@ -3392,7 +3392,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-50"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-25"
             }
           }
         ],
@@ -3419,7 +3419,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-60"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-30"
             }
           }
         ],
@@ -3446,7 +3446,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-70"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-35"
             }
           }
         ],
@@ -3473,7 +3473,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-80"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-40"
             }
           }
         ],
@@ -3500,7 +3500,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_stat_combat_hp_heal_amount": "-90"
+              "proto_rpgstat_stat_combat_hp_heal_amount": "-45"
             }
           }
         ],
@@ -56868,7 +56868,7 @@
               "rewards": [
                 {
                   "collectionFamilyReward": {
-                    "amount": 5,
+                    "amount": 1,
                     "familyId": "proto_collectionfamily_careofmagicalcreatures"
                   }
                 }
@@ -84061,6 +84061,31 @@
         "activationReqs": {
           "reqs": [
             {
+              "dateReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "epochDateInSeconds": "1562176800"
+              }
+            }
+          ]
+        },
+        "id": "proto_event_brilliant_0001_2ndrun",
+        "runningReqs": {
+          "reqs": [
+            {
+              "dateReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "epochDateInSeconds": "1562781600"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": {
+        "activationReqs": {
+          "reqs": [
+            {
               "boolLiteralReq": "FALSE"
             }
           ]
@@ -84151,6 +84176,16 @@
     {
       "featureFlag": {
         "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
       }
     },
     {
@@ -106068,6 +106103,854 @@
       "quest": {
         "chainPosition": 1,
         "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0001_2ndrun_link1",
+        "rewards": {
+          "rewards": [
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link2_sub1"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link2_sub2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link2_sub3"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            },
+            {
+              "collectionFamilyReward": {
+                "amount": 20,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "3",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link1_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link1_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link1_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link1_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "lootOutposts": {
+                "requiredOutpostsCount": "3"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link1_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "unlockPortmanteau": {
+                "requiredUnlockCount": "2"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link1_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "collectStickers": {
+                "requiredCollectCount": "1",
+                "stickerGmtId": "proto_collectionitem_hippogriff_b0001"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 2,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0001_2ndrun_link2",
+        "rewards": {
+          "rewards": [
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link3"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link3_sub1"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link3_sub2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link3_sub3"
+              }
+            },
+            {
+              "collectionFamilyReward": {
+                "amount": 25,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            },
+            {
+              "collectionReward": {
+                "itemId": "proto_collectionitem_scorchedyewtree_b0001",
+                "shardCount": 1
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link2_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link2_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link2_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link2_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "300",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "collectStickers": {
+                "requiredCollectCount": "1",
+                "stickerGmtId": "proto_collectionitem_unicorn_b0001"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link2_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "difficulty": 2.0,
+                "requiredTraceCount": "5"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link2_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "castSpells": {
+                "requiredMasteryLevel": 0.699999988079071,
+                "requiredSpellCount": "2"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 3,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0001_2ndrun_link3",
+        "rewards": {
+          "rewards": [
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link4"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link4_sub1"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link4_sub2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link4_sub3"
+              }
+            },
+            {
+              "collectionFamilyReward": {
+                "amount": 25,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "3",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_potion_extimulo_2"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link3_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link3_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link3_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link3_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "400",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "difficulty": 3.0,
+                "requiredTraceCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link3_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "walkDistance": {
+                "requiredMicrometersToWalk": "3000000000"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link3_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "familyGmtId": "proto_collectionfamily_careofmagicalcreatures",
+                "requiredTraceCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 4,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0001_2ndrun_link4",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "collectionReward": {
+                "itemId": "proto_collectionitem_salamander_b0001",
+                "shardCount": 1
+              }
+            },
+            {
+              "currencyReward": {
+                "amount": "100",
+                "currencyId": "vault_item_coins"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_lens_beanie_brilliant_top"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link4_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link4_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link4_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link4_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "unlockPortmanteau": {
+                "requiredUnlockCount": "3"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link4_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "brewPotions": {
+                "requiredBrewCount": "5"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link4_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "playFortressChallenges": {
+                "requiredChallengeCount": "3"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 1,
+        "chainTotal": 4,
         "id": "proto_quest_event_brilliant0001_link1",
         "rewards": {
           "rewards": [
@@ -106911,18 +107794,40 @@
         "chainPosition": 1,
         "chainTotal": 1,
         "id": "proto_quest_partner_ee_1",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/h2Wp2bebbXTTMYCCB_hgU1ofiouCJtvb3nEucUDuGjCu440QuF4E7q-7O1pqxmXirbnlSqabg8Qcc5TMJw",
+          "partnerName": "Sponsored Assignment"
+        },
         "rewards": {
           "rewards": [
             {
               "itemReward": {
+                "amount": "10",
+                "itemId": "proto_vaultitem_potion_extimulo_2"
+              }
+            },
+            {
+              "itemReward": {
                 "amount": "5",
-                "itemId": "proto_vaultitem_energy_1"
+                "itemId": "proto_vaultitem_premium_unlocker"
               }
             },
             {
               "itemReward": {
                 "amount": "1",
                 "itemId": "vault_item_dark_detector_test"
+              }
+            },
+            {
+              "vaultCapacityReward": {
+                "amount": "10",
+                "vaultCategoryGmtId": "proto_vaultcategory_potions"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_sticker_leakycauldron"
               }
             }
           ]
@@ -106948,12 +107853,16 @@
           }
         ],
         "type": "QUEST_TYPE_EVENT_CHAIN",
-        "version": 2
+        "version": 3
       }
     },
     {
       "quest": {
         "id": "proto_quest_partner_ee_1_step0001",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/h2Wp2bebbXTTMYCCB_hgU1ofiouCJtvb3nEucUDuGjCu440QuF4E7q-7O1pqxmXirbnlSqabg8Qcc5TMJw",
+          "partnerName": "Sponsored Assignment"
+        },
         "rewards": {
           "rewards": [
             {
@@ -106980,6 +107889,10 @@
     {
       "quest": {
         "id": "proto_quest_partner_ee_1_step0002",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/h2Wp2bebbXTTMYCCB_hgU1ofiouCJtvb3nEucUDuGjCu440QuF4E7q-7O1pqxmXirbnlSqabg8Qcc5TMJw",
+          "partnerName": "Sponsored Assignment"
+        },
         "rewards": {
           "rewards": [
             {
@@ -107034,8 +107947,26 @@
             },
             {
               "itemReward": {
-                "amount": "15",
+                "amount": "10",
                 "itemId": "proto_vaultitem_premium_unlocker"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "proto_vaultitem_potion_brainelixir"
+              }
+            },
+            {
+              "vaultCapacityReward": {
+                "amount": "10",
+                "vaultCategoryGmtId": "proto_vaultcategory_energy"
+              }
+            },
+            {
+              "vaultCapacityReward": {
+                "amount": "10",
+                "vaultCategoryGmtId": "proto_vaultcategory_potions"
               }
             }
           ]
@@ -107061,7 +107992,7 @@
           }
         ],
         "type": "QUEST_TYPE_EVENT_CHAIN",
-        "version": 2
+        "version": 3
       }
     },
     {
@@ -113213,6 +114144,22 @@
     },
     {
       "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_lens_wool_beanie_brilliant_top",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_lens_beanie_brilliant_top",
+                "qty": "1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_sticker_accio",
         "unlockConditions": {}
       }
@@ -113758,6 +114705,22 @@
               "vaultItemReq": {
                 "comparisonOperator": "GREATER_OR_EQUAL",
                 "itemId": "proto_vaultitem_sticker_knightbus",
+                "qty": "1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_leakycauldron",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_sticker_leakycauldron",
                 "qty": "1"
               }
             }
@@ -119512,6 +120475,62 @@
                   "itemReward": {
                     "amount": "1",
                     "itemId": "vault_item_dark_detector_test"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0001_2ndrun_intro_end",
+        "id": "proto_storyboard_event_b0001_2ndrun_intro",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0001_2ndrun",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0001_2ndrun_intro_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          },
+          {
+            "rewards": {}
+          },
+          {
+            "rewards": {
+              "rewards": [
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link1"
+                  }
+                },
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link1_sub1"
+                  }
+                },
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link1_sub2"
+                  }
+                },
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0001_2ndrun_link1_sub3"
                   }
                 }
               ]
@@ -126422,7 +127441,7 @@
             "rewards": [
               {
                 "itemReward": {
-                  "amount": "3",
+                  "amount": "1",
                   "itemId": "proto_vaultitem_energy_1"
                 }
               }
@@ -126462,7 +127481,7 @@
             "rewards": [
               {
                 "itemReward": {
-                  "amount": "3",
+                  "amount": "2",
                   "itemId": "proto_vaultitem_energy_1"
                 }
               }
@@ -126542,7 +127561,7 @@
             "rewards": [
               {
                 "itemReward": {
-                  "amount": "3",
+                  "amount": "2",
                   "itemId": "proto_vaultitem_energy_1"
                 }
               }
@@ -126562,7 +127581,7 @@
             "rewards": [
               {
                 "itemReward": {
-                  "amount": "3",
+                  "amount": "1",
                   "itemId": "proto_vaultitem_energy_1"
                 }
               }
@@ -129818,6 +130837,14 @@
       "vaultItem": {
         "cap": "1",
         "currencyItem": {},
+        "id": "proto_vaultitem_sticker_leakycauldron",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
         "id": "proto_vaultitem_sticker_owlflying",
         "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
       }
@@ -130068,7 +131095,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "187018",
+        "dataVersion": "187770",
         "id": "proto_version_data"
       }
     },
