@@ -106,3 +106,24 @@ class Encounters:
                     obj = message['collectionItem']
                     encounter.reward_type = self.s.find(obj['name'])
             print(encounter)
+
+    def pretty_print_combat(self):
+        for obj in self.objects:
+            if obj.encounter_type == 'combat':
+                print(obj.id)
+                print('    Power: ' + obj.enemy_stats_power)
+                print('    Resist: ' + obj.enemy_stats_resist)
+                print('    Attack: ' + obj.enemy_stats_attack)
+                print('    Dodge: ' + obj.enemy_stats_dodge)
+                print('    HP: ' + obj.enemy_stats_hp)
+                print('    Mitigation: ' + obj.enemy_stats_mitigation)
+                print('    Precision: ' + obj.enemy_stats_precision)
+                print('    Sunder: ' + obj.enemy_stats_sunder)
+                print('    Power Growth: %f' % obj.enemy_stat_growth_power)
+                print('    Resist Growth: %f' % obj.enemy_stat_growth_resist)
+                print('    Attack Growth: %f' % obj.enemy_stat_growth_attack)
+                print('    Dodge Growth: %f' % obj.enemy_stat_growth_dodge)
+                print('    HP Growth: %f' % obj.enemy_stat_growth_hp)
+                print('    Mitigation Growth: %f' % obj.enemy_stat_growth_mitigation)
+                print('    Precision Growth: %f' % obj.enemy_stat_growth_precision)
+                print('    Sunder Growth: %f' % obj.enemy_stat_growth_sunder)
