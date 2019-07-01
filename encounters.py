@@ -23,14 +23,14 @@ class Encounter:
     enemy_stats_precision = ''  # combat only
     enemy_stats_sunder = ''  # combat only
 
-    enemy_stat_growth_power = 0 # combat only
-    enemy_stat_growth_resist = 0  # combat only
-    enemy_stat_growth_attack = 0  # combat only
-    enemy_stat_growth_dodge = 0  # combat only
-    enemy_stat_growth_hp = 0  # combat only
-    enemy_stat_growth_mitigation = 0  # combat only
-    enemy_stat_growth_precision = 0  # combat only
-    enemy_stat_growth_sunder = 0  # combat only
+    enemy_stat_growth_power = -1 # combat only
+    enemy_stat_growth_resist = -1  # combat only
+    enemy_stat_growth_attack = -1  # combat only
+    enemy_stat_growth_dodge = -1  # combat only
+    enemy_stat_growth_hp = -1  # combat only
+    enemy_stat_growth_mitigation = -1  # combat only
+    enemy_stat_growth_precision = -1  # combat only
+    enemy_stat_growth_sunder = -1  # combat only
 
     def __str__(self):
         return json.dumps(vars(self), sort_keys=True)
@@ -123,7 +123,7 @@ class Encounters:
                 print('    Deficiency Defence Growth: %f' % obj.enemy_stat_growth_resist)
                 print('    Power Growth: %f' % obj.enemy_stat_growth_attack)
                 print('    Dodge Growth: %f' % obj.enemy_stat_growth_dodge)
-                print('    Stamina: %f' % obj.enemy_stat_growth_hp)
-                print('    Defence: %f' % obj.enemy_stat_growth_mitigation)
-                print('    Accuracy: %f' % obj.enemy_stat_growth_precision)
+                print('    Stamina Growth: %f' % obj.enemy_stat_growth_hp)
+                print('    Defence Growth: %f' % obj.enemy_stat_growth_mitigation)
+                print('    Accuracy Growth: %f' % obj.enemy_stat_growth_precision)
                 print('    Defence Breach Growth: %f' % obj.enemy_stat_growth_sunder)
