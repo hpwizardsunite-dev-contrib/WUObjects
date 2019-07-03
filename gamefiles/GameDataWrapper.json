@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1561677412062",
+  "basisBatchId": "1562088462384",
   "environment": "21",
   "messages": [
     {
@@ -106140,7 +106140,7 @@
             },
             {
               "itemReward": {
-                "amount": "3",
+                "amount": "2",
                 "itemId": "proto_vaultitem_currency_profession_03"
               }
             }
@@ -106187,7 +106187,7 @@
           }
         ],
         "type": "QUEST_TYPE_EVENT_CHAIN",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106221,8 +106221,8 @@
         "tasks": [
           {
             "hookTask": {
-              "lootOutposts": {
-                "requiredOutpostsCount": "3"
+              "winTraces": {
+                "requiredTraceCount": "2"
               }
             }
           }
@@ -106234,6 +106234,47 @@
     {
       "quest": {
         "id": "proto_quest_event_brilliant0001_2ndrun_link1_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0001"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0001_2ndrun",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "lootOutposts": {
+                "requiredOutpostsCount": "2"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0001_2ndrun_link1_sub3",
         "rewards": {
           "rewards": [
             {
@@ -106263,55 +106304,13 @@
           {
             "hookTask": {
               "unlockPortmanteau": {
-                "requiredUnlockCount": "2"
+                "requiredUnlockCount": "1"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
-      }
-    },
-    {
-      "quest": {
-        "id": "proto_quest_event_brilliant0001_2ndrun_link1_sub3",
-        "rewards": {
-          "rewards": [
-            {
-              "collectionFamilyReward": {
-                "amount": 10,
-                "familyId": "proto_collectionfamily_events_0001"
-              }
-            }
-          ]
-        },
-        "startRequirements": [
-          {
-            "reqs": [
-              {
-                "eventReq": {
-                  "eventId": "proto_event_brilliant_0001_2ndrun",
-                  "reqSubsets": [
-                    "SUBSET_ACTIVATION",
-                    "SUBSET_RUNNING"
-                  ]
-                }
-              }
-            ]
-          }
-        ],
-        "tasks": [
-          {
-            "hookTask": {
-              "collectStickers": {
-                "requiredCollectCount": "1",
-                "stickerGmtId": "proto_collectionitem_hippogriff_b0001"
-              }
-            }
-          }
-        ],
-        "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106355,7 +106354,7 @@
             },
             {
               "itemReward": {
-                "amount": "2",
+                "amount": "3",
                 "itemId": "proto_vaultitem_currency_profession_03"
               }
             }
@@ -106402,7 +106401,7 @@
           }
         ],
         "type": "QUEST_TYPE_EVENT_CHAIN",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106437,14 +106436,14 @@
           {
             "hookTask": {
               "collectStickers": {
-                "requiredCollectCount": "1",
-                "stickerGmtId": "proto_collectionitem_unicorn_b0001"
+                "requiredCollectCount": "2",
+                "stickerGmtId": "proto_collectionitem_hippogriff_b0001"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106479,14 +106478,14 @@
           {
             "hookTask": {
               "winTraces": {
-                "difficulty": 2.0,
-                "requiredTraceCount": "5"
+                "familyGmtId": "proto_collectionfamily_magizoology",
+                "requiredTraceCount": "3"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106528,7 +106527,7 @@
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106619,7 +106618,7 @@
           }
         ],
         "type": "QUEST_TYPE_EVENT_CHAIN",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106654,14 +106653,14 @@
           {
             "hookTask": {
               "winTraces": {
-                "difficulty": 3.0,
-                "requiredTraceCount": "1"
+                "difficulty": 2.0,
+                "requiredTraceCount": "7"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106670,9 +106669,9 @@
         "rewards": {
           "rewards": [
             {
-              "collectionFamilyReward": {
-                "amount": 10,
-                "familyId": "proto_collectionfamily_events_0001"
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
               }
             }
           ]
@@ -106695,14 +106694,15 @@
         "tasks": [
           {
             "hookTask": {
-              "walkDistance": {
-                "requiredMicrometersToWalk": "3000000000"
+              "collectStickers": {
+                "requiredCollectCount": "2",
+                "stickerGmtId": "proto_collectionitem_unicorn_b0001"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106738,13 +106738,13 @@
             "hookTask": {
               "winTraces": {
                 "familyGmtId": "proto_collectionfamily_careofmagicalcreatures",
-                "requiredTraceCount": "1"
+                "requiredTraceCount": "4"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106768,7 +106768,7 @@
             },
             {
               "currencyReward": {
-                "amount": "100",
+                "amount": "50",
                 "currencyId": "vault_item_coins"
               }
             },
@@ -106821,7 +106821,7 @@
           }
         ],
         "type": "QUEST_TYPE_EVENT_CHAIN",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106831,7 +106831,7 @@
           "rewards": [
             {
               "itemReward": {
-                "amount": "500",
+                "amount": "750",
                 "itemId": "vault_item_xp"
               }
             }
@@ -106856,13 +106856,13 @@
           {
             "hookTask": {
               "unlockPortmanteau": {
-                "requiredUnlockCount": "3"
+                "requiredUnlockCount": "5"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106897,13 +106897,13 @@
           {
             "hookTask": {
               "brewPotions": {
-                "requiredBrewCount": "5"
+                "requiredBrewCount": "7"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -106944,7 +106944,7 @@
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -118326,6 +118326,13 @@
               }
             },
             {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_nub_gryffindorhouse_resub"
+              }
+            },
+            {
               "playerAccountAgeRequirement": {
                 "accountAgeInSeconds": "259200",
                 "comparisonOperator": "LESS_OR_EQUAL"
@@ -118424,17 +118431,7 @@
         "requirements": {
           "reqs": [
             {
-              "storePackReq": {
-                "comparisonOperator": "LESS_THAN",
-                "qty": "1",
-                "storePackId": "proto_storepack_nub_gryffindorhouse_resub"
-              }
-            },
-            {
-              "playerAccountAgeRequirement": {
-                "accountAgeInSeconds": "259200",
-                "comparisonOperator": "LESS_OR_EQUAL"
-              }
+              "boolLiteralReq": "FALSE"
             }
           ]
         }
@@ -118479,6 +118476,13 @@
                 "comparisonOperator": "LESS_THAN",
                 "qty": "1",
                 "storePackId": "proto_storepack_nub_hufflepuffhouse"
+              }
+            },
+            {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_nub_hufflepuffhouse_resub"
               }
             },
             {
@@ -118580,17 +118584,7 @@
         "requirements": {
           "reqs": [
             {
-              "storePackReq": {
-                "comparisonOperator": "LESS_THAN",
-                "qty": "1",
-                "storePackId": "proto_storepack_nub_hufflepuffhouse_resub"
-              }
-            },
-            {
-              "playerAccountAgeRequirement": {
-                "accountAgeInSeconds": "259200",
-                "comparisonOperator": "LESS_OR_EQUAL"
-              }
+              "boolLiteralReq": "FALSE"
             }
           ]
         }
@@ -118647,6 +118641,13 @@
                 "comparisonOperator": "LESS_THAN",
                 "qty": "1",
                 "storePackId": "proto_storepack_nub_progression"
+              }
+            },
+            {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_nub_progression_resub"
               }
             },
             {
@@ -118778,23 +118779,7 @@
         "requirements": {
           "reqs": [
             {
-              "storePackReq": {
-                "comparisonOperator": "LESS_THAN",
-                "qty": "1",
-                "storePackId": "proto_storepack_nub_progression_resub"
-              }
-            },
-            {
-              "playerAccountAgeRequirement": {
-                "accountAgeInSeconds": "1036800",
-                "comparisonOperator": "GREATER_OR_EQUAL"
-              }
-            },
-            {
-              "playerAccountAgeRequirement": {
-                "accountAgeInSeconds": "1209600",
-                "comparisonOperator": "LESS_OR_EQUAL"
-              }
+              "boolLiteralReq": "FALSE"
             }
           ]
         }
@@ -118908,6 +118893,13 @@
               }
             },
             {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_nub_ravenclawhouse_resub"
+              }
+            },
+            {
               "playerAccountAgeRequirement": {
                 "accountAgeInSeconds": "259200",
                 "comparisonOperator": "LESS_OR_EQUAL"
@@ -119006,17 +118998,7 @@
         "requirements": {
           "reqs": [
             {
-              "storePackReq": {
-                "comparisonOperator": "LESS_THAN",
-                "qty": "1",
-                "storePackId": "proto_storepack_nub_ravenclawhouse_resub"
-              }
-            },
-            {
-              "playerAccountAgeRequirement": {
-                "accountAgeInSeconds": "259200",
-                "comparisonOperator": "LESS_OR_EQUAL"
-              }
+              "boolLiteralReq": "FALSE"
             }
           ]
         }
@@ -119061,6 +119043,13 @@
                 "comparisonOperator": "LESS_THAN",
                 "qty": "1",
                 "storePackId": "proto_storepack_nub_slytherinhouse"
+              }
+            },
+            {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_nub_slytherinhouse_resub"
               }
             },
             {
@@ -119162,17 +119151,7 @@
         "requirements": {
           "reqs": [
             {
-              "storePackReq": {
-                "comparisonOperator": "LESS_THAN",
-                "qty": "1",
-                "storePackId": "proto_storepack_nub_slytherinhouse_resub"
-              }
-            },
-            {
-              "playerAccountAgeRequirement": {
-                "accountAgeInSeconds": "259200",
-                "comparisonOperator": "LESS_OR_EQUAL"
-              }
+              "boolLiteralReq": "FALSE"
             }
           ]
         }
@@ -119219,6 +119198,20 @@
         "requirements": {
           "reqs": [
             {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_nub_walking"
+              }
+            },
+            {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_nub_walking_resub"
+              }
+            },
+            {
               "playerAccountAgeRequirement": {
                 "accountAgeInSeconds": "345600",
                 "comparisonOperator": "GREATER_OR_EQUAL"
@@ -119228,13 +119221,6 @@
               "playerAccountAgeRequirement": {
                 "accountAgeInSeconds": "518400",
                 "comparisonOperator": "LESS_OR_EQUAL"
-              }
-            },
-            {
-              "storePackReq": {
-                "comparisonOperator": "LESS_THAN",
-                "qty": "1",
-                "storePackId": "proto_storepack_nub_walking"
               }
             }
           ]
@@ -119399,23 +119385,7 @@
         "requirements": {
           "reqs": [
             {
-              "playerAccountAgeRequirement": {
-                "accountAgeInSeconds": "345600",
-                "comparisonOperator": "GREATER_OR_EQUAL"
-              }
-            },
-            {
-              "playerAccountAgeRequirement": {
-                "accountAgeInSeconds": "518400",
-                "comparisonOperator": "LESS_OR_EQUAL"
-              }
-            },
-            {
-              "storePackReq": {
-                "comparisonOperator": "LESS_THAN",
-                "qty": "1",
-                "storePackId": "proto_storepack_nub_walking_resub"
-              }
+              "boolLiteralReq": "FALSE"
             }
           ]
         }
@@ -131095,7 +131065,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "187770",
+        "dataVersion": "188241",
         "id": "proto_version_data"
       }
     },
