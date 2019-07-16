@@ -11677,7 +11677,7 @@
         "description": "collection_family_brilliant_0001_fantasticflorafauna_description",
         "familyRunestoneIcon": "ui_icon_family_brilliant",
         "hideLandmarkInfoDetails": true,
-        "icon": "ui_icon_family_brilliant",
+        "icon": "ui_icon_brilliant_flora",
         "id": "proto_collectionfamily_events_0001",
         "landmarkDescription": "collection_family_careofmagicalcreatures_landmark",
         "landmarkIcon": "ui_icon_family_brilliant",
@@ -11714,6 +11714,69 @@
             {
               "eventReq": {
                 "eventId": "proto_event_brilliant_0001_2ndrun",
+                "reqSubsets": [
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "collectionFamily": {
+        "color": {
+          "a": 1.0,
+          "b": 0.9558823704719543,
+          "g": 0.07731402665376663,
+          "r": 0.6529276967048645
+        },
+        "colorHighlight": {
+          "a": 1.0,
+          "b": 0.6313725709915161,
+          "g": 0.2235293984413147,
+          "r": 0.615686297416687
+        },
+        "description": "collection_family_brilliant_0002_description",
+        "familyRunestoneIcon": "ui_icon_family_brilliant",
+        "hideLandmarkInfoDetails": true,
+        "icon": "ui_icon_family_brilliant",
+        "id": "proto_collectionfamily_events_0002",
+        "landmarkDescription": "collection_family_careofmagicalcreatures_landmark",
+        "landmarkIcon": "ui_icon_family_brilliant",
+        "landmarkPrefab": "map_landmarks_careofmagicalcreatures",
+        "landmarkTexture": "map_landmarks_marker_careofmagicalcreatures_mat",
+        "name": "collection_family_brilliant_0002_name",
+        "prestigeOverride": [
+          {
+            "albedoMap": "ui_registry_prestige_frame_brilliantevent_diffuse",
+            "borderImage": "ui_registry_Brilliant_Frame01",
+            "color": {
+              "a": 1.0,
+              "b": 0.47058820724487305,
+              "g": 0.47058820724487305,
+              "r": 0.47058820724487305
+            },
+            "frameMesh": "ui_registry_prestige_frame_brilliantevent",
+            "isMetallic": true,
+            "name": "collections_page_prestige_rank_standard",
+            "normalMap": "ui_registry_prestige_frame_brilliantevent_normal",
+            "roughness": 0.30000001192092896
+          }
+        ],
+        "showInUi": true,
+        "sound": {
+          "soundBank": "BNK_SFX_REGISTRYFAMILY",
+          "soundEvent": "event:/UI/RegistryFamily/MagicalCreaturesFamily"
+        },
+        "tracePrefab": "map_traces_brilliantevents_prefab",
+        "traceRarityVfxOverride": "vfx_brilliant_event_marker",
+        "traceSpawnSfxOverride": {},
+        "unarchiveRequirements": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
                 "reqSubsets": [
                   "SUBSET_RUNNING"
                 ]
@@ -14159,6 +14222,15 @@
     },
     {
       "collectionItem": {
+        "description": "collection_items_hp_bday_0002_dmlebadge_desc",
+        "iconReturned": "registry_Brilliant04_AurorOffice_sticker04",
+        "id": "proto_collectionitem_dmlebadge_b0001",
+        "name": "collection_items_hp_bday_0002_dmlebadge_name",
+        "returnLocation": "collection_items_hp_bday_0002_dmlebadge_return_location"
+      }
+    },
+    {
+      "collectionItem": {
         "description": "collection_items_doxy_description",
         "iconReturned": "ui_registry_family10_pg03_sticker04_returned",
         "id": "proto_collectionitem_doxy",
@@ -14384,6 +14456,15 @@
     },
     {
       "collectionItem": {
+        "description": "collection_items_hp_bday_0002_brilliant_goldensnitch_desc",
+        "iconReturned": "registry_Brilliant04_AurorOffice_sticker06",
+        "id": "proto_collectionitem_goldensnitch_b0001",
+        "name": "collection_items_hp_bday_0002_brilliant_goldensnitch_name",
+        "returnLocation": "collection_items_hp_bday_0002_brilliant_goldensnitch_return_location"
+      }
+    },
+    {
+      "collectionItem": {
         "description": "collection_items_graphorn_young_description",
         "iconReturned": "ui_registry_family09_pg01_sticker04_returned",
         "id": "proto_collectionitem_graphorn_young",
@@ -14447,11 +14528,47 @@
     },
     {
       "collectionItem": {
+        "description": "collection_items_hp_bday_0002_dailyprophet_desc",
+        "iconReturned": "registry_Brilliant04_AurorOffice_sticker01",
+        "id": "proto_collectionitem_harrydailyprophet_b0001",
+        "name": "collection_items_hp_bday_0002_dailyprophet_name",
+        "returnLocation": "collection_items_hp_bday_0002_dailyprophet_return_location"
+      }
+    },
+    {
+      "collectionItem": {
+        "description": "collection_items_hp_bday_0002_framedfamilyphoto_desc",
+        "iconReturned": "registry_Brilliant04_AurorOffice_sticker02",
+        "id": "proto_collectionitem_harryfamilyphoto_b0001",
+        "name": "collection_items_hp_bday_0002_framedfamilyphoto_name",
+        "returnLocation": "collection_items_hp_bday_0002_framedfamilyphoto_return_location"
+      }
+    },
+    {
+      "collectionItem": {
+        "description": "collection_items_hp_bday_0002_harrysministryidcard_desc",
+        "iconReturned": "registry_brilliantEvent_AurorOffice_registry_Brilliant04_AurorOffice_sticker05",
+        "id": "proto_collectionitem_harryministryid_b0001",
+        "name": "collection_items_hp_bday_0002_harrysministryidcard_name",
+        "returnLocation": "collection_items_hp_bday_0002_harrysministryidcard_return_location"
+      }
+    },
+    {
+      "collectionItem": {
         "description": "collection_items_harrypotter_hp6_quidditch_description",
         "iconReturned": "ui_registry_family05_pg03_sticker03_returned",
         "id": "proto_collectionitem_harrypotter_hp6_quidditch",
         "name": "collection_items_harrypotter_hp6_quidditch_name",
         "returnLocation": "collection_items_harrypotter_hp6_quidditch_return_location"
+      }
+    },
+    {
+      "collectionItem": {
+        "description": "collection_items_hp_bday_0001_brilliant_harry_desc",
+        "iconReturned": "registry_Brilliant03_GryffindorDormitory_sticker04",
+        "id": "proto_collectionitem_harrypotter_hp6_quidditch_b0001",
+        "name": "collection_items_hp_bday_0001_brilliant_harry_name",
+        "returnLocation": "collection_items_hp_bday_0001_brilliant_harry_return_location"
       }
     },
     {
@@ -14465,11 +14582,47 @@
     },
     {
       "collectionItem": {
+        "description": "collection_items_hp_bday_0001_harrysschooltrunk_desc",
+        "iconReturned": "registry_Brilliant03_GryffindorDormitory_sticker01",
+        "id": "proto_collectionitem_harrysschooltrunk_b0001",
+        "name": "collection_items_hp_bday_0001_harrysschooltrunk_name",
+        "returnLocation": "collection_items_hp_bday_0001_harrysschooltrunk_return_location"
+      }
+    },
+    {
+      "collectionItem": {
+        "description": "collection_items_hp_bday_0001_harrystriwizardcupuniform_desc",
+        "iconReturned": "registry_Brilliant03_GryffindorDormitory_sticker06",
+        "id": "proto_collectionitem_harrystriwizarduniform_b0001",
+        "name": "collection_items_hp_bday_0001_harrystriwizardcupuniform_name",
+        "returnLocation": "collection_items_hp_bday_0001_harrystriwizardcupuniform_return_location"
+      }
+    },
+    {
+      "collectionItem": {
+        "description": "collection_items_hp_bday_0001_harrysweasleyjumper_desc",
+        "iconReturned": "registry_Brilliant03_GryffindorDormitory_sticker02",
+        "id": "proto_collectionitem_harrysweasleysweater_b0001",
+        "name": "collection_items_hp_bday_0001_harrysweasleyjumper_name",
+        "returnLocation": "collection_items_hp_bday_0001_harrysweasleyjumper_return_location"
+      }
+    },
+    {
+      "collectionItem": {
         "description": "collection_items_hedwig_description",
         "iconReturned": "ui_registry_family07_pg02_sticker05_returned",
         "id": "proto_collectionitem_hedwig",
         "name": "collection_items_hedwig_name",
         "returnLocation": "collection_items_hedwig_return_location"
+      }
+    },
+    {
+      "collectionItem": {
+        "description": "collection_items_hp_bday_0001_brilliant_hedwig_desc",
+        "iconReturned": "registry_Brilliant03_GryffindorDormitory_sticker05",
+        "id": "proto_collectionitem_hedwig_b0001",
+        "name": "collection_items_hp_bday_0001_brilliant_hedwig_name",
+        "returnLocation": "collection_items_hp_bday_0001_brilliant_hedwig_return_location"
       }
     },
     {
@@ -14654,6 +14807,15 @@
     },
     {
       "collectionItem": {
+        "description": "collection_items_hp_bday_0002_london5photograph_desc",
+        "iconReturned": "registry_Brilliant04_AurorOffice_sticker03",
+        "id": "proto_collectionitem_londonfivephotograph_b0001",
+        "name": "collection_items_hp_bday_0002_london5photograph_name",
+        "returnLocation": "collection_items_hp_bday_0002_london5photograph_return_location"
+      }
+    },
+    {
+      "collectionItem": {
         "description": "collection_items_lunalovegood_hp6_street_description",
         "iconReturned": "ui_registry_family07_pg01_sticker02_returned",
         "id": "proto_collectionitem_lunalovegood_hp6_street",
@@ -14765,6 +14927,15 @@
         "id": "proto_collectionitem_mirroroferised",
         "name": "collection_items_mirroroferised_name",
         "returnLocation": "collection_items_mirroroferised_return_location"
+      }
+    },
+    {
+      "collectionItem": {
+        "description": "collection_items_hp_bday_0001_mismatchedsocks_desc",
+        "iconReturned": "registry_Brilliant03_GryffindorDormitory_sticker03",
+        "id": "proto_collectionitem_mismatchedsocks_b0001",
+        "name": "collection_items_hp_bday_0001_mismatchedsocks_name",
+        "returnLocation": "collection_items_hp_bday_0001_mismatchedsocks_return_location"
       }
     },
     {
@@ -16375,6 +16546,37 @@
         "pagePrefab": "UI_Registry_Brilliant01_PageFFF",
         "showInUi": true,
         "visibilityRequirements": {}
+      }
+    },
+    {
+      "collectionPage": {
+        "iconBg": "registryPage_Brilliant_GryffindorDormitory_BG",
+        "id": "proto_collectionpage_events_harrysbirthday_b0001",
+        "name": "collection_pages_events_0001_pottercalamity",
+        "pagePrefab": "UI_Registry_Brilliant02_Page01",
+        "showInUi": true,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "collectionPage": {
+        "iconBg": "registry_Brilliant04_AurorOffice_BG",
+        "id": "proto_collectionpage_events_harrysbirthday_b0002",
+        "name": "collection_pages_events_0002_pottercalamity",
+        "pagePrefab": "UI_Registry_Brilliant02_Page02",
+        "showInUi": true,
+        "visibilityRequirements": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -37840,6 +38042,83 @@
     {
       "encounter": {
         "encounterAssets": [
+          "target_goldensnitch_b0001_intro_tl",
+          "target_goldensnitch_b0001_game_succeed_tl",
+          "target_goldensnitch_b0001_spell_succeed_tl",
+          "target_goldensnitch_b0001_idle_loop_00_tl",
+          "target_goldensnitch_b0001_rng_intro_tl",
+          "target_goldensnitch_b0001_rng_loop_tl",
+          "target_goldensnitch_b0001_spell_failed_tl",
+          "target_goldensnitch_b0001_disappear_tl",
+          "BNK_SFX_ENCOUNTER_GOLDENSNITCH",
+          "BNK_SFX_ENCOUNTER_MARAUDERSMAP",
+          "target_goldensnitch_brilliant_prefab",
+          "encounter_layout_goldensnitch_b0001"
+        ],
+        "encounterFleeTimeline": "target_goldensnitch_b0001_disappear_tl",
+        "encounterMusicParams": [
+          {
+            "paramName": "MusicState",
+            "paramValue": 4.0
+          },
+          {
+            "paramName": "BrilliantEncounter",
+            "paramValue": 1.0
+          }
+        ],
+        "encounterTarget": "target_goldensnitch_brilliant_prefab",
+        "encounterTargetLayout": "target encounter",
+        "hudHealthBarColor": {},
+        "id": "proto_encounter_goldensnitch_b0001",
+        "mapHealthBarColor": {},
+        "name": "encounter_name_goldensnitch",
+        "searchTargetLayout": "search target",
+        "stages": [
+          {
+            "idleLoopTimelines": [
+              "target_goldensnitch_b0001_idle_loop_00_tl"
+            ],
+            "introText": "encounter_intro_text_goldensnitch_0001",
+            "rngIntroTimeline": "target_goldensnitch_b0001_rng_intro_tl",
+            "rngLoopTimeline": "target_goldensnitch_b0001_rng_loop_tl",
+            "spellAimLayout": "spell stage 1",
+            "spellFailedTimeline": "target_goldensnitch_b0001_spell_failed_tl",
+            "stageCompletionSequence": [
+              {
+                "sequenceType": 3
+              },
+              {
+                "sequenceType": 4,
+                "timelineFile": "target_goldensnitch_b0001_spell_succeed_tl"
+              },
+              {
+                "sequenceType": 4,
+                "timelineFile": "target_goldensnitch_b0001_game_succeed_tl"
+              }
+            ],
+            "stageSetupSequence": [
+              {
+                "sequenceType": 4,
+                "timelineFile": "target_goldensnitch_b0001_intro_tl"
+              }
+            ],
+            "swish": {
+              "traceFailsFanfare": {
+                "paramName": "MusicState",
+                "paramValue": 41.0
+              },
+              "traceSucceedsFanfare": {
+                "paramName": "MusicState",
+                "paramValue": 40.0
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "encounter": {
+        "encounterAssets": [
           "target_goldensnitch_0001_picturemode_00_tl",
           "target_goldensnitch_prefab",
           "encounter_layout_goldensnitch_picture_0001"
@@ -40195,6 +40474,88 @@
     {
       "encounter": {
         "encounterAssets": [
+          "target_harrypotter_hp6_quidditch_b0001_intro_tl",
+          "target_dementor_prefab",
+          "target_harrypotter_hp6_quidditch_b0001_game_succeed_tl",
+          "target_harrypotter_hp6_quidditch_b0001_spell_succeed_tl",
+          "target_harrypotter_hp6_quidditch_b0001_idle_loop_00_tl",
+          "target_harrypotter_hp6_quidditch_b0001_idle_loop_01_tl",
+          "target_harrypotter_hp6_quidditch_b0001_rng_intro_tl",
+          "target_harrypotter_hp6_quidditch_b0001_rng_loop_tl",
+          "target_harrypotter_hp6_quidditch_b0001_spell_failed_tl",
+          "target_harrypotter_hp6_quidditch_b0001_disappear_tl",
+          "BNK_SFX_ENCOUNTER_HARRYPOTTERQUIDDITCH",
+          "target_harrypotter_hp6_quidditch_brilliant_prefab",
+          "encounter_layout_harrypotter_hp6_quidditch_b0001"
+        ],
+        "encounterFleeTimeline": "target_harrypotter_hp6_quidditch_b0001_disappear_tl",
+        "encounterMusicParams": [
+          {
+            "paramName": "MusicState",
+            "paramValue": 3.0
+          },
+          {
+            "paramName": "BrilliantEncounter",
+            "paramValue": 1.0
+          }
+        ],
+        "encounterTarget": "target_harrypotter_hp6_quidditch_brilliant_prefab",
+        "encounterTargetLayout": "target encounter",
+        "hudHealthBarColor": {},
+        "id": "proto_encounter_harrypotter_hp6_quidditch_b0001",
+        "mapHealthBarColor": {},
+        "name": "encounter_name_harrypotter_hp6_quidditch",
+        "searchTargetLayout": "search target",
+        "stages": [
+          {
+            "idleLoopTimelines": [
+              "target_harrypotter_hp6_quidditch_b0001_idle_loop_00_tl",
+              "target_harrypotter_hp6_quidditch_b0001_idle_loop_01_tl"
+            ],
+            "introText": "encounter_intro_text_harrypotter_hp6_quidditch_0001",
+            "rngIntroTimeline": "target_harrypotter_hp6_quidditch_b0001_rng_intro_tl",
+            "rngLoopTimeline": "target_harrypotter_hp6_quidditch_b0001_rng_loop_tl",
+            "spellAimLayout": "spell stage 1",
+            "spellFailedTimeline": "target_harrypotter_hp6_quidditch_b0001_spell_failed_tl",
+            "stageCompletionSequence": [
+              {
+                "sequenceType": 4,
+                "timelineFile": "target_harrypotter_hp6_quidditch_b0001_spell_succeed_tl"
+              },
+              {
+                "sequenceType": 4,
+                "timelineFile": "target_harrypotter_hp6_quidditch_b0001_game_succeed_tl"
+              }
+            ],
+            "stageSetupSequence": [
+              {
+                "obstacle": "target_dementor_prefab",
+                "obstacleAlias": "dementor",
+                "sequenceLayoutNode": "target encounter",
+                "sequenceType": 2
+              },
+              {
+                "sequenceType": 4,
+                "timelineFile": "target_harrypotter_hp6_quidditch_b0001_intro_tl"
+              }
+            ],
+            "swish": {
+              "traceFailsFanfare": {
+                "paramName": "MusicState",
+                "paramValue": 49.0
+              },
+              "traceSucceedsFanfare": {
+                "paramName": "MusicState",
+                "paramValue": 48.0
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "encounter": {
+        "encounterAssets": [
           "target_harrypotter_hp6_quidditch_0001_picturemode_00_tl",
           "target_harrypotter_hp6_quidditch_prefab",
           "encounter_layout_harrypotter_hp6_quidditch_picture_0001"
@@ -40421,6 +40782,81 @@
               }
             ],
             "swish": {}
+          }
+        ]
+      }
+    },
+    {
+      "encounter": {
+        "encounterAssets": [
+          "target_hedwig_b0001_intro_tl",
+          "target_hedwig_b0001_game_succeed_tl",
+          "target_hedwig_b0001_spell_succeed_tl",
+          "target_hedwig_b0001_idle_loop_00_tl",
+          "target_hedwig_b0001_idle_loop_01_tl",
+          "target_hedwig_b0001_rng_intro_tl",
+          "target_hedwig_b0001_rng_loop_tl",
+          "target_hedwig_b0001_spell_failed_tl",
+          "target_hedwig_b0001_disappear_tl",
+          "BNK_SFX_ENCOUNTER_HEDWIG",
+          "target_hedwig_brilliant_prefab",
+          "encounter_layout_hedwig_b0001"
+        ],
+        "encounterFleeTimeline": "target_hedwig_b0001_disappear_tl",
+        "encounterMusicParams": [
+          {
+            "paramName": "MusicState",
+            "paramValue": 4.0
+          },
+          {
+            "paramName": "BrilliantEncounter",
+            "paramValue": 1.0
+          }
+        ],
+        "encounterTarget": "target_hedwig_brilliant_prefab",
+        "encounterTargetLayout": "target encounter",
+        "hudHealthBarColor": {},
+        "id": "proto_encounter_hedwig_b0001",
+        "mapHealthBarColor": {},
+        "name": "encounter_name_hedwig",
+        "searchTargetLayout": "search target",
+        "stages": [
+          {
+            "idleLoopTimelines": [
+              "target_hedwig_b0001_idle_loop_00_tl",
+              "target_hedwig_b0001_idle_loop_01_tl"
+            ],
+            "introText": "encounter_intro_text_hedwig_0001",
+            "rngIntroTimeline": "target_hedwig_b0001_rng_intro_tl",
+            "rngLoopTimeline": "target_hedwig_b0001_rng_loop_tl",
+            "spellAimLayout": "spell stage 1",
+            "spellFailedTimeline": "target_hedwig_b0001_spell_failed_tl",
+            "stageCompletionSequence": [
+              {
+                "sequenceType": 4,
+                "timelineFile": "target_hedwig_b0001_spell_succeed_tl"
+              },
+              {
+                "sequenceType": 4,
+                "timelineFile": "target_hedwig_b0001_game_succeed_tl"
+              }
+            ],
+            "stageSetupSequence": [
+              {
+                "sequenceType": 4,
+                "timelineFile": "target_hedwig_b0001_intro_tl"
+              }
+            ],
+            "swish": {
+              "traceFailsFanfare": {
+                "paramName": "MusicState",
+                "paramValue": 41.0
+              },
+              "traceSucceedsFanfare": {
+                "paramName": "MusicState",
+                "paramValue": 40.0
+              }
+            }
           }
         ]
       }
@@ -74090,6 +74526,54 @@
     },
     {
       "event": {
+        "descriptionText": "quests_events_brilliant0002_desc",
+        "encounterHudTooltipText": "quests_events_brilliant0001_tooltip",
+        "encounterIcon": "ui_icon_brilliant",
+        "encounterStartText": "quests_events_brilliant0001_starttext",
+        "id": "proto_event_brilliant_0002",
+        "image": "ui_event_brilliant_0002",
+        "isUserFacing": true,
+        "questUiBackgroundColor": {
+          "a": 1.0,
+          "b": 0.282353013753891,
+          "g": 0.18431369960308075,
+          "r": 0.21568630635738373
+        },
+        "questUiFrameColor": {
+          "a": 1.0,
+          "b": 0.7803922295570374,
+          "g": 0.24705879390239716,
+          "r": 0.42352938652038574
+        },
+        "titleText": "quests_events_brilliant0002_name"
+      }
+    },
+    {
+      "event": {
+        "descriptionText": "quests_events_brilliant0002_desc",
+        "encounterHudTooltipText": "quests_events_brilliant0001_tooltip",
+        "encounterIcon": "ui_icon_brilliant",
+        "encounterStartText": "quests_events_brilliant0001_starttext",
+        "id": "proto_event_brilliant_0002_week2",
+        "image": "ui_event_brilliant_0002_w2",
+        "isUserFacing": true,
+        "questUiBackgroundColor": {
+          "a": 1.0,
+          "b": 0.282353013753891,
+          "g": 0.18431369960308075,
+          "r": 0.21568630635738373
+        },
+        "questUiFrameColor": {
+          "a": 1.0,
+          "b": 0.7803922295570374,
+          "g": 0.24705879390239716,
+          "r": 0.42352938652038574
+        },
+        "titleText": "quests_events_brilliant0002_name"
+      }
+    },
+    {
+      "event": {
         "descriptionText": "event_coming_soon_description",
         "encounterHudTooltipText": "event_coming_soon_tooltip",
         "encounterIcon": "ui_icon_brilliant",
@@ -74110,6 +74594,13 @@
           "r": 0.2593533992767334
         },
         "titleText": "event_coming_soon_name"
+      }
+    },
+    {
+      "event": {
+        "id": "proto_event_selfie_limitedtime_harrybirthday",
+        "questUiBackgroundColor": {},
+        "questUiFrameColor": {}
       }
     },
     {
@@ -74800,6 +75291,7 @@
           },
           {
             "familyIds": [
+              "proto_collectionfamily_events_0002",
               "proto_collectionfamily_events_0001"
             ],
             "subfeature": "EVENTS"
@@ -75746,6 +76238,13 @@
     },
     {
       "mapIngredient": {
+        "hideAtCapacity": true,
+        "id": "proto_mapingredient_walkbox_events_7km_0002",
+        "prefab": "map_chest_portkey_prefab"
+      }
+    },
+    {
+      "mapIngredient": {
         "id": "proto_mapingredient_water",
         "prefab": "map_wateringcan_prefab"
       }
@@ -76083,7 +76582,23 @@
     {
       "portkey": {
         "icon": "ui_item_portkey_boot",
+        "id": "proto_portkey_harryministryid_b0001",
+        "localizedCompleteText": "walkbox_ready",
+        "name": "portkey_name_generic"
+      }
+    },
+    {
+      "portkey": {
+        "icon": "ui_item_portkey_boot",
         "id": "proto_portkey_harrypotter_hp8_street_0001",
+        "localizedCompleteText": "walkbox_ready",
+        "name": "portkey_name_generic"
+      }
+    },
+    {
+      "portkey": {
+        "icon": "ui_item_portkey_boot",
+        "id": "proto_portkey_harryschooltrunk_0001",
         "localizedCompleteText": "walkbox_ready",
         "name": "portkey_name_generic"
       }
@@ -80731,7 +81246,13 @@
         "questDescLocKey": "quests_encounter_in_n_countries_1_description",
         "questNameLocKey": "quests_encounter_in_n_countries_1_name",
         "tier": 1,
-        "visibilityRequirements": {}
+        "visibilityRequirements": {
+          "reqs": [
+            {
+              "boolLiteralReq": "FALSE"
+            }
+          ]
+        }
       }
     },
     {
@@ -80747,7 +81268,13 @@
         "questDescLocKey": "quests_encounter_in_n_countries_2_description",
         "questNameLocKey": "quests_encounter_in_n_countries_2_name",
         "tier": 2,
-        "visibilityRequirements": {}
+        "visibilityRequirements": {
+          "reqs": [
+            {
+              "boolLiteralReq": "FALSE"
+            }
+          ]
+        }
       }
     },
     {
@@ -80764,7 +81291,13 @@
         "questNameLocKey": "quests_encounter_in_n_countries_3_name",
         "shouldShowWhenComplete": true,
         "tier": 3,
-        "visibilityRequirements": {}
+        "visibilityRequirements": {
+          "reqs": [
+            {
+              "boolLiteralReq": "FALSE"
+            }
+          ]
+        }
       }
     },
     {
@@ -81917,7 +82450,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link1_sub1",
-        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
         "visibilityRequirements": {}
       }
     },
@@ -81925,7 +82457,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link1_sub2",
-        "questNameLocKey": "quests_event_brilliant0001_link1_sub2_name",
         "sortOrder": 2,
         "visibilityRequirements": {}
       }
@@ -81934,7 +82465,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link1_sub3",
-        "questNameLocKey": "quests_event_brilliant0001_link1_sub3_name",
         "sortOrder": 1,
         "visibilityRequirements": {}
       }
@@ -81952,7 +82482,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link2_sub1",
-        "questNameLocKey": "quests_event_brilliant0001_link2_sub1_name",
         "visibilityRequirements": {}
       }
     },
@@ -81960,7 +82489,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link2_sub2",
-        "questNameLocKey": "quests_event_brilliant0001_link2_sub2_name",
         "sortOrder": 1,
         "visibilityRequirements": {}
       }
@@ -81969,7 +82497,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link2_sub3",
-        "questNameLocKey": "quests_event_brilliant0001_link2_sub3_name",
         "sortOrder": 2,
         "visibilityRequirements": {}
       }
@@ -81987,7 +82514,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link3_sub1",
-        "questNameLocKey": "quests_event_brilliant0001_link3_sub1_name",
         "visibilityRequirements": {}
       }
     },
@@ -81995,7 +82521,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link3_sub2",
-        "questNameLocKey": "quests_event_brilliant0001_link3_sub2_name",
         "sortOrder": 1,
         "visibilityRequirements": {}
       }
@@ -82004,7 +82529,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link3_sub3",
-        "questNameLocKey": "quests_event_brilliant0001_link3_sub3_name",
         "sortOrder": 2,
         "visibilityRequirements": {}
       }
@@ -82022,7 +82546,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link4_sub1",
-        "questNameLocKey": "quests_event_brilliant0001_link4_sub1_name",
         "visibilityRequirements": {}
       }
     },
@@ -82030,7 +82553,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link4_sub2",
-        "questNameLocKey": "quests_event_brilliant0001_link4_sub2_name",
         "sortOrder": 1,
         "visibilityRequirements": {}
       }
@@ -82039,7 +82561,6 @@
       "quest": {
         "borderColor": {},
         "id": "proto_quest_event_brilliant0001_2ndrun_link4_sub3",
-        "questNameLocKey": "quests_event_brilliant0001_link4_sub3_name",
         "sortOrder": 2,
         "visibilityRequirements": {}
       }
@@ -82181,6 +82702,465 @@
         "id": "proto_quest_event_brilliant0001_link4_sub3",
         "questNameLocKey": "quests_event_brilliant0001_link4_sub3_name",
         "sortOrder": 2,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link1",
+        "questDescLocKey": "quests_event_brilliant0001_step1_description",
+        "questNameLocKey": "quests_event_brilliant0001_step1_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link1_sub1",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link1_sub2",
+        "sortOrder": 2,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link1_sub3",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link2",
+        "questDescLocKey": "quests_event_brilliant0001_step2_description",
+        "questNameLocKey": "quests_event_brilliant0001_step2_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link2_sub1",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link2_sub2",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link2_sub3",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link3",
+        "questDescLocKey": "quests_event_brilliant0001_step3_description",
+        "questNameLocKey": "quests_event_brilliant0001_step3_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link3_sub1",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link3_sub2",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link3_sub3",
+        "sortOrder": 2,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link4",
+        "questDescLocKey": "quests_event_brilliant0001_step4_description",
+        "questNameLocKey": "quests_event_brilliant0001_step4_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link4_sub1",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link4_sub2",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_link4_sub3",
+        "sortOrder": 2,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link1",
+        "questDescLocKey": "quests_event_brilliant0001_step1_description",
+        "questNameLocKey": "quests_event_brilliant0001_step1_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link1_sub1",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link1_sub2",
+        "sortOrder": 2,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link1_sub3",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link2",
+        "questDescLocKey": "quests_event_brilliant0001_step2_description",
+        "questNameLocKey": "quests_event_brilliant0001_step2_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link2_sub1",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link2_sub2",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link2_sub3",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link3",
+        "questDescLocKey": "quests_event_brilliant0001_step3_description",
+        "questNameLocKey": "quests_event_brilliant0001_step3_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link3_sub1",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link3_sub2",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link3_sub3",
+        "sortOrder": 2,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link4",
+        "questDescLocKey": "quests_event_brilliant0001_step4_description",
+        "questNameLocKey": "quests_event_brilliant0001_step4_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link4_sub1",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link4_sub2",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_event_brilliant0002_w2_link4_sub3",
+        "sortOrder": 2,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "characterNameLocKey": "characters_constance",
+        "headerImage": "ui_storyboard_constance_neutral",
+        "id": "proto_quest_partner_att_0003",
+        "questDescLocKey": "quests_partner_0001_description",
+        "questNameLocKey": "quests_partner_0001_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_att_0003_step0001",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_att_0003_step0002",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "characterNameLocKey": "characters_constance",
+        "headerImage": "ui_storyboard_constance_neutral",
+        "id": "proto_quest_partner_att_1",
+        "questDescLocKey": "quests_partner_0001_description",
+        "questNameLocKey": "quests_partner_0001_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_att_1_step0001",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_att_1_step0002",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "characterNameLocKey": "characters_constance",
+        "headerImage": "ui_storyboard_constance_neutral",
+        "id": "proto_quest_partner_att_2",
+        "questDescLocKey": "quests_partner_0001_description",
+        "questNameLocKey": "quests_partner_0001_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_att_2_step0001",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_att_2_step0002",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "characterNameLocKey": "characters_constance",
+        "headerImage": "ui_storyboard_constance_neutral",
+        "id": "proto_quest_partner_ee_0003",
+        "questDescLocKey": "quests_partner_0001_description",
+        "questNameLocKey": "quests_partner_0001_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_ee_0003_step0001",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_ee_0003_step0002",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "characterNameLocKey": "characters_constance",
+        "headerImage": "ui_storyboard_constance_neutral",
+        "id": "proto_quest_partner_ee_0004",
+        "questDescLocKey": "quests_partner_0001_description",
+        "questNameLocKey": "quests_partner_0001_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_ee_0004_step0001",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_ee_0004_step0002",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "characterNameLocKey": "characters_constance",
+        "headerImage": "ui_storyboard_constance_neutral",
+        "id": "proto_quest_partner_ee_0005",
+        "questDescLocKey": "quests_partner_0001_description",
+        "questNameLocKey": "quests_partner_0001_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_ee_0005_step0001",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_ee_0005_step0002",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "characterNameLocKey": "characters_constance",
+        "headerImage": "ui_storyboard_constance_neutral",
+        "id": "proto_quest_partner_ee_0006",
+        "questDescLocKey": "quests_partner_0001_description",
+        "questNameLocKey": "quests_partner_0001_name",
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_ee_0006_step0001",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
+        "visibilityRequirements": {}
+      }
+    },
+    {
+      "quest": {
+        "borderColor": {},
+        "id": "proto_quest_partner_ee_0006_step0002",
+        "questNameLocKey": "quests_event_brilliant0001_link1_sub1_name",
+        "sortOrder": 1,
         "visibilityRequirements": {}
       }
     },
@@ -84668,6 +85648,54 @@
     },
     {
       "selfieAvatarAsset": {
+        "assetScriptName": "sa_frame_stat_birthdaypresents",
+        "assetType": "FRAME",
+        "icon": "sa_frame_stat_birthdaypresents_icon",
+        "id": "proto_selfieavatarasset_frame_birthdaypresents",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_selfie_limitedtime_harrybirthday",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "assetScriptName": "sa_frame_stat_buntingandpennants",
+        "assetType": "FRAME",
+        "icon": "sa_frame_stat_buntingandpennants_icon",
+        "id": "proto_selfieavatarasset_frame_buntingandpennants",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_selfie_limitedtime_harrybirthday",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "assetScriptName": "profile_frame_ChocolateFrogCard",
         "assetType": "FRAME",
         "icon": "chocolatefrogcard",
@@ -84700,6 +85728,19 @@
         "id": "proto_selfieavatarasset_frame_dailyprophet",
         "mediaSupportedType": "ALL",
         "orderId": 5,
+        "visibilityConditions": {},
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "animated": true,
+        "assetScriptName": "profile_frame_DeathEaterSmoke",
+        "assetType": "FRAME",
+        "icon": "ui_icon_frame_deatheatersmoke",
+        "id": "proto_selfieavatarasset_frame_deatheater_smoke",
+        "mediaSupportedType": "ALL",
+        "orderId": 13,
         "visibilityConditions": {},
         "visible": true
       }
@@ -84929,6 +85970,46 @@
     },
     {
       "selfieAvatarAsset": {
+        "animated": true,
+        "assetScriptName": "sa_frame_anim_maraudersmap_profile",
+        "assetType": "FRAME",
+        "icon": "sa_frame_anim_maraudersmap_icon",
+        "id": "proto_selfieavatarasset_frame_maraudersmap",
+        "mediaSupportedType": "ALL",
+        "orderId": 1,
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            },
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002",
+                "reqSubsets": [
+                  "SUBSET_RUNNING"
+                ]
+              }
+            },
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_frame_maraudersmap",
+                "qty": "1"
+              }
+            }
+          ]
+        },
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "assetScriptName": "sa_frame_stat_memorycabinet_profile",
         "assetType": "FRAME",
         "icon": "sa_frame_stat_memorycabinet_icon",
@@ -85006,7 +86087,35 @@
         "id": "proto_selfieavatarasset_frame_ornateframeharry",
         "mediaSupportedType": "ALL",
         "orderId": 1,
-        "visibilityConditions": {}
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            },
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
+                "reqSubsets": [
+                  "SUBSET_RUNNING"
+                ]
+              }
+            },
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_frame_ornateframeharry",
+                "qty": "1"
+              }
+            }
+          ]
+        },
+        "visible": true
       }
     },
     {
@@ -85741,6 +86850,39 @@
     },
     {
       "selfieAvatarAsset": {
+        "assetScriptName": "profile_lens_sa_messyhair_top",
+        "assetType": "LENSE",
+        "icon": "ui_icon_lenses_messyhair_top",
+        "id": "proto_selfieavatarasset_lens_messyhair_top",
+        "lensType": "HEAD",
+        "mediaSupportedType": "ALL",
+        "orderId": 1,
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            },
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002",
+                "reqSubsets": [
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "assetScriptName": "profile_lens_moaningmyrtle_bot",
         "assetType": "LENSE",
         "icon": "ui_icon_lenses_moaningmyrtle_bot",
@@ -86170,6 +87312,39 @@
     },
     {
       "selfieAvatarAsset": {
+        "assetScriptName": "profile_lens_sa_tapedglasses_mid",
+        "assetType": "LENSE",
+        "icon": "ui_icon_lenses_tapedglasses_mid",
+        "id": "proto_selfieavatarasset_lens_tapedglasses_mid",
+        "lensType": "FACE",
+        "mediaSupportedType": "ALL",
+        "orderId": 1,
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            },
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
+                "reqSubsets": [
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "assetScriptName": "profile_lens_tonkBeak_mid",
         "assetType": "LENSE",
         "id": "proto_selfieavatarasset_lens_tonkbeak_mid",
@@ -86321,6 +87496,56 @@
     },
     {
       "selfieAvatarAsset": {
+        "assetScriptName": "profile_lens_sa_wizardbirthdaycake_bot",
+        "assetType": "LENSE",
+        "icon": "ui_icon_lenses_wizardbirthdaycake_bot",
+        "id": "proto_selfieavatarasset_lens_wizardbirthdaycake_bot",
+        "lensType": "NECK",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_selfie_limitedtime_harrybirthday",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "assetScriptName": "profile_lens_sa_wizardbirthdayhat_top",
+        "assetType": "LENSE",
+        "icon": "ui_icon_lenses_wizardbirthdayhat_top",
+        "id": "proto_selfieavatarasset_lens_wizardbirthdayhat_top",
+        "lensType": "HEAD",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_selfie_limitedtime_harrybirthday",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "assetScriptName": "profile_lens_wizard-robe-artsy_bot",
         "assetType": "LENSE",
         "icon": "ui_icon_lenses_genericwizardrobeartsy",
@@ -86386,13 +87611,21 @@
               "eventReq": {
                 "eventId": "proto_event_brilliant_0001",
                 "reqSubsets": [
-                  "SUBSET_ACTIVATION",
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            },
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0001",
+                "reqSubsets": [
                   "SUBSET_RUNNING"
                 ]
               }
             }
           ]
-        }
+        },
+        "visible": true
       }
     },
     {
@@ -86404,7 +87637,18 @@
         "lensType": "HEAD",
         "mediaSupportedType": "ALL",
         "orderId": 1,
-        "visibilityConditions": {}
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_lens_wool_beanie_gryffindor_top",
+                "qty": "1"
+              }
+            }
+          ]
+        },
+        "visible": true
       }
     },
     {
@@ -86416,7 +87660,18 @@
         "lensType": "HEAD",
         "mediaSupportedType": "ALL",
         "orderId": 1,
-        "visibilityConditions": {}
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_lens_wool_beanie_hufflepuff_top",
+                "qty": "1"
+              }
+            }
+          ]
+        },
+        "visible": true
       }
     },
     {
@@ -86428,7 +87683,18 @@
         "lensType": "HEAD",
         "mediaSupportedType": "ALL",
         "orderId": 1,
-        "visibilityConditions": {}
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_lens_wool_beanie_ravenclaw_top",
+                "qty": "1"
+              }
+            }
+          ]
+        },
+        "visible": true
       }
     },
     {
@@ -86440,7 +87706,18 @@
         "lensType": "HEAD",
         "mediaSupportedType": "ALL",
         "orderId": 1,
-        "visibilityConditions": {}
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_lens_wool_beanie_slytherin_top",
+                "qty": "1"
+              }
+            }
+          ]
+        },
+        "visible": true
       }
     },
     {
@@ -86512,6 +87789,17 @@
     },
     {
       "selfieAvatarAsset": {
+        "animated": true,
+        "assetScriptName": "sa_sticker_anim_beauxbatoncarriage",
+        "assetType": "STICKER",
+        "id": "proto_selfieavatarasset_sticker_beauxbatoncarriage",
+        "mediaSupportedType": "ALL",
+        "visibilityConditions": {},
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "assetScriptName": "profile_sticker_Bertie_Botts_Box_sticker",
         "assetType": "STICKER",
         "icon": "ui_icon_sticker_BertieBottsBox",
@@ -86519,6 +87807,30 @@
         "mediaSupportedType": "ALL",
         "orderId": 93,
         "visibilityConditions": {},
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "assetScriptName": "sa_sticker_stat_birthdaecakefromhagrid",
+        "assetType": "STICKER",
+        "icon": "sa_sticker_stat_birthdaecakefromhagrid_icon",
+        "id": "proto_selfieavatarasset_sticker_birthdaecakefromhagrid",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_selfie_limitedtime_harrybirthday",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
         "visible": true
       }
     },
@@ -86671,12 +87983,47 @@
     {
       "selfieAvatarAsset": {
         "animated": true,
+        "assetScriptName": "sa_sticker_anim_durmstrangship",
+        "assetType": "STICKER",
+        "id": "proto_selfieavatarasset_sticker_durmstrangship",
+        "mediaSupportedType": "ALL",
+        "visibilityConditions": {},
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "animated": true,
         "assetScriptName": "profile_sticker_Expelliarmus",
         "assetType": "STICKER",
         "id": "proto_selfieavatarasset_sticker_expelliarmus",
         "mediaSupportedType": "ALL",
         "orderId": 213,
         "visibilityConditions": {},
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "animated": true,
+        "assetScriptName": "sa_sticker_anim_floatingbirthdaycandles",
+        "assetType": "STICKER",
+        "id": "proto_selfieavatarasset_sticker_floatingbirthdaycandles",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_selfie_limitedtime_harrybirthday",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
         "visible": true
       }
     },
@@ -86808,6 +88155,30 @@
         "mediaSupportedType": "ALL",
         "orderId": 243,
         "visibilityConditions": {},
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "animated": true,
+        "assetScriptName": "sa_sticker_anim_hedwigcarryingagift",
+        "assetType": "STICKER",
+        "id": "proto_selfieavatarasset_sticker_hedwigcarryingagift",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_selfie_limitedtime_harrybirthday",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
         "visible": true
       }
     },
@@ -87517,6 +88888,82 @@
     },
     {
       "selfieAvatarAsset": {
+        "assetScriptName": "sa_sticker_stat_sockgreenwithsnitches",
+        "assetType": "STICKER",
+        "icon": "sa_sticker_stat_sockgreenwithsnitches_icon",
+        "id": "proto_selfieavatarasset_sticker_sockgreenwithsnitches",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            },
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002",
+                "reqSubsets": [
+                  "SUBSET_RUNNING"
+                ]
+              }
+            },
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_sticker_sockgreenwithsnitches",
+                "qty": "1"
+              }
+            }
+          ]
+        },
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "assetScriptName": "sa_sticker_stat_sockredwithbrooms",
+        "assetType": "STICKER",
+        "icon": "sa_sticker_stat_sockredwithbrooms_icon",
+        "id": "proto_selfieavatarasset_sticker_sockredwithbrooms",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            },
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
+                "reqSubsets": [
+                  "SUBSET_RUNNING"
+                ]
+              }
+            },
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_sticker_sockredwithbrooms",
+                "qty": "1"
+              }
+            }
+          ]
+        },
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "animated": true,
         "assetScriptName": "profile_sticker_SortingHat",
         "assetType": "STICKER",
@@ -87572,7 +89019,34 @@
         "id": "proto_selfieavatarasset_sticker_stagpatronus",
         "mediaSupportedType": "ALL",
         "orderId": 3,
-        "visibilityConditions": {},
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            },
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0002_week2",
+                "reqSubsets": [
+                  "SUBSET_RUNNING"
+                ]
+              }
+            },
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_sticker_stagpatronus",
+                "qty": "1"
+              }
+            }
+          ]
+        },
         "visible": true
       }
     },
@@ -87715,6 +89189,30 @@
         "mediaSupportedType": "ALL",
         "orderId": 133,
         "visibilityConditions": {},
+        "visible": true
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "assetScriptName": "sa_sticker_stat_wrappedpresent",
+        "assetType": "STICKER",
+        "icon": "sa_sticker_stat_wrappedpresent_icon",
+        "id": "proto_selfieavatarasset_sticker_wrappedpresent",
+        "mediaSupportedType": "ALL",
+        "showBadge": true,
+        "visibilityConditions": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_selfie_limitedtime_harrybirthday",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
         "visible": true
       }
     },
@@ -92699,6 +94197,433 @@
           }
         ],
         "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_bgoldensnitch",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0002_1_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_bharry",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0001_2_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_bhedwig",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0001_1_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_dailyprophet",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0002_2_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_dmlebadge",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0002_7_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_framedphoto",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0002_5_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_harrysministryid",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0002_3_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_harrystriwizarduniform",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0001_6_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_harrystrunk",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0001_4_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_harrysweasleyjumper",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0001_3_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_intro",
+        "steps": [
+          {
+            "conversationInterjection": {
+              "conversation": [
+                {
+                  "bubbleContentLockey": "storyboard_hp_bday_event_0001_0_content_00",
+                  "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                  "characterNameLockey": "characters_harry",
+                  "characterPortraitImage": "ui_storyboard_harry_neutral",
+                  "soundConfig": {}
+                },
+                {
+                  "bubbleContentLockey": "storyboard_hp_bday_event_0001_0_content_01",
+                  "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                  "characterNameLockey": "characters_harry",
+                  "characterPortraitImage": "ui_storyboard_harry_neutral",
+                  "soundConfig": {}
+                },
+                {
+                  "bubbleContentLockey": "storyboard_hp_bday_event_0001_0_content_02",
+                  "bubblePrefabName": "UI_Storyboard_ConversationBubble_Left",
+                  "characterNameLockey": "characters_hermione",
+                  "characterPortraitImage": "ui_storyboard_hermione_neutral",
+                  "soundConfig": {}
+                },
+                {
+                  "bubbleContentLockey": "storyboard_hp_bday_event_0001_0_content_03",
+                  "bubblePrefabName": "UI_Storyboard_ConversationBubble_Left",
+                  "characterNameLockey": "characters_hermione",
+                  "characterPortraitImage": "ui_storyboard_hermione_neutral",
+                  "soundConfig": {}
+                }
+              ]
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "Map"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_london5photo",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0002_4_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_mismatchedsocks",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0001_5_content",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_w1_end",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0001_7_content_00",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          },
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0001_7_content_01",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_w2_end",
+        "priority": 200,
+        "steps": [
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0002_6_content_00",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          },
+          {
+            "adviceOverlay": {
+              "showContinueActionText": true,
+              "speechBubble": {
+                "bubbleContentLockey": "storyboard_hp_bday_event_0002_6_content_01",
+                "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                "characterNameLockey": "characters_harry",
+                "characterPortraitImage": "ui_storyboard_harry_neutral",
+                "soundConfig": {}
+              }
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "RegistryStickerPlaced"
+      }
+    },
+    {
+      "storyboard": {
+        "id": "proto_storyboard_event_b0002_w2_intro",
+        "steps": [
+          {
+            "conversationInterjection": {
+              "conversation": [
+                {
+                  "bubbleContentLockey": "storyboard_hp_bday_event_0002_0_content_00",
+                  "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                  "characterNameLockey": "characters_constance",
+                  "characterPortraitImage": "ui_storyboard_constance_neutral",
+                  "soundConfig": {}
+                },
+                {
+                  "bubbleContentLockey": "storyboard_hp_bday_event_0002_0_content_01",
+                  "bubblePrefabName": "UI_Storyboard_ConversationBubble_Left",
+                  "characterNameLockey": "characters_harry",
+                  "characterPortraitImage": "ui_storyboard_harry_neutral",
+                  "soundConfig": {}
+                },
+                {
+                  "bubbleContentLockey": "storyboard_hp_bday_event_0002_0_content_02",
+                  "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                  "characterNameLockey": "characters_constance",
+                  "characterPortraitImage": "ui_storyboard_constance_neutral",
+                  "soundConfig": {}
+                },
+                {
+                  "bubbleContentLockey": "storyboard_hp_bday_event_0002_0_content_03",
+                  "bubblePrefabName": "UI_Storyboard_ConversationBubble_Left",
+                  "characterNameLockey": "characters_harry",
+                  "characterPortraitImage": "ui_storyboard_harry_neutral",
+                  "soundConfig": {}
+                },
+                {
+                  "bubbleContentLockey": "storyboard_hp_bday_event_0002_0_content_04",
+                  "bubblePrefabName": "UI_Storyboard_ConversationBubble_Right",
+                  "characterNameLockey": "characters_constance",
+                  "characterPortraitImage": "ui_storyboard_constance_neutral",
+                  "soundConfig": {}
+                }
+              ]
+            },
+            "customState": "none"
+          }
+        ],
+        "triggerPoint": "Map"
       }
     },
     {
@@ -101746,7 +103671,6 @@
         "color": {},
         "deletable": true,
         "description": "vault_item_butterbeer_description",
-        "icon": "ui_item_food_butterbeer",
         "id": "proto_vaultitem_food_bertiesbeans",
         "name": "vault_item_food_bertiesbeans_name",
         "prefab": "map_pub_bertiebeans_prefab",
@@ -101798,7 +103722,6 @@
         "color": {},
         "deletable": true,
         "description": "vault_item_pumpkinpasty_description",
-        "icon": "ui_item_food_pumpkinpasty",
         "id": "proto_vaultitem_food_pumpkinjuice",
         "name": "vault_item_food_pumpkinjuice_name",
         "prefab": "map_pub_pumpkinjuice_prefab",
@@ -101811,7 +103734,6 @@
         "color": {},
         "deletable": true,
         "description": "vault_item_pumpkinpasty_description",
-        "icon": "ui_item_food_pumpkinpasty",
         "id": "proto_vaultitem_food_tomatosoup",
         "name": "vault_item_food_tomatosoup_name",
         "prefab": "map_pub_tomatosoup_prefab",
@@ -101944,6 +103866,28 @@
         "id": "proto_vaultitem_frame_housebanners_slytherin",
         "name": "vault_item_frame_generic_name",
         "rewardSound": {}
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_frame_generic_description",
+        "icon": "sa_frame_anim_maraudersmap_icon",
+        "id": "proto_vaultitem_frame_maraudersmap",
+        "name": "vault_item_frame_generic_name",
+        "rewardSound": {},
+        "showInRewardsFlow": true
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_frame_generic_description",
+        "icon": "sa_frame_stat_ornateframeharry_icon",
+        "id": "proto_vaultitem_frame_ornateframeharry",
+        "name": "vault_item_frame_generic_name",
+        "rewardSound": {},
+        "showInRewardsFlow": true
       }
     },
     {
@@ -102823,6 +104767,17 @@
       "vaultItem": {
         "color": {},
         "description": "vault_item_lens_generic_description",
+        "icon": "ui_icon_lenses_tapedglasses_mid",
+        "id": "proto_vaultitem_lens_messyhair_top",
+        "name": "vault_item_lens_generic_name",
+        "rewardSound": {},
+        "showInRewardsFlow": true
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_lens_generic_description",
         "icon": "ui_icon_lenses_moaningmyrtle_bot",
         "id": "proto_vaultitem_lens_moaningmyrtle_bot",
         "name": "vault_item_lens_generic_name",
@@ -102849,6 +104804,57 @@
         "name": "vault_item_lens_generic_name",
         "rewardSound": {},
         "showInRewardsFlow": true
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_lens_generic_description",
+        "icon": "ui_icon_lenses_messyhair_top",
+        "id": "proto_vaultitem_lens_tapedglasses_mid",
+        "name": "vault_item_lens_generic_name",
+        "rewardSound": {},
+        "showInRewardsFlow": true
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_lens_generic_description",
+        "icon": "ui_icon_lenses_woolbeanie_gryffindor",
+        "id": "proto_vaultitem_lens_wool_beanie_gryffindor_top",
+        "name": "vault_item_lens_generic_name",
+        "rewardSound": {}
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_lens_generic_description",
+        "icon": "ui_icon_lenses_woolbeanie_hufflepuff",
+        "id": "proto_vaultitem_lens_wool_beanie_hufflepuff_top",
+        "name": "vault_item_lens_generic_name",
+        "rewardSound": {}
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_lens_generic_description",
+        "icon": "ui_icon_lenses_woolbeanie_ravenclaw",
+        "id": "proto_vaultitem_lens_wool_beanie_ravenclaw_top",
+        "name": "vault_item_lens_generic_name",
+        "rewardSound": {}
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_lens_generic_description",
+        "icon": "ui_icon_lenses_woolbeanie_slytherin",
+        "id": "proto_vaultitem_lens_wool_beanie_slytherin_top",
+        "name": "vault_item_lens_generic_name",
+        "rewardSound": {}
       }
     },
     {
@@ -103532,6 +105538,19 @@
         "icon": "ui_runestone_darkarts_09",
         "id": "proto_vaultitem_runestone_darkarts_9",
         "name": "vault_item_runestone_darkarts_9_name",
+        "rewardSound": {},
+        "showInRewardsFlow": true,
+        "showInVaultItemMenu": true
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "deletable": true,
+        "description": "vault_item_runestone_event_1_description",
+        "icon": "ui_runestone_brilliant_01",
+        "id": "proto_vaultitem_runestone_event0002_1",
+        "name": "vault_item_runestone_event_0001_1_name",
         "rewardSound": {},
         "showInRewardsFlow": true,
         "showInVaultItemMenu": true
@@ -105043,11 +107062,45 @@
       "vaultItem": {
         "color": {},
         "description": "vault_item_animatedsticker_generic_description",
+        "icon": "sa_sticker_stat_sockgreenwithsnitches_icon",
+        "id": "proto_vaultitem_sticker_sockgreenwithsnitches",
+        "name": "vault_item_animatedsticker_generic_name",
+        "rewardSound": {},
+        "showInRewardsFlow": true
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_animatedsticker_generic_description",
+        "icon": "sa_sticker_stat_sockredwithbrooms_icon",
+        "id": "proto_vaultitem_sticker_sockredwithbrooms",
+        "name": "vault_item_animatedsticker_generic_name",
+        "rewardSound": {},
+        "showInRewardsFlow": true
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_animatedsticker_generic_description",
         "icon": "ui_white_square",
         "id": "proto_vaultitem_sticker_springwhompingwillow",
         "name": "vault_item_animatedsticker_generic_name",
         "rewardSound": {},
         "spineAnimatedIcon": "WompingtreeSpring"
+      }
+    },
+    {
+      "vaultItem": {
+        "color": {},
+        "description": "vault_item_animatedsticker_generic_description",
+        "icon": "ui_store_med_present",
+        "id": "proto_vaultitem_sticker_stagpatronus",
+        "name": "vault_item_animatedsticker_generic_name",
+        "rewardSound": {},
+        "showInRewardsFlow": true,
+        "spineAnimatedIcon": "sa_sticker_anim_stagpatronus_prefab"
       }
     },
     {
@@ -105388,6 +107441,14 @@
       "walkboxTemplate": {
         "icon": "ui_item_walkbox_02_locked",
         "id": "proto_walkboxtemplate_events_7km",
+        "name": "walkbox_events_7km",
+        "unlockedIcon": "ui_item_walkbox_02_unlocked"
+      }
+    },
+    {
+      "walkboxTemplate": {
+        "icon": "ui_item_walkbox_02_locked",
+        "id": "proto_walkboxtemplate_events_7km_0002",
         "name": "walkbox_events_7km",
         "unlockedIcon": "ui_item_walkbox_02_unlocked"
       }
