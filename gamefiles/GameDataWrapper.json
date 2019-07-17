@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1563240103747",
+  "basisBatchId": "1563313431561",
   "environment": "21",
   "messages": [
     {
@@ -110954,7 +110954,7 @@
             },
             {
               "itemReward": {
-                "amount": "10",
+                "amount": "1",
                 "itemId": "proto_vaultitem_lens_mcgonagallhat_top"
               }
             }
