@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1563313431561",
+  "basisBatchId": "1563476473353",
   "environment": "21",
   "messages": [
     {
@@ -51785,7 +51785,7 @@
             }
           }
         ],
-        "rarity": 5,
+        "rarity": 3,
         "shardCounts": [
           3
         ]
@@ -52085,7 +52085,7 @@
             }
           }
         ],
-        "rarity": 5,
+        "rarity": 2,
         "shardCounts": [
           3
         ]
