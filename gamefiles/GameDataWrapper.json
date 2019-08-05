@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1564789321640",
+  "basisBatchId": "1565024648706",
   "environment": "21",
   "messages": [
     {
@@ -18392,6 +18392,50 @@
     },
     {
       "challengeBonus": {
+        "id": "proto_challengebonus_playerxp_num_friends_1",
+        "modifierPercentage": 10,
+        "playingWithFriends": {
+          "numberOfFriends": 1
+        },
+        "receiver": "PLAYER",
+        "targetReward": "PLAYER_XP"
+      }
+    },
+    {
+      "challengeBonus": {
+        "id": "proto_challengebonus_playerxp_num_friends_2",
+        "modifierPercentage": 20,
+        "playingWithFriends": {
+          "numberOfFriends": 2
+        },
+        "receiver": "PLAYER",
+        "targetReward": "PLAYER_XP"
+      }
+    },
+    {
+      "challengeBonus": {
+        "id": "proto_challengebonus_playerxp_num_friends_3",
+        "modifierPercentage": 30,
+        "playingWithFriends": {
+          "numberOfFriends": 3
+        },
+        "receiver": "PLAYER",
+        "targetReward": "PLAYER_XP"
+      }
+    },
+    {
+      "challengeBonus": {
+        "id": "proto_challengebonus_playerxp_num_friends_4",
+        "modifierPercentage": 40,
+        "playingWithFriends": {
+          "numberOfFriends": 4
+        },
+        "receiver": "PLAYER",
+        "targetReward": "PLAYER_XP"
+      }
+    },
+    {
+      "challengeBonus": {
         "id": "proto_challengebonus_runelevel_10",
         "modifierPercentage": 900,
         "playingWithFriends": {},
@@ -18753,28 +18797,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.299999952316284
+              1.2999999523162842
             ]
           },
           "2": {
             "multipliers": [
-              1.4500000476837158,
-              1.4500000476837158
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.2100000381469727,
-              1.2100000381469727,
-              1.2100000381469727
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.090000033378601,
-              1.090000033378601,
-              1.090000033378601,
-              1.090000033378601
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -18975,28 +19019,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.4000000953674316
+              1.3700000047683716
             ]
           },
           "2": {
             "multipliers": [
-              1.5,
-              1.5
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.2300000190734863,
-              1.2300000190734863,
-              1.2300000190734863
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.100000023841858,
-              1.100000023841858,
-              1.100000023841858,
-              1.100000023841858
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -19197,28 +19241,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.5
+              1.440000057220459
             ]
           },
           "2": {
             "multipliers": [
-              1.5499999523162842,
-              1.5499999523162842
+              1.100000023841858,
+              1.100000023841858
             ]
           },
           "3": {
             "multipliers": [
-              1.25,
-              1.25,
-              1.25
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.1100000143051147,
-              1.1100000143051147,
-              1.1100000143051147,
-              1.1100000143051147
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -19419,28 +19463,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.5999999046325684
+              1.5099999904632568
             ]
           },
           "2": {
             "multipliers": [
-              1.600000023841858,
-              1.600000023841858
+              1.149999976158142,
+              1.149999976158142
             ]
           },
           "3": {
             "multipliers": [
-              1.2699999809265137,
-              1.2699999809265137,
-              1.2699999809265137
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.1200000047683716,
-              1.1200000047683716,
-              1.1200000047683716,
-              1.1200000047683716
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -19641,28 +19685,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.700000047683716
+              1.5800000429153442
             ]
           },
           "2": {
             "multipliers": [
-              1.649999976158142,
-              1.649999976158142
+              1.2000000476837158,
+              1.2000000476837158
             ]
           },
           "3": {
             "multipliers": [
-              1.2899999618530273,
-              1.2899999618530273,
-              1.2899999618530273
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.1299999952316284,
-              1.1299999952316284,
-              1.1299999952316284,
-              1.1299999952316284
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -19863,28 +19907,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.799999952316284
+              1.649999976158142
             ]
           },
           "2": {
             "multipliers": [
-              1.7000000476837158,
-              1.7000000476837158
+              1.25,
+              1.25
             ]
           },
           "3": {
             "multipliers": [
-              1.309999942779541,
-              1.309999942779541,
-              1.309999942779541
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.1399999856948853,
-              1.1399999856948853,
-              1.1399999856948853,
-              1.1399999856948853
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -20085,13 +20129,13 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.9000000953674316
+              1.7200000286102295
             ]
           },
           "2": {
             "multipliers": [
-              1.75,
-              1.75
+              1.2999999523162842,
+              1.2999999523162842
             ]
           },
           "3": {
@@ -20103,10 +20147,10 @@
           },
           "4": {
             "multipliers": [
-              1.149999976158142,
-              1.149999976158142,
-              1.149999976158142,
-              1.149999976158142
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -20307,13 +20351,13 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              3.0
+              1.7899999618530273
             ]
           },
           "2": {
             "multipliers": [
-              1.7999999523162842,
-              1.7999999523162842
+              1.350000023841858,
+              1.350000023841858
             ]
           },
           "3": {
@@ -20325,10 +20369,10 @@
           },
           "4": {
             "multipliers": [
-              1.1699999570846558,
-              1.1699999570846558,
-              1.1699999570846558,
-              1.1699999570846558
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -20529,13 +20573,13 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              3.0999999046325684
+              1.8600000143051147
             ]
           },
           "2": {
             "multipliers": [
-              1.850000023841858,
-              1.850000023841858
+              1.399999976158142,
+              1.399999976158142
             ]
           },
           "3": {
@@ -20547,10 +20591,10 @@
           },
           "4": {
             "multipliers": [
-              1.190000057220459,
-              1.190000057220459,
-              1.190000057220459,
-              1.190000057220459
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -20751,13 +20795,13 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              3.200000047683716
+              1.9299999475479126
             ]
           },
           "2": {
             "multipliers": [
-              1.899999976158142,
-              1.899999976158142
+              1.4500000476837158,
+              1.4500000476837158
             ]
           },
           "3": {
@@ -20769,10 +20813,10 @@
           },
           "4": {
             "multipliers": [
-              1.2100000381469727,
-              1.2100000381469727,
-              1.2100000381469727,
-              1.2100000381469727
+              1.149999976158142,
+              1.149999976158142,
+              1.149999976158142,
+              1.149999976158142
             ]
           },
           "5": {
@@ -21248,13 +21292,13 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              3.5
+              2.0
             ]
           },
           "2": {
             "multipliers": [
-              2.0,
-              2.0
+              1.5,
+              1.5
             ]
           },
           "3": {
@@ -21396,28 +21440,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              1.2999999523162842
+              1.0
             ]
           },
           "2": {
             "multipliers": [
-              1.0499999523162842,
-              1.0499999523162842
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.0499999523162842,
-              1.0499999523162842,
-              1.0499999523162842
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.0099999904632568,
-              1.0099999904632568,
-              1.0099999904632568,
-              1.0099999904632568
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -21618,28 +21662,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              1.600000023841858
+              1.0
             ]
           },
           "2": {
             "multipliers": [
-              1.100000023841858,
-              1.100000023841858
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.0700000524520874,
-              1.0700000524520874,
-              1.0700000524520874
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.0199999809265137,
-              1.0199999809265137,
-              1.0199999809265137,
-              1.0199999809265137
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -21840,28 +21884,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              1.7000000476837158
+              1.0
             ]
           },
           "2": {
             "multipliers": [
-              1.149999976158142,
-              1.149999976158142
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.090000033378601,
-              1.090000033378601,
-              1.090000033378601
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.0299999713897705,
-              1.0299999713897705,
-              1.0299999713897705,
-              1.0299999713897705
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -22062,28 +22106,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              1.7999999523162842
+              1.0
             ]
           },
           "2": {
             "multipliers": [
-              1.2000000476837158,
-              1.2000000476837158
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.1100000143051147,
-              1.1100000143051147,
-              1.1100000143051147
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.0399999618530273,
-              1.0399999618530273,
-              1.0399999618530273,
-              1.0399999618530273
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -22284,28 +22328,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              1.899999976158142
+              1.0
             ]
           },
           "2": {
             "multipliers": [
-              1.25,
-              1.25
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.1299999952316284,
-              1.1299999952316284,
-              1.1299999952316284
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.0499999523162842,
-              1.0499999523162842,
-              1.0499999523162842,
-              1.0499999523162842
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -22506,28 +22550,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.0999999046325684
+              1.090000033378601
             ]
           },
           "2": {
             "multipliers": [
-              1.2999999523162842,
-              1.2999999523162842
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.149999976158142,
-              1.149999976158142,
-              1.149999976158142
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.059999942779541,
-              1.059999942779541,
-              1.059999942779541,
-              1.059999942779541
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -22728,28 +22772,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.0999999046325684
+              1.159999966621399
             ]
           },
           "2": {
             "multipliers": [
-              1.350000023841858,
-              1.350000023841858
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.1699999570846558,
-              1.1699999570846558,
-              1.1699999570846558
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.0700000524520874,
-              1.0700000524520874,
-              1.0700000524520874,
-              1.0700000524520874
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -22950,28 +22994,28 @@
         "playerCountMultipliers": {
           "1": {
             "multipliers": [
-              2.200000047683716
+              1.2300000190734863
             ]
           },
           "2": {
             "multipliers": [
-              1.399999976158142,
-              1.399999976158142
+              1.0,
+              1.0
             ]
           },
           "3": {
             "multipliers": [
-              1.190000057220459,
-              1.190000057220459,
-              1.190000057220459
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "4": {
             "multipliers": [
-              1.0800000429153442,
-              1.0800000429153442,
-              1.0800000429153442,
-              1.0800000429153442
+              1.0,
+              1.0,
+              1.0,
+              1.0
             ]
           },
           "5": {
@@ -26058,12 +26102,18 @@
           "proto_collectionitem_triwizardcup",
           "proto_collectionitem_harrypotter_hp6_quidditch",
           "proto_collectionitem_gobletoffire",
-          "proto_collectionitem_nimbus2000"
+          "proto_collectionitem_nimbus2000",
+          "proto_collectionitem_gryffindorbanner",
+          "proto_collectionitem_nevillelongbottom_quidditchfan",
+          "proto_collectionitem_seamusfinnigan_tryouts",
+          "proto_collectionitem_hermionegranger_quidditchfan",
+          "proto_collectionitem_lunalovegood_quidditchfan"
         ],
         "pages": [
           "proto_collectionpage_magicalgamesandsports_0001",
           "proto_collectionpage_magicalgamesandsports_0002",
-          "proto_collectionpage_magicalgamesandsports_0003"
+          "proto_collectionpage_magicalgamesandsports_0003",
+          "proto_collectionpage_magicalgamesandsports_0004"
         ],
         "returnedRewards": [
           {
@@ -51194,6 +51244,84 @@
     },
     {
       "collectionItem": {
+        "familyId": "proto_collectionfamily_magicalgamesandsports",
+        "id": "proto_collectionitem_gryffindorbanner",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "250",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_magicalgamesandsports_0004",
+        "prestigeLevel": [
+          {
+            "shardCount": 15,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 14,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 200,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 21,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 300,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 25,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 500,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 6,
+        "shardCounts": [
+          15,
+          14,
+          21,
+          25
+        ]
+      }
+    },
+    {
+      "collectionItem": {
         "familyId": "proto_collectionfamily_darkarts",
         "id": "proto_collectionitem_hag",
         "oneTimeRewards": {
@@ -52243,6 +52371,84 @@
                   "collectionFamilyReward": {
                     "amount": 200,
                     "familyId": "proto_collectionfamily_legendsofhogwarts"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 4,
+        "shardCounts": [
+          11,
+          33,
+          49,
+          59
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_magicalgamesandsports",
+        "id": "proto_collectionitem_hermionegranger_quidditchfan",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "250",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_magicalgamesandsports_0004",
+        "prestigeLevel": [
+          {
+            "shardCount": 11,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 50,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 33,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 75,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 49,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 150,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 59,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 200,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
                   }
                 }
               ]
@@ -53726,6 +53932,84 @@
           12,
           24,
           36
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_magicalgamesandsports",
+        "id": "proto_collectionitem_lunalovegood_quidditchfan",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "250",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_magicalgamesandsports_0004",
+        "prestigeLevel": [
+          {
+            "shardCount": 8,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 25,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 24,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 50,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 36,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 100,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 43,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 150,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 3,
+        "shardCounts": [
+          8,
+          24,
+          36,
+          43
         ]
       }
     },
@@ -56171,6 +56455,84 @@
           12,
           24,
           36
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_magicalgamesandsports",
+        "id": "proto_collectionitem_nevillelongbottom_quidditchfan",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "250",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_magicalgamesandsports_0004",
+        "prestigeLevel": [
+          {
+            "shardCount": 8,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 25,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 24,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 50,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 36,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 100,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 43,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 150,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 3,
+        "shardCounts": [
+          8,
+          24,
+          36,
+          43
         ]
       }
     },
@@ -59005,6 +59367,84 @@
         "rarity": 1,
         "shardCounts": [
           1
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_magicalgamesandsports",
+        "id": "proto_collectionitem_seamusfinnigan_tryouts",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "250",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_magicalgamesandsports_0004",
+        "prestigeLevel": [
+          {
+            "shardCount": 4,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 12,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 25,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 24,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 50,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "shardCount": 36,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 100,
+                    "familyId": "proto_collectionfamily_magicalgamesandsports"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 2,
+        "shardCounts": [
+          4,
+          12,
+          24,
+          36
         ]
       }
     },
@@ -64904,6 +65344,57 @@
             "rewards": [
               {
                 "collectionFamilyReward": {
+                  "familyId": "proto_collectionfamily_magicalgamesandsports"
+                }
+              }
+            ]
+          },
+          {
+            "rewards": [
+              {
+                "collectionFamilyReward": {
+                  "familyId": "proto_collectionfamily_magicalgamesandsports"
+                }
+              }
+            ]
+          },
+          {
+            "rewards": [
+              {
+                "collectionFamilyReward": {
+                  "familyId": "proto_collectionfamily_magicalgamesandsports"
+                }
+              }
+            ]
+          },
+          {
+            "rewards": [
+              {
+                "collectionFamilyReward": {
+                  "familyId": "proto_collectionfamily_magicalgamesandsports"
+                }
+              }
+            ]
+          }
+        ],
+        "familyId": "proto_collectionfamily_magicalgamesandsports",
+        "id": "proto_collectionpage_magicalgamesandsports_0004",
+        "items": [
+          "proto_collectionitem_gryffindorbanner",
+          "proto_collectionitem_nevillelongbottom_quidditchfan",
+          "proto_collectionitem_seamusfinnigan_tryouts",
+          "proto_collectionitem_hermionegranger_quidditchfan",
+          "proto_collectionitem_lunalovegood_quidditchfan"
+        ]
+      }
+    },
+    {
+      "collectionPage": {
+        "completionRewards": [
+          {
+            "rewards": [
+              {
+                "collectionFamilyReward": {
                   "familyId": "proto_collectionfamily_magizoology"
                 }
               }
@@ -69310,6 +69801,22 @@
         "collectionItemRewardGmtId": "proto_collectionitem_arthurweasley_hp2",
         "collectionItemRewardShards": 1,
         "id": "proto_encounter_arthurweasley_hp2_0001",
+        "stages": [
+          {
+            "spellGmtId": "proto_spell_finite",
+            "swish": {
+              "baseWinRate": 0.30000001192092896
+            }
+          }
+        ]
+      }
+    },
+    {
+      "encounter": {
+        "collectionFamilyGmtId": "proto_collectionfamily_ministry",
+        "collectionItemRewardGmtId": "proto_collectionitem_arthurweasley_hp2",
+        "collectionItemRewardShards": 1,
+        "id": "proto_encounter_arthurweasley_hp2_b0001",
         "stages": [
           {
             "spellGmtId": "proto_spell_finite",
@@ -76471,6 +76978,22 @@
     },
     {
       "encounter": {
+        "collectionFamilyGmtId": "proto_collectionfamily_magicalgamesandsports",
+        "collectionItemRewardGmtId": "proto_collectionitem_hermionegranger_quidditchfan",
+        "collectionItemRewardShards": 1,
+        "id": "proto_encounter_hermionegranger_quidditchfan_0003",
+        "stages": [
+          {
+            "spellGmtId": "proto_spell_aguamenti",
+            "swish": {
+              "baseWinRate": 0.010999999940395355
+            }
+          }
+        ]
+      }
+    },
+    {
+      "encounter": {
         "collectionFamilyGmtId": "proto_collectionfamily_events_0001",
         "collectionItemRewardGmtId": "proto_collectionitem_hippogriff_b0001",
         "collectionItemRewardShards": 1,
@@ -76698,6 +77221,22 @@
           {
             "picture": {},
             "spellGmtId": "proto_spell_aguamenti"
+          }
+        ]
+      }
+    },
+    {
+      "encounter": {
+        "collectionFamilyGmtId": "proto_collectionfamily_magicalgamesandsports",
+        "collectionItemRewardGmtId": "proto_collectionitem_lunalovegood_quidditchfan",
+        "collectionItemRewardShards": 1,
+        "id": "proto_encounter_lunalovegood_quidditchfan_0001",
+        "stages": [
+          {
+            "spellGmtId": "proto_spell_flipendo",
+            "swish": {
+              "baseWinRate": 0.10000000149011612
+            }
           }
         ]
       }
@@ -77960,6 +78499,22 @@
             "spellGmtId": "proto_spell_riddikulus",
             "swish": {
               "baseWinRate": 0.25
+            }
+          }
+        ]
+      }
+    },
+    {
+      "encounter": {
+        "collectionFamilyGmtId": "proto_collectionfamily_magicalgamesandsports",
+        "collectionItemRewardGmtId": "proto_collectionitem_nevillelongbottom_quidditchfan",
+        "collectionItemRewardShards": 1,
+        "id": "proto_encounter_nevillelongbottom_quidditchfan_0002",
+        "stages": [
+          {
+            "spellGmtId": "proto_spell_finite",
+            "swish": {
+              "baseWinRate": 0.10000000149011612
             }
           }
         ]
@@ -79734,6 +80289,22 @@
             "spellGmtId": "proto_spell_bombarda",
             "swish": {
               "baseWinRate": 0.10000000149011612
+            }
+          }
+        ]
+      }
+    },
+    {
+      "encounter": {
+        "collectionFamilyGmtId": "proto_collectionfamily_magicalgamesandsports",
+        "collectionItemRewardGmtId": "proto_collectionitem_seamusfinnigan_tryouts",
+        "collectionItemRewardShards": 1,
+        "id": "proto_encounter_seamusfinnigan_tryouts_0003",
+        "stages": [
+          {
+            "spellGmtId": "proto_spell_ebublio",
+            "swish": {
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -87279,6 +87850,16 @@
       }
     },
     {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
       "fortressTemplate": {
         "chamberGmtIds": [
           "proto_chambertemplate_room1",
@@ -90127,7 +90708,7 @@
     {
       "portkey": {
         "id": "proto_portkey_deluminator_0001",
-        "portkeyEncounterId": "proto_encounter_portkey_ollivanders_0001"
+        "portkeyEncounterId": "proto_encounter_portkey_honeydukes"
       }
     },
     {
@@ -90157,19 +90738,19 @@
     {
       "portkey": {
         "id": "proto_portkey_extendableears_0001",
-        "portkeyEncounterId": "proto_encounter_portkey_ollivanders_0001"
+        "portkeyEncounterId": "proto_encounter_portkey_honeydukes"
       }
     },
     {
       "portkey": {
         "id": "proto_portkey_fangedfrisbee_0001",
-        "portkeyEncounterId": "proto_encounter_portkey_ollivanders_0001"
+        "portkeyEncounterId": "proto_encounter_portkey_honeydukes"
       }
     },
     {
       "portkey": {
         "id": "proto_portkey_flyingfordanglia_0001",
-        "portkeyEncounterId": "proto_encounter_portkey_ollivanders_0001"
+        "portkeyEncounterId": "proto_encounter_portkey_honeydukes"
       }
     },
     {
@@ -90205,7 +90786,7 @@
     {
       "portkey": {
         "id": "proto_portkey_harrypotter_hp8_street_0001",
-        "portkeyEncounterId": "proto_encounter_portkey_ollivanders_0001"
+        "portkeyEncounterId": "proto_encounter_portkey_honeydukes"
       }
     },
     {
@@ -90283,7 +90864,7 @@
     {
       "portkey": {
         "id": "proto_portkey_pickett_0001",
-        "portkeyEncounterId": "proto_encounter_portkey_ollivanders_0001"
+        "portkeyEncounterId": "proto_encounter_portkey_honeydukes"
       }
     },
     {
@@ -90349,7 +90930,7 @@
     {
       "portkey": {
         "id": "proto_portkey_swoopingevil_0001",
-        "portkeyEncounterId": "proto_encounter_portkey_ollivanders_0001"
+        "portkeyEncounterId": "proto_encounter_portkey_honeydukes"
       }
     },
     {
@@ -116723,6 +117304,54 @@
     },
     {
       "recipe": {
+        "disabled": true,
+        "id": "proto_recipe_trace_detection",
+        "masterNoteGmtId": [
+          "proto_masternote_trace_detection"
+        ],
+        "recipe": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_seeds_baneberry"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_ingredients_hurklumpjuice"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_seeds_angelstrumpet"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_ingredients_staghorn"
+              }
+            }
+          ]
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_potion_trace_detection"
+              }
+            }
+          ]
+        },
+        "timeToCraft": "18000000"
+      }
+    },
+    {
+      "recipe": {
         "id": "proto_recipe_valerian_root",
         "recipe": {
           "rewards": [
@@ -117248,6 +117877,12 @@
                 "itemId": "proto_vaultitem_filter_underwater",
                 "qty": "1"
               }
+            },
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 2
+              }
             }
           ]
         }
@@ -117316,21 +117951,6 @@
     },
     {
       "selfieAvatarAsset": {
-        "id": "proto_selfieavatarasset_frame_deatheater_smoke",
-        "unlockConditions": {
-          "reqs": [
-            {
-              "levelReq": {
-                "comparisonOperator": "GREATER_OR_EQUAL",
-                "level": 25
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_frame_dirigibleplum",
         "unlockConditions": {
           "reqs": [
@@ -117385,6 +118005,12 @@
                 "comparisonOperator": "GREATER_OR_EQUAL",
                 "itemId": "proto_vaultitem_frame_greathall",
                 "qty": "1"
+              }
+            },
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 2
               }
             }
           ]
@@ -118066,6 +118692,12 @@
                 "comparisonOperator": "GREATER_OR_EQUAL",
                 "itemId": "proto_vaultitem_lens_luna_mid",
                 "qty": "1"
+              }
+            },
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 2
               }
             }
           ]
@@ -119168,12 +119800,6 @@
                 "itemId": "proto_vaultitem_sticker_housegryffindor",
                 "qty": "1"
               }
-            },
-            {
-              "levelReq": {
-                "comparisonOperator": "GREATER_OR_EQUAL",
-                "level": 2
-              }
             }
           ]
         }
@@ -120144,6 +120770,36 @@
             }
           ]
         }
+      }
+    },
+    {
+      "selfieAvatarCategory": {
+        "id": "proto_selfieavatarcategory_sticker_default"
+      }
+    },
+    {
+      "selfieAvatarCategory": {
+        "id": "proto_selfieavatarcategory_sticker_featured"
+      }
+    },
+    {
+      "selfieAvatarCategory": {
+        "id": "proto_selfieavatarcategory_sticker_hogwarts"
+      }
+    },
+    {
+      "selfieAvatarCategory": {
+        "id": "proto_selfieavatarcategory_sticker_lore"
+      }
+    },
+    {
+      "selfieAvatarCategory": {
+        "id": "proto_selfieavatarcategory_sticker_recent"
+      }
+    },
+    {
+      "selfieAvatarCategory": {
+        "id": "proto_selfieavatarcategory_sticker_wizardingworld"
       }
     },
     {
@@ -125299,10 +125955,24 @@
         "completeFlagGmtId": "proto_featureflag_storyboard_challenges_tutorial_1_end",
         "id": "proto_storyboard_challenges_tutorial_1",
         "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
-        "resetReqs": {},
+        "resetReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "lval": "5",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_challenges_tutorial_1_step"
+              }
+            }
+          ]
+        },
         "startReqs": {},
         "stepFlagGmtId": "proto_featureflag_storyboard_challenges_tutorial_1_step",
         "storyboardSteps": [
+          {
+            "rewards": {}
+          },
           {
             "rewards": {}
           },
@@ -127075,7 +127745,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_arcanetome_end",
         "id": "proto_storyboard_myst_foundablesspell_arcanetome",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127111,7 +127781,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_dailyprophet_end",
         "id": "proto_storyboard_myst_foundablesspell_dailyprophet",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127147,7 +127817,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_filefolder_end",
         "id": "proto_storyboard_myst_foundablesspell_filefolder",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127183,7 +127853,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_filefolder_n1_end",
         "id": "proto_storyboard_myst_foundablesspell_filefolder_n1",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127219,7 +127889,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_filefolder_n2_end",
         "id": "proto_storyboard_myst_foundablesspell_filefolder_n2",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127255,7 +127925,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_filefolder_n3_end",
         "id": "proto_storyboard_myst_foundablesspell_filefolder_n3",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127291,7 +127961,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_incidentreport_end",
         "id": "proto_storyboard_myst_foundablesspell_incidentreport",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127327,7 +127997,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_journal_end",
         "id": "proto_storyboard_myst_foundablesspell_journal",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127363,7 +128033,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_journal_n1_end",
         "id": "proto_storyboard_myst_foundablesspell_journal_n1",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127399,7 +128069,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_journal_n2_end",
         "id": "proto_storyboard_myst_foundablesspell_journal_n2",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127435,7 +128105,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_journal_n3_end",
         "id": "proto_storyboard_myst_foundablesspell_journal_n3",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127471,7 +128141,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_journal_n4_end",
         "id": "proto_storyboard_myst_foundablesspell_journal_n4",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127507,7 +128177,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_foundablesspell_notepage_end",
         "id": "proto_storyboard_myst_foundablesspell_notepage",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127543,7 +128213,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_background_dailyprophet_end",
         "id": "proto_storyboard_myst_grim_background_dailyprophet",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127579,7 +128249,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_background_locket_end",
         "id": "proto_storyboard_myst_grim_background_locket",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127615,7 +128285,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_background_note_end",
         "id": "proto_storyboard_myst_grim_background_note",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127651,7 +128321,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_background_suitcase_end",
         "id": "proto_storyboard_myst_grim_background_suitcase",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127687,7 +128357,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_background_transcript_end",
         "id": "proto_storyboard_myst_grim_background_transcript",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127723,7 +128393,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_background_urn_end",
         "id": "proto_storyboard_myst_grim_background_urn",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127759,7 +128429,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_dailyprophet_end",
         "id": "proto_storyboard_myst_grim_motives_dailyprophet",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127795,7 +128465,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_filefolder_end",
         "id": "proto_storyboard_myst_grim_motives_filefolder",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127831,7 +128501,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_filefolder_n1_end",
         "id": "proto_storyboard_myst_grim_motives_filefolder_n1",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127867,7 +128537,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_filefolder_n2_end",
         "id": "proto_storyboard_myst_grim_motives_filefolder_n2",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127903,7 +128573,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_filefolder_n3_end",
         "id": "proto_storyboard_myst_grim_motives_filefolder_n3",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127939,7 +128609,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_filefolder_n4_end",
         "id": "proto_storyboard_myst_grim_motives_filefolder_n4",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -127975,7 +128645,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_journal_end",
         "id": "proto_storyboard_myst_grim_motives_journal",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128011,7 +128681,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_slytherinscarf_end",
         "id": "proto_storyboard_myst_grim_motives_slytherinscarf",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128047,7 +128717,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_transcript_end",
         "id": "proto_storyboard_myst_grim_motives_transcript",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128083,7 +128753,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_motives_wand_end",
         "id": "proto_storyboard_myst_grim_motives_wand",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128119,7 +128789,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_ancienttome_end",
         "id": "proto_storyboard_myst_grim_record_ancienttome",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128155,7 +128825,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_filefolder_end",
         "id": "proto_storyboard_myst_grim_record_filefolder",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128191,7 +128861,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_filefolder_n1_end",
         "id": "proto_storyboard_myst_grim_record_filefolder_n1",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128227,7 +128897,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_filefolder_n2_end",
         "id": "proto_storyboard_myst_grim_record_filefolder_n2",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128263,7 +128933,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_filefolder_n3_end",
         "id": "proto_storyboard_myst_grim_record_filefolder_n3",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128299,7 +128969,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_filefolder_n4_end",
         "id": "proto_storyboard_myst_grim_record_filefolder_n4",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128335,7 +129005,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_quibbler_end",
         "id": "proto_storyboard_myst_grim_record_quibbler",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128371,7 +129041,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_report_end",
         "id": "proto_storyboard_myst_grim_record_report",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128407,7 +129077,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_skeletonkey_end",
         "id": "proto_storyboard_myst_grim_record_skeletonkey",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128443,7 +129113,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_grim_record_unspeakablesbadge_end",
         "id": "proto_storyboard_myst_grim_record_unspeakablesbadge",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128479,7 +129149,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_penelope_bg_badge_end",
         "id": "proto_storyboard_myst_penelope_bg_badge",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128515,7 +129185,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_penelope_bg_broom_end",
         "id": "proto_storyboard_myst_penelope_bg_broom",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128551,7 +129221,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_penelope_bg_dailyprophet_end",
         "id": "proto_storyboard_myst_penelope_bg_dailyprophet",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128587,7 +129257,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_penelope_bg_encodedmessage_end",
         "id": "proto_storyboard_myst_penelope_bg_encodedmessage",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128623,7 +129293,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_penelope_bg_memo_blue_end",
         "id": "proto_storyboard_myst_penelope_bg_memo_blue",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -128659,7 +129329,7 @@
       "storyboard": {
         "completeFlagGmtId": "proto_featureflag_storyboard_myst_penelope_bg_memo_promotion_end",
         "id": "proto_storyboard_myst_penelope_bg_memo_promotion",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetMode": "STORYBOARD_RESET_WHEN_COMPLETE",
         "resetReqs": {},
         "startReqs": {
           "reqs": [
@@ -130051,90 +130721,6 @@
         },
         "stepFlagGmtId": "proto_featureflag_storyboard_profession_lessontree_02_step",
         "storyboardSteps": [
-          {
-            "rewards": {}
-          }
-        ]
-      }
-    },
-    {
-      "storyboard": {
-        "completeFlagGmtId": "proto_featureflag_storyboard_profession_select_auror_end",
-        "id": "proto_storyboard_profession_select_auror",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
-        "resetReqs": {},
-        "startReqs": {
-          "reqs": [
-            {
-              "levelReq": {
-                "comparisonOperator": "GREATER_OR_EQUAL",
-                "level": 6
-              }
-            }
-          ]
-        },
-        "stepFlagGmtId": "proto_featureflag_storyboard_profession_select_auror_step",
-        "storyboardSteps": [
-          {
-            "rewards": {}
-          },
-          {
-            "rewards": {}
-          }
-        ]
-      }
-    },
-    {
-      "storyboard": {
-        "completeFlagGmtId": "proto_featureflag_storyboard_profession_select_magizoologist_end",
-        "id": "proto_storyboard_profession_select_magizoologist",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
-        "resetReqs": {},
-        "startReqs": {
-          "reqs": [
-            {
-              "levelReq": {
-                "comparisonOperator": "GREATER_OR_EQUAL",
-                "level": 6
-              }
-            }
-          ]
-        },
-        "stepFlagGmtId": "proto_featureflag_storyboard_profession_select_magizoologist_step",
-        "storyboardSteps": [
-          {
-            "rewards": {}
-          },
-          {
-            "rewards": {}
-          }
-        ]
-      }
-    },
-    {
-      "storyboard": {
-        "completeFlagGmtId": "proto_featureflag_storyboard_profession_select_professor_end",
-        "id": "proto_storyboard_profession_select_professor",
-        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
-        "resetReqs": {},
-        "startReqs": {
-          "reqs": [
-            {
-              "levelReq": {
-                "comparisonOperator": "GREATER_OR_EQUAL",
-                "level": 6
-              }
-            }
-          ]
-        },
-        "stepFlagGmtId": "proto_featureflag_storyboard_profession_select_professor_step",
-        "storyboardSteps": [
-          {
-            "rewards": {}
-          },
-          {
-            "rewards": {}
-          },
           {
             "rewards": {}
           }
@@ -134899,6 +135485,20 @@
     },
     {
       "vaultItem": {
+        "id": "proto_vaultitem_potion_trace_detection",
+        "potionItem": {
+          "appliedBuffGmtId": [
+            "proto_buff_brainelixir"
+          ],
+          "consumableScenario": [
+            "OVERWORLD"
+          ]
+        },
+        "vaultCategoryGmtId": "proto_vaultcategory_potions"
+      }
+    },
+    {
+      "vaultItem": {
         "cap": "10000",
         "id": "proto_vaultitem_potion_wideye",
         "potionItem": {
@@ -136898,7 +137498,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "192260",
+        "dataVersion": "192935",
         "id": "proto_version_data"
       }
     },
