@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1565024648706",
+  "basisBatchId": "1565200875606",
   "environment": "21",
   "messages": [
     {
@@ -26082,7 +26082,8 @@
         "apexItems": [
           "proto_collectionitem_quidditchpitchstands",
           "proto_collectionitem_gobstoneset",
-          "proto_collectionitem_triwizardcup"
+          "proto_collectionitem_triwizardcup",
+          "proto_collectionitem_gryffindorbanner"
         ],
         "familyRankTableId": "proto_collectionfamilyranktable_magicalgamesandsports",
         "id": "proto_collectionfamily_magicalgamesandsports",
@@ -81067,6 +81068,19 @@
     },
     {
       "encounter": {
+        "collectionFamilyGmtId": "proto_collectionfamily_magizoology",
+        "collectionItemRewardGmtId": "proto_collectionitem_swoopingevil",
+        "id": "proto_encounter_swoopingevil_picture_0001",
+        "stages": [
+          {
+            "picture": {},
+            "spellGmtId": "proto_spell_aguamenti"
+          }
+        ]
+      }
+    },
+    {
+      "encounter": {
         "collectionFamilyGmtId": "proto_collectionfamily_ministry",
         "collectionItemRewardGmtId": "proto_collectionitem_tankofbrains",
         "collectionItemRewardShards": 1,
@@ -117759,6 +117773,21 @@
     },
     {
       "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_filter_brilliant_colors ",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 5
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_filter_ghost",
         "unlockConditions": {
           "reqs": [
@@ -117947,6 +117976,21 @@
       "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_frame_dailyprophet",
         "unlockConditions": {}
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_frame_deatheater_smoke",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 25
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -118460,6 +118504,21 @@
     },
     {
       "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_lens_dumbledore_embroideredhat_top",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 25
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_lens_durmstranghat_top",
         "unlockConditions": {
           "reqs": [
@@ -118665,6 +118724,36 @@
       "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_lens_hufflepuffscarf_bot",
         "unlockConditions": {}
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_lens_kingsleyshakelbolthat_top",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 20
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_lens_kingsleyshakelboltrobes_bot",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 20
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -118928,6 +119017,36 @@
               "levelReq": {
                 "comparisonOperator": "GREATER_OR_EQUAL",
                 "level": 6
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_lens_professormcgonagallrobes_bot",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 8
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_lens_professortrelawneyhair_top",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "levelReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "level": 10
               }
             }
           ]
@@ -119378,6 +119497,12 @@
     {
       "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_sticker_accio",
+        "unlockConditions": {}
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_auroremblem",
         "unlockConditions": {}
       }
     },
@@ -119921,6 +120046,12 @@
     },
     {
       "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_hpwulogo",
+        "unlockConditions": {}
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_sticker_i_heart_quidditch",
         "unlockConditions": {
           "reqs": [
@@ -120041,6 +120172,12 @@
     {
       "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_sticker_magicspark",
+        "unlockConditions": {}
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_magizoologistemblem",
         "unlockConditions": {}
       }
     },
@@ -120261,6 +120398,12 @@
     },
     {
       "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_professoremblem",
+        "unlockConditions": {}
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_sticker_pumpkin_juice_bottle",
         "unlockConditions": {
           "reqs": [
@@ -120460,6 +120603,12 @@
     {
       "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_sticker_wizardsunite",
+        "unlockConditions": {}
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_wizardsunitelogo_white",
         "unlockConditions": {}
       }
     },
@@ -130929,6 +131078,9 @@
           },
           {
             "rewards": {}
+          },
+          {
+            "rewards": {}
           }
         ]
       }
@@ -137498,7 +137650,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "192935",
+        "dataVersion": "193322",
         "id": "proto_version_data"
       }
     },
