@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1565200875606",
+  "basisBatchId": "1565376692941",
   "environment": "21",
   "messages": [
     {
@@ -25800,6 +25800,143 @@
     {
       "collectionFamily": {
         "apexItems": [
+          "proto_collectionitem_trolleywitch_b0001"
+        ],
+        "familyRankTableId": "proto_collectionfamilyranktable_event_0003",
+        "id": "proto_collectionfamily_events_0003",
+        "items": [
+          "proto_collectionitem_student_slytherin_female_b0001",
+          "proto_collectionitem_student_ravenclaw_male_b0001",
+          "proto_collectionitem_student_gryffindor_female_b0001",
+          "proto_collectionitem_student_hufflepuff_male_b0001",
+          "proto_collectionitem_luggagetrolley_b0001",
+          "proto_collectionitem_hogwartsexpressconductor_b0001",
+          "proto_collectionitem_hogwartsexpress_b0001",
+          "proto_collectionitem_trolleywitch_b0001",
+          "proto_collectionitem_sortinghat_b0001",
+          "proto_collectionitem_thestral_b0001",
+          "proto_collectionitem_carriage_b0001",
+          "proto_collectionitem_wingedboarstatue_b0001",
+          "proto_collectionitem_hogsmeade_b0001",
+          "proto_collectionitem_hogwartsboat_b0001"
+        ],
+        "pages": [
+          "proto_collectionpage_events_backtohogwarts_b0001",
+          "proto_collectionpage_events_backtohogwarts_b0002"
+        ],
+        "returnedRewards": [
+          {
+            "rewards": [
+              {
+                "itemReward": {
+                  "amount": "150",
+                  "itemId": "vault_item_xp"
+                }
+              },
+              {
+                "collectionFamilyReward": {
+                  "amount": 7,
+                  "familyId": "proto_collectionfamily_events_0003"
+                }
+              }
+            ]
+          },
+          {
+            "rewards": [
+              {
+                "itemReward": {
+                  "amount": "50",
+                  "itemId": "vault_item_xp"
+                }
+              },
+              {
+                "collectionFamilyReward": {
+                  "amount": 3,
+                  "familyId": "proto_collectionfamily_events_0003"
+                }
+              }
+            ]
+          },
+          {
+            "rewards": [
+              {
+                "itemReward": {
+                  "amount": "75",
+                  "itemId": "vault_item_xp"
+                }
+              },
+              {
+                "collectionFamilyReward": {
+                  "amount": 5,
+                  "familyId": "proto_collectionfamily_events_0003"
+                }
+              }
+            ]
+          },
+          {
+            "rewards": [
+              {
+                "itemReward": {
+                  "amount": "250",
+                  "itemId": "vault_item_xp"
+                }
+              },
+              {
+                "collectionFamilyReward": {
+                  "amount": 10,
+                  "familyId": "proto_collectionfamily_events_0003"
+                }
+              }
+            ]
+          },
+          {
+            "rewards": [
+              {
+                "itemReward": {
+                  "amount": "500",
+                  "itemId": "vault_item_xp"
+                }
+              },
+              {
+                "collectionFamilyReward": {
+                  "amount": 20,
+                  "familyId": "proto_collectionfamily_events_0003"
+                }
+              }
+            ]
+          },
+          {
+            "rewards": [
+              {
+                "collectionFamilyReward": {
+                  "amount": 10,
+                  "familyId": "proto_collectionfamily_events_0003"
+                }
+              }
+            ]
+          }
+        ],
+        "runeId": [
+          "proto_vaultitem_runestone_event0003_1"
+        ],
+        "subfeatureType": "EVENTS",
+        "unlockRequirements": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0003",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "collectionFamily": {
+        "apexItems": [
           "proto_collectionitem_hogwartshousecup",
           "proto_collectionitem_househourglassset",
           "proto_collectionitem_owllecturn"
@@ -26081,7 +26218,7 @@
       "collectionFamily": {
         "apexItems": [
           "proto_collectionitem_quidditchpitchstands",
-          "proto_collectionitem_gobstoneset",
+          "proto_collectionitem_book_quidditchthroughtheages",
           "proto_collectionitem_triwizardcup",
           "proto_collectionitem_gryffindorbanner"
         ],
@@ -30027,6 +30164,403 @@
             "levelUpLoottableId": "proto_loottable_event_0002_rank1",
             "smallLoottableId": "proto_loottable_familychest_small_rank1",
             "totalXpReq": "100"
+          }
+        ]
+      }
+    },
+    {
+      "collectionFamilyRankTable": {
+        "id": "proto_collectionfamilyranktable_event_0003",
+        "rankData": [
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "10"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "20"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
+          },
+          {
+            "chestCount": 1,
+            "levelUpLoottableId": "proto_loottable_event_0003_rank1",
+            "smallLoottableId": "proto_loottable_familychest_small_rank1",
+            "totalXpReq": "40"
           }
         ]
       }
@@ -39172,6 +39706,42 @@
           33,
           49,
           59
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_carriage_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "250",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0002",
+        "prestigeLevel": [
+          {
+            "shardCount": 1,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 4,
+        "shardCounts": [
+          1
         ]
       }
     },
@@ -52659,6 +53229,150 @@
     },
     {
       "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_hogsmeade_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "150",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0002",
+        "prestigeLevel": [
+          {
+            "shardCount": 5,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 6,
+        "shardCounts": [
+          5
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_hogwartsboat_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "150",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0002",
+        "prestigeLevel": [
+          {
+            "shardCount": 3,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 7,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 6,
+        "shardCounts": [
+          3
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_hogwartsexpress_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0001",
+        "prestigeLevel": [
+          {
+            "shardCount": 1,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 20,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 5,
+        "shardCounts": [
+          1
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_hogwartsexpressconductor_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "250",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0001",
+        "prestigeLevel": [
+          {
+            "shardCount": 1,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 4,
+        "shardCounts": [
+          1
+        ]
+      }
+    },
+    {
+      "collectionItem": {
         "familyId": "proto_collectionfamily_wondersofthewizardingworld",
         "id": "proto_collectionitem_hogwartsexpressengine",
         "oneTimeRewards": {
@@ -53855,6 +54569,42 @@
         "rarity": 5,
         "shardCounts": [
           3
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_luggagetrolley_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "150",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0001",
+        "prestigeLevel": [
+          {
+            "shardCount": 5,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 6,
+        "shardCounts": [
+          5
         ]
       }
     },
@@ -59876,6 +60626,42 @@
     },
     {
       "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_sortinghat_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "150",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0002",
+        "prestigeLevel": [
+          {
+            "shardCount": 12,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 3,
+        "shardCounts": [
+          12
+        ]
+      }
+    },
+    {
+      "collectionItem": {
         "familyId": "proto_collectionfamily_oddities",
         "id": "proto_collectionitem_sphinx",
         "oneTimeRewards": {
@@ -60032,6 +60818,42 @@
     },
     {
       "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_student_gryffindor_female_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "75",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0001",
+        "prestigeLevel": [
+          {
+            "shardCount": 10,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 5,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 2,
+        "shardCounts": [
+          10
+        ]
+      }
+    },
+    {
+      "collectionItem": {
         "familyId": "proto_collectionfamily_hogwartsschool",
         "id": "proto_collectionitem_student_hufflepuff_male",
         "oneTimeRewards": {
@@ -60105,6 +60927,42 @@
           10,
           30,
           50
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_student_hufflepuff_male_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "75",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0001",
+        "prestigeLevel": [
+          {
+            "shardCount": 10,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 5,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 2,
+        "shardCounts": [
+          10
         ]
       }
     },
@@ -60188,6 +61046,42 @@
     },
     {
       "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_student_ravenclaw_male_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "75",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0001",
+        "prestigeLevel": [
+          {
+            "shardCount": 10,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 5,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 2,
+        "shardCounts": [
+          10
+        ]
+      }
+    },
+    {
+      "collectionItem": {
         "familyId": "proto_collectionfamily_hogwartsschool",
         "id": "proto_collectionitem_student_slytherin_female",
         "oneTimeRewards": {
@@ -60261,6 +61155,42 @@
           10,
           30,
           50
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_student_slytherin_female_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "75",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0001",
+        "prestigeLevel": [
+          {
+            "shardCount": 10,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 5,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 2,
+        "shardCounts": [
+          10
         ]
       }
     },
@@ -60572,6 +61502,42 @@
           24,
           36,
           43
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_thestral_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0002",
+        "prestigeLevel": [
+          {
+            "shardCount": 1,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 20,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 5,
+        "shardCounts": [
+          1
         ]
       }
     },
@@ -61115,6 +62081,42 @@
           24,
           36,
           43
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_trolleywitch_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "150",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0001",
+        "prestigeLevel": [
+          {
+            "shardCount": 3,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 7,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 6,
+        "shardCounts": [
+          3
         ]
       }
     },
@@ -61931,6 +62933,42 @@
           14,
           21,
           25
+        ]
+      }
+    },
+    {
+      "collectionItem": {
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionitem_wingedboarstatue_b0001",
+        "oneTimeRewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "250",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "pageId": "proto_collectionpage_events_backtohogwarts_b0002",
+        "prestigeLevel": [
+          {
+            "shardCount": 1,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_events_0003"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "rarity": 4,
+        "shardCounts": [
+          1
         ]
       }
     },
@@ -64796,6 +65834,42 @@
           "proto_collectionitem_tomriddle_hp6",
           "proto_collectionitem_percivalgraves_fb1",
           "proto_collectionitem_wizardportrait_voldemort"
+        ]
+      }
+    },
+    {
+      "collectionPage": {
+        "completionRewards": [
+          {}
+        ],
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionpage_events_backtohogwarts_b0001",
+        "items": [
+          "proto_collectionitem_student_slytherin_female_b0001",
+          "proto_collectionitem_student_ravenclaw_male_b0001",
+          "proto_collectionitem_student_gryffindor_female_b0001",
+          "proto_collectionitem_student_hufflepuff_male_b0001",
+          "proto_collectionitem_luggagetrolley_b0001",
+          "proto_collectionitem_hogwartsexpressconductor_b0001",
+          "proto_collectionitem_hogwartsexpress_b0001",
+          "proto_collectionitem_trolleywitch_b0001"
+        ]
+      }
+    },
+    {
+      "collectionPage": {
+        "completionRewards": [
+          {}
+        ],
+        "familyId": "proto_collectionfamily_events_0003",
+        "id": "proto_collectionpage_events_backtohogwarts_b0002",
+        "items": [
+          "proto_collectionitem_sortinghat_b0001",
+          "proto_collectionitem_thestral_b0001",
+          "proto_collectionitem_carriage_b0001",
+          "proto_collectionitem_wingedboarstatue_b0001",
+          "proto_collectionitem_hogsmeade_b0001",
+          "proto_collectionitem_hogwartsboat_b0001"
         ]
       }
     },
@@ -80498,15 +81572,15 @@
     },
     {
       "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_hogwartsschool",
-        "collectionItemRewardGmtId": "proto_collectionitem_sortinghat",
+        "collectionFamilyGmtId": "proto_collectionfamily_events_0003",
+        "collectionItemRewardGmtId": "proto_collectionitem_sortinghat_b0001",
         "collectionItemRewardShards": 1,
         "id": "proto_encounter_sortinghat_b0001",
         "stages": [
           {
             "spellGmtId": "proto_spell_flipendo",
             "swish": {
-              "baseWinRate": 0.026000000536441803
+              "baseWinRate": 0.10000000149011612
             }
           }
         ]
@@ -80927,15 +82001,15 @@
     },
     {
       "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_hogwartsschool",
-        "collectionItemRewardGmtId": "proto_collectionitem_student_gryffindor_female",
+        "collectionFamilyGmtId": "proto_collectionfamily_events_0003",
+        "collectionItemRewardGmtId": "proto_collectionitem_student_gryffindor_female_b0001",
         "collectionItemRewardShards": 1,
         "id": "proto_encounter_student_gryffindor_female_b0001",
         "stages": [
           {
             "spellGmtId": "proto_spell_bombarda",
             "swish": {
-              "baseWinRate": 0.6000000238418579
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -80972,15 +82046,15 @@
     },
     {
       "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_hogwartsschool",
-        "collectionItemRewardGmtId": "proto_collectionitem_student_hufflepuff_male",
+        "collectionFamilyGmtId": "proto_collectionfamily_events_0003",
+        "collectionItemRewardGmtId": "proto_collectionitem_student_hufflepuff_male_b0001",
         "collectionItemRewardShards": 1,
         "id": "proto_encounter_student_hufflepuff_male_b0001",
         "stages": [
           {
             "spellGmtId": "proto_spell_incendio",
             "swish": {
-              "baseWinRate": 0.6000000238418579
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -81004,15 +82078,15 @@
     },
     {
       "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_hogwartsschool",
-        "collectionItemRewardGmtId": "proto_collectionitem_student_ravenclaw_male",
+        "collectionFamilyGmtId": "proto_collectionfamily_events_0003",
+        "collectionItemRewardGmtId": "proto_collectionitem_student_ravenclaw_male_b0001",
         "collectionItemRewardShards": 1,
         "id": "proto_encounter_student_ravenclaw_male_b0001",
         "stages": [
           {
             "spellGmtId": "proto_spell_diffindo",
             "swish": {
-              "baseWinRate": 0.6000000238418579
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -81036,15 +82110,15 @@
     },
     {
       "encounter": {
-        "collectionFamilyGmtId": "proto_collectionfamily_hogwartsschool",
-        "collectionItemRewardGmtId": "proto_collectionitem_student_slytherin_female",
+        "collectionFamilyGmtId": "proto_collectionfamily_events_0003",
+        "collectionItemRewardGmtId": "proto_collectionitem_student_slytherin_female_b0001",
         "collectionItemRewardShards": 1,
         "id": "proto_encounter_student_slytherin_female_b0001",
         "stages": [
           {
             "spellGmtId": "proto_spell_finite",
             "swish": {
-              "baseWinRate": 0.6000000238418579
+              "baseWinRate": 0.25
             }
           }
         ]
@@ -84804,6 +85878,56 @@
         "activationReqs": {
           "reqs": [
             {
+              "dateReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "epochDateInSeconds": "1565719200"
+              }
+            }
+          ]
+        },
+        "id": "proto_event_brilliant_0003",
+        "runningReqs": {
+          "reqs": [
+            {
+              "dateReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "epochDateInSeconds": "1566324000"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": {
+        "activationReqs": {
+          "reqs": [
+            {
+              "dateReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "epochDateInSeconds": "1566928800"
+              }
+            }
+          ]
+        },
+        "id": "proto_event_brilliant_0003_week2",
+        "runningReqs": {
+          "reqs": [
+            {
+              "dateReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "epochDateInSeconds": "1567533600"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": {
+        "activationReqs": {
+          "reqs": [
+            {
               "boolLiteralReq": "FALSE"
             }
           ]
@@ -84916,6 +86040,216 @@
     {
       "featureFlag": {
         "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
+      }
+    },
+    {
+      "featureFlag": {
+        "bval": true
+      }
+    },
+    {
+      "featureFlag": {
+        "lval": "0"
       }
     },
     {
@@ -89974,6 +91308,34 @@
     },
     {
       "mapIngredient": {
+        "id": "proto_mapingredient_walkbox_events_3km_0003",
+        "loot": {
+          "rewards": [
+            {
+              "walkboxReward": {
+                "walkboxTemplateId": "proto_walkboxtemplate_events_3km_0003"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mapIngredient": {
+        "id": "proto_mapingredient_walkbox_events_3km_0003_w2",
+        "loot": {
+          "rewards": [
+            {
+              "walkboxReward": {
+                "walkboxTemplateId": "proto_walkboxtemplate_events_3km_0003_w2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mapIngredient": {
         "id": "proto_mapingredient_walkbox_events_7km",
         "loot": {
           "rewards": [
@@ -90811,6 +92173,12 @@
     },
     {
       "portkey": {
+        "id": "proto_portkey_hogsmeadesign_b0001",
+        "portkeyEncounterId": "proto_encounter_portkey_hogwartsexpress_0001"
+      }
+    },
+    {
+      "portkey": {
         "id": "proto_portkey_hornedserpent_0001",
         "portkeyEncounterId": "proto_encounter_portkey_borginandburkes_0001"
       }
@@ -90825,6 +92193,12 @@
       "portkey": {
         "id": "proto_portkey_interdepartmentalmemos_0001",
         "portkeyEncounterId": "proto_encounter_portkey_borginandburkes_0001"
+      }
+    },
+    {
+      "portkey": {
+        "id": "proto_portkey_luggagetrolley_b0001",
+        "portkeyEncounterId": "proto_encounter_portkey_hogwartsexpress_0001"
       }
     },
     {
@@ -110471,6 +111845,1748 @@
     {
       "quest": {
         "chainPosition": 1,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0003_link1",
+        "rewards": {
+          "rewards": [
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link2_sub1"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link2_sub2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link2_sub3"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            },
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_sticker_hogwartsexpresssign"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link1_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link1_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link1_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link1_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "collectStickers": {
+                "requiredCollectCount": "2",
+                "stickerGmtId": "proto_collectionitem_student_slytherin_female_b0001"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link1_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "collectPotionIngredients": {
+                "requiredPotionIngredientCount": "2"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link1_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "requiredTraceCount": "3"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 2,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0003_link2",
+        "rewards": {
+          "rewards": [
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link3"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link3_sub1"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link3_sub2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link3_sub3"
+              }
+            },
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_potion_extimulo_2"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_frame_hogwartsexpress"
+              }
+            },
+            {
+              "collectionReward": {
+                "itemId": "proto_collectionitem_hogwartsexpressconductor_b0001",
+                "shardCount": 1
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link2_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link2_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link2_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link2_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "300",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "collectStickers": {
+                "requiredCollectCount": "2",
+                "stickerGmtId": "proto_collectionitem_student_hufflepuff_male_b0001"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link2_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "unlockPortmanteau": {
+                "requiredUnlockCount": "3"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link2_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "lootOutposts": {
+                "requiredOutpostsCount": "5"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 3,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0003_link3",
+        "rewards": {
+          "rewards": [
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link4"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link4_sub1"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link4_sub2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_link4_sub3"
+              }
+            },
+            {
+              "collectionFamilyReward": {
+                "amount": 25,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "3",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_sticker_luggagetrolley"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link3_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link3_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link3_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link3_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "collectStickers": {
+                "requiredCollectCount": "2",
+                "stickerGmtId": "proto_collectionitem_student_ravenclaw_male_b0001"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link3_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "usePotions": {
+                "requiredUseCount": "6"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link3_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "castSpells": {
+                "requiredMasteryLevel": 0.699999988079071,
+                "requiredSpellCount": "5"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 4,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0003_link4",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "9",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "collectionReward": {
+                "itemId": "proto_collectionitem_hogwartsexpress_b0001",
+                "shardCount": 1
+              }
+            },
+            {
+              "currencyReward": {
+                "amount": "50",
+                "currencyId": "vault_item_coins"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_lens_hogwartsconductoruniform_bottom"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link4_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link4_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_link4_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link4_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "collectStickers": {
+                "requiredCollectCount": "2",
+                "stickerGmtId": "proto_collectionitem_student_gryffindor_female_b0001"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link4_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "750",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "difficulty": 3.0,
+                "requiredTraceCount": "5"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_link4_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "playFortressChallenges": {
+                "requiredChallengeCount": "4"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 1,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0003_w2_link1",
+        "rewards": {
+          "rewards": [
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link2_sub1"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link2_sub2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link2_sub3"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            },
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_frame_hogwartsgates"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link1_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link1_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link1_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link1_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "lootOutposts": {
+                "requiredOutpostsCount": "3"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link1_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "collectPotionIngredients": {
+                "requiredPotionIngredientCount": "2"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link1_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "familyGmtId": "proto_collectionfamily_hogwartsschool",
+                "requiredTraceCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 2,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0003_w2_link2",
+        "rewards": {
+          "rewards": [
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link3"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link3_sub1"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link3_sub2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link3_sub3"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_potion_extimulo_2"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "collectionFamilyReward": {
+                "amount": 25,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            },
+            {
+              "collectionReward": {
+                "itemId": "proto_collectionitem_wingedboarstatue_b0001",
+                "shardCount": 1
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_sticker_hogwartshogsmeadesign"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link2_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link2_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link2_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link2_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "300",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "collectStickers": {
+                "requiredCollectCount": "2",
+                "stickerGmtId": "proto_collectionitem_sortinghat_b0001"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link2_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "brewPotions": {
+                "requiredBrewCount": "3"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link2_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "requiredTraceCount": "10"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 3,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0003_w2_link3",
+        "rewards": {
+          "rewards": [
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link4"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link4_sub1"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link4_sub2"
+              }
+            },
+            {
+              "questReward": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link4_sub3"
+              }
+            },
+            {
+              "collectionFamilyReward": {
+                "amount": 25,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "3",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "collectionReward": {
+                "itemId": "proto_collectionitem_carriage_b0001",
+                "shardCount": 1
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_sticker_hogwartscarriage"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link3_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link3_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link3_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link3_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "difficulty": 3.0,
+                "requiredTraceCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link3_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "500",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "difficulty": 2.0,
+                "requiredTraceCount": "5"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link3_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "usePotions": {
+                "requiredUseCount": "2"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 4,
+        "chainTotal": 4,
+        "id": "proto_quest_event_brilliant0003_w2_link4",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "9",
+                "itemId": "proto_vaultitem_currency_profession_03"
+              }
+            },
+            {
+              "currencyReward": {
+                "amount": "50",
+                "currencyId": "vault_item_coins"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_lens_hogwartsconductorhat_top"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_sticker_sortinghatonastool"
+              }
+            },
+            {
+              "collectionReward": {
+                "itemId": "proto_collectionitem_thestral_b0001",
+                "shardCount": 1
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link4_sub1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link4_sub2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_brilliant0003_w2_link4_sub3"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link4_sub1",
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "750",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "unlockPortmanteau": {
+                "requiredUnlockCount": "4"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link4_sub2",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 10,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "brewPotions": {
+                "requiredBrewCount": "6"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_event_brilliant0003_w2_link4_sub3",
+        "rewards": {
+          "rewards": [
+            {
+              "collectionFamilyReward": {
+                "amount": 15,
+                "familyId": "proto_collectionfamily_events_0003"
+              }
+            }
+          ]
+        },
+        "startRequirements": [
+          {
+            "reqs": [
+              {
+                "eventReq": {
+                  "eventId": "proto_event_brilliant_0003_week2",
+                  "reqSubsets": [
+                    "SUBSET_ACTIVATION",
+                    "SUBSET_RUNNING"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "hookTask": {
+              "defeatMobInChallenges": {
+                "requiredDefeatCount": "10"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 1,
         "chainTotal": 1,
         "id": "proto_quest_partner_att_0003",
         "partnerPoiQuestInfo": {
@@ -118079,6 +121195,38 @@
     },
     {
       "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_frame_hogwartsexpress",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_frame_hogwartsexpress",
+                "qty": "1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_frame_hogwartsgates",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_frame_hogwartsgates",
+                "qty": "1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_frame_hogwartssilhouette",
         "unlockConditions": {
           "reqs": [
@@ -118683,6 +121831,38 @@
               "levelReq": {
                 "comparisonOperator": "GREATER_OR_EQUAL",
                 "level": 12
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_lens_hogwartsconductorhat_top",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_lens_hogwartsconductorhat_top",
+                "qty": "1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_lens_hogwartsconductoruniform_bot",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_lens_hogwartsconductoruniform_bottom",
+                "qty": "1"
               }
             }
           ]
@@ -119874,8 +123054,40 @@
     },
     {
       "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_hogwartscarriage",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_sticker_hogwartscarriage",
+                "qty": "1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_sticker_hogwartscrest",
         "unlockConditions": {}
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_hogwartsexpresssign",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_sticker_hogwartsexpresssign",
+                "qty": "1"
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -119887,6 +123099,22 @@
               "levelReq": {
                 "comparisonOperator": "GREATER_OR_EQUAL",
                 "level": 4
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_hogwartshogsmeadestreetsign",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_sticker_hogwartshogsmeadesign",
+                "qty": "1"
               }
             }
           ]
@@ -120131,6 +123359,22 @@
       "selfieAvatarAsset": {
         "id": "proto_selfieavatarasset_sticker_lightningbolt",
         "unlockConditions": {}
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_luggagetrolley",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_sticker_luggagetrolley",
+                "qty": "1"
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -120479,6 +123723,22 @@
               "vaultItemReq": {
                 "comparisonOperator": "GREATER_OR_EQUAL",
                 "itemId": "proto_vaultitem_sticker_sockredwithbrooms",
+                "qty": "1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_sticker_sortinghatonastool",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_sticker_sortinghatonastool",
                 "qty": "1"
               }
             }
@@ -122915,6 +126175,69 @@
               "vaultItemReq": {
                 "comparisonOperator": "EQUAL",
                 "itemId": "proto_vaultitem_frame_wizardschesspiecesces"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storePack": {
+        "contents": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_runestone_hogwartsschool_3"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_runestone_hogwartsschool_2"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_runestone_hogwartsschool_1"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "50",
+                "itemId": "proto_vaultitem_energy_1"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "3",
+                "itemId": "proto_vaultitem_premium_unlocker"
+              }
+            }
+          ]
+        },
+        "cost": {},
+        "id": "proto_storepack_free_communityday_2019-08-10",
+        "requirements": {
+          "reqs": [
+            {
+              "dateReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "epochDateInSeconds": "1565406000"
+              }
+            },
+            {
+              "dateReq": {
+                "comparisonOperator": "LESS_OR_EQUAL",
+                "epochDateInSeconds": "1565470800"
+              }
+            },
+            {
+              "storePackReq": {
+                "comparisonOperator": "LESS_THAN",
+                "qty": "1",
+                "storePackId": "proto_storepack_free_communityday_2019-08-10"
               }
             }
           ]
@@ -127279,6 +130602,720 @@
                 }
               ]
             }
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_brilliantsortinghat_end",
+        "id": "proto_storyboard_event_b0003_brilliantsortinghat",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_sortinghat_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_brilliantsortinghat_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_carriage_end",
+        "id": "proto_storyboard_event_b0003_carriage",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_carriage_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_carriage_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_hogsmeadesign_end",
+        "id": "proto_storyboard_event_b0003_hogsmeadesign",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_hogsmeade_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_hogsmeadesign_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_hogwartsboat_end",
+        "id": "proto_storyboard_event_b0003_hogwartsboat",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_hogwartsboat_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_hogwartsboat_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_hogwartsexpress_end",
+        "id": "proto_storyboard_event_b0003_hogwartsexpress",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_hogwartsexpress_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_hogwartsexpress_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_hogwartsexpressconductor_end",
+        "id": "proto_storyboard_event_b0003_hogwartsexpressconductor",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_hogwartsexpressconductor_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_hogwartsexpressconductor_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_luggagetrolley_end",
+        "id": "proto_storyboard_event_b0003_luggagetrolley",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_luggagetrolley_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_luggagetrolley_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_studentgryffindor_end",
+        "id": "proto_storyboard_event_b0003_studentgryffindor",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_student_gryffindor_female_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_studentgryffindor_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_studenthufflepuff_end",
+        "id": "proto_storyboard_event_b0003_studenthufflepuff",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_student_hufflepuff_male_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_studenthufflepuff_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_studentravenclaw_end",
+        "id": "proto_storyboard_event_b0003_studentravenclaw",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_student_ravenclaw_male_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_studentravenclaw_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_studentslytherin_end",
+        "id": "proto_storyboard_event_b0003_studentslytherin",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_student_slytherin_female_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_studentslytherin_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_thestral_end",
+        "id": "proto_storyboard_event_b0003_thestral",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_thestral_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_thestral_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_trolleywitch_end",
+        "id": "proto_storyboard_event_b0003_trolleywitch",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_trolleywitch_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_trolleywitch_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_w1_end_end",
+        "id": "proto_storyboard_event_b0003_w1_end",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "questCompletedReq": {
+                "questGmtId": "proto_quest_event_brilliant0003_link4"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_w1_end_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_w1_intro_end",
+        "id": "proto_storyboard_event_b0003_w1_intro",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0003",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_w1_intro_step",
+        "storyboardSteps": [
+          {
+            "rewards": {
+              "rewards": [
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0003_link1"
+                  }
+                },
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0003_link1_sub1"
+                  }
+                },
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0003_link1_sub2"
+                  }
+                },
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0003_link1_sub3"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_w1_page_done_end",
+        "id": "proto_storyboard_event_b0003_w1_page_done",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_student_gryffindor_female_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_student_hufflepuff_male_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_student_ravenclaw_male_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_student_slytherin_female_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_hogwartsexpressconductor_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_hogwartsexpress_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_luggagetrolley_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_trolleywitch_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_w1_page_done_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_w2_end_end",
+        "id": "proto_storyboard_event_b0003_w2_end",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "questCompletedReq": {
+                "questGmtId": "proto_quest_event_brilliant0003_w2_link4"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_w2_end_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_w2_intro_end",
+        "id": "proto_storyboard_event_b0003_w2_intro",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "eventReq": {
+                "eventId": "proto_event_brilliant_0003_week2",
+                "reqSubsets": [
+                  "SUBSET_ACTIVATION",
+                  "SUBSET_RUNNING"
+                ]
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_w2_intro_step",
+        "storyboardSteps": [
+          {
+            "rewards": {
+              "rewards": [
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0003_w2_link1"
+                  }
+                },
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0003_w2_link1_sub1"
+                  }
+                },
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0003_w2_link1_sub2"
+                  }
+                },
+                {
+                  "questReward": {
+                    "questGmtId": "proto_quest_event_brilliant0003_w2_link1_sub3"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_w2_page_done_end",
+        "id": "proto_storyboard_event_b0003_w2_page_done",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_thestral_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_sortinghat_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_carriage_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_hogwartsboat_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_wingedboarstatue_b0001"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_hogsmeade_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_w2_page_done_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
+          }
+        ]
+      }
+    },
+    {
+      "storyboard": {
+        "completeFlagGmtId": "proto_featureflag_storyboard_event_b0003_wingedboarstatue_end",
+        "id": "proto_storyboard_event_b0003_wingedboarstatue",
+        "resetMode": "STORYBOARD_RESET_WHEN_INCOMPLETE",
+        "resetReqs": {},
+        "startReqs": {
+          "reqs": [
+            {
+              "flagReq": {
+                "bval": true,
+                "comparisonOperator": "EQUAL",
+                "playerFlagFeatureId": "proto_featureconfig_storyboards",
+                "playerFlagId": "proto_featureflag_storyboard_trace_tutorial_3_end"
+              }
+            },
+            {
+              "collectionItemPlacedRequirement": {
+                "checkForCurrentPrestigeOnly": true,
+                "itemGmtId": "proto_collectionitem_wingedboarstatue_b0001"
+              }
+            }
+          ]
+        },
+        "stepFlagGmtId": "proto_featureflag_storyboard_event_b0003_wingedboarstatue_step",
+        "storyboardSteps": [
+          {
+            "rewards": {}
           }
         ]
       }
@@ -134022,6 +138059,22 @@
       "vaultItem": {
         "cap": "1",
         "currencyItem": {},
+        "id": "proto_vaultitem_frame_hogwartsexpress",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
+        "id": "proto_vaultitem_frame_hogwartsgates",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
         "id": "proto_vaultitem_frame_hogwartssilhouette",
         "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
       }
@@ -135235,6 +139288,22 @@
       "vaultItem": {
         "cap": "1",
         "currencyItem": {},
+        "id": "proto_vaultitem_lens_hogwartsconductorhat_top",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
+        "id": "proto_vaultitem_lens_hogwartsconductoruniform_bottom",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
         "id": "proto_vaultitem_lens_hufflepuffrobes_bot",
         "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
       }
@@ -135985,6 +140054,17 @@
         "id": "proto_vaultitem_runestone_event0002_1",
         "runestoneItem": {
           "collectionFamilyGmtId": "proto_collectionfamily_events_0002",
+          "quality": 1
+        },
+        "vaultCategoryGmtId": "proto_vaultcategory_runestones"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1000000",
+        "id": "proto_vaultitem_runestone_event0003_1",
+        "runestoneItem": {
+          "collectionFamilyGmtId": "proto_collectionfamily_events_0003",
           "quality": 1
         },
         "vaultCategoryGmtId": "proto_vaultcategory_runestones"
@@ -137312,6 +141392,30 @@
       "vaultItem": {
         "cap": "1",
         "currencyItem": {},
+        "id": "proto_vaultitem_sticker_hogwartscarriage",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
+        "id": "proto_vaultitem_sticker_hogwartsexpresssign",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
+        "id": "proto_vaultitem_sticker_hogwartshogsmeadesign",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
         "id": "proto_vaultitem_sticker_housegryffindor",
         "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
       }
@@ -137360,6 +141464,14 @@
       "vaultItem": {
         "cap": "1",
         "currencyItem": {},
+        "id": "proto_vaultitem_sticker_luggagetrolley",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
         "id": "proto_vaultitem_sticker_malfoycrest",
         "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
       }
@@ -137393,6 +141505,14 @@
         "cap": "1",
         "currencyItem": {},
         "id": "proto_vaultitem_sticker_sockredwithbrooms",
+        "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
+      }
+    },
+    {
+      "vaultItem": {
+        "cap": "1",
+        "currencyItem": {},
+        "id": "proto_vaultitem_sticker_sortinghatonastool",
         "vaultCategoryGmtId": "proto_vaultcategory_selfieavatar"
       }
     },
@@ -137650,7 +141770,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "193322",
+        "dataVersion": "194085",
         "id": "proto_version_data"
       }
     },
@@ -137670,6 +141790,18 @@
       "walkboxTemplate": {
         "id": "proto_walkboxtemplate_5km",
         "requiredDistanceKm": 5.0
+      }
+    },
+    {
+      "walkboxTemplate": {
+        "id": "proto_walkboxtemplate_events_3km_0003",
+        "requiredDistanceKm": 3.0
+      }
+    },
+    {
+      "walkboxTemplate": {
+        "id": "proto_walkboxtemplate_events_3km_0003_w2",
+        "requiredDistanceKm": 3.0
       }
     },
     {
