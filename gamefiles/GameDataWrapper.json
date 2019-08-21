@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1565995181567",
+  "basisBatchId": "1566426136306",
   "environment": "21",
   "messages": [
     {
@@ -114280,6 +114280,419 @@
       "quest": {
         "chainPosition": 1,
         "chainTotal": 1,
+        "id": "proto_quest_partner_dt_0001",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/xmcO_XsiGhzKpaQqjmVjsu3X8xPwPhpIUcz2ko5L5GKUMzTYmWFnKGD1-kedF6qW-be1aLt1W-DgXVzJdqw",
+          "partnerName": "Sponsored Assignment"
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_potion_brainelixir"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_potion_extimulo"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_potion_extimulo_2"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "proto_vaultitem_premium_unlocker"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "2",
+                "itemId": "vault_item_dark_detector_test"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_partner_dt_0001_step0001"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_partner_dt_0001_step0002"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_partner_dt_0001_step0001",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/xmcO_XsiGhzKpaQqjmVjsu3X8xPwPhpIUcz2ko5L5GKUMzTYmWFnKGD1-kedF6qW-be1aLt1W-DgXVzJdqw",
+          "partnerName": "Sponsored Assignment"
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "50",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "hookTask": {
+              "lootOutposts": {
+                "requiredOutpostsCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_partner_dt_0001_step0002",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/xmcO_XsiGhzKpaQqjmVjsu3X8xPwPhpIUcz2ko5L5GKUMzTYmWFnKGD1-kedF6qW-be1aLt1W-DgXVzJdqw",
+          "partnerName": "Sponsored Assignment"
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "50",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "requiredTraceCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 1,
+        "chainTotal": 1,
+        "id": "proto_quest_partner_dt_0002",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/xmcO_XsiGhzKpaQqjmVjsu3X8xPwPhpIUcz2ko5L5GKUMzTYmWFnKGD1-kedF6qW-be1aLt1W-DgXVzJdqw",
+          "partnerName": "Sponsored Assignment"
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "proto_vaultitem_potion_extimulo"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "proto_vaultitem_potion_extimulo_2"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "proto_vaultitem_premium_unlocker"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "vault_item_dark_detector_test"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "25",
+                "itemId": "proto_vaultitem_energy_1"
+              }
+            },
+            {
+              "vaultCapacityReward": {
+                "amount": "10",
+                "vaultCategoryGmtId": "proto_vaultcategory_potions"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_sticker_leakycauldron"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_partner_dt_0002_step0001"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_partner_dt_0002_step0002"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_partner_dt_0002_step0001",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/xmcO_XsiGhzKpaQqjmVjsu3X8xPwPhpIUcz2ko5L5GKUMzTYmWFnKGD1-kedF6qW-be1aLt1W-DgXVzJdqw",
+          "partnerName": "Sponsored Assignment"
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "50",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "hookTask": {
+              "castSpells": {
+                "requiredMasteryLevel": 0.5,
+                "requiredSpellCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_partner_dt_0002_step0002",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/xmcO_XsiGhzKpaQqjmVjsu3X8xPwPhpIUcz2ko5L5GKUMzTYmWFnKGD1-kedF6qW-be1aLt1W-DgXVzJdqw",
+          "partnerName": "Sponsored Assignment"
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "50",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "requiredTraceCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 1,
+        "chainTotal": 1,
+        "id": "proto_quest_partner_dt_0003",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/xmcO_XsiGhzKpaQqjmVjsu3X8xPwPhpIUcz2ko5L5GKUMzTYmWFnKGD1-kedF6qW-be1aLt1W-DgXVzJdqw",
+          "partnerName": "Sponsored Assignment"
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "proto_vaultitem_potion_brainelixir"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "proto_vaultitem_potion_extimulo"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "proto_vaultitem_potion_extimulo_2"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "5",
+                "itemId": "proto_vaultitem_premium_unlocker"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "15",
+                "itemId": "vault_item_dark_detector_test"
+              }
+            },
+            {
+              "vaultCapacityReward": {
+                "amount": "10",
+                "vaultCategoryGmtId": "proto_vaultcategory_potions"
+              }
+            },
+            {
+              "vaultCapacityReward": {
+                "amount": "30",
+                "vaultCategoryGmtId": "proto_vaultcategory_ingredients"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_lens_mcgonagallhat_top"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "reqTask": {
+              "reqs": {
+                "reqs": [
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_partner_dt_0003_step0001"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_partner_dt_0003_step0002"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT_CHAIN",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_partner_dt_0003_step0001",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/xmcO_XsiGhzKpaQqjmVjsu3X8xPwPhpIUcz2ko5L5GKUMzTYmWFnKGD1-kedF6qW-be1aLt1W-DgXVzJdqw",
+          "partnerName": "Sponsored Assignment"
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "50",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "hookTask": {
+              "castSpells": {
+                "requiredMasteryLevel": 0.5,
+                "requiredSpellCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 2
+      }
+    },
+    {
+      "quest": {
+        "id": "proto_quest_partner_dt_0003_step0002",
+        "partnerPoiQuestInfo": {
+          "imageUrl": "http://lh3.googleusercontent.com/xmcO_XsiGhzKpaQqjmVjsu3X8xPwPhpIUcz2ko5L5GKUMzTYmWFnKGD1-kedF6qW-be1aLt1W-DgXVzJdqw",
+          "partnerName": "Sponsored Assignment"
+        },
+        "rewards": {
+          "rewards": [
+            {
+              "itemReward": {
+                "amount": "50",
+                "itemId": "vault_item_xp"
+              }
+            }
+          ]
+        },
+        "tasks": [
+          {
+            "hookTask": {
+              "winTraces": {
+                "requiredTraceCount": "1"
+              }
+            }
+          }
+        ],
+        "type": "QUEST_TYPE_EVENT",
+        "version": 1
+      }
+    },
+    {
+      "quest": {
+        "chainPosition": 1,
+        "chainTotal": 1,
         "id": "proto_quest_partner_ee_0003",
         "partnerPoiQuestInfo": {
           "imageUrl": "http://lh3.googleusercontent.com/h2Wp2bebbXTTMYCCB_hgU1ofiouCJtvb3nEucUDuGjCu440QuF4E7q-7O1pqxmXirbnlSqabg8Qcc5TMJw",
@@ -141897,7 +142310,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "195179",
+        "dataVersion": "195720",
         "id": "proto_version_data"
       }
     },
