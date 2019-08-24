@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1566530269190",
+  "basisBatchId": "1566606219226",
   "environment": "21",
   "messages": [
     {
@@ -135567,6 +135567,9 @@
                 "playerFlagFeatureId": "proto_featureconfig_storyboards",
                 "playerFlagId": "proto_featureflag_storyboard_challenges_enter_battle_end"
               }
+            },
+            {
+              "boolLiteralReq": "FALSE"
             }
           ]
         },
