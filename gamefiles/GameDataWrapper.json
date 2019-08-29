@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1566606219226",
+  "basisBatchId": "1567041972032",
   "environment": "21",
   "messages": [
     {
@@ -261,7 +261,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_player_stat_flee_chance_deboost": "50000"
+              "proto_rpgstat_player_stat_flee_chance_deboost": "85000"
             }
           }
         ],
@@ -88137,6 +88137,36 @@
       }
     },
     {
+      "encounterTicket": {
+        "encounterGmtId": "proto_encounter_wizardportrait_godricgryffindor_0001",
+        "id": "proto_encounterticket_godric_gryffindor_portrait"
+      }
+    },
+    {
+      "encounterTicket": {
+        "encounterGmtId": "proto_encounter_tutorial_hagrid",
+        "id": "proto_encounterticket_hagrid_tutorial"
+      }
+    },
+    {
+      "encounterTicket": {
+        "encounterGmtId": "proto_encounter_wizardportrait_helgahufflepuff_0001",
+        "id": "proto_encounterticket_helga_hufflepuff_portrait"
+      }
+    },
+    {
+      "encounterTicket": {
+        "encounterGmtId": "proto_encounter_wizardportrait_rowenaravenclaw_0001",
+        "id": "proto_encounterticket_rowena_ravenclaw_portrait"
+      }
+    },
+    {
+      "encounterTicket": {
+        "encounterGmtId": "proto_encounter_wizardportrait_salazarslytherin_0001",
+        "id": "proto_encounterticket_salazar_slytherin_portrait"
+      }
+    },
+    {
       "encounterType": {
         "id": "proto_encountertype_acromantula"
       }
@@ -88417,7 +88447,7 @@
             {
               "dateReq": {
                 "comparisonOperator": "LESS_OR_EQUAL",
-                "epochDateInSeconds": "1567256401"
+                "epochDateInSeconds": "1567429200"
               }
             }
           ]
@@ -88563,6 +88593,391 @@
             }
           ]
         }
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_feature_general"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_all_trace_killswitch"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_all_traces"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_assignments_achievements"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_assignments_daily_level_lock"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_assignments_events"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_assignments_special"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_assignments_ui"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_badging"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_challenge"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_challengeactiveradiuscheck"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_challengelobbyradiuscheck"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_daily_assignments"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_daily_login"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_daily_login_level_lock"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_darkdetector_killswitch"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_delayed_record"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_event_indianapolis"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_floo_network"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_floo_playtest"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_fortresses"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_ftue_video"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_greenhouse"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_greenhouse_rental_pot"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_greenhouse_social"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_helpshift"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_in_app_messaging"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_inapp_ticketing"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_landmark"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_livecamera"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_oddities"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_oddity_killswitch"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_outpost_killswitch"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_partner_poi_killswitch"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_passport"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_passport_achievements"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_passport_house"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_passport_lifetimestats"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_passport_name"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_passport_profession"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_passport_sharing"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_passport_title"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_passport_wand"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_photogallery"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_picture_mode_encounter"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_picture_mode_registry"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_picture_mode_sharing"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_portkeys"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_potion"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_potion_craft_gate"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_potion_rental_cauldron"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_profession_menu"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_profession_selection"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_rateapp"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_registry"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_registry_challenges"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_registry_events"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_registry_exploration"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_registry_mysteries"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_registry_suitcase_badging"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_rewards"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_selfieavatar"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_selfieavatar_video"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_selfieavatar_video_playback"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_severe_weather_display"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_sharebutton"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_social"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_social_import_friends"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_storyboards"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_toasters"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_tutorial_gate_first_sticker"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_tutorial_gate_flee_button"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_tutorial_gate_map_content"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_tutorial_gate_map_hud"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_vault_view"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_watermark"
+      }
+    },
+    {
+      "featureConfig": {
+        "id": "proto_featureconfig_weather_display"
       }
     },
     {
@@ -118241,14 +118656,14 @@
           {
             "hookTask": {
               "winTraces": {
-                "familyGmtId": "proto_collectionfamily_magizoology",
+                "familyGmtId": "proto_collectionfamily_careofmagicalcreatures",
                 "requiredTraceCount": "3"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -118284,13 +118699,13 @@
             "hookTask": {
               "winTraces": {
                 "familyGmtId": "proto_collectionfamily_mysteriousartefacts",
-                "requiredTraceCount": "10"
+                "requiredTraceCount": "5"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -130635,13 +131050,7 @@
         },
         "cost": {},
         "id": "proto_storepack_25energy_60",
-        "requirements": {
-          "reqs": [
-            {
-              "boolLiteralReq": "FALSE"
-            }
-          ]
-        }
+        "requirements": {}
       }
     },
     {
@@ -130795,13 +131204,7 @@
         },
         "cost": {},
         "id": "proto_storepack_50energy_100",
-        "requirements": {
-          "reqs": [
-            {
-              "boolLiteralReq": "FALSE"
-            }
-          ]
-        }
+        "requirements": {}
       }
     },
     {
@@ -135567,9 +135970,6 @@
                 "playerFlagFeatureId": "proto_featureconfig_storyboards",
                 "playerFlagId": "proto_featureflag_storyboard_challenges_enter_battle_end"
               }
-            },
-            {
-              "boolLiteralReq": "FALSE"
             }
           ]
         },
@@ -148758,7 +149158,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "195951",
+        "dataVersion": "196405",
         "id": "proto_version_data"
       }
     },
