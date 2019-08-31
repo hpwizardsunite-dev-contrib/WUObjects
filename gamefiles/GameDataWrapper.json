@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1567041972032",
+  "basisBatchId": "1567200381720",
   "environment": "21",
   "messages": [
     {
@@ -261,7 +261,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_player_stat_flee_chance_deboost": "85000"
+              "proto_rpgstat_player_stat_flee_chance_deboost": "50000"
             }
           }
         ],
@@ -38686,6 +38686,19 @@
         "pageId": "proto_collectionpage_oddities_dragons_0002",
         "prestigeLevel": [
           {
+            "shardCount": 4,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_oddities"
+                  }
+                }
+              ]
+            }
+          },
+          {
             "shardCount": 12,
             "stickerPlacementRewards": {
               "rewards": [
@@ -38699,33 +38712,20 @@
             }
           },
           {
+            "shardCount": 24,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_oddities"
+                  }
+                }
+              ]
+            }
+          },
+          {
             "shardCount": 36,
-            "stickerPlacementRewards": {
-              "rewards": [
-                {
-                  "collectionFamilyReward": {
-                    "amount": 10,
-                    "familyId": "proto_collectionfamily_oddities"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "shardCount": 72,
-            "stickerPlacementRewards": {
-              "rewards": [
-                {
-                  "collectionFamilyReward": {
-                    "amount": 10,
-                    "familyId": "proto_collectionfamily_oddities"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "shardCount": 108,
             "stickerPlacementRewards": {
               "rewards": [
                 {
@@ -49280,6 +49280,19 @@
         "pageId": "proto_collectionpage_oddities_dragons_0002",
         "prestigeLevel": [
           {
+            "shardCount": 4,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_oddities"
+                  }
+                }
+              ]
+            }
+          },
+          {
             "shardCount": 12,
             "stickerPlacementRewards": {
               "rewards": [
@@ -49293,33 +49306,20 @@
             }
           },
           {
+            "shardCount": 24,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_oddities"
+                  }
+                }
+              ]
+            }
+          },
+          {
             "shardCount": 36,
-            "stickerPlacementRewards": {
-              "rewards": [
-                {
-                  "collectionFamilyReward": {
-                    "amount": 10,
-                    "familyId": "proto_collectionfamily_oddities"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "shardCount": 72,
-            "stickerPlacementRewards": {
-              "rewards": [
-                {
-                  "collectionFamilyReward": {
-                    "amount": 10,
-                    "familyId": "proto_collectionfamily_oddities"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "shardCount": 108,
             "stickerPlacementRewards": {
               "rewards": [
                 {
@@ -58872,6 +58872,19 @@
         "pageId": "proto_collectionpage_oddities_dragons_0001",
         "prestigeLevel": [
           {
+            "shardCount": 4,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_oddities"
+                  }
+                }
+              ]
+            }
+          },
+          {
             "shardCount": 12,
             "stickerPlacementRewards": {
               "rewards": [
@@ -58885,33 +58898,20 @@
             }
           },
           {
+            "shardCount": 24,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_oddities"
+                  }
+                }
+              ]
+            }
+          },
+          {
             "shardCount": 36,
-            "stickerPlacementRewards": {
-              "rewards": [
-                {
-                  "collectionFamilyReward": {
-                    "amount": 10,
-                    "familyId": "proto_collectionfamily_oddities"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "shardCount": 72,
-            "stickerPlacementRewards": {
-              "rewards": [
-                {
-                  "collectionFamilyReward": {
-                    "amount": 10,
-                    "familyId": "proto_collectionfamily_oddities"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "shardCount": 108,
             "stickerPlacementRewards": {
               "rewards": [
                 {
@@ -63394,6 +63394,19 @@
         "pageId": "proto_collectionpage_oddities_dragons_0001",
         "prestigeLevel": [
           {
+            "shardCount": 4,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_oddities"
+                  }
+                }
+              ]
+            }
+          },
+          {
             "shardCount": 12,
             "stickerPlacementRewards": {
               "rewards": [
@@ -63407,33 +63420,20 @@
             }
           },
           {
+            "shardCount": 24,
+            "stickerPlacementRewards": {
+              "rewards": [
+                {
+                  "collectionFamilyReward": {
+                    "amount": 10,
+                    "familyId": "proto_collectionfamily_oddities"
+                  }
+                }
+              ]
+            }
+          },
+          {
             "shardCount": 36,
-            "stickerPlacementRewards": {
-              "rewards": [
-                {
-                  "collectionFamilyReward": {
-                    "amount": 10,
-                    "familyId": "proto_collectionfamily_oddities"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "shardCount": 72,
-            "stickerPlacementRewards": {
-              "rewards": [
-                {
-                  "collectionFamilyReward": {
-                    "amount": 10,
-                    "familyId": "proto_collectionfamily_oddities"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "shardCount": 108,
             "stickerPlacementRewards": {
               "rewards": [
                 {
@@ -72180,11 +72180,11 @@
               ],
               "enemyStats": {
                 "stat": {
-                  "proto_rpgstat_stat_combat_affinity_power": "20000",
+                  "proto_rpgstat_stat_combat_affinity_power": "0",
                   "proto_rpgstat_stat_combat_affinity_resist": "0",
-                  "proto_rpgstat_stat_combat_attack": "11",
+                  "proto_rpgstat_stat_combat_attack": "12",
                   "proto_rpgstat_stat_combat_dodge": "0",
-                  "proto_rpgstat_stat_combat_hp": "170",
+                  "proto_rpgstat_stat_combat_hp": "112",
                   "proto_rpgstat_stat_combat_mitigation": "0",
                   "proto_rpgstat_stat_combat_precision": "0",
                   "proto_rpgstat_stat_combat_sunder": "0"
@@ -72197,15 +72197,13 @@
                     "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_attack": {
-                    "growType": "LINEAR",
-                    "growthAdjustment": 0.02246290072798729
+                    "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_dodge": {
                     "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_hp": {
-                    "growType": "LINEAR",
-                    "growthAdjustment": 0.02246290072798729
+                    "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_mitigation": {
                     "growType": "LINEAR"
@@ -73736,11 +73734,11 @@
               ],
               "enemyStats": {
                 "stat": {
-                  "proto_rpgstat_stat_combat_affinity_power": "20000",
+                  "proto_rpgstat_stat_combat_affinity_power": "0",
                   "proto_rpgstat_stat_combat_affinity_resist": "0",
                   "proto_rpgstat_stat_combat_attack": "12",
                   "proto_rpgstat_stat_combat_dodge": "0",
-                  "proto_rpgstat_stat_combat_hp": "162",
+                  "proto_rpgstat_stat_combat_hp": "116",
                   "proto_rpgstat_stat_combat_mitigation": "0",
                   "proto_rpgstat_stat_combat_precision": "0",
                   "proto_rpgstat_stat_combat_sunder": "0"
@@ -73753,15 +73751,13 @@
                     "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_attack": {
-                    "growType": "LINEAR",
-                    "growthAdjustment": 0.02246290072798729
+                    "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_dodge": {
                     "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_hp": {
-                    "growType": "LINEAR",
-                    "growthAdjustment": 0.02246290072798729
+                    "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_mitigation": {
                     "growType": "LINEAR"
@@ -81732,11 +81728,11 @@
               ],
               "enemyStats": {
                 "stat": {
-                  "proto_rpgstat_stat_combat_affinity_power": "20000",
+                  "proto_rpgstat_stat_combat_affinity_power": "0",
                   "proto_rpgstat_stat_combat_affinity_resist": "0",
-                  "proto_rpgstat_stat_combat_attack": "12",
+                  "proto_rpgstat_stat_combat_attack": "11",
                   "proto_rpgstat_stat_combat_dodge": "0",
-                  "proto_rpgstat_stat_combat_hp": "165",
+                  "proto_rpgstat_stat_combat_hp": "123",
                   "proto_rpgstat_stat_combat_mitigation": "0",
                   "proto_rpgstat_stat_combat_precision": "0",
                   "proto_rpgstat_stat_combat_sunder": "0"
@@ -81749,15 +81745,13 @@
                     "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_attack": {
-                    "growType": "LINEAR",
-                    "growthAdjustment": 0.02246290072798729
+                    "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_dodge": {
                     "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_hp": {
-                    "growType": "LINEAR",
-                    "growthAdjustment": 0.02246290072798729
+                    "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_mitigation": {
                     "growType": "LINEAR"
@@ -86756,11 +86750,11 @@
               ],
               "enemyStats": {
                 "stat": {
-                  "proto_rpgstat_stat_combat_affinity_power": "20000",
+                  "proto_rpgstat_stat_combat_affinity_power": "0",
                   "proto_rpgstat_stat_combat_affinity_resist": "0",
                   "proto_rpgstat_stat_combat_attack": "11",
                   "proto_rpgstat_stat_combat_dodge": "0",
-                  "proto_rpgstat_stat_combat_hp": "177",
+                  "proto_rpgstat_stat_combat_hp": "120",
                   "proto_rpgstat_stat_combat_mitigation": "0",
                   "proto_rpgstat_stat_combat_precision": "0",
                   "proto_rpgstat_stat_combat_sunder": "0"
@@ -86773,15 +86767,13 @@
                     "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_attack": {
-                    "growType": "LINEAR",
-                    "growthAdjustment": 0.02246290072798729
+                    "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_dodge": {
                     "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_hp": {
-                    "growType": "LINEAR",
-                    "growthAdjustment": 0.02246290072798729
+                    "growType": "LINEAR"
                   },
                   "proto_rpgstat_stat_combat_mitigation": {
                     "growType": "LINEAR"
@@ -117788,13 +117780,13 @@
           {
             "hookTask": {
               "winTraces": {
-                "requiredTraceCount": "10"
+                "requiredTraceCount": "7"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 4
       }
     },
     {
@@ -117901,46 +117893,6 @@
                 "reqs": [
                   {
                     "questCompletedReq": {
-                      "questGmtId": "proto_quest_event_indy_2019_link2_sub01_node1"
-                    }
-                  },
-                  {
-                    "questCompletedReq": {
-                      "questGmtId": "proto_quest_event_indy_2019_link2_sub02_node1"
-                    }
-                  },
-                  {
-                    "questCompletedReq": {
-                      "questGmtId": "proto_quest_event_indy_2019_link2_sub03_node1"
-                    }
-                  },
-                  {
-                    "questCompletedReq": {
-                      "questGmtId": "proto_quest_event_indy_2019_link2_sub04_node1"
-                    }
-                  },
-                  {
-                    "questCompletedReq": {
-                      "questGmtId": "proto_quest_event_indy_2019_link2_sub05_node2"
-                    }
-                  },
-                  {
-                    "questCompletedReq": {
-                      "questGmtId": "proto_quest_event_indy_2019_link2_sub06_node2"
-                    }
-                  },
-                  {
-                    "questCompletedReq": {
-                      "questGmtId": "proto_quest_event_indy_2019_link2_sub07_node2"
-                    }
-                  },
-                  {
-                    "questCompletedReq": {
-                      "questGmtId": "proto_quest_event_indy_2019_link2_sub08_node2"
-                    }
-                  },
-                  {
-                    "questCompletedReq": {
                       "questGmtId": "proto_quest_event_indy_2019_link2_sub09_node3"
                     }
                   },
@@ -117977,6 +117929,46 @@
                   {
                     "questCompletedReq": {
                       "questGmtId": "proto_quest_event_indy_2019_link2_sub16_node4"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_indy_2019_link2_sub01_node1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_indy_2019_link2_sub02_node1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_indy_2019_link2_sub03_node1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_indy_2019_link2_sub04_node1"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_indy_2019_link2_sub05_node2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_indy_2019_link2_sub06_node2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_indy_2019_link2_sub07_node2"
+                    }
+                  },
+                  {
+                    "questCompletedReq": {
+                      "questGmtId": "proto_quest_event_indy_2019_link2_sub08_node2"
                     }
                   }
                 ]
@@ -118127,13 +118119,13 @@
             "hookTask": {
               "winTraces": {
                 "familyGmtId": "proto_collectionfamily_magicalgamesandsports",
-                "requiredTraceCount": "10"
+                "requiredTraceCount": "5"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 3
       }
     },
     {
@@ -118322,13 +118314,13 @@
             "hookTask": {
               "winTraces": {
                 "familyGmtId": "proto_collectionfamily_darkarts",
-                "requiredTraceCount": "10"
+                "requiredTraceCount": "5"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 3
       }
     },
     {
@@ -118509,14 +118501,14 @@
           {
             "hookTask": {
               "collectStickers": {
-                "requiredCollectCount": "4",
+                "requiredCollectCount": "3",
                 "stickerGmtId": "proto_collectionitem_peruvianvipertooth_egg"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -118657,13 +118649,13 @@
             "hookTask": {
               "winTraces": {
                 "familyGmtId": "proto_collectionfamily_careofmagicalcreatures",
-                "requiredTraceCount": "3"
+                "requiredTraceCount": "5"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 2
+        "version": 4
       }
     },
     {
@@ -118699,13 +118691,13 @@
             "hookTask": {
               "winTraces": {
                 "familyGmtId": "proto_collectionfamily_mysteriousartefacts",
-                "requiredTraceCount": "5"
+                "requiredTraceCount": "3"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 2
+        "version": 3
       }
     },
     {
@@ -118897,13 +118889,13 @@
             "hookTask": {
               "winTraces": {
                 "encounterGmtId": "proto_encounter_peruvianvipertooth_oddities_indy2019",
-                "requiredTraceCount": "5"
+                "requiredTraceCount": "1"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 3
       }
     },
     {
@@ -118939,13 +118931,13 @@
             "hookTask": {
               "winTraces": {
                 "encounterGmtId": "proto_encounter_chinesefireball_oddities_indy2019",
-                "requiredTraceCount": "5"
+                "requiredTraceCount": "1"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 3
       }
     },
     {
@@ -118980,14 +118972,14 @@
           {
             "hookTask": {
               "collectStickers": {
-                "requiredCollectCount": "5",
+                "requiredCollectCount": "3",
                 "stickerGmtId": "proto_collectionitem_welshgreen_egg"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -119022,14 +119014,14 @@
           {
             "hookTask": {
               "collectStickers": {
-                "requiredCollectCount": "5",
+                "requiredCollectCount": "3",
                 "stickerGmtId": "proto_collectionitem_antipodeanopaleye_egg"
               }
             }
           }
         ],
         "type": "QUEST_TYPE_EVENT",
-        "version": 1
+        "version": 2
       }
     },
     {
@@ -127528,6 +127520,22 @@
               "vaultItemReq": {
                 "comparisonOperator": "GREATER_OR_EQUAL",
                 "itemId": "proto_vaultitem_frame_hogwartsexpress",
+                "qty": "1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "selfieAvatarAsset": {
+        "id": "proto_selfieavatarasset_frame_hogwartsgates",
+        "unlockConditions": {
+          "reqs": [
+            {
+              "vaultItemReq": {
+                "comparisonOperator": "GREATER_OR_EQUAL",
+                "itemId": "proto_vaultitem_frame_hogwartsgates",
                 "qty": "1"
               }
             }
@@ -138112,6 +138120,7 @@
                 },
                 {
                   "itemReward": {
+                    "amount": "1",
                     "itemId": "proto_vaultitem_event_indy2019_start_token"
                   }
                 }
@@ -138425,6 +138434,7 @@
               "rewards": [
                 {
                   "itemReward": {
+                    "amount": "1",
                     "itemId": "proto_vaultitem_event_indy2019_end_token"
                   }
                 }
@@ -149158,7 +149168,7 @@
     {
       "version": {
         "dataBranch": "No Branch Set",
-        "dataVersion": "196405",
+        "dataVersion": "196711",
         "id": "proto_version_data"
       }
     },
