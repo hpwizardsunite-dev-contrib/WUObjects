@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1567200381720",
+  "basisBatchId": "1567261419579",
   "environment": "21",
   "messages": [
     {
@@ -261,7 +261,7 @@
               ]
             },
             "modifiers": {
-              "proto_rpgstat_player_stat_flee_chance_deboost": "50000"
+              "proto_rpgstat_player_stat_flee_chance_deboost": "85000"
             }
           }
         ],
