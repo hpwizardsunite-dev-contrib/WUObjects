@@ -1,5 +1,5 @@
 {
-  "basisBatchId": "1567793970433",
+  "basisBatchId": "1567827947113",
   "environment": "21",
   "messages": [
     {
@@ -132499,6 +132499,12 @@
               "itemReward": {
                 "amount": "25",
                 "itemId": "proto_vaultitem_energy_1"
+              }
+            },
+            {
+              "itemReward": {
+                "amount": "1",
+                "itemId": "proto_vaultitem_premium_unlocker"
               }
             }
           ]
